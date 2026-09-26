@@ -1,0 +1,669 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ER PARFUM — Lista de Selección</title>
+    <link rel="icon" type="image/png" href="icon/32.png" />
+    <link rel="apple-touch-icon" href="icon/180.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <style>
+      :root {
+        --gold-primary: #d4af37;
+        --gold-light: #f6e6b8;
+        --gold-border: rgba(212, 175, 55, 0.4);
+        --gold-gradient: linear-gradient(135deg, #bf953f 0%, #fcf6ba 35%, #b38728 70%, #fbf5b7 85%, #aa771c 100%);
+        --black-bg: #09090b;
+        --body-bg: #07070a;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0; padding: 0 0 120px;
+        font-family: 'Montserrat', sans-serif;
+        background: #07070a;
+        background-image: 
+          radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.1) 0%, transparent 60%),
+          radial-gradient(circle at 10% 40%, rgba(170, 119, 28, 0.06) 0%, transparent 45%),
+          radial-gradient(circle at 90% 70%, rgba(212, 175, 55, 0.08) 0%, transparent 50%);
+        color: #f7e7b4;
+        -webkit-font-smoothing: antialiased;
+        position: relative;
+        min-height: 100vh;
+      }
+      button { font: inherit; }
+
+      /* ================= BACKGROUND GLOW & PARTICLES ================= */
+      .bg-particles-canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+        z-index: 0;
+      }
+      .bg-ambient-glow {
+        position: fixed;
+        pointer-events: none;
+        border-radius: 50%;
+        filter: blur(85px);
+        z-index: 0;
+        opacity: 0.32;
+        animation: ambientGlowPulse 12s ease-in-out infinite alternate;
+      }
+      .glow-1 {
+        width: 480px;
+        height: 480px;
+        background: radial-gradient(circle, rgba(212, 175, 55, 0.22) 0%, transparent 70%);
+        top: 10%;
+        left: -80px;
+      }
+      .glow-2 {
+        width: 520px;
+        height: 520px;
+        background: radial-gradient(circle, rgba(184, 134, 11, 0.18) 0%, transparent 70%);
+        bottom: 15%;
+        right: -100px;
+        animation-delay: -6s;
+      }
+      @keyframes ambientGlowPulse {
+        0% { transform: translateY(0) scale(1); opacity: 0.25; }
+        100% { transform: translateY(35px) scale(1.15); opacity: 0.4; }
+      }
+
+      .er-cart-header {
+        position: relative;
+        background: radial-gradient(circle at 50% 20%, #1f1d18 0%, #09090b 100%);
+        color: #fff;
+        padding: 20px 15px 16px;
+        text-align: center;
+        border-bottom: 2px solid #b8860b;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      }
+      .er-header-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      .back-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        color: #d4af37;
+        font-weight: 700;
+        font-size: 0.85rem;
+        cursor: pointer;
+        padding: 6px 12px;
+        border-radius: 20px;
+        background: rgba(212,175,55,0.1);
+        border: 1px solid rgba(212,175,55,0.3);
+      }
+      .back-btn:hover { background: rgba(212,175,55,0.2); }
+
+      .cart-title-group {
+        text-align: center;
+      }
+      .cart-logo {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.5rem;
+        font-weight: 900;
+        color: #f6e6b8;
+        letter-spacing: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+      }
+      .cart-subtitle {
+        font-family: 'Cinzel', serif;
+        font-size: 0.72rem;
+        letter-spacing: 2px;
+        color: #d4af37;
+        margin-top: 3px;
+      }
+
+      #capture-area {
+        max-width: 1100px;
+        margin: 20px auto;
+        padding: 0 12px;
+      }
+
+      .cart-items-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 15px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .cart-item {
+        background: rgba(18, 17, 23, 0.65);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        padding: 14px;
+        display: flex;
+        align-items: flex-start;
+        border-radius: 8px;
+        border: 1px solid rgba(212, 175, 55, 0.32);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.06);
+        position: relative;
+        color: #fff;
+      }
+      .cart-item-img {
+        width: 75px; height: 85px;
+        object-fit: cover;
+        flex-shrink: 0;
+        margin-right: 14px;
+        border-radius: 6px;
+        border: 1px solid rgba(212, 175, 55, 0.25);
+        background: rgba(255, 255, 255, 0.03);
+      }
+      .item-content { flex-grow: 1; min-width: 0; }
+      .item-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 6px;
+      }
+      .item-title {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: 0.95rem;
+        font-weight: 700;
+        color: #ffffff;
+        margin: 0;
+        line-height: 1.3;
+      }
+      .remove-btn-icon {
+        background: none; border: 0; color: #888;
+        font-size: 1.3rem; cursor: pointer; padding: 0; line-height: 1;
+        transition: color 0.2s;
+      }
+      .remove-btn-icon:hover { color: #e74c3c; }
+      .warehouse-pill {
+        display: inline-block;
+        margin-top: 4px;
+        padding: 2px 8px;
+        border: 1px solid rgba(212, 175, 55, 0.4);
+        border-radius: 12px;
+        background: rgba(212, 175, 55, 0.15);
+        color: #f7e7b4;
+        font-size: 0.68rem;
+        font-weight: 700;
+      }
+
+      .info-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 6px 0;
+        border-top: 1px dashed rgba(212, 175, 55, 0.25);
+        font-size: 0.85rem;
+        color: #c5bba8;
+      }
+      .qty-wrapper {
+        display: flex;
+        border: 1.5px solid #d4af37;
+        border-radius: 4px;
+        overflow: hidden;
+        height: 28px;
+        background: rgba(0,0,0,0.6);
+      }
+      .qty-btn {
+        background: #111113;
+        color: #f6e6b8;
+        border: 0;
+        width: 28px;
+        font-size: 0.95rem;
+        font-weight: 800;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .qty-display {
+        width: 32px;
+        text-align: center;
+        line-height: 28px;
+        font-size: 0.85rem;
+        font-weight: 700;
+        background: rgba(20, 18, 24, 0.9);
+        color: #ffffff;
+      }
+
+      .cart-summary {
+        background: rgba(18, 17, 23, 0.72);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        padding: 22px;
+        margin-top: 25px;
+        border-radius: 8px;
+        border: 1px solid rgba(212, 175, 55, 0.35);
+        box-shadow: 0 6px 25px rgba(0,0,0,0.5);
+      }
+      .cart-summary h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin: 0 0 15px;
+        text-align: center;
+        color: #ffffff;
+      }
+      .summary-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+        font-size: 0.95rem;
+        color: #d6ccba;
+      }
+      .summary-quantity-total {
+        align-items: center;
+        margin: 12px 0 15px;
+        padding: 12px 14px;
+        border-radius: 6px;
+        background: rgba(212, 175, 55, 0.15);
+        border: 1px solid rgba(212, 175, 55, 0.35);
+        color: #f7e7b4;
+        font-size: 1.1rem;
+        font-weight: 700;
+      }
+      .preview-label {
+        display: block;
+        margin-top: 18px;
+        padding-top: 14px;
+        border-top: 1px solid rgba(212, 175, 55, 0.3);
+        font-family: 'Cinzel', serif;
+        font-size: 0.82rem;
+        font-weight: 700;
+        color: #d4af37;
+        letter-spacing: 1px;
+      }
+      .list-preview {
+        width: 100%;
+        min-height: 140px;
+        margin-top: 8px;
+        padding: 12px;
+        resize: vertical;
+        border: 1px solid rgba(212, 175, 55, 0.35);
+        border-radius: 6px;
+        background: rgba(10, 10, 14, 0.8);
+        font: 0.88rem/1.5 ui-monospace, monospace;
+        color: #f6e6b8;
+      }
+
+      .cart-actions {
+        position: fixed;
+        bottom: 0; left: 0; width: 100%;
+        background: #0d0d0f;
+        border-top: 1.5px solid #d4af37;
+        padding: 12px 15px;
+        display: flex;
+        gap: 12px;
+        box-shadow: 0 -4px 15px rgba(0,0,0,0.3);
+        z-index: 1000;
+      }
+      .action-btn {
+        flex: 1;
+        padding: 12px;
+        border: 0;
+        border-radius: 6px;
+        font-family: 'Cinzel', serif;
+        font-size: 0.9rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
+      .btn-clear {
+        background: rgba(255,255,255,0.1);
+        color: #f6e6b8;
+        border: 1px solid rgba(212,175,55,0.4);
+        flex: 0.45;
+      }
+      .btn-order {
+        background: var(--gold-gradient);
+        color: #111;
+        box-shadow: 0 3px 10px rgba(212,175,55,0.4);
+      }
+
+      .empty-state {
+        text-align: center;
+        padding: 60px 20px;
+        grid-column: 1 / -1;
+      }
+      .btn-continue {
+        display: inline-block;
+        margin-top: 18px;
+        background: #111113;
+        color: #f6e6b8;
+        border: 1px solid #d4af37;
+        padding: 12px 30px;
+        text-decoration: none;
+        border-radius: 25px;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- LUXURY PARTICLES & GLOW CANVAS LAYER -->
+    <div class="bg-ambient-glow glow-1"></div>
+    <div class="bg-ambient-glow glow-2"></div>
+    <canvas id="luxury-sparkles-canvas" class="bg-particles-canvas"></canvas>
+
+    <header class="er-cart-header" style="position:relative; z-index:2;">
+      <div class="er-header-row">
+        <a class="back-btn" href="index.html">← VOLVER AL CATÁLOGO</a>
+        <div class="cart-title-group">
+          <div class="cart-logo">
+            <span>👑 ER PARFUM</span>
+          </div>
+          <div class="cart-subtitle">LISTA DE SELECCIÓN</div>
+        </div>
+        <div style="width: 80px;"></div>
+      </div>
+    </header>
+
+    <div id="capture-area">
+      <ul id="cart-items-list" class="cart-items-list"></ul>
+
+      <div id="cart-summary" class="cart-summary" style="display: none">
+        <h2>Resumen de Selección</h2>
+        <div class="summary-row">
+          <span>Colección Louis Vuitton:</span>
+          <span id="lv-count" style="font-weight:700;">0</span>
+        </div>
+        <div class="summary-row">
+          <span>Otras Casas de Perfumería:</span>
+          <span id="other-brands-count" style="font-weight:700;">0</span>
+        </div>
+        <div class="summary-row summary-quantity-total">
+          <span>Total de Fragancias:</span>
+          <span id="total-qty-display">0 items</span>
+        </div>
+
+        <label class="preview-label" for="list-preview">Lista formateada para pedido</label>
+        <textarea id="list-preview" class="list-preview" readonly aria-label="Lista para copiar"></textarea>
+      </div>
+    </div>
+
+    <div class="cart-actions" id="actions-bar" style="display: none">
+      <button id="clear-cart-btn" class="action-btn btn-clear">Limpiar</button>
+      <button id="send-order-btn" class="action-btn btn-order">📋 Copiar Lista</button>
+    </div>
+
+    <script src="products-data.js"></script>
+    <script src="db.js?v=4"></script>
+    <script>
+      const cartItemsList = document.getElementById("cart-items-list");
+      const clearCartBtn = document.getElementById("clear-cart-btn");
+      const sendOrderBtn = document.getElementById("send-order-btn");
+      const cartSummary = document.getElementById("cart-summary");
+      const actionsBar = document.getElementById("actions-bar");
+      
+      const lvCountEl = document.getElementById("lv-count");
+      const otherCountEl = document.getElementById("other-brands-count");
+      const totalQtyEl = document.getElementById("total-qty-display");
+      const listPreview = document.getElementById("list-preview");
+
+      function loadCart() {
+        return readFastCart();
+      }
+      function saveCart(cart) {
+        writeFastCart(cart);
+      }
+
+      function escapeHtml(value) {
+        return String(value ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+      }
+      function formatCartSize(value) {
+        const size = String(value ?? "").trim();
+        if (!size) return "70 ml";
+        return /^\d+(?:\.\d+)?$/.test(size) ? size + " ml" : size;
+      }
+
+      function buildCopyList(cart) {
+        const groups = new Map();
+        let total = 0;
+        (Array.isArray(cart) ? cart : []).forEach((item) => {
+          const sku = String(item.name || "").trim().toUpperCase();
+          const match = sku.match(/^(IL|TX)-[A-Z0-9-]+$/);
+          const quantity = Math.floor(Number(item.quantity));
+          if (!match || !Number.isFinite(quantity) || quantity <= 0) return;
+          const warehouse = match[1];
+          if (!groups.has(warehouse)) groups.set(warehouse, []);
+          groups.get(warehouse).push(`${sku}*${quantity}`);
+          total += quantity;
+        });
+        if (!total) return "";
+        const lines = ["ER PARFUM - Pedido de Selección", "------------------------------"];
+        ["IL", "TX"].forEach((warehouse) => {
+          const products = groups.get(warehouse);
+          if (!products?.length) return;
+          const warehouseTotal = products.reduce((sum, line) => sum + Number(line.split("*")[1]), 0);
+          lines.push(`Almacén ${warehouse} | ${warehouseTotal} ${warehouseTotal === 1 ? "artículo" : "artículos"}`);
+          lines.push(products.join("+"));
+        });
+        lines.push("------------------------------", `Total Artículos: ${total}`);
+        return lines.join("\n");
+      }
+
+      function renderCart() {
+        const cart = loadCart();
+        cartItemsList.innerHTML = "";
+
+        if (cart.length === 0) {
+          cartItemsList.innerHTML = `
+            <div class="empty-state">
+              <span style="font-size:3rem;">🧴</span>
+              <p style="font-size:1.15rem; font-family:'Playfair Display'; margin:12px 0;">Tu lista de selección está vacía.</p>
+              <a href="index.html" class="btn-continue">Explorar Colecciones</a>
+            </div>
+          `;
+          cartSummary.style.display = "none";
+          actionsBar.style.display = "none";
+          return;
+        }
+
+        cartSummary.style.display = "block";
+        actionsBar.style.display = "flex";
+
+        let totalQty = 0;
+        let lvCount = 0;
+        let otherCount = 0;
+
+        cart.forEach((item, index) => {
+          const quantity = Number(item.quantity) || 0;
+          const product = (window.perfumeDB || []).find((c) => c.id === item.name);
+          const brand = String(item.brand || product?.brand || "").toLowerCase();
+          totalQty += quantity;
+          if (brand.includes("louis vuitton")) lvCount += quantity;
+          else otherCount += quantity;
+
+          const displayTitle = item.caption || item.name || "Perfume";
+          const warehouse = String(item.warehouse || String(item.name).match(/^(IL|TX)-/)?.[1] || "").toUpperCase();
+          const sizeLabel = formatCartSize(item.ml || product?.ml);
+
+          const li = document.createElement("li");
+          li.className = "cart-item";
+          const fbAttr = item.remoteImg ? `data-fallback="${escapeHtml(item.remoteImg)}"` : "";
+          li.innerHTML = `
+            <img src="${escapeHtml(item.img)}" ${fbAttr} class="cart-item-img" alt="${escapeHtml(displayTitle)}" onerror="if(this.dataset.fallback && !this.dataset.tried){this.dataset.tried=1; this.src=this.dataset.fallback;}">
+            <div class="item-content">
+              <div class="item-header">
+                <div>
+                  <h3 class="item-title">${escapeHtml(displayTitle)}</h3>
+                  ${warehouse ? `<span class="warehouse-pill">Almacén ${escapeHtml(warehouse)}</span>` : ""}
+                </div>
+                <button class="remove-btn-icon" aria-label="Eliminar" onclick="removeItem(${index})">&times;</button>
+              </div>
+              <div class="info-row">
+                <span>Presentación:</span>
+                <span style="font-weight:600;">${escapeHtml(sizeLabel)}</span>
+              </div>
+              <div class="info-row">
+                <span>Cantidad:</span>
+                <div class="qty-wrapper">
+                  <button class="qty-btn" onclick="updateQty(${index}, -1)">-</button>
+                  <div class="qty-display">${quantity}</div>
+                  <button class="qty-btn" onclick="updateQty(${index}, 1)">+</button>
+                </div>
+              </div>
+            </div>
+          `;
+          cartItemsList.appendChild(li);
+        });
+
+        lvCountEl.textContent = lvCount;
+        otherCountEl.textContent = otherCount;
+        totalQtyEl.textContent = `${totalQty} ${totalQty === 1 ? 'artículo' : 'artículos'}`;
+        listPreview.value = buildCopyList(cart);
+      }
+
+      window.updateQty = (index, delta) => {
+        const cart = loadCart();
+        if (cart[index]) {
+          cart[index].quantity += delta;
+          if (cart[index].quantity <= 0) cart.splice(index, 1);
+          saveCart(cart);
+          renderCart();
+        }
+      };
+
+      window.removeItem = (index) => {
+        const cart = loadCart();
+        cart.splice(index, 1);
+        saveCart(cart);
+        renderCart();
+      };
+
+      clearCartBtn.onclick = () => {
+        if (confirm("¿Deseas vaciar tu lista de selección?")) {
+          clearFastCart();
+          renderCart();
+        }
+      };
+
+      sendOrderBtn.onclick = () => {
+        const cart = loadCart();
+        const text = buildCopyList(cart);
+        if (!text) return;
+        navigator.clipboard.writeText(text).then(() => {
+          alert("¡Lista de pedido copiada al portapapeles exitosamente! 📋");
+        }).catch(() => {
+          prompt("Copia tu lista manualmente:", text);
+        });
+      };
+
+      document.addEventListener("DOMContentLoaded", () => {
+        initLuxurySparkles();
+        renderCart();
+      });
+
+      /* ================= LUXURY SPARKLES & PARTICLES ENGINE ================= */
+      function initLuxurySparkles() {
+        const canvas = document.getElementById("luxury-sparkles-canvas");
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+
+        function handleResize() {
+          width = canvas.width = window.innerWidth;
+          height = canvas.height = window.innerHeight;
+        }
+        window.addEventListener("resize", handleResize);
+
+        const particles = [];
+        const PARTICLE_COUNT = Math.min(60, Math.max(30, Math.floor(window.innerWidth / 20)));
+
+        class LuxuryParticle {
+          constructor() {
+            this.reset(true);
+          }
+          reset(init = false) {
+            this.x = Math.random() * width;
+            this.y = init ? Math.random() * height : height + 10 + Math.random() * 20;
+            this.size = Math.random() * 2.2 + 0.8;
+            this.speedY = -(Math.random() * 0.4 + 0.15);
+            this.speedX = (Math.random() - 0.5) * 0.3;
+            this.opacity = Math.random() * 0.5 + 0.2;
+            this.maxOpacity = Math.random() * 0.65 + 0.25;
+            this.pulseSpeed = Math.random() * 0.015 + 0.008;
+            this.pulseDir = Math.random() > 0.5 ? 1 : -1;
+            this.isStar = Math.random() > 0.65;
+            this.starSpike = this.size * 3.5;
+            this.hue = Math.random() > 0.35 ? 43 : 38;
+          }
+          update() {
+            this.y += this.speedY;
+            this.x += this.speedX + Math.sin(this.y * 0.008) * 0.25;
+            this.opacity += this.pulseSpeed * this.pulseDir;
+            if (this.opacity >= this.maxOpacity) {
+              this.opacity = this.maxOpacity;
+              this.pulseDir = -1;
+            } else if (this.opacity <= 0.08) {
+              this.opacity = 0.08;
+              this.pulseDir = 1;
+            }
+            if (this.y < -30 || this.x < -30 || this.x > width + 30) {
+              this.reset(false);
+            }
+          }
+          draw() {
+            ctx.save();
+            ctx.globalAlpha = Math.max(0, Math.min(1, this.opacity));
+            if (this.isStar) {
+              const cx = this.x;
+              const cy = this.y;
+              const s = this.starSpike;
+              ctx.beginPath();
+              ctx.moveTo(cx, cy - s);
+              ctx.quadraticCurveTo(cx, cy, cx + s, cy);
+              ctx.quadraticCurveTo(cx, cy, cx, cy + s);
+              ctx.quadraticCurveTo(cx, cy, cx - s, cy);
+              ctx.quadraticCurveTo(cx, cy, cx, cy - s);
+              ctx.closePath();
+              ctx.fillStyle = `hsl(${this.hue}, 100%, 82%)`;
+              ctx.fill();
+
+              ctx.beginPath();
+              ctx.arc(cx, cy, this.size * 0.6, 0, Math.PI * 2);
+              ctx.fillStyle = "#ffffff";
+              ctx.fill();
+            } else {
+              const grad = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.size * 2);
+              grad.addColorStop(0, `hsla(${this.hue}, 100%, 82%, 1)`);
+              grad.addColorStop(0.4, `hsla(${this.hue}, 85%, 62%, 0.65)`);
+              grad.addColorStop(1, `hsla(${this.hue}, 80%, 50%, 0)`);
+              ctx.fillStyle = grad;
+              ctx.beginPath();
+              ctx.arc(this.x, this.y, this.size * 2, 0, Math.PI * 2);
+              ctx.fill();
+            }
+            ctx.restore();
+          }
+        }
+
+        for (let i = 0; i < PARTICLE_COUNT; i++) {
+          particles.push(new LuxuryParticle());
+        }
+
+        function animate() {
+          ctx.clearRect(0, 0, width, height);
+          for (let i = 0; i < particles.length; i++) {
+            particles[i].update();
+            particles[i].draw();
+          }
+          requestAnimationFrame(animate);
+        }
+        requestAnimationFrame(animate);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,2152 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>ER PARFUM — Fragancias Que Dejan Huella</title>
+    <link rel="icon" type="image/png" href="icon/32.png" />
+    <link rel="apple-touch-icon" href="icon/180.png" />
+
+    <!-- Google Fonts for Luxury Boutique Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+    <style>
+      :root {
+        --gold-primary: #d4af37;
+        --gold-light: #fef5d8;
+        --gold-dark: #aa771c;
+        --gold-border: rgba(212, 175, 55, 0.45);
+        --gold-gradient: linear-gradient(135deg, #bf953f 0%, #fcf6ba 35%, #b38728 70%, #fbf5b7 85%, #aa771c 100%);
+        --gold-text-grad: linear-gradient(45deg, #d4af37 0%, #fff2cf 40%, #c59b27 75%, #f5e4ab 100%);
+        --black-bg: #09090b;
+        --body-bg: #07070a;
+        --card-border: rgba(212, 175, 55, 0.32);
+      }
+
+      * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+      body {
+        margin: 0; padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        background: #07070a;
+        background-image: 
+          radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.1) 0%, transparent 60%),
+          radial-gradient(circle at 10% 40%, rgba(170, 119, 28, 0.06) 0%, transparent 45%),
+          radial-gradient(circle at 90% 70%, rgba(212, 175, 55, 0.08) 0%, transparent 50%);
+        color: #f7e7b4;
+        -webkit-font-smoothing: antialiased;
+        overflow-x: hidden;
+        padding-bottom: 95px;
+        min-height: 100vh;
+        position: relative;
+      }
+
+      /* ================= BACKGROUND GLOW & PARTICLES ================= */
+      .bg-particles-canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+        z-index: 0;
+      }
+      .bg-ambient-glow {
+        position: fixed;
+        pointer-events: none;
+        border-radius: 50%;
+        filter: blur(85px);
+        z-index: 0;
+        opacity: 0.32;
+        animation: ambientGlowPulse 12s ease-in-out infinite alternate;
+      }
+      .glow-1 {
+        width: 480px;
+        height: 480px;
+        background: radial-gradient(circle, rgba(212, 175, 55, 0.22) 0%, transparent 70%);
+        top: 10%;
+        left: -80px;
+      }
+      .glow-2 {
+        width: 520px;
+        height: 520px;
+        background: radial-gradient(circle, rgba(184, 134, 11, 0.18) 0%, transparent 70%);
+        bottom: 15%;
+        right: -100px;
+        animation-delay: -6s;
+      }
+      @keyframes ambientGlowPulse {
+        0% { transform: translateY(0) scale(1); opacity: 0.25; }
+        100% { transform: translateY(35px) scale(1.15); opacity: 0.4; }
+      }
+
+      a { text-decoration: none; color: inherit; cursor: pointer; }
+      button { outline: none; font-family: inherit; border: none; background: none; padding: 0; }
+
+      /* ================= TOP LUXURY BANNER & HEADER (EXACT PHOTO REPLICA) ================= */
+      .er-header {
+        position: relative;
+        background: radial-gradient(circle at 50% 25%, #1d1b16 0%, #09090b 100%);
+        color: #fff;
+        padding: 12px 14px 14px;
+        border-bottom: 2px solid #b8860b;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        overflow: hidden;
+      }
+
+      /* Corner golden decorative ribbons */
+      .gold-ribbon-tl {
+        position: absolute;
+        top: -12px; left: -12px;
+        width: 95px; height: 95px;
+        border-top: 3px solid #f6e6b8;
+        border-left: 3px solid #d4af37;
+        border-radius: 40px 0 0 0;
+        filter: drop-shadow(0 0 8px rgba(212,175,55,0.7));
+        pointer-events: none;
+      }
+      .gold-ribbon-tl::after {
+        content: '';
+        position: absolute;
+        top: 8px; left: 8px;
+        width: 70px; height: 70px;
+        border-top: 1.5px solid #d4af37;
+        border-left: 1.5px solid #f6e6b8;
+        border-radius: 30px 0 0 0;
+      }
+
+      .gold-ribbon-br {
+        position: absolute;
+        bottom: -12px; right: -12px;
+        width: 95px; height: 95px;
+        border-bottom: 3px solid #d4af37;
+        border-right: 3px solid #f6e6b8;
+        border-radius: 0 0 40px 0;
+        filter: drop-shadow(0 0 8px rgba(212,175,55,0.7));
+        pointer-events: none;
+      }
+      .gold-ribbon-br::after {
+        content: '';
+        position: absolute;
+        bottom: 8px; right: 8px;
+        width: 70px; height: 70px;
+        border-bottom: 1.5px solid #f6e6b8;
+        border-right: 1.5px solid #d4af37;
+        border-radius: 0 0 30px 0;
+      }
+
+      .er-header-inner {
+        max-width: 1050px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 2;
+      }
+
+      /* Top Action Row: Hamburger Square + Tools */
+      .er-top-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+        padding: 0 2px;
+      }
+
+      /* Un Cuadrito con 3 Lineas (Luxury Gold Square Hamburger Button) */
+      .er-hamburger-box-wrap {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+      }
+      .er-hamburger-square {
+        width: 38px;
+        height: 38px;
+        border: 1.5px solid var(--gold-border);
+        background: rgba(26, 23, 17, 0.85);
+        backdrop-filter: blur(6px);
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4.5px;
+        cursor: pointer;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.5), inset 0 0 6px rgba(212,175,55,0.18);
+        transition: all 0.25s ease;
+      }
+      .er-hamburger-square:hover,
+      .er-hamburger-square:active {
+        border-color: #d4af37;
+        box-shadow: 0 4px 14px rgba(212,175,55,0.35);
+        transform: scale(1.05);
+      }
+      .er-hamburger-square .line {
+        width: 20px;
+        height: 2.2px;
+        background: var(--gold-gradient);
+        border-radius: 2px;
+      }
+      .er-menu-label-tag {
+        font-family: 'Cinzel', serif;
+        font-size: 0.72rem;
+        font-weight: 700;
+        color: #f6e6b8;
+        letter-spacing: 1.2px;
+        text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+      }
+
+      .er-top-right-tools {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .top-tool-pill {
+        padding: 5px 10px;
+        background: rgba(212,175,55,0.12);
+        border: 1px solid rgba(212,175,55,0.4);
+        border-radius: 14px;
+        font-size: 0.74rem;
+        font-weight: 700;
+        color: #f7e7b4;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+      .top-tool-pill:hover {
+        background: rgba(212,175,55,0.22);
+        border-color: #d4af37;
+      }
+      .top-cart-badge-dot {
+        background: var(--gold-gradient);
+        color: #000;
+        font-size: 0.68rem;
+        font-weight: 800;
+        min-width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* Main Header Row matching user's photo */
+      .er-main-brand-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 2px 2px 0;
+      }
+
+      /* Logo Lockup: Crown + ER on left, PARFUM + Subtitle on right */
+      .er-logo-lockup {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .er-crown-and-letters {
+        position: relative;
+        text-align: center;
+        line-height: 1;
+      }
+      .er-crown-svg {
+        width: 32px;
+        height: 20px;
+        fill: url(#goldGradient);
+        filter: drop-shadow(0 2px 6px rgba(212,175,55,0.6));
+        display: block;
+        margin: 0 auto -2px;
+      }
+      .er-letters-serif {
+        font-family: 'Playfair Display', serif;
+        font-size: 2.6rem;
+        font-weight: 900;
+        background: var(--gold-text-grad);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: 1px;
+        display: block;
+      }
+      @media (max-width: 480px) {
+        .er-letters-serif { font-size: 2.15rem; }
+        .er-crown-svg { width: 26px; height: 16px; }
+      }
+
+      .er-brand-titles-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+      }
+      .er-title-parfum {
+        font-family: 'Cinzel', serif;
+        font-size: 2.1rem;
+        font-weight: 800;
+        letter-spacing: 4px;
+        background: var(--gold-text-grad);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 1;
+        margin: 0;
+      }
+      @media (max-width: 480px) {
+        .er-title-parfum { font-size: 1.55rem; letter-spacing: 2.5px; }
+      }
+
+      .er-subtitle-collection {
+        font-family: 'Cinzel', serif;
+        font-size: 0.72rem;
+        font-weight: 700;
+        letter-spacing: 1.8px;
+        color: #f6e6b8;
+        margin-top: 5px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      @media (max-width: 480px) {
+        .er-subtitle-collection { font-size: 0.6rem; letter-spacing: 1px; }
+      }
+
+      /* Right Quote in Elegant Golden Script */
+      .er-side-quote {
+        font-family: 'Great Vibes', cursive;
+        color: #f7e7b4;
+        font-size: 1.35rem;
+        line-height: 1.15;
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-shadow: 0 0 10px rgba(212,175,55,0.4);
+        flex-shrink: 0;
+      }
+      .er-side-quote .heart-symbol {
+        font-size: 1rem;
+        margin-top: -2px;
+        color: #f6e6b8;
+      }
+      @media (max-width: 480px) {
+        .er-side-quote { font-size: 1.05rem; }
+      }
+
+      /* Slogan row with horizontal flanking lines */
+      .er-slogan-strip {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      .er-slogan-line {
+        flex: 1;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, #d4af37 50%, transparent);
+      }
+      .er-slogan-text {
+        font-family: 'Cinzel', serif;
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 2.6px;
+        color: #e5c058;
+        white-space: nowrap;
+        text-shadow: 0 0 6px rgba(212,175,55,0.3);
+      }
+      @media (max-width: 480px) {
+        .er-slogan-text { font-size: 0.58rem; letter-spacing: 1.5px; }
+      }
+
+      /* ================= TOP COLLECTION BAR (CHIPS) ================= */
+      .er-brand-scroll-strip {
+        max-width: 1050px;
+        margin: 10px auto 4px;
+        padding: 0 8px;
+        display: flex;
+        gap: 6px;
+        overflow-x: auto;
+        scrollbar-width: none;
+        position: relative;
+        z-index: 2;
+      }
+      .er-brand-scroll-strip::-webkit-scrollbar { display: none; }
+      .brand-chip {
+        flex-shrink: 0;
+        padding: 7px 14px;
+        background: rgba(18, 17, 23, 0.65);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(212, 175, 55, 0.35);
+        border-radius: 20px;
+        font-size: 0.74rem;
+        font-weight: 600;
+        color: #f7e7b4;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        transition: all 0.25s ease;
+        box-shadow: 0 4px 14px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.06);
+      }
+      .brand-chip:hover {
+        border-color: #d4af37;
+        background: rgba(30, 27, 36, 0.85);
+        box-shadow: 0 6px 18px rgba(212, 175, 55, 0.25);
+        transform: translateY(-1px);
+      }
+      .brand-chip.active {
+        background: var(--gold-gradient);
+        color: #000;
+        font-weight: 800;
+        border-color: #aa771c;
+        box-shadow: 0 0 18px rgba(212, 175, 55, 0.45);
+      }
+
+      /* Secondary Search & Warehouse Row */
+      .er-sub-bar {
+        max-width: 1050px;
+        margin: 8px auto 14px;
+        padding: 0 8px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+      }
+      .er-search-box {
+        position: relative;
+        flex: 1;
+      }
+      .er-search-input {
+        width: 100%;
+        background: rgba(18, 17, 23, 0.65);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1.5px solid rgba(212, 175, 55, 0.4);
+        border-radius: 20px;
+        padding: 8px 36px 8px 14px;
+        font-size: 0.82rem;
+        outline: none;
+        color: #ffffff;
+        font-family: inherit;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+        transition: all 0.25s;
+      }
+      .er-search-input::placeholder { color: #8a8274; }
+      .er-search-input:focus {
+        border-color: #d4af37;
+        box-shadow: 0 0 20px rgba(212, 175, 55, 0.35);
+        background: rgba(26, 24, 32, 0.85);
+      }
+      .er-search-icon {
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 0.95rem;
+        color: #d4af37;
+        pointer-events: none;
+      }
+      .wh-pill-toggle {
+        padding: 7px 13px;
+        border: 1.5px solid rgba(212, 175, 55, 0.35);
+        background: rgba(18, 17, 23, 0.65);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-radius: 20px;
+        font-size: 0.74rem;
+        font-weight: 700;
+        color: #e5c058;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        white-space: nowrap;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+        transition: all 0.25s;
+      }
+      .wh-pill-toggle:hover {
+        border-color: #d4af37;
+        background: rgba(30, 27, 36, 0.8);
+      }
+      .wh-pill-toggle.active {
+        background: var(--gold-gradient);
+        color: #000;
+        border-color: #aa771c;
+        box-shadow: 0 0 16px rgba(212, 175, 55, 0.4);
+      }
+
+      /* ================= SECTION HEADER ================= */
+      .collection-section-header {
+        max-width: 1050px;
+        margin: 10px auto 10px;
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        z-index: 2;
+      }
+      .collection-title-text {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.05rem;
+        font-weight: 800;
+        color: #ffffff;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+      }
+      .collection-title-text::before {
+        content: '';
+        width: 3.5px;
+        height: 16px;
+        background: var(--gold-primary);
+        display: inline-block;
+        border-radius: 2px;
+        box-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
+      }
+      .collection-count-badge {
+        font-size: 0.72rem;
+        font-weight: 700;
+        color: #f7e7b4;
+        background: rgba(212, 175, 55, 0.18);
+        border: 1px solid rgba(212, 175, 55, 0.35);
+        padding: 2px 8px;
+        border-radius: 10px;
+      }
+
+      /* ================= 3-COLUMN PERFUME GRID (EXACT PHOTO REPLICA) ================= */
+      .er-grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 7px;
+        max-width: 1050px;
+        margin: 0 auto 20px;
+        padding: 0 6px;
+        position: relative;
+        z-index: 2;
+      }
+      @media (min-width: 768px) {
+        .er-grid-container {
+          grid-template-columns: repeat(4, 1fr);
+          gap: 12px;
+          padding: 0 12px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .er-grid-container {
+          grid-template-columns: repeat(5, 1fr);
+          gap: 15px;
+        }
+      }
+
+      /* Individual Card matching photo with luxury dark glassmorphism ("bien transparente como blur") */
+      .er-product-card {
+        background: rgba(18, 17, 23, 0.62);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        border: 1px solid rgba(212, 175, 55, 0.32);
+        border-radius: 6px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+        padding: 8px 5px 9px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        cursor: pointer;
+        transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s, border-color 0.25s, background 0.25s;
+      }
+      .er-product-card:hover {
+        transform: translateY(-3px);
+        background: rgba(26, 24, 32, 0.8);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.65), 0 0 20px rgba(212, 175, 55, 0.28);
+        border-color: #d4af37;
+      }
+
+      .card-badge-tag {
+        position: absolute;
+        top: 5px; left: 5px;
+        z-index: 2;
+        font-size: 0.55rem;
+        font-weight: 800;
+        color: #fff;
+        padding: 2px 4px;
+        border-radius: 2px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+      }
+      .badge-tag-hot { background: #c93b2b; }
+      .badge-tag-new { background: #b8860b; }
+
+      .card-in-cart-indicator {
+        position: absolute;
+        top: 5px; right: 5px;
+        z-index: 2;
+        background: #111;
+        color: #f6e6b8;
+        border: 1px solid #d4af37;
+        font-size: 0.58rem;
+        font-weight: 800;
+        padding: 1px 5px;
+        border-radius: 10px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+      }
+
+      .card-img-box {
+        width: 100%;
+        height: 120px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(212, 175, 55, 0.16);
+        border-radius: 4px;
+        overflow: hidden;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+      @media (min-width: 768px) {
+        .card-img-box { height: 160px; }
+      }
+      .card-img-el {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: transform 0.3s;
+      }
+      .er-product-card:hover .card-img-el {
+        transform: scale(1.04);
+      }
+
+      .card-name-title {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-size: 0.82rem;
+        font-weight: 700;
+        color: #ffffff;
+        text-align: center;
+        margin: 2px 0 3px;
+        line-height: 1.22;
+        height: 2.45em;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+      }
+      @media (min-width: 768px) {
+        .card-name-title { font-size: 0.92rem; }
+      }
+
+      .card-olfactory-notes {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.6rem;
+        color: #b5ac98;
+        text-align: center;
+        line-height: 1.35;
+        height: 2.8em;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        padding: 0 1px;
+        margin-bottom: 5px;
+      }
+      @media (min-width: 768px) {
+        .card-olfactory-notes { font-size: 0.7rem; }
+      }
+
+      /* Card Size Row: Bottle Icon + Size (Exact Photo Style) */
+      .card-size-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        font-size: 0.7rem;
+        color: #e5c058;
+        font-weight: 600;
+        padding-top: 4px;
+        border-top: 1px dashed rgba(212, 175, 55, 0.32);
+      }
+      .bottle-ico {
+        font-size: 0.8rem;
+      }
+
+      /* Bottom Navigation controls between collections */
+      .collection-footer-nav {
+        max-width: 1050px;
+        margin: 15px auto 25px;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+      }
+      .nav-collection-btn {
+        width: 100%;
+        max-width: 450px;
+        padding: 12px 18px;
+        background: rgba(18, 17, 23, 0.72);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        border: 1.5px solid rgba(212, 175, 55, 0.4);
+        border-radius: 8px;
+        color: #f7e7b4;
+        font-family: 'Cinzel', serif;
+        font-size: 0.82rem;
+        font-weight: 700;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+        transition: all 0.25s;
+      }
+      .nav-collection-btn:hover {
+        background: rgba(30, 27, 36, 0.9);
+        border-color: #d4af37;
+        box-shadow: 0 6px 22px rgba(212, 175, 55, 0.25);
+        transform: translateY(-2px);
+      }
+      .nav-collection-btn.primary-nav {
+        background: var(--gold-gradient);
+        color: #000;
+        font-weight: 800;
+        border-color: #aa771c;
+      }
+
+      /* ================= SLIDE-OUT LUXURY MENU DRAWER ================= */
+      /* "cuando le toquen ay salga menus cada perfume salga en una lista que no todo este rebuelto" */
+      .er-sidebar-mask {
+        position: fixed; inset: 0;
+        background: rgba(0,0,0,0.75);
+        backdrop-filter: blur(4px);
+        z-index: 4000;
+        opacity: 0; visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+      }
+      .er-sidebar-mask.active { opacity: 1; visibility: visible; }
+
+      .er-sidebar-drawer {
+        position: fixed; top: 0; left: 0; bottom: 0;
+        width: 88%; max-width: 360px;
+        background: #0d0d10;
+        color: #fff;
+        z-index: 4001;
+        transform: translateX(-100%);
+        transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+        border-right: 2px solid #d4af37;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 10px 0 35px rgba(0,0,0,0.8);
+      }
+      .er-sidebar-drawer.active { transform: translateX(0); }
+
+      /* Drawer Header */
+      .drawer-top-banner {
+        padding: 16px 16px 12px;
+        background: radial-gradient(circle at 50% 0%, #221e16 0%, #0d0d10 100%);
+        border-bottom: 1.5px solid rgba(212,175,55,0.4);
+        position: relative;
+      }
+      .drawer-brand-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.25rem;
+        font-weight: 800;
+        background: var(--gold-text-grad);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 0;
+      }
+      .drawer-brand-sub {
+        font-family: 'Cinzel', serif;
+        font-size: 0.65rem;
+        letter-spacing: 2px;
+        color: #d4af37;
+        margin-top: 3px;
+      }
+      .drawer-close-btn {
+        position: absolute;
+        top: 14px; right: 14px;
+        width: 32px; height: 32px;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.08);
+        border: 1px solid rgba(212,175,55,0.4);
+        color: #f6e6b8;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.2s;
+      }
+      .drawer-close-btn:hover {
+        background: #d4af37;
+        color: #000;
+      }
+
+      /* Drawer Controls */
+      .drawer-controls-box {
+        padding: 12px 14px 8px;
+        background: #131317;
+        border-bottom: 1px solid rgba(212,175,55,0.2);
+      }
+      .drawer-search-field {
+        width: 100%;
+        background: #1c1c22;
+        border: 1px solid rgba(212,175,55,0.4);
+        border-radius: 18px;
+        padding: 7px 12px;
+        color: #fff;
+        font-size: 0.8rem;
+        outline: none;
+        font-family: inherit;
+      }
+      .drawer-search-field:focus { border-color: #d4af37; }
+      .drawer-wh-toggle-row {
+        display: flex;
+        gap: 6px;
+        margin-top: 8px;
+      }
+      .drawer-wh-btn {
+        flex: 1;
+        padding: 6px 8px;
+        border: 1px solid rgba(212,175,55,0.3);
+        background: #1a1a20;
+        color: #ccc;
+        font-size: 0.72rem;
+        font-weight: 700;
+        border-radius: 6px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+      }
+      .drawer-wh-btn.active {
+        background: var(--gold-gradient);
+        color: #000;
+        border-color: #aa771c;
+      }
+
+      /* Drawer Scrollable Content */
+      .drawer-scroll-body {
+        flex: 1;
+        overflow-y: auto;
+        padding: 10px 14px 20px;
+        scrollbar-width: thin;
+        scrollbar-color: #aa771c #0d0d10;
+      }
+
+      .drawer-group-label {
+        font-family: 'Cinzel', serif;
+        font-size: 0.68rem;
+        letter-spacing: 2px;
+        color: #d4af37;
+        margin: 12px 0 6px;
+        padding-bottom: 4px;
+        border-bottom: 1px dashed rgba(212,175,55,0.25);
+      }
+
+      /* Structured Brand Accordion Group */
+      .brand-drawer-group {
+        border-bottom: 1px solid rgba(255,255,255,0.06);
+        margin-bottom: 4px;
+        border-radius: 6px;
+        overflow: hidden;
+      }
+      .brand-drawer-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 9px 8px;
+        cursor: pointer;
+        transition: background 0.2s;
+        border-radius: 6px;
+      }
+      .brand-drawer-header:hover {
+        background: rgba(212,175,55,0.12);
+      }
+      .brand-drawer-header.active-brand {
+        background: rgba(212,175,55,0.22);
+        border-left: 3px solid #d4af37;
+      }
+      .brand-left-info {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex: 1;
+      }
+      .brand-name-text {
+        font-family: 'Cinzel', serif;
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: #f7e7b4;
+        letter-spacing: 0.8px;
+      }
+      .brand-count-chip {
+        font-size: 0.65rem;
+        background: rgba(212,175,55,0.15);
+        color: #dfc788;
+        padding: 1px 6px;
+        border-radius: 10px;
+      }
+      .brand-expand-arrow {
+        color: #d4af37;
+        font-size: 0.72rem;
+        padding: 3px 6px;
+        cursor: pointer;
+        transition: transform 0.2s;
+      }
+      .brand-expand-arrow.open {
+        transform: rotate(180deg);
+      }
+
+      /* Detailed sublist for each perfume under brand */
+      .drawer-perfume-sublist {
+        display: none;
+        background: #09090c;
+        border-radius: 6px;
+        padding: 4px;
+        margin: 3px 0 8px;
+        border: 1px solid rgba(212,175,55,0.15);
+      }
+      .drawer-perfume-sublist.open {
+        display: block;
+      }
+      .sublist-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px;
+        border-bottom: 1px solid rgba(255,255,255,0.04);
+        cursor: pointer;
+        border-radius: 4px;
+        transition: background 0.15s;
+      }
+      .sublist-item:hover {
+        background: rgba(212,175,55,0.1);
+      }
+      .sublist-thumb {
+        width: 36px;
+        height: 36px;
+        object-fit: cover;
+        border-radius: 4px;
+        border: 1px solid #d4af37;
+        background: #fff;
+        flex-shrink: 0;
+      }
+      .sublist-info {
+        flex: 1;
+        min-width: 0;
+      }
+      .sublist-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 0.76rem;
+        font-weight: 700;
+        color: #fff;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .sublist-sub {
+        font-size: 0.62rem;
+        color: #aaa;
+      }
+      .sublist-add-btn {
+        background: var(--gold-gradient);
+        color: #000;
+        font-size: 0.65rem;
+        font-weight: 800;
+        padding: 3px 7px;
+        border-radius: 4px;
+        flex-shrink: 0;
+      }
+
+      /* Drawer Bottom Actions */
+      .drawer-footer-actions {
+        padding: 12px 14px 16px;
+        border-top: 1px solid rgba(212,175,55,0.3);
+        background: #111115;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .drawer-act-btn {
+        width: 100%;
+        padding: 10px 0;
+        border-radius: 6px;
+        font-family: 'Cinzel', serif;
+        font-size: 0.8rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        cursor: pointer;
+      }
+      .drawer-act-cart {
+        background: var(--gold-gradient);
+        color: #000;
+      }
+      .drawer-act-wa {
+        background: #25D366;
+        color: #000;
+      }
+
+      /* ================= MODAL DETAIL VIEW ================= */
+      .er-modal-backdrop {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.85);
+        z-index: 5000;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+      }
+      .er-modal-backdrop.open { display: flex; }
+      .er-modal-window {
+        background: rgba(14, 13, 17, 0.92);
+        backdrop-filter: blur(25px);
+        -webkit-backdrop-filter: blur(25px);
+        width: 100%;
+        max-width: 420px;
+        border-radius: 12px;
+        border: 1.5px solid #d4af37;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.85), 0 0 30px rgba(212,175,55,0.3);
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        color: #ffffff;
+      }
+      .modal-close-ico {
+        position: absolute;
+        top: 10px; right: 10px;
+        width: 32px; height: 32px;
+        background: rgba(0,0,0,0.7);
+        color: #f6e6b8;
+        border: 1px solid rgba(212,175,55,0.4);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 1.2rem;
+        z-index: 10;
+        transition: all 0.2s;
+      }
+      .modal-close-ico:hover {
+        background: #d4af37;
+        color: #000;
+      }
+      .modal-product-img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        background: #09090c;
+      }
+      .modal-info-padding {
+        padding: 15px 18px 20px;
+      }
+      .modal-perfume-name {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin: 0 0 4px;
+        color: #ffffff;
+      }
+      .modal-brand-badge {
+        font-size: 0.8rem;
+        font-weight: 700;
+        color: #d4af37;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 12px;
+      }
+      .modal-notes-container {
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(212, 175, 55, 0.3);
+        border-radius: 8px;
+        padding: 10px 12px;
+        font-size: 0.84rem;
+        color: #dfd4be;
+        line-height: 1.45;
+        font-family: 'Playfair Display', Georgia, serif;
+        font-style: italic;
+        margin-bottom: 12px;
+        text-align: left;
+      }
+      .modal-qty-actions {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      .modal-add-btn {
+        flex: 1;
+        padding: 12px 0;
+        background: var(--gold-gradient);
+        color: #111;
+        font-family: 'Cinzel', serif;
+        font-size: 0.88rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        border-radius: 6px;
+        cursor: pointer;
+        box-shadow: 0 4px 15px rgba(212,175,55,0.3);
+      }
+      .modal-qty-stepper {
+        display: flex;
+        border: 1.5px solid #d4af37;
+        border-radius: 6px;
+        overflow: hidden;
+        height: 42px;
+        width: 130px;
+      }
+      .modal-qty-stepper button {
+        width: 40px;
+        background: #111;
+        color: #f6e6b8;
+        font-weight: 800;
+        font-size: 1.1rem;
+        cursor: pointer;
+      }
+      .modal-qty-stepper span {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 1rem;
+      }
+
+      /* ================= FLOATING CART BAR ================= */
+      .er-floating-bar {
+        position: fixed;
+        bottom: 18px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        max-width: 430px;
+        height: 56px;
+        background: #0d0d0f;
+        border: 1.5px solid #d4af37;
+        border-radius: 30px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 12px rgba(212, 175, 55, 0.25);
+        display: flex;
+        align-items: stretch;
+        overflow: hidden;
+        z-index: 2000;
+      }
+      .floating-left {
+        width: 38%;
+        display: flex;
+        align-items: center;
+        padding-left: 14px;
+        gap: 8px;
+        cursor: pointer;
+        border-right: 1px solid rgba(212,175,55,0.3);
+      }
+      .floating-cart-badge {
+        position: absolute;
+        top: -6px; right: -8px;
+        background: #d4af37;
+        color: #000;
+        font-size: 0.72rem;
+        font-weight: 800;
+        min-width: 19px; height: 19px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .floating-right {
+        flex: 1;
+      }
+      .floating-btn {
+        width: 100%; height: 100%;
+        background: var(--gold-gradient);
+        color: #000;
+        font-family: 'Cinzel', serif;
+        font-size: 0.85rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      /* ================= LUXURY FOOTER (MATCHING USER'S PHOTO) ================= */
+      .er-footer-container {
+        position: relative;
+        background: #09090b;
+        color: #ffffff;
+        padding: 26px 12px 35px;
+        margin-top: 25px;
+        border-top: 2px solid #b8860b;
+        overflow: hidden;
+      }
+      .footer-ribbon-bl {
+        position: absolute;
+        bottom: -15px; left: -15px;
+        width: 100px; height: 100px;
+        border-bottom: 3px solid #d4af37;
+        border-left: 3px solid #f6e6b8;
+        border-radius: 0 0 0 45px;
+        filter: drop-shadow(0 0 8px rgba(212,175,55,0.5));
+        pointer-events: none;
+      }
+      .footer-ribbon-br {
+        position: absolute;
+        bottom: -15px; right: -15px;
+        width: 100px; height: 100px;
+        border-bottom: 3px solid #f6e6b8;
+        border-right: 3px solid #d4af37;
+        border-radius: 0 0 45px 0;
+        filter: drop-shadow(0 0 8px rgba(212,175,55,0.5));
+        pointer-events: none;
+      }
+
+      .footer-icons-row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 820px;
+        margin: 0 auto 16px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+      }
+      .footer-cell {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #f7e7b4;
+        text-align: left;
+      }
+      .footer-cell a { color: inherit; }
+      .footer-cell a:hover { color: #fff; text-decoration: underline; }
+      .footer-cell-sub {
+        display: block;
+        font-size: 0.6rem;
+        color: #999;
+        letter-spacing: 1px;
+      }
+      .footer-divider-pipe {
+        color: rgba(212, 175, 55, 0.4);
+        font-weight: 300;
+      }
+
+      .footer-bottom-tagline {
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        font-size: 0.68rem;
+        letter-spacing: 2px;
+        color: #d4af37;
+        margin: 0;
+      }
+
+      #toast {
+        visibility: hidden;
+        min-width: 200px;
+        background: #111113;
+        color: #f6e6b8;
+        border: 1px solid #d4af37;
+        text-align: center;
+        border-radius: 30px;
+        padding: 10px 18px;
+        position: fixed;
+        z-index: 9999;
+        left: 50%;
+        bottom: 85px;
+        transform: translateX(-50%);
+        font-size: 0.82rem;
+        font-weight: 600;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        opacity: 0;
+        transition: all 0.3s;
+      }
+      #toast.show { visibility: visible; opacity: 1; bottom: 92px; }
+    </style>
+  </head>
+  <body>
+    <!-- LUXURY PARTICLES & GLOW CANVAS LAYER -->
+    <div class="bg-ambient-glow glow-1"></div>
+    <div class="bg-ambient-glow glow-2"></div>
+    <canvas id="luxury-sparkles-canvas" class="bg-particles-canvas"></canvas>
+
+    <!-- SVG Defs for Gold Gradient -->
+    <svg width="0" height="0" style="position:absolute;">
+      <defs>
+        <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#bf953f" />
+          <stop offset="30%" stop-color="#fcf6ba" />
+          <stop offset="60%" stop-color="#b38728" />
+          <stop offset="85%" stop-color="#fbf5b7" />
+          <stop offset="100%" stop-color="#aa771c" />
+        </linearGradient>
+      </defs>
+    </svg>
+
+    <!-- HEADER: EXACT REPLICA OF THE USER'S PHOTO -->
+    <header class="er-header">
+      <div class="gold-ribbon-tl"></div>
+      <div class="gold-ribbon-br"></div>
+
+      <div class="er-header-inner">
+        <!-- Top Action Bar: The Square with 3 lines ("Cuadrito 3 lineas") + Quick Tools -->
+        <div class="er-top-bar">
+          <div class="er-hamburger-box-wrap" onclick="toggleDrawer()" title="Abrir Menú de Colecciones">
+            <!-- Cuadrito con 3 lineas exacto -->
+            <button type="button" class="er-hamburger-square" id="btn-hamburger-square" aria-label="Menú de Colecciones">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+            </button>
+            <span class="er-menu-label-tag">COLECCIONES ▾</span>
+          </div>
+
+          <div class="er-top-right-tools">
+            <button type="button" class="top-tool-pill" onclick="toggleCurrentWarehouse()">
+              <span id="top-wh-flag">🇺🇸</span>
+              <span id="top-wh-name">Almacén IL</span>
+            </button>
+            <a href="cart.html" class="top-tool-pill" title="Ver Lista de Pedido">
+              <span>🛒</span>
+              <span class="top-cart-badge-dot" id="top-cart-count">0</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Main Branding Row identical to photo -->
+        <div class="er-main-brand-row">
+          <!-- Logo on left: Crown over ER, then PARFUM + Dynamic Collection Subtitle -->
+          <div class="er-logo-lockup">
+            <div class="er-crown-and-letters">
+              <svg class="er-crown-svg" viewBox="0 0 24 24">
+                <path d="M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5zm14 3c0 .6-.4 1-1 1H6c-.6 0-1-.4-1-1v-1h14v1z"/>
+              </svg>
+              <span class="er-letters-serif">ER</span>
+            </div>
+            <div class="er-brand-titles-col">
+              <h1 class="er-title-parfum">PARFUM</h1>
+              <div class="er-subtitle-collection" id="collection-headline">COLECCIÓN MAISON FRANCIS KURKDJIAN</div>
+            </div>
+          </div>
+
+          <!-- Right side quote in stacked cursive script -->
+          <div class="er-side-quote">
+            <span>Elegancia</span>
+            <span>en cada</span>
+            <span>esencia</span>
+            <span class="heart-symbol">♡</span>
+          </div>
+        </div>
+
+        <!-- Slogan with flanking lines -->
+        <div class="er-slogan-strip">
+          <div class="er-slogan-line"></div>
+          <div class="er-slogan-text">FRAGANCIAS QUE DEJAN HUELLA</div>
+          <div class="er-slogan-line"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HORIZONTAL BRAND SCROLL CHIPS (QUICK SWITCHING BETWEEN HOUSES) -->
+    <nav class="er-brand-scroll-strip" id="brand-chips-strip"></nav>
+
+    <!-- SECONDARY CONTROLS: SEARCH & WAREHOUSE BADGES -->
+    <div class="er-sub-bar">
+      <div class="er-search-box">
+        <input type="text" id="catalog-search-input" class="er-search-input" placeholder="Buscar perfume, notas o casa..." />
+        <span class="er-search-icon">🔍</span>
+      </div>
+      <button type="button" class="wh-pill-toggle active" id="btn-sub-il" onclick="changeWarehouse('IL')">
+        <span>IL</span> <span style="font-size:0.65rem; color:#d4af37;" id="badge-count-il">228</span>
+      </button>
+      <button type="button" class="wh-pill-toggle" id="btn-sub-tx" onclick="changeWarehouse('TX')">
+        <span>TX</span> <span style="font-size:0.65rem; color:#d4af37;" id="badge-count-tx">160</span>
+      </button>
+    </div>
+
+    <!-- MAIN PRODUCT CATALOG: CLEAN 3-COLUMN VIEW (ONE COLLECTION AT A TIME, NO DESORDEN) -->
+    <main id="catalog-main-area"></main>
+
+    <!-- SLIDE-OUT LUXURY MENU DRAWER ("sale en una lista que no todo este rebuelto") -->
+    <div class="er-sidebar-mask" id="sidebar-mask" onclick="toggleDrawer()"></div>
+    <aside class="er-sidebar-drawer" id="sidebar-drawer">
+      <!-- Drawer Top Banner -->
+      <div class="drawer-top-banner">
+        <div class="drawer-close-btn" onclick="toggleDrawer()">&times;</div>
+        <h2 class="drawer-brand-title">👑 ER PARFUM</h2>
+        <div class="drawer-brand-sub">DIRECTORIO DE COLECCIONES</div>
+      </div>
+
+      <!-- Drawer Controls: Warehouse + Fast Search -->
+      <div class="drawer-controls-box">
+        <input type="text" id="drawer-search-input" class="drawer-search-field" placeholder="🔍 Filtrar en el menú..." oninput="filterDrawerList(this.value)" />
+        <div class="drawer-wh-toggle-row">
+          <button type="button" class="drawer-wh-btn active" id="d-wh-il" onclick="changeWarehouse('IL')">
+            <span>🇺🇸 Bodega IL</span>
+            <span id="d-badge-il" style="font-size:0.65rem;">(228)</span>
+          </button>
+          <button type="button" class="drawer-wh-btn" id="d-wh-tx" onclick="changeWarehouse('TX')">
+            <span>🇺🇸 Bodega TX</span>
+            <span id="d-badge-tx" style="font-size:0.65rem;">(160)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Drawer Scrollable List of Collections and Perfumes -->
+      <div class="drawer-scroll-body" id="drawer-accordion-container">
+        <!-- Injected dynamically via JS: Brand list with collapsible perfume items -->
+      </div>
+
+      <!-- Drawer Bottom Actions -->
+      <div class="drawer-footer-actions">
+        <button class="drawer-act-btn drawer-act-cart" onclick="window.location.href='cart.html'">
+          <span>🛒 VER LISTA DE PEDIDO (<span id="drawer-cart-num">0</span>)</span>
+        </button>
+        <button class="drawer-act-btn drawer-act-wa" onclick="window.open('https://wa.me/13143746958', '_blank')">
+          <span>💬 PEDIR POR WHATSAPP</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- FLOATING CART CAPSULE -->
+    <div class="er-floating-bar">
+      <div class="floating-left" onclick="window.location.href='cart.html'">
+        <div style="position:relative;">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#d4af37" stroke-width="2">
+            <circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <div class="floating-cart-badge" id="floating-cart-count" style="display:none;">0</div>
+        </div>
+        <span style="font-size:0.8rem; font-weight:700; color:#f6e6b8;">Lista</span>
+      </div>
+      <div class="floating-right">
+        <button class="floating-btn" onclick="window.location.href='cart.html'">
+          VER / COPIAR LISTA
+        </button>
+      </div>
+    </div>
+
+    <!-- MODAL PRODUCT DETAIL -->
+    <div class="er-modal-backdrop" id="perfume-modal">
+      <div class="er-modal-window">
+        <div class="modal-close-ico" onclick="closePerfumeModal()">&times;</div>
+        <img id="m-img" class="modal-product-img" src="" alt="Perfume" />
+        <div class="modal-info-padding">
+          <h3 id="m-title" class="modal-perfume-name"></h3>
+          <div id="m-brand" class="modal-brand-badge"></div>
+          <div id="m-notes" class="modal-notes-container"></div>
+          <div id="m-stock" style="font-size:0.75rem; font-weight:700; color:#c93b2b; margin-bottom:10px;"></div>
+          
+          <div class="modal-qty-actions">
+            <div class="modal-qty-stepper">
+              <button onclick="changeModalQty(-1)">-</button>
+              <span id="m-qty-val">1</span>
+              <button onclick="changeModalQty(1)">+</button>
+            </div>
+            <button class="modal-add-btn" id="m-add-btn" onclick="addModalItemToCart()">+ AÑADIR A LA LISTA</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION -->
+    <div id="toast">Agregado a tu lista 🛒</div>
+
+    <!-- FOOTER EXACTLY REPLICATING THE PHOTO -->
+    <footer class="er-footer-container">
+      <div class="footer-ribbon-bl"></div>
+      <div class="footer-ribbon-br"></div>
+
+      <div class="footer-icons-row">
+        <!-- Shipping -->
+        <div class="footer-cell">
+          <span style="font-size:1.25rem;">🚚</span>
+          <div>
+            <div>ENVÍOS A TODO EL PAÍS</div>
+            <span class="footer-cell-sub">SEGUROS Y RÁPIDOS</span>
+          </div>
+        </div>
+
+        <span class="footer-divider-pipe">|</span>
+
+        <!-- WhatsApp / Phone -->
+        <div class="footer-cell">
+          <span style="font-size:1.25rem;">📞</span>
+          <div>
+            <a href="https://wa.me/13143746958" target="_blank" rel="noopener">+1 (314) 374-6958</a>
+            <span class="footer-cell-sub">CONTÁCTANOS</span>
+          </div>
+        </div>
+
+        <span class="footer-divider-pipe">|</span>
+
+        <!-- Instagram -->
+        <div class="footer-cell">
+          <span style="font-size:1.25rem;">📸</span>
+          <div>
+            <a href="https://www.instagram.com/erparfumstl?stkn=M3Ntb3p3YXJnODAw&utm_source=qr" target="_blank" rel="noopener">@erparfumstl</a>
+            <span class="footer-cell-sub">SÍGUENOS</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="footer-bottom-tagline">
+        ER PARFUM | MÁS QUE UN PERFUME, ES UNA EXPERIENCIA
+      </p>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="products-data.js"></script>
+    <script src="db.js?v=5"></script>
+    <script>
+      let currentWarehouse = "IL";
+      // Default to Maison Francis Kurkdjian exactly like user's photo
+      let activeCollection = "Maison Francis Kurkdjian";
+      let currentModalSku = null;
+      let modalQuantity = 1;
+      let cartItems = [];
+
+      // Curated luxury brand list order
+      const BRAND_ORDER = [
+        "Maison Francis Kurkdjian", "Louis Vuitton", "Creed", "Dior", "Chanel",
+        "Tom Ford", "Yves Saint Laurent", "Valentino", "Carolina Herrera",
+        "Jean Paul Gaultier", "Paco Rabanne", "Parfums de Marly", "Xerjoff",
+        "Bond No. 9", "Initio", "Giorgio Armani", "Versace", "Burberry", "Kayali", "Byredo"
+      ];
+
+      document.addEventListener("DOMContentLoaded", () => {
+        initLuxurySparkles();
+        loadUserCart();
+        renderBrandChips();
+        renderDrawerList();
+        renderMainCatalog();
+        setupSearchInput();
+      });
+
+      function toggleDrawer() {
+        const drawer = document.getElementById("sidebar-drawer");
+        const mask = document.getElementById("sidebar-mask");
+        const isOpen = drawer.classList.toggle("active");
+        mask.classList.toggle("active", isOpen);
+      }
+
+      function toggleCurrentWarehouse() {
+        changeWarehouse(currentWarehouse === 'IL' ? 'TX' : 'IL');
+      }
+
+      function changeWarehouse(wh) {
+        currentWarehouse = wh;
+        
+        // Update header flag & label
+        document.getElementById("top-wh-name").textContent = `Almacén ${wh}`;
+        document.getElementById("top-wh-flag").textContent = "🇺🇸";
+
+        // Update sub pills
+        document.getElementById("btn-sub-il").classList.toggle("active", wh === "IL");
+        document.getElementById("btn-sub-tx").classList.toggle("active", wh === "TX");
+
+        // Update drawer toggle buttons
+        document.getElementById("d-wh-il").classList.toggle("active", wh === "IL");
+        document.getElementById("d-wh-tx").classList.toggle("active", wh === "TX");
+
+        renderBrandChips();
+        renderDrawerList();
+        renderMainCatalog();
+      }
+
+      /* Horizontal Brand Chips under Header */
+      function renderBrandChips() {
+        const container = document.getElementById("brand-chips-strip");
+        const allProducts = window.perfumeDB || [];
+        const whProducts = allProducts.filter(p => p.warehouse === currentWarehouse);
+
+        document.getElementById("badge-count-il").textContent = allProducts.filter(p => p.warehouse === 'IL').length;
+        document.getElementById("badge-count-tx").textContent = allProducts.filter(p => p.warehouse === 'TX').length;
+        document.getElementById("d-badge-il").textContent = `(${allProducts.filter(p => p.warehouse === 'IL').length})`;
+        document.getElementById("d-badge-tx").textContent = `(${allProducts.filter(p => p.warehouse === 'TX').length})`;
+
+        const brandsInWh = new Set(whProducts.map(p => p.brand).filter(Boolean));
+
+        let html = `
+          <button class="brand-chip ${activeCollection === 'Maison Francis Kurkdjian' ? 'active' : ''}" onclick="selectCollection('Maison Francis Kurkdjian')">👑 MFK Paris</button>
+          <button class="brand-chip ${activeCollection === 'Louis Vuitton' ? 'active' : ''}" onclick="selectCollection('Louis Vuitton')">💼 Louis Vuitton</button>
+          <button class="brand-chip ${activeCollection === 'Creed' ? 'active' : ''}" onclick="selectCollection('Creed')">👑 Creed</button>
+          <button class="brand-chip ${activeCollection === 'Dior' ? 'active' : ''}" onclick="selectCollection('Dior')">🌟 Dior</button>
+          <button class="brand-chip ${activeCollection === 'Chanel' ? 'active' : ''}" onclick="selectCollection('Chanel')">🖤 Chanel</button>
+          <button class="brand-chip ${activeCollection === 'Tom Ford' ? 'active' : ''}" onclick="selectCollection('Tom Ford')">🍸 Tom Ford</button>
+          <button class="brand-chip ${activeCollection === 'BestSellers' ? 'active' : ''}" onclick="selectCollection('BestSellers')">🔥 Hot Selling</button>
+          <button class="brand-chip ${activeCollection === 'New' ? 'active' : ''}" onclick="selectCollection('New')">✨ Novedades</button>
+          <button class="brand-chip ${activeCollection === 'All' ? 'active' : ''}" onclick="selectCollection('All')">✦ Ver Todo A-Z</button>
+        `;
+
+        BRAND_ORDER.forEach(b => {
+          if (["Maison Francis Kurkdjian", "Louis Vuitton", "Creed", "Dior", "Chanel", "Tom Ford"].includes(b)) return;
+          if (brandsInWh.has(b)) {
+            html += `<button class="brand-chip ${activeCollection === b ? 'active' : ''}" onclick="selectCollection('${b}')">${b}</button>`;
+          }
+        });
+
+        container.innerHTML = html;
+      }
+
+      /* Render Drawer Navigation with Collapsible Perfume Sublists */
+      function renderDrawerList(filterText = '') {
+        const container = document.getElementById("drawer-accordion-container");
+        const allProducts = window.perfumeDB || [];
+        const whProducts = allProducts.filter(p => p.warehouse === currentWarehouse);
+
+        const brandsInWh = {};
+        whProducts.forEach(p => {
+          const b = p.brand || 'Otras';
+          if (!brandsInWh[b]) brandsInWh[b] = [];
+          brandsInWh[b].push(p);
+        });
+
+        // Sorted brand list
+        let brandList = Object.keys(brandsInWh).sort((a, b) => {
+          const idxA = BRAND_ORDER.indexOf(a);
+          const idxB = BRAND_ORDER.indexOf(b);
+          if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+          if (idxA !== -1) return -1;
+          if (idxB !== -1) return 1;
+          return a.localeCompare(b);
+        });
+
+        if (filterText) {
+          const f = filterText.toLowerCase();
+          brandList = brandList.filter(b => 
+            b.toLowerCase().includes(f) ||
+            brandsInWh[b].some(p => p.name.toLowerCase().includes(f))
+          );
+        }
+
+        let html = `
+          <div class="drawer-group-label">SELECCIONES DESTACADAS</div>
+          <div class="brand-drawer-group">
+            <div class="brand-drawer-header ${activeCollection === 'BestSellers' ? 'active-brand' : ''}" onclick="selectCollection('BestSellers'); toggleDrawer();">
+              <div class="brand-left-info">
+                <span>🔥</span>
+                <span class="brand-name-text">MÁS VENDIDOS (HOT SELLING)</span>
+              </div>
+              <span class="brand-count-chip">${whProducts.filter(p => Number(p.top) > 0).length}</span>
+            </div>
+          </div>
+          <div class="brand-drawer-group">
+            <div class="brand-drawer-header ${activeCollection === 'New' ? 'active-brand' : ''}" onclick="selectCollection('New'); toggleDrawer();">
+              <div class="brand-left-info">
+                <span>✨</span>
+                <span class="brand-name-text">NOVEDADES RECIENTES</span>
+              </div>
+              <span class="brand-count-chip">${whProducts.filter(p => Number(p.new) > 0).length}</span>
+            </div>
+          </div>
+          <div class="brand-drawer-group">
+            <div class="brand-drawer-header ${activeCollection === 'All' ? 'active-brand' : ''}" onclick="selectCollection('All'); toggleDrawer();">
+              <div class="brand-left-info">
+                <span>✦</span>
+                <span class="brand-name-text">DIRECTORIO COMPLETO A-Z</span>
+              </div>
+              <span class="brand-count-chip">${whProducts.length}</span>
+            </div>
+          </div>
+
+          <div class="drawer-group-label">COLECCIONES POR MARCA (TOCA PARA EXPANDIR)</div>
+        `;
+
+        brandList.forEach((brand, idx) => {
+          const prods = brandsInWh[brand];
+          const isCurrentActive = (activeCollection.toLowerCase() === brand.toLowerCase());
+          const groupDomId = `drawer-sublist-${idx}`;
+          const arrowDomId = `drawer-arrow-${idx}`;
+
+          let subItemsHtml = '';
+          prods.forEach(p => {
+            let clean = p.name.replace(new RegExp(`^${p.brand}\\s+`, 'i'), '');
+            const size = p.ml ? (isNaN(p.ml) ? p.ml : `${p.ml} ml`) : '70 ml';
+            subItemsHtml += `
+              <div class="sublist-item" onclick="openPerfumeModal('${p.id}')">
+                <img src="${p.img}" class="sublist-thumb" alt="${clean}" onerror="if(this.dataset.fallback && !this.dataset.tried){this.dataset.tried=1; this.src=this.dataset.fallback;}" ${p.remoteImg ? `data-fallback="${p.remoteImg}"` : ''}>
+                <div class="sublist-info">
+                  <div class="sublist-title">${clean}</div>
+                  <div class="sublist-sub">🧴 ${size} · ${p.warehouse}</div>
+                </div>
+                <button type="button" class="sublist-add-btn" onclick="event.stopPropagation(); quickAddFromDrawer('${p.id}')">+ Añadir</button>
+              </div>
+            `;
+          });
+
+          html += `
+            <div class="brand-drawer-group">
+              <div class="brand-drawer-header ${isCurrentActive ? 'active-brand' : ''}">
+                <div class="brand-left-info" onclick="selectCollection('${brand}'); toggleDrawer();">
+                  <span class="brand-name-text">👑 ${brand}</span>
+                  <span class="brand-count-chip">${prods.length}</span>
+                </div>
+                <div class="brand-expand-arrow" id="${arrowDomId}" onclick="toggleBrandSublist('${groupDomId}', '${arrowDomId}')" title="Ver perfumes de ${brand}">
+                  ▼
+                </div>
+              </div>
+              <div class="drawer-perfume-sublist" id="${groupDomId}">
+                ${subItemsHtml}
+              </div>
+            </div>
+          `;
+        });
+
+        container.innerHTML = html;
+      }
+
+      function toggleBrandSublist(sublistId, arrowId) {
+        const sub = document.getElementById(sublistId);
+        const arrow = document.getElementById(arrowId);
+        if (sub) sub.classList.toggle("open");
+        if (arrow) arrow.classList.toggle("open");
+      }
+
+      function filterDrawerList(val) {
+        renderDrawerList(val.trim());
+      }
+
+      function selectCollection(col) {
+        activeCollection = col;
+        const headline = document.getElementById("collection-headline");
+
+        if (col === 'All') headline.textContent = 'DIRECTORIO COMPLETO A-Z';
+        else if (col === 'BestSellers') headline.textContent = 'COLECCIÓN HOT SELLING 🔥';
+        else if (col === 'New') headline.textContent = 'COLECCIÓN NOVEDADES ✨';
+        else headline.textContent = `COLECCIÓN ${col.toUpperCase()}`;
+
+        renderBrandChips();
+        renderDrawerList();
+        renderMainCatalog();
+        window.scrollTo({ top: 120, behavior: 'smooth' });
+      }
+
+      /* Render the main 3-column catalog grid */
+      function renderMainCatalog() {
+        const area = document.getElementById("catalog-main-area");
+        const allProducts = window.perfumeDB || [];
+        const whProducts = allProducts.filter(p => p.warehouse === currentWarehouse);
+
+        if (activeCollection === 'All') {
+          // Grouped cleanly by brand to prevent messy dump
+          const brandsInWh = {};
+          whProducts.forEach(p => {
+            const b = p.brand || 'Otras';
+            if (!brandsInWh[b]) brandsInWh[b] = [];
+            brandsInWh[b].push(p);
+          });
+
+          let html = '';
+          const sortedBrands = Object.keys(brandsInWh).sort((a,b) => (b in brandsInWh) - (a in brandsInWh));
+          sortedBrands.forEach(b => {
+            html += buildSectionHtml(`COLECCIÓN ${b.toUpperCase()}`, brandsInWh[b], b);
+          });
+          area.innerHTML = html;
+          return;
+        }
+
+        let filtered = [];
+        let sectionTitle = `COLECCIÓN ${activeCollection.toUpperCase()}`;
+
+        if (activeCollection === 'BestSellers') {
+          filtered = whProducts.filter(p => Number(p.top) > 0);
+          sectionTitle = '🔥 FRAGANCIAS DESTACADAS (HOT SELLING)';
+        } else if (activeCollection === 'New') {
+          filtered = whProducts.filter(p => Number(p.new) > 0);
+          sectionTitle = '✨ NOVEDADES RECIENTES';
+        } else if (activeCollection.startsWith('Search:')) {
+          const q = activeCollection.replace('Search:', '').toLowerCase();
+          filtered = whProducts.filter(p =>
+            p.name.toLowerCase().includes(q) ||
+            p.brand.toLowerCase().includes(q) ||
+            p.id.toLowerCase().includes(q) ||
+            (p.notes && p.notes.toLowerCase().includes(q))
+          );
+          sectionTitle = `RESULTADOS PARA: "${q.toUpperCase()}"`;
+        } else {
+          filtered = whProducts.filter(p => p.brand.toLowerCase() === activeCollection.toLowerCase());
+        }
+
+        // If active collection is MFK, sort and display the exact 9 perfumes from the reference photo
+        if (activeCollection === 'Maison Francis Kurkdjian') {
+          const mfkOrder = ['Oud Silk Mood', 'Grand Soir', 'Baccarat Rouge 540', 'Baccarat', 'Amyris Femme', 'Aqua Universalis', 'Oud Satin Mood', '724', 'À la rose'];
+          filtered.sort((a, b) => {
+            let ia = mfkOrder.findIndex(n => a.name.toLowerCase() === n.toLowerCase() || a.name.toLowerCase().includes(n.toLowerCase()));
+            let ib = mfkOrder.findIndex(n => b.name.toLowerCase() === n.toLowerCase() || b.name.toLowerCase().includes(n.toLowerCase()));
+            if (ia === -1) ia = 999;
+            if (ib === -1) ib = 999;
+            return ia - ib;
+          });
+          filtered = filtered.slice(0, 9);
+        }
+
+        let sectionHtml = buildSectionHtml(sectionTitle, filtered);
+
+        // Add next collection navigation button
+        const currIdx = BRAND_ORDER.indexOf(activeCollection);
+        let nextBrand = (currIdx !== -1 && currIdx < BRAND_ORDER.length - 1) ? BRAND_ORDER[currIdx + 1] : "Louis Vuitton";
+
+        sectionHtml += `
+          <div class="collection-footer-nav">
+            <button class="nav-collection-btn primary-nav" onclick="selectCollection('${nextBrand}')">
+              <span>Siguiente Casa: <strong>${nextBrand.toUpperCase()}</strong></span>
+              <span>→</span>
+            </button>
+            <button class="nav-collection-btn" onclick="toggleDrawer()">
+              <span>☰ Explorar Todas las Marcas en el Menú</span>
+              <span>▾</span>
+            </button>
+          </div>
+        `;
+
+        area.innerHTML = sectionHtml;
+      }
+
+      function buildSectionHtml(title, items, filterTarget) {
+        if (!items || !items.length) {
+          return `
+            <div style="text-align:center; padding:50px 20px; color:#888;">
+              <p style="font-size:1.1rem; font-family:'Playfair Display', serif;">No se encontraron perfumes en esta selección.</p>
+              <button class="nav-collection-btn primary-nav" style="margin:15px auto; max-width:280px;" onclick="changeWarehouse(currentWarehouse === 'IL' ? 'TX' : 'IL')">
+                Explorar en Bodega ${currentWarehouse === 'IL' ? 'TX' : 'IL'}
+              </button>
+            </div>
+          `;
+        }
+
+        let cardsHtml = '';
+        items.forEach(p => {
+          cardsHtml += buildCardHtml(p);
+        });
+
+        const seeAll = filterTarget ? `<div style="font-size:0.75rem; font-weight:700; color:#aa771c; cursor:pointer;" onclick="selectCollection('${filterTarget}')">Ver Colección ></div>` : `<span class="collection-count-badge">${items.length} fragancias</span>`;
+
+        return `
+          <section style="margin-bottom: 22px;">
+            <div class="collection-section-header">
+              <h2 class="collection-title-text">${title}</h2>
+              ${seeAll}
+            </div>
+            <div class="er-grid-container">
+              ${cardsHtml}
+            </div>
+          </section>
+        `;
+      }
+
+      function buildCardHtml(p) {
+        const inCartQty = getCartQty(p.id);
+        const sizeFormatted = p.ml ? (isNaN(p.ml) ? p.ml : `${p.ml} ml`) : '70 ml';
+
+        // Clean display title matching photo style
+        let cleanName = p.name;
+        cleanName = cleanName.replace(/^Louis Vuitton\s+/i, '')
+                             .replace(/^Maison Francis Kurkdjian\s+/i, '')
+                             .replace(/^Creed\s+/i, '')
+                             .replace(/^Dior\s+/i, '')
+                             .replace(/^Chanel\s+/i, '')
+                             .replace(/\s*Eau de Parfum/i, '')
+                             .replace(/\s*Extrait de Parfum/i, '')
+                             .trim();
+
+        let badgeHtml = '';
+        if (Number(p.top) > 0) badgeHtml = '<span class="card-badge-tag badge-tag-hot">HOT</span>';
+        else if (Number(p.new) > 0) badgeHtml = '<span class="card-badge-tag badge-tag-new">NEW</span>';
+
+        let cartIndicator = '';
+        if (inCartQty > 0) {
+          cartIndicator = `<span class="card-in-cart-indicator">✓ ${inCartQty}</span>`;
+        }
+
+        const notes = p.notes || 'Un viaje sensorial entre el lujo y la seducción. Notas nobles de maderas y ámbar.';
+
+        return `
+          <div class="er-product-card" onclick="openPerfumeModal('${p.id}')">
+            ${badgeHtml}
+            ${cartIndicator}
+            <div class="card-img-box">
+              <img src="${p.img}" class="card-img-el" alt="${cleanName}" loading="lazy" onerror="if(this.dataset.fallback && !this.dataset.tried){this.dataset.tried=1; this.src=this.dataset.fallback;}" ${p.remoteImg ? `data-fallback="${p.remoteImg}"` : ''}>
+            </div>
+            <div>
+              <div class="card-name-title">${cleanName}</div>
+              <div class="card-olfactory-notes">${notes}</div>
+            </div>
+            <div class="card-size-bottom">
+              <span class="bottle-ico">🧴</span>
+              <span>${sizeFormatted}</span>
+            </div>
+          </div>
+        `;
+      }
+
+      function setupSearchInput() {
+        const input = document.getElementById("catalog-search-input");
+        input.addEventListener("input", (e) => {
+          const val = e.target.value.trim();
+          if (!val) {
+            activeCollection = "Maison Francis Kurkdjian";
+            renderMainCatalog();
+          } else {
+            activeCollection = `Search:${val}`;
+            renderMainCatalog();
+          }
+        });
+      }
+
+      /* Cart Methods */
+      function loadUserCart() {
+        try {
+          cartItems = JSON.parse(localStorage.getItem("bestProducts1FastCatalogCartV1") || "[]");
+        } catch { cartItems = []; }
+        updateCapsuleBadge();
+      }
+
+      function saveUserCart() {
+        try {
+          localStorage.setItem("bestProducts1FastCatalogCartV1", JSON.stringify(cartItems));
+        } catch {}
+        updateCapsuleBadge();
+      }
+
+      function getCartQty(sku) {
+        const it = cartItems.find(i => i.name === sku);
+        return it ? it.quantity : 0;
+      }
+
+      function updateCapsuleBadge() {
+        const total = cartItems.reduce((s, i) => s + (i.quantity || 0), 0);
+        
+        const b = document.getElementById("floating-cart-count");
+        if (b) {
+          b.textContent = total;
+          b.style.display = total > 0 ? "flex" : "none";
+        }
+
+        const topBadge = document.getElementById("top-cart-count");
+        if (topBadge) topBadge.textContent = total;
+
+        const drawerNum = document.getElementById("drawer-cart-num");
+        if (drawerNum) drawerNum.textContent = total;
+      }
+
+      function showNoticeToast(msg) {
+        const t = document.getElementById("toast");
+        t.textContent = msg;
+        t.classList.add("show");
+        setTimeout(() => t.classList.remove("show"), 2200);
+      }
+
+      /* Quick add directly from drawer list */
+      function quickAddFromDrawer(sku) {
+        const p = (window.perfumeDB || []).find(i => i.id === sku);
+        if (!p) return;
+
+        let item = cartItems.find(i => i.name === sku);
+        if (item) {
+          item.quantity += 1;
+        } else {
+          cartItems.push({
+            name: sku,
+            caption: `${sku} - ${p.name}`,
+            img: p.img,
+            remoteImg: p.remoteImg,
+            brand: p.brand,
+            ml: p.ml,
+            warehouse: p.warehouse,
+            quantity: 1
+          });
+        }
+
+        saveUserCart();
+        renderMainCatalog();
+        showNoticeToast(`¡+1 ${p.name} agregado a tu lista! 🛒`);
+      }
+
+      /* Modal Methods */
+      function openPerfumeModal(sku) {
+        const p = (window.perfumeDB || []).find(i => i.id === sku);
+        if (!p) return;
+
+        currentModalSku = sku;
+        modalQuantity = 1;
+
+        document.getElementById("m-img").src = p.img;
+        document.getElementById("m-title").textContent = p.name;
+        document.getElementById("m-brand").textContent = `${p.brand} · ${p.warehouse} WAREHOUSE · ${p.gender || 'UNISEX'} · ${p.ml ? p.ml + ' ml' : '70 ml'}`;
+        document.getElementById("m-notes").textContent = p.notes || 'Notas de flores blancas, maderas aromáticas, cedro y ámbar refinado.';
+        document.getElementById("m-qty-val").textContent = modalQuantity;
+
+        const stockEl = document.getElementById("m-stock");
+        if (p.inventory && p.inventory < 50) {
+          stockEl.textContent = `🔥 Alta Demanda: ¡Solo quedan ${p.inventory} disponibles!`;
+          stockEl.style.display = "block";
+        } else {
+          stockEl.style.display = "none";
+        }
+
+        document.getElementById("perfume-modal").classList.add("open");
+      }
+
+      function closePerfumeModal() {
+        document.getElementById("perfume-modal").classList.remove("open");
+      }
+
+      function changeModalQty(delta) {
+        modalQuantity += delta;
+        if (modalQuantity < 1) modalQuantity = 1;
+        document.getElementById("m-qty-val").textContent = modalQuantity;
+      }
+
+      function addModalItemToCart() {
+        if (!currentModalSku) return;
+        const p = (window.perfumeDB || []).find(i => i.id === currentModalSku);
+        if (!p) return;
+
+        let item = cartItems.find(i => i.name === currentModalSku);
+        if (item) {
+          item.quantity += modalQuantity;
+        } else {
+          cartItems.push({
+            name: currentModalSku,
+            caption: `${currentModalSku} - ${p.name}`,
+            img: p.img,
+            remoteImg: p.remoteImg,
+            brand: p.brand,
+            ml: p.ml,
+            warehouse: p.warehouse,
+            quantity: modalQuantity
+          });
+        }
+
+        saveUserCart();
+        closePerfumeModal();
+        renderMainCatalog();
+        showNoticeToast(`¡${modalQuantity}x ${p.name} agregado a tu lista! 🛒`);
+      }
+
+      /* ================= LUXURY SPARKLES & FLOATING GOLD PARTICLES CANVAS ================= */
+      function initLuxurySparkles() {
+        const canvas = document.getElementById("luxury-sparkles-canvas");
+        if (!canvas) return;
+        const ctx = canvas.getContext("2d");
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+
+        function handleResize() {
+          width = canvas.width = window.innerWidth;
+          height = canvas.height = window.innerHeight;
+        }
+        window.addEventListener("resize", handleResize);
+
+        const particles = [];
+        const PARTICLE_COUNT = Math.min(65, Math.max(35, Math.floor(window.innerWidth / 20)));
+
+        class LuxuryParticle {
+          constructor() {
+            this.reset(true);
+          }
+          reset(init = false) {
+            this.x = Math.random() * width;
+            this.y = init ? Math.random() * height : height + 10 + Math.random() * 20;
+            this.size = Math.random() * 2.2 + 0.8;
+            this.speedY = -(Math.random() * 0.4 + 0.15);
+            this.speedX = (Math.random() - 0.5) * 0.3;
+            this.opacity = Math.random() * 0.5 + 0.2;
+            this.maxOpacity = Math.random() * 0.65 + 0.25;
+            this.pulseSpeed = Math.random() * 0.015 + 0.008;
+            this.pulseDir = Math.random() > 0.5 ? 1 : -1;
+            this.isStar = Math.random() > 0.65; // ~35% are twinkling star glitters
+            this.starSpike = this.size * 3.5;
+            this.hue = Math.random() > 0.35 ? 43 : 38; // Rich gold / champagne
+          }
+          update() {
+            this.y += this.speedY;
+            this.x += this.speedX + Math.sin(this.y * 0.008) * 0.25;
+            this.opacity += this.pulseSpeed * this.pulseDir;
+            if (this.opacity >= this.maxOpacity) {
+              this.opacity = this.maxOpacity;
+              this.pulseDir = -1;
+            } else if (this.opacity <= 0.08) {
+              this.opacity = 0.08;
+              this.pulseDir = 1;
+            }
+            if (this.y < -30 || this.x < -30 || this.x > width + 30) {
+              this.reset(false);
+            }
+          }
+          draw() {
+            ctx.save();
+            ctx.globalAlpha = Math.max(0, Math.min(1, this.opacity));
+            if (this.isStar) {
+              // 4-point glitter cross star
+              const cx = this.x;
+              const cy = this.y;
+              const s = this.starSpike;
+              ctx.beginPath();
+              ctx.moveTo(cx, cy - s);
+              ctx.quadraticCurveTo(cx, cy, cx + s, cy);
+              ctx.quadraticCurveTo(cx, cy, cx, cy + s);
+              ctx.quadraticCurveTo(cx, cy, cx - s, cy);
+              ctx.quadraticCurveTo(cx, cy, cx, cy - s);
+              ctx.closePath();
+              ctx.fillStyle = `hsl(${this.hue}, 100%, 82%)`;
+              ctx.fill();
+
+              // Center highlight point
+              ctx.beginPath();
+              ctx.arc(cx, cy, this.size * 0.6, 0, Math.PI * 2);
+              ctx.fillStyle = "#ffffff";
+              ctx.fill();
+            } else {
+              // Glowing circular gold dust mote
+              const grad = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.size * 2);
+              grad.addColorStop(0, `hsla(${this.hue}, 100%, 82%, 1)`);
+              grad.addColorStop(0.4, `hsla(${this.hue}, 85%, 62%, 0.65)`);
+              grad.addColorStop(1, `hsla(${this.hue}, 80%, 50%, 0)`);
+              ctx.fillStyle = grad;
+              ctx.beginPath();
+              ctx.arc(this.x, this.y, this.size * 2, 0, Math.PI * 2);
+              ctx.fill();
+            }
+            ctx.restore();
+          }
+        }
+
+        for (let i = 0; i < PARTICLE_COUNT; i++) {
+          particles.push(new LuxuryParticle());
+        }
+
+        function animate() {
+          ctx.clearRect(0, 0, width, height);
+          for (let i = 0; i < particles.length; i++) {
+            particles[i].update();
+            particles[i].draw();
+          }
+          requestAnimationFrame(animate);
+        }
+        requestAnimationFrame(animate);
+      }
+    </script>
+  </body>
+</html>

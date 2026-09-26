@@ -1,0 +1,11 @@
+.DS_Store
+**/.DS_Store
+images_backup_before_cjk_cleaning/
+__pycache__/
+*.pyc
+clean_chinese_text.py
+clean_parallel.py
+chinese_cleaning_report.json
+scratch*
+verify_*.py
+inspect_*.py

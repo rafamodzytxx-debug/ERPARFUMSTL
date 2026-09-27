@@ -1,0 +1,20 @@
+{
+  "name": "er-parfum-stl",
+  "version": "1.0.0",
+  "description": "ER PARFUM Luxury Fragrance Mobile Catalog",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "perfume",
+    "catalog",
+    "luxury",
+    "mobile"
+  ],
+  "author": "ER PARFUM",
+  "license": "ISC"
+}

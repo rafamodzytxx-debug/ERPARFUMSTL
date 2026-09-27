@@ -1,11 +1,30 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" style="background-color: #07070a; color: #f7e7b4;">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
     <title>ER PARFUM — Fragancias Que Dejan Huella</title>
     <link rel="icon" type="image/png" href="icon/32.png" />
     <link rel="apple-touch-icon" href="icon/180.png" />
+
+    <!-- Instant dark theme style so screen is NEVER white under any network condition -->
+    <style>
+      html, body {
+        background-color: #07070a !important;
+        background: #07070a !important;
+        color: #f7e7b4 !important;
+        margin: 0;
+        padding: 0;
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+      }
+    </style>
+    <script>
+      // Global error handler to catch and handle webview/Safari quirks gracefully
+      window.addEventListener('error', function(e) {
+        console.warn('Recovered from error:', e.message);
+      });
+    </script>
 
     <!-- Google Fonts for Luxury Boutique Typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +47,12 @@
       * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
       body {
-        margin: 0; padding: 0;
+        margin: 0;
+        padding: 0;
+        padding-top: env(safe-area-inset-top, 0px);
+        padding-bottom: calc(95px + env(safe-area-inset-bottom, 0px));
+        padding-left: env(safe-area-inset-left, 0px);
+        padding-right: env(safe-area-inset-right, 0px);
         font-family: 'Montserrat', sans-serif;
         background: #07070a;
         background-image: 
@@ -38,9 +62,9 @@
         color: #f7e7b4;
         -webkit-font-smoothing: antialiased;
         overflow-x: hidden;
-        padding-bottom: 95px;
         min-height: 100vh;
         position: relative;
+        width: 100%;
       }
 
       /* ================= BACKGROUND GLOW & PARTICLES ================= */
@@ -63,18 +87,18 @@
         animation: ambientGlowPulse 12s ease-in-out infinite alternate;
       }
       .glow-1 {
-        width: 480px;
-        height: 480px;
+        width: clamp(260px, 60vw, 480px);
+        height: clamp(260px, 60vw, 480px);
         background: radial-gradient(circle, rgba(212, 175, 55, 0.22) 0%, transparent 70%);
         top: 10%;
-        left: -80px;
+        left: -30px;
       }
       .glow-2 {
-        width: 520px;
-        height: 520px;
+        width: clamp(280px, 65vw, 520px);
+        height: clamp(280px, 65vw, 520px);
         background: radial-gradient(circle, rgba(184, 134, 11, 0.18) 0%, transparent 70%);
         bottom: 15%;
-        right: -100px;
+        right: -30px;
         animation-delay: -6s;
       }
       @keyframes ambientGlowPulse {
@@ -233,30 +257,34 @@
         justify-content: center;
       }
 
-      /* Main Header Row matching user's photo */
+      /* Main Header Row matching user's photo with fluid adaptation for any screen */
       .er-main-brand-row {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        gap: 8px;
-        padding: 2px 2px 0;
+        gap: clamp(6px, 2vw, 14px);
+        padding: 2px 0 0;
+        width: 100%;
       }
 
       /* Logo Lockup: Crown + ER on left, PARFUM + Subtitle on right */
       .er-logo-lockup {
         display: flex;
         align-items: center;
-        gap: 8px;
+        gap: clamp(5px, 1.8vw, 10px);
+        flex: 1;
+        min-width: 0;
       }
 
       .er-crown-and-letters {
         position: relative;
         text-align: center;
         line-height: 1;
+        flex-shrink: 0;
       }
       .er-crown-svg {
-        width: 32px;
-        height: 20px;
+        width: clamp(20px, 5.5vw, 30px);
+        height: auto;
         fill: url(#goldGradient);
         filter: drop-shadow(0 2px 6px rgba(212,175,55,0.6));
         display: block;
@@ -264,7 +292,7 @@
       }
       .er-letters-serif {
         font-family: 'Playfair Display', serif;
-        font-size: 2.6rem;
+        font-size: clamp(1.6rem, 5.5vw, 2.5rem);
         font-weight: 900;
         background: var(--gold-text-grad);
         -webkit-background-clip: text;
@@ -272,68 +300,64 @@
         letter-spacing: 1px;
         display: block;
       }
-      @media (max-width: 480px) {
-        .er-letters-serif { font-size: 2.15rem; }
-        .er-crown-svg { width: 26px; height: 16px; }
-      }
 
       .er-brand-titles-col {
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: left;
+        flex: 1;
+        min-width: 0;
+        max-width: clamp(140px, 45vw, 260px);
       }
       .er-title-parfum {
         font-family: 'Cinzel', serif;
-        font-size: 2.1rem;
+        font-size: clamp(1.25rem, 4.8vw, 2rem);
         font-weight: 800;
-        letter-spacing: 4px;
+        letter-spacing: clamp(1.2px, 0.8vw, 3.5px);
         background: var(--gold-text-grad);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         line-height: 1;
         margin: 0;
       }
-      @media (max-width: 480px) {
-        .er-title-parfum { font-size: 1.55rem; letter-spacing: 2.5px; }
-      }
 
       .er-subtitle-collection {
         font-family: 'Cinzel', serif;
-        font-size: 0.72rem;
+        font-size: clamp(0.44rem, 1.4vw, 0.62rem);
         font-weight: 700;
-        letter-spacing: 1.8px;
+        letter-spacing: 0.5px;
         color: #f6e6b8;
-        margin-top: 5px;
+        margin-top: 3px;
         text-transform: uppercase;
-        display: flex;
-        align-items: center;
-        gap: 6px;
-      }
-      @media (max-width: 480px) {
-        .er-subtitle-collection { font-size: 0.6rem; letter-spacing: 1px; }
+        line-height: 1.18;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        max-width: 100%;
       }
 
       /* Right Quote in Elegant Golden Script */
       .er-side-quote {
         font-family: 'Great Vibes', cursive;
         color: #f7e7b4;
-        font-size: 1.35rem;
-        line-height: 1.15;
+        font-size: clamp(0.85rem, 2.7vw, 1.25rem);
+        line-height: 1.1;
         text-align: right;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         text-shadow: 0 0 10px rgba(212,175,55,0.4);
         flex-shrink: 0;
+        min-width: 65px;
+        padding-left: 4px;
       }
       .er-side-quote .heart-symbol {
-        font-size: 1rem;
+        font-size: clamp(0.72rem, 2vw, 0.92rem);
         margin-top: -2px;
         color: #f6e6b8;
-      }
-      @media (max-width: 480px) {
-        .er-side-quote { font-size: 1.05rem; }
       }
 
       /* Slogan row with horizontal flanking lines */
@@ -341,8 +365,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        gap: clamp(6px, 2vw, 12px);
         margin-top: 10px;
+        width: 100%;
       }
       .er-slogan-line {
         flex: 1;
@@ -351,15 +376,12 @@
       }
       .er-slogan-text {
         font-family: 'Cinzel', serif;
-        font-size: 0.68rem;
+        font-size: clamp(0.52rem, 1.8vw, 0.68rem);
         font-weight: 700;
-        letter-spacing: 2.6px;
+        letter-spacing: clamp(1px, 0.5vw, 2.6px);
         color: #e5c058;
         white-space: nowrap;
         text-shadow: 0 0 6px rgba(212,175,55,0.3);
-      }
-      @media (max-width: 480px) {
-        .er-slogan-text { font-size: 0.58rem; letter-spacing: 1.5px; }
       }
 
       /* ================= TOP COLLECTION BAR (CHIPS) ================= */
@@ -522,46 +544,54 @@
         border-radius: 10px;
       }
 
-      /* ================= 3-COLUMN PERFUME GRID (EXACT PHOTO REPLICA) ================= */
+      /* ================= 3-COLUMN PERFUME GRID (AUTO-ADAPTIVE TO ANY PHONE) ================= */
       .er-grid-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 7px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: clamp(5px, 1.6vw, 10px);
         max-width: 1050px;
         margin: 0 auto 20px;
-        padding: 0 6px;
+        padding: 0 clamp(4px, 1.5vw, 10px);
         position: relative;
         z-index: 2;
+        width: 100%;
       }
-      @media (min-width: 768px) {
+      @media (max-width: 335px) {
         .er-grid-container {
-          grid-template-columns: repeat(4, 1fr);
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 8px;
+        }
+      }
+      @media (min-width: 600px) {
+        .er-grid-container {
+          grid-template-columns: repeat(4, minmax(0, 1fr));
           gap: 12px;
           padding: 0 12px;
         }
       }
-      @media (min-width: 1024px) {
+      @media (min-width: 900px) {
         .er-grid-container {
-          grid-template-columns: repeat(5, 1fr);
+          grid-template-columns: repeat(5, minmax(0, 1fr));
           gap: 15px;
         }
       }
 
       /* Individual Card matching photo with luxury dark glassmorphism ("bien transparente como blur") */
       .er-product-card {
-        background: rgba(18, 17, 23, 0.62);
+        background: rgba(18, 17, 23, 0.65);
         backdrop-filter: blur(14px);
         -webkit-backdrop-filter: blur(14px);
         border: 1px solid rgba(212, 175, 55, 0.32);
         border-radius: 6px;
-        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
-        padding: 8px 5px 9px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+        padding: clamp(6px, 1.8vw, 10px) clamp(4px, 1.2vw, 8px);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         position: relative;
         cursor: pointer;
         transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s, border-color 0.25s, background 0.25s;
+        min-width: 0;
       }
       .er-product-card:hover {
         transform: translateY(-3px);
@@ -574,7 +604,7 @@
         position: absolute;
         top: 5px; left: 5px;
         z-index: 2;
-        font-size: 0.55rem;
+        font-size: clamp(0.5rem, 1.5vw, 0.58rem);
         font-weight: 800;
         color: #fff;
         padding: 2px 4px;
@@ -591,7 +621,7 @@
         background: #111;
         color: #f6e6b8;
         border: 1px solid #d4af37;
-        font-size: 0.58rem;
+        font-size: clamp(0.52rem, 1.6vw, 0.6rem);
         font-weight: 800;
         padding: 1px 5px;
         border-radius: 10px;
@@ -600,7 +630,7 @@
 
       .card-img-box {
         width: 100%;
-        height: 120px;
+        height: clamp(105px, 29vw, 155px);
         background: rgba(255, 255, 255, 0.03);
         border: 1px solid rgba(212, 175, 55, 0.16);
         border-radius: 4px;
@@ -611,7 +641,7 @@
         justify-content: center;
         position: relative;
       }
-      @media (min-width: 768px) {
+      @media (min-width: 600px) {
         .card-img-box { height: 160px; }
       }
       .card-img-el {
@@ -627,7 +657,7 @@
 
       .card-name-title {
         font-family: 'Playfair Display', Georgia, serif;
-        font-size: 0.82rem;
+        font-size: clamp(0.72rem, 2.2vw, 0.86rem);
         font-weight: 700;
         color: #ffffff;
         text-align: center;
@@ -635,31 +665,28 @@
         line-height: 1.22;
         height: 2.45em;
         overflow: hidden;
+        text-overflow: ellipsis;
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
+        word-break: break-word;
         text-shadow: 0 1px 4px rgba(0,0,0,0.6);
-      }
-      @media (min-width: 768px) {
-        .card-name-title { font-size: 0.92rem; }
       }
 
       .card-olfactory-notes {
         font-family: 'Montserrat', sans-serif;
-        font-size: 0.6rem;
+        font-size: clamp(0.53rem, 1.7vw, 0.65rem);
         color: #b5ac98;
         text-align: center;
         line-height: 1.35;
-        height: 2.8em;
+        height: 2.7em;
         overflow: hidden;
+        text-overflow: ellipsis;
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
         padding: 0 1px;
         margin-bottom: 5px;
-      }
-      @media (min-width: 768px) {
-        .card-olfactory-notes { font-size: 0.7rem; }
       }
 
       /* Card Size Row: Bottle Icon + Size (Exact Photo Style) */
@@ -668,7 +695,7 @@
         align-items: center;
         justify-content: center;
         gap: 4px;
-        font-size: 0.7rem;
+        font-size: clamp(0.6rem, 1.9vw, 0.72rem);
         color: #e5c058;
         font-weight: 600;
         padding-top: 4px;
@@ -692,8 +719,9 @@
       }
       .nav-collection-btn {
         width: 100%;
-        max-width: 450px;
-        padding: 12px 18px;
+        max-width: min(450px, calc(100% - 10px));
+        padding: 12px clamp(12px, 3vw, 18px);
+        box-sizing: border-box;
         background: rgba(18, 17, 23, 0.72);
         backdrop-filter: blur(14px);
         -webkit-backdrop-filter: blur(14px);
@@ -1135,12 +1163,12 @@
       /* ================= FLOATING CART BAR ================= */
       .er-floating-bar {
         position: fixed;
-        bottom: 18px;
+        bottom: calc(14px + env(safe-area-inset-bottom, 0px));
         left: 50%;
         transform: translateX(-50%);
-        width: 90%;
-        max-width: 430px;
-        height: 56px;
+        width: calc(100% - 24px);
+        max-width: 420px;
+        height: 52px;
         background: #0d0d0f;
         border: 1.5px solid #d4af37;
         border-radius: 30px;
@@ -1149,6 +1177,7 @@
         align-items: stretch;
         overflow: hidden;
         z-index: 2000;
+        box-sizing: border-box;
       }
       .floating-left {
         width: 38%;
@@ -1228,12 +1257,16 @@
         margin: 0 auto 16px;
         padding-bottom: 16px;
         border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+        flex-wrap: wrap;
+        gap: 10px 14px;
+        width: 100%;
+        box-sizing: border-box;
       }
       .footer-cell {
         display: flex;
         align-items: center;
         gap: 6px;
-        font-size: 0.75rem;
+        font-size: clamp(0.68rem, 2vw, 0.75rem);
         font-weight: 600;
         color: #f7e7b4;
         text-align: left;
@@ -1242,22 +1275,29 @@
       .footer-cell a:hover { color: #fff; text-decoration: underline; }
       .footer-cell-sub {
         display: block;
-        font-size: 0.6rem;
+        font-size: clamp(0.55rem, 1.6vw, 0.6rem);
         color: #999;
-        letter-spacing: 1px;
+        letter-spacing: 0.8px;
       }
       .footer-divider-pipe {
         color: rgba(212, 175, 55, 0.4);
         font-weight: 300;
       }
+      @media (max-width: 480px) {
+        .footer-divider-pipe { display: none; }
+      }
 
       .footer-bottom-tagline {
         text-align: center;
         font-family: 'Cinzel', serif;
-        font-size: 0.68rem;
-        letter-spacing: 2px;
+        font-size: clamp(0.54rem, 1.8vw, 0.68rem);
+        letter-spacing: clamp(0.8px, 0.4vw, 1.8px);
         color: #d4af37;
         margin: 0;
+        padding: 0 10px;
+        line-height: 1.4;
+        word-break: break-word;
+        box-sizing: border-box;
       }
 
       #toast {
@@ -1535,12 +1575,12 @@
       ];
 
       document.addEventListener("DOMContentLoaded", () => {
-        initLuxurySparkles();
-        loadUserCart();
-        renderBrandChips();
-        renderDrawerList();
-        renderMainCatalog();
-        setupSearchInput();
+        try { initLuxurySparkles(); } catch (e) { console.warn("Sparkles err:", e); }
+        try { loadUserCart(); } catch (e) {}
+        try { renderBrandChips(); } catch (e) {}
+        try { renderDrawerList(); } catch (e) {}
+        try { renderMainCatalog(); } catch (e) {}
+        try { setupSearchInput(); } catch (e) {}
       });
 
       function toggleDrawer() {
@@ -1914,17 +1954,20 @@
         });
       }
 
-      /* Cart Methods */
+      /* Cart Methods with Safe Storage Fallback */
       function loadUserCart() {
         try {
-          cartItems = JSON.parse(localStorage.getItem("bestProducts1FastCatalogCartV1") || "[]");
+          const raw = (window.safeStorage ? window.safeStorage.getItem("bestProducts1FastCatalogCartV1") : null) || (typeof localStorage !== "undefined" ? localStorage.getItem("bestProducts1FastCatalogCartV1") : null);
+          cartItems = JSON.parse(raw || "[]");
         } catch { cartItems = []; }
         updateCapsuleBadge();
       }
 
       function saveUserCart() {
         try {
-          localStorage.setItem("bestProducts1FastCatalogCartV1", JSON.stringify(cartItems));
+          const json = JSON.stringify(cartItems);
+          if (window.safeStorage) window.safeStorage.setItem("bestProducts1FastCatalogCartV1", json);
+          else if (typeof localStorage !== "undefined") localStorage.setItem("bestProducts1FastCatalogCartV1", json);
         } catch {}
         updateCapsuleBadge();
       }
@@ -2047,105 +2090,110 @@
 
       /* ================= LUXURY SPARKLES & FLOATING GOLD PARTICLES CANVAS ================= */
       function initLuxurySparkles() {
-        const canvas = document.getElementById("luxury-sparkles-canvas");
-        if (!canvas) return;
-        const ctx = canvas.getContext("2d");
-        let width = canvas.width = window.innerWidth;
-        let height = canvas.height = window.innerHeight;
+        try {
+          const canvas = document.getElementById("luxury-sparkles-canvas");
+          if (!canvas || !canvas.getContext) return;
+          const ctx = canvas.getContext("2d");
+          if (!ctx) return;
+          let width = canvas.width = window.innerWidth;
+          let height = canvas.height = window.innerHeight;
 
-        function handleResize() {
-          width = canvas.width = window.innerWidth;
-          height = canvas.height = window.innerHeight;
-        }
-        window.addEventListener("resize", handleResize);
-
-        const particles = [];
-        const PARTICLE_COUNT = Math.min(65, Math.max(35, Math.floor(window.innerWidth / 20)));
-
-        class LuxuryParticle {
-          constructor() {
-            this.reset(true);
+          function handleResize() {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
           }
-          reset(init = false) {
-            this.x = Math.random() * width;
-            this.y = init ? Math.random() * height : height + 10 + Math.random() * 20;
-            this.size = Math.random() * 2.2 + 0.8;
-            this.speedY = -(Math.random() * 0.4 + 0.15);
-            this.speedX = (Math.random() - 0.5) * 0.3;
-            this.opacity = Math.random() * 0.5 + 0.2;
-            this.maxOpacity = Math.random() * 0.65 + 0.25;
-            this.pulseSpeed = Math.random() * 0.015 + 0.008;
-            this.pulseDir = Math.random() > 0.5 ? 1 : -1;
-            this.isStar = Math.random() > 0.65; // ~35% are twinkling star glitters
-            this.starSpike = this.size * 3.5;
-            this.hue = Math.random() > 0.35 ? 43 : 38; // Rich gold / champagne
-          }
-          update() {
-            this.y += this.speedY;
-            this.x += this.speedX + Math.sin(this.y * 0.008) * 0.25;
-            this.opacity += this.pulseSpeed * this.pulseDir;
-            if (this.opacity >= this.maxOpacity) {
-              this.opacity = this.maxOpacity;
-              this.pulseDir = -1;
-            } else if (this.opacity <= 0.08) {
-              this.opacity = 0.08;
-              this.pulseDir = 1;
+          window.addEventListener("resize", handleResize);
+
+          const particles = [];
+          const PARTICLE_COUNT = Math.min(65, Math.max(35, Math.floor(window.innerWidth / 20)));
+
+          class LuxuryParticle {
+            constructor() {
+              this.reset(true);
             }
-            if (this.y < -30 || this.x < -30 || this.x > width + 30) {
-              this.reset(false);
+            reset(init = false) {
+              this.x = Math.random() * width;
+              this.y = init ? Math.random() * height : height + 10 + Math.random() * 20;
+              this.size = Math.random() * 2.2 + 0.8;
+              this.speedY = -(Math.random() * 0.4 + 0.15);
+              this.speedX = (Math.random() - 0.5) * 0.3;
+              this.opacity = Math.random() * 0.5 + 0.2;
+              this.maxOpacity = Math.random() * 0.65 + 0.25;
+              this.pulseSpeed = Math.random() * 0.015 + 0.008;
+              this.pulseDir = Math.random() > 0.5 ? 1 : -1;
+              this.isStar = Math.random() > 0.65; // ~35% are twinkling star glitters
+              this.starSpike = this.size * 3.5;
+              this.hue = Math.random() > 0.35 ? 43 : 38; // Rich gold / champagne
+            }
+            update() {
+              this.y += this.speedY;
+              this.x += this.speedX + Math.sin(this.y * 0.008) * 0.25;
+              this.opacity += this.pulseSpeed * this.pulseDir;
+              if (this.opacity >= this.maxOpacity) {
+                this.opacity = this.maxOpacity;
+                this.pulseDir = -1;
+              } else if (this.opacity <= 0.08) {
+                this.opacity = 0.08;
+                this.pulseDir = 1;
+              }
+              if (this.y < -30 || this.x < -30 || this.x > width + 30) {
+                this.reset(false);
+              }
+            }
+            draw() {
+              ctx.save();
+              ctx.globalAlpha = Math.max(0, Math.min(1, this.opacity));
+              if (this.isStar) {
+                // 4-point glitter cross star
+                const cx = this.x;
+                const cy = this.y;
+                const s = this.starSpike;
+                ctx.beginPath();
+                ctx.moveTo(cx, cy - s);
+                ctx.quadraticCurveTo(cx, cy, cx + s, cy);
+                ctx.quadraticCurveTo(cx, cy, cx, cy + s);
+                ctx.quadraticCurveTo(cx, cy, cx - s, cy);
+                ctx.quadraticCurveTo(cx, cy, cx, cy - s);
+                ctx.closePath();
+                ctx.fillStyle = `hsl(${this.hue}, 100%, 82%)`;
+                ctx.fill();
+
+                // Center highlight point
+                ctx.beginPath();
+                ctx.arc(cx, cy, this.size * 0.6, 0, Math.PI * 2);
+                ctx.fillStyle = "#ffffff";
+                ctx.fill();
+              } else {
+                // Glowing circular gold dust mote
+                const grad = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.size * 2);
+                grad.addColorStop(0, `hsla(${this.hue}, 100%, 82%, 1)`);
+                grad.addColorStop(0.4, `hsla(${this.hue}, 85%, 62%, 0.65)`);
+                grad.addColorStop(1, `hsla(${this.hue}, 80%, 50%, 0)`);
+                ctx.fillStyle = grad;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size * 2, 0, Math.PI * 2);
+                ctx.fill();
+              }
+              ctx.restore();
             }
           }
-          draw() {
-            ctx.save();
-            ctx.globalAlpha = Math.max(0, Math.min(1, this.opacity));
-            if (this.isStar) {
-              // 4-point glitter cross star
-              const cx = this.x;
-              const cy = this.y;
-              const s = this.starSpike;
-              ctx.beginPath();
-              ctx.moveTo(cx, cy - s);
-              ctx.quadraticCurveTo(cx, cy, cx + s, cy);
-              ctx.quadraticCurveTo(cx, cy, cx, cy + s);
-              ctx.quadraticCurveTo(cx, cy, cx - s, cy);
-              ctx.quadraticCurveTo(cx, cy, cx, cy - s);
-              ctx.closePath();
-              ctx.fillStyle = `hsl(${this.hue}, 100%, 82%)`;
-              ctx.fill();
 
-              // Center highlight point
-              ctx.beginPath();
-              ctx.arc(cx, cy, this.size * 0.6, 0, Math.PI * 2);
-              ctx.fillStyle = "#ffffff";
-              ctx.fill();
-            } else {
-              // Glowing circular gold dust mote
-              const grad = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.size * 2);
-              grad.addColorStop(0, `hsla(${this.hue}, 100%, 82%, 1)`);
-              grad.addColorStop(0.4, `hsla(${this.hue}, 85%, 62%, 0.65)`);
-              grad.addColorStop(1, `hsla(${this.hue}, 80%, 50%, 0)`);
-              ctx.fillStyle = grad;
-              ctx.beginPath();
-              ctx.arc(this.x, this.y, this.size * 2, 0, Math.PI * 2);
-              ctx.fill();
-            }
-            ctx.restore();
+          for (let i = 0; i < PARTICLE_COUNT; i++) {
+            particles.push(new LuxuryParticle());
           }
-        }
 
-        for (let i = 0; i < PARTICLE_COUNT; i++) {
-          particles.push(new LuxuryParticle());
-        }
-
-        function animate() {
-          ctx.clearRect(0, 0, width, height);
-          for (let i = 0; i < particles.length; i++) {
-            particles[i].update();
-            particles[i].draw();
+          function animate() {
+            ctx.clearRect(0, 0, width, height);
+            for (let i = 0; i < particles.length; i++) {
+              particles[i].update();
+              particles[i].draw();
+            }
+            requestAnimationFrame(animate);
           }
           requestAnimationFrame(animate);
+        } catch (e) {
+          console.warn("Sparkles canvas not available in this webview:", e);
         }
-        requestAnimationFrame(animate);
       }
     </script>
   </body>

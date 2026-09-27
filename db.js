@@ -5,6 +5,39 @@ const PRODUCT_TIME_KEY = "bestProducts1FastCatalogTimeV1";
 const CART_STORAGE_KEY = "bestProducts1FastCatalogCartV1";
 const CACHE_DURATION = 5 * 60 * 1000;
 const MIN_STOCK = 19;
+
+// In-memory safe storage fallback for iOS / Private Browsing / WhatsApp Webview
+const safeStorage = {
+  _mem: {},
+  getItem(key) {
+    try {
+      if (typeof window !== "undefined" && window.localStorage) {
+        return window.localStorage.getItem(key);
+      }
+    } catch (e) {}
+    return this._mem[key] || null;
+  },
+  setItem(key, val) {
+    try {
+      if (typeof window !== "undefined" && window.localStorage) {
+        window.localStorage.setItem(key, val);
+        return;
+      }
+    } catch (e) {}
+    this._mem[key] = String(val);
+  },
+  removeItem(key) {
+    try {
+      if (typeof window !== "undefined" && window.localStorage) {
+        window.localStorage.removeItem(key);
+        return;
+      }
+    } catch (e) {}
+    delete this._mem[key];
+  }
+};
+window.safeStorage = safeStorage;
+
 window.perfumeDB = (Array.isArray(window.perfumeDB) && window.perfumeDB.length > 0) 
   ? window.perfumeDB 
   : ((typeof window.PERFUMES_DATA !== "undefined" && Array.isArray(window.PERFUMES_DATA)) ? window.PERFUMES_DATA : []);
@@ -76,7 +109,7 @@ function parseCSV(csvText) {
 
 function readFastCart() {
   try {
-    const cart = JSON.parse(localStorage.getItem(CART_STORAGE_KEY) || "[]");
+    const cart = JSON.parse(safeStorage.getItem(CART_STORAGE_KEY) || "[]");
     return Array.isArray(cart) ? cart : [];
   } catch {
     return [];
@@ -84,11 +117,15 @@ function readFastCart() {
 }
 
 function writeFastCart(cart) {
-  localStorage.setItem(CART_STORAGE_KEY, JSON.stringify(Array.isArray(cart) ? cart : []));
+  try {
+    safeStorage.setItem(CART_STORAGE_KEY, JSON.stringify(Array.isArray(cart) ? cart : []));
+  } catch (e) {}
 }
 
 function clearFastCart() {
-  localStorage.removeItem(CART_STORAGE_KEY);
+  try {
+    safeStorage.removeItem(CART_STORAGE_KEY);
+  } catch (e) {}
 }
 
 function getBrandCategories(products) {
@@ -105,13 +142,17 @@ function getBrandCategories(products) {
 }
 
 function runPageLogic() {
-  if (typeof renderHome === "function") renderHome();
-  if (typeof renderGridPage === "function") renderGridPage();
-  if (typeof renderCart === "function") renderCart();
-  if (typeof renderMainCatalog === "function") {
-    if (typeof renderBrandChips === "function") renderBrandChips();
-    if (typeof renderDrawerList === "function") renderDrawerList();
-    renderMainCatalog();
+  try {
+    if (typeof renderHome === "function") renderHome();
+    if (typeof renderGridPage === "function") renderGridPage();
+    if (typeof renderCart === "function") renderCart();
+    if (typeof renderMainCatalog === "function") {
+      if (typeof renderBrandChips === "function") renderBrandChips();
+      if (typeof renderDrawerList === "function") renderDrawerList();
+      renderMainCatalog();
+    }
+  } catch (err) {
+    console.error("Error running page logic:", err);
   }
 }
 
@@ -128,8 +169,8 @@ async function initProductData() {
 
   let cachedProducts = [];
   try {
-    const cachedAt = Number(localStorage.getItem(PRODUCT_TIME_KEY));
-    const parsed = JSON.parse(localStorage.getItem(PRODUCT_CACHE_KEY) || "[]");
+    const cachedAt = Number(safeStorage.getItem(PRODUCT_TIME_KEY));
+    const parsed = JSON.parse(safeStorage.getItem(PRODUCT_CACHE_KEY) || "[]");
     if (Array.isArray(parsed) && parsed.length) cachedProducts = parsed;
     if (cachedProducts.length && Date.now() - cachedAt < CACHE_DURATION) {
       window.perfumeDB = cachedProducts;
@@ -137,7 +178,7 @@ async function initProductData() {
       return;
     }
   } catch (e) {
-    // Ignore localStorage restrictions
+    // Ignore storage restrictions
   }
 
   try {
@@ -147,8 +188,8 @@ async function initProductData() {
     if (products && products.length) {
       window.perfumeDB = products;
       try {
-        localStorage.setItem(PRODUCT_CACHE_KEY, JSON.stringify(products));
-        localStorage.setItem(PRODUCT_TIME_KEY, String(Date.now()));
+        safeStorage.setItem(PRODUCT_CACHE_KEY, JSON.stringify(products));
+        safeStorage.setItem(PRODUCT_TIME_KEY, String(Date.now()));
       } catch (e) {}
       runPageLogic();
     }
@@ -165,4 +206,10 @@ async function initProductData() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", initProductData);
+document.addEventListener("DOMContentLoaded", () => {
+  try {
+    initProductData();
+  } catch (e) {
+    console.error("Error in initProductData:", e);
+  }
+});

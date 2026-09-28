@@ -1,4 +1,5 @@
 @echo off
+set "PATH=%PATH%;C:\Program Files\Git\cmd;C:\Program Files\Git\bin"
 
 echo Sincronizando ultimos cambios desde GitHub...
 git pull origin main --rebase

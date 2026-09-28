@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
-    <title>ER PARFUM — Lista de Selección</title>
+    <title data-i18n="cartPageTitle">ER PARFUM — Lista de Selección</title>
+    <script src="i18n.js"></script>
     <link rel="icon" type="image/png" href="icon/32.png" />
     <link rel="apple-touch-icon" href="icon/180.png" />
 
@@ -27,7 +28,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Great+Vibes&family=Montserrat:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Great+Vibes&family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
 
     <style>
       :root {
@@ -35,6 +36,7 @@
         --gold-light: #f6e6b8;
         --gold-border: rgba(212, 175, 55, 0.4);
         --gold-gradient: linear-gradient(135deg, #bf953f 0%, #fcf6ba 35%, #b38728 70%, #fbf5b7 85%, #aa771c 100%);
+        --wa-gradient: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
         --black-bg: #09090b;
         --body-bg: #07070a;
       }
@@ -43,15 +45,15 @@
         margin: 0;
         padding: 0;
         padding-top: env(safe-area-inset-top, 0px);
-        padding-bottom: calc(120px + env(safe-area-inset-bottom, 0px));
+        padding-bottom: calc(130px + env(safe-area-inset-bottom, 0px));
         padding-left: env(safe-area-inset-left, 0px);
         padding-right: env(safe-area-inset-right, 0px);
         font-family: 'Montserrat', sans-serif;
         background: #07070a;
         background-image: 
-          radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.1) 0%, transparent 60%),
-          radial-gradient(circle at 10% 40%, rgba(170, 119, 28, 0.06) 0%, transparent 45%),
-          radial-gradient(circle at 90% 70%, rgba(212, 175, 55, 0.08) 0%, transparent 50%);
+          radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.12) 0%, transparent 60%),
+          radial-gradient(circle at 10% 40%, rgba(170, 119, 28, 0.08) 0%, transparent 45%),
+          radial-gradient(circle at 90% 70%, rgba(212, 175, 55, 0.1) 0%, transparent 50%);
         color: #f7e7b4;
         -webkit-font-smoothing: antialiased;
         position: relative;
@@ -100,20 +102,21 @@
         100% { transform: translateY(35px) scale(1.15); opacity: 0.4; }
       }
 
+      /* ================= HEADER ================= */
       .er-cart-header {
         position: relative;
         background: radial-gradient(circle at 50% 20%, #1f1d18 0%, #09090b 100%);
         color: #fff;
-        padding: 20px 15px 16px;
+        padding: 20px 16px 16px;
         text-align: center;
         border-bottom: 2px solid #b8860b;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        box-shadow: 0 4px 25px rgba(0,0,0,0.5);
       }
       .er-header-row {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        max-width: 1100px;
+        max-width: 1180px;
         margin: 0 auto;
       }
       .back-btn {
@@ -122,21 +125,28 @@
         gap: 6px;
         color: #d4af37;
         font-weight: 700;
-        font-size: 0.85rem;
+        font-size: 0.82rem;
+        letter-spacing: 0.5px;
         cursor: pointer;
-        padding: 6px 12px;
+        padding: 7px 14px;
         border-radius: 20px;
         background: rgba(212,175,55,0.1);
-        border: 1px solid rgba(212,175,55,0.3);
+        border: 1px solid rgba(212,175,55,0.35);
+        text-decoration: none;
+        transition: all 0.2s ease;
       }
-      .back-btn:hover { background: rgba(212,175,55,0.2); }
+      .back-btn:hover {
+        background: rgba(212,175,55,0.22);
+        border-color: #d4af37;
+        transform: translateX(-2px);
+      }
 
       .cart-title-group {
         text-align: center;
       }
       .cart-logo {
         font-family: 'Playfair Display', serif;
-        font-size: 1.5rem;
+        font-size: 1.55rem;
         font-weight: 900;
         color: #f6e6b8;
         letter-spacing: 2px;
@@ -147,219 +157,603 @@
       }
       .cart-subtitle {
         font-family: 'Cinzel', serif;
-        font-size: 0.72rem;
+        font-size: 0.74rem;
         letter-spacing: 2px;
         color: #d4af37;
         margin-top: 3px;
+        font-weight: 700;
       }
 
+      /* ================= MAIN CONTAINER & RESPONSIVE GRID ================= */
       #capture-area {
-        max-width: 1100px;
-        margin: 20px auto;
-        padding: 0 12px;
+        max-width: 1180px;
+        margin: 24px auto;
+        padding: 0 16px;
+        position: relative;
+        z-index: 1;
       }
 
-      .cart-items-list {
+      .cart-main-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-        gap: 15px;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        align-items: start;
+      }
+
+      @media (min-width: 940px) {
+        .cart-main-grid {
+          grid-template-columns: 1.15fr 0.85fr;
+          gap: 28px;
+        }
+        .cart-summary-col {
+          position: sticky;
+          top: 24px;
+        }
+      }
+
+      /* Section titles */
+      .cart-section-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 14px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+      }
+      .cart-section-title {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #ffffff;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .items-count-badge {
+        background: rgba(212, 175, 55, 0.2);
+        border: 1px solid rgba(212, 175, 55, 0.5);
+        color: #f6e6b8;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-size: 0.75rem;
+        font-weight: 800;
+        font-family: 'Montserrat', sans-serif;
+      }
+
+      /* ================= PERFUME CARDS LIST ================= */
+      .cart-items-list {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
         list-style: none;
         padding: 0;
         margin: 0;
       }
+
       .cart-item {
-        background: rgba(18, 17, 23, 0.65);
+        background: rgba(18, 17, 23, 0.72);
         backdrop-filter: blur(14px);
         -webkit-backdrop-filter: blur(14px);
-        padding: 14px;
+        padding: 14px 16px;
         display: flex;
-        align-items: flex-start;
-        border-radius: 8px;
-        border: 1px solid rgba(212, 175, 55, 0.32);
-        box-shadow: 0 6px 20px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.06);
+        gap: 14px;
+        align-items: stretch;
+        border-radius: 12px;
+        border: 1px solid rgba(212, 175, 55, 0.3);
+        box-shadow: 0 6px 20px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.05);
         position: relative;
         color: #fff;
+        transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+      }
+      .cart-item:hover {
+        border-color: rgba(212, 175, 55, 0.6);
+        box-shadow: 0 10px 28px rgba(0,0,0,0.6), 0 0 15px rgba(212, 175, 55, 0.12);
+        transform: translateY(-2px);
+      }
+
+      .item-img-container {
+        position: relative;
+        width: 84px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       .cart-item-img {
-        width: 75px; height: 85px;
+        width: 100%;
+        height: 100%;
+        min-height: 98px;
         object-fit: cover;
-        flex-shrink: 0;
-        margin-right: 14px;
-        border-radius: 6px;
-        border: 1px solid rgba(212, 175, 55, 0.25);
-        background: rgba(255, 255, 255, 0.03);
+        border-radius: 8px;
+        border: 1px solid rgba(212, 175, 55, 0.3);
+        background: rgba(255, 255, 255, 0.04);
+        display: block;
       }
-      .item-content { flex-grow: 1; min-width: 0; }
+      .warehouse-badge-floating {
+        position: absolute;
+        bottom: 4px;
+        left: 4px;
+        background: rgba(14, 13, 18, 0.92);
+        border: 1px solid rgba(212, 175, 55, 0.6);
+        color: #f7e7b4;
+        font-size: 0.62rem;
+        font-weight: 800;
+        padding: 1px 5px;
+        border-radius: 4px;
+        letter-spacing: 0.5px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+      }
+
+      .item-content {
+        flex-grow: 1;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
       .item-header {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        margin-bottom: 6px;
+        gap: 8px;
+      }
+      .item-meta {
+        min-width: 0;
+      }
+      .item-brand-tag {
+        display: block;
+        font-size: 0.68rem;
+        font-weight: 700;
+        color: #d4af37;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 2px;
       }
       .item-title {
         font-family: 'Playfair Display', Georgia, serif;
-        font-size: 0.95rem;
+        font-size: 1.05rem;
         font-weight: 700;
         color: #ffffff;
         margin: 0;
-        line-height: 1.3;
+        line-height: 1.25;
       }
-      .remove-btn-icon {
-        background: none; border: 0; color: #888;
-        font-size: 1.3rem; cursor: pointer; padding: 0; line-height: 1;
-        transition: color 0.2s;
-      }
-      .remove-btn-icon:hover { color: #e74c3c; }
-      .warehouse-pill {
+      .item-sku-code {
         display: inline-block;
-        margin-top: 4px;
-        padding: 2px 8px;
-        border: 1px solid rgba(212, 175, 55, 0.4);
-        border-radius: 12px;
-        background: rgba(212, 175, 55, 0.15);
-        color: #f7e7b4;
-        font-size: 0.68rem;
-        font-weight: 700;
+        font-size: 0.72rem;
+        color: #a49a88;
+        font-family: ui-monospace, monospace;
+        margin-top: 3px;
+        background: rgba(0,0,0,0.3);
+        padding: 1px 6px;
+        border-radius: 4px;
       }
 
-      .info-row {
+      .remove-btn-icon {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(212, 175, 55, 0.2);
+        color: #a89f91;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        line-height: 1;
+        cursor: pointer;
+        flex-shrink: 0;
+        transition: all 0.2s ease;
+      }
+      .remove-btn-icon:hover {
+        background: rgba(231, 76, 60, 0.25);
+        border-color: #e74c3c;
+        color: #ff6b6b;
+        transform: rotate(90deg);
+      }
+
+      .item-details-row {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 6px 0;
-        border-top: 1px dashed rgba(212, 175, 55, 0.25);
-        font-size: 0.85rem;
-        color: #c5bba8;
+        margin-top: 10px;
+        padding-top: 8px;
+        border-top: 1px dashed rgba(212, 175, 55, 0.22);
+        gap: 8px;
+        flex-wrap: wrap;
       }
+      .item-pill-group {
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .warehouse-pill {
+        display: inline-block;
+        padding: 3px 8px;
+        border: 1px solid rgba(212, 175, 55, 0.45);
+        border-radius: 12px;
+        background: rgba(212, 175, 55, 0.15);
+        color: #f7e7b4;
+        font-size: 0.7rem;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+      }
+      .size-pill {
+        padding: 3px 8px;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: #e2d9c8;
+      }
+
       .qty-wrapper {
         display: flex;
         border: 1.5px solid #d4af37;
-        border-radius: 4px;
+        border-radius: 6px;
         overflow: hidden;
-        height: 28px;
-        background: rgba(0,0,0,0.6);
+        height: 32px;
+        background: rgba(0,0,0,0.7);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.4);
       }
       .qty-btn {
-        background: #111113;
+        background: #111114;
         color: #f6e6b8;
         border: 0;
-        width: 28px;
-        font-size: 0.95rem;
+        width: 32px;
+        font-size: 1.05rem;
         font-weight: 800;
         cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: background 0.2s;
+        user-select: none;
+      }
+      .qty-btn:hover {
+        background: rgba(212, 175, 55, 0.25);
+        color: #ffffff;
+      }
+      .qty-btn:active {
+        background: #d4af37;
+        color: #000000;
       }
       .qty-display {
-        width: 32px;
+        width: 36px;
         text-align: center;
-        line-height: 28px;
-        font-size: 0.85rem;
-        font-weight: 700;
-        background: rgba(20, 18, 24, 0.9);
+        line-height: 32px;
+        font-size: 0.92rem;
+        font-weight: 800;
+        background: rgba(20, 18, 25, 0.9);
         color: #ffffff;
       }
 
+      /* ================= SUMMARY CARD ================= */
       .cart-summary {
-        background: rgba(18, 17, 23, 0.72);
+        background: rgba(18, 17, 23, 0.78);
         backdrop-filter: blur(14px);
         -webkit-backdrop-filter: blur(14px);
         padding: 22px;
-        margin-top: 25px;
-        border-radius: 8px;
-        border: 1px solid rgba(212, 175, 55, 0.35);
-        box-shadow: 0 6px 25px rgba(0,0,0,0.5);
+        border-radius: 14px;
+        border: 1px solid rgba(212, 175, 55, 0.38);
+        box-shadow: 0 8px 30px rgba(0,0,0,0.6);
       }
-      .cart-summary h2 {
-        font-family: 'Playfair Display', serif;
-        font-size: 1.25rem;
-        font-weight: 700;
-        margin: 0 0 15px;
+      .summary-header {
         text-align: center;
+        margin-bottom: 16px;
+      }
+      .summary-header h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 1.35rem;
+        font-weight: 800;
+        margin: 0;
         color: #ffffff;
       }
+      .summary-subtitle {
+        font-family: 'Cinzel', serif;
+        font-size: 0.72rem;
+        color: #d4af37;
+        letter-spacing: 1px;
+        margin: 4px 0 0;
+      }
+
+      /* KPI Badges Mini-Grid */
+      .summary-kpis {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin: 16px 0;
+      }
+      .kpi-card {
+        background: rgba(12, 11, 16, 0.7);
+        border: 1px solid rgba(212, 175, 55, 0.28);
+        border-radius: 10px;
+        padding: 12px 14px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        transition: border-color 0.2s, background 0.2s;
+      }
+      .kpi-card:hover {
+        border-color: rgba(212, 175, 55, 0.55);
+        background: rgba(16, 15, 22, 0.85);
+      }
+      .kpi-icon {
+        font-size: 1.5rem;
+        line-height: 1;
+      }
+      .kpi-content {
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+      }
+      .kpi-label {
+        font-size: 0.68rem;
+        color: #aba192;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        line-height: 1.2;
+      }
+      .kpi-value {
+        font-size: 1.3rem;
+        font-weight: 800;
+        color: #f6e6b8;
+        margin-top: 2px;
+      }
+
+      /* Total Bar */
       .summary-row {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin-bottom: 8px;
         font-size: 0.95rem;
         color: #d6ccba;
       }
       .summary-quantity-total {
-        align-items: center;
-        margin: 12px 0 15px;
-        padding: 12px 14px;
-        border-radius: 6px;
-        background: rgba(212, 175, 55, 0.15);
-        border: 1px solid rgba(212, 175, 55, 0.35);
+        margin: 14px 0 16px;
+        padding: 12px 16px;
+        border-radius: 8px;
+        background: rgba(212, 175, 55, 0.16);
+        border: 1px solid rgba(212, 175, 55, 0.45);
         color: #f7e7b4;
-        font-size: 1.1rem;
+        font-size: 1.12rem;
         font-weight: 700;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
       }
-      .preview-label {
-        display: block;
+      .total-title {
+        font-family: 'Cinzel', serif;
+        letter-spacing: 0.5px;
+      }
+      .total-val {
+        font-weight: 800;
+        color: #ffffff;
+      }
+
+      /* Format Pills & Order Preview Box */
+      .preview-box-wrapper {
         margin-top: 18px;
         padding-top: 14px;
         border-top: 1px solid rgba(212, 175, 55, 0.3);
+      }
+      .preview-box-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+      }
+      .preview-label {
         font-family: 'Cinzel', serif;
-        font-size: 0.82rem;
-        font-weight: 700;
+        font-size: 0.8rem;
+        font-weight: 800;
         color: #d4af37;
         letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
       }
-      .list-preview {
-        width: 100%;
-        min-height: 140px;
-        margin-top: 8px;
-        padding: 12px;
-        resize: vertical;
-        border: 1px solid rgba(212, 175, 55, 0.35);
-        border-radius: 6px;
-        background: rgba(10, 10, 14, 0.8);
-        font: 0.88rem/1.5 ui-monospace, monospace;
+      .quick-copy-btn {
+        background: rgba(212, 175, 55, 0.15);
+        border: 1px solid rgba(212, 175, 55, 0.4);
         color: #f6e6b8;
+        padding: 4px 10px;
+        border-radius: 6px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+      .quick-copy-btn:hover {
+        background: #d4af37;
+        color: #111;
       }
 
-      .cart-actions {
-        position: fixed;
-        bottom: 0; left: 0; width: 100%;
-        background: #0d0d0f;
-        border-top: 1.5px solid #d4af37;
-        padding: 12px 15px;
+      /* Format selector toggle */
+      .format-pill-group {
         display: flex;
-        gap: 12px;
-        box-shadow: 0 -4px 15px rgba(0,0,0,0.3);
-        z-index: 1000;
+        background: rgba(9, 8, 12, 0.9);
+        border: 1px solid rgba(212, 175, 55, 0.35);
+        border-radius: 8px;
+        padding: 3px;
+        margin-bottom: 10px;
+        gap: 4px;
       }
-      .action-btn {
+      .format-pill {
         flex: 1;
-        padding: 12px;
+        background: transparent;
         border: 0;
+        color: #c5bba8;
+        padding: 8px 10px;
+        font-size: 0.78rem;
+        font-weight: 700;
         border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+      }
+      .format-pill.active {
+        background: var(--gold-gradient);
+        color: #111113;
+        font-weight: 800;
+        box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+      }
+
+      .list-preview {
+        width: 100%;
+        min-height: 155px;
+        padding: 12px 14px;
+        resize: vertical;
+        border: 1px solid rgba(212, 175, 55, 0.35);
+        border-radius: 8px;
+        background: rgba(9, 9, 13, 0.85);
+        font: 0.84rem/1.6 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        color: #f6e6b8;
+        box-shadow: inset 0 2px 8px rgba(0,0,0,0.6);
+        white-space: pre;
+      }
+      .list-preview:focus {
+        outline: none;
+        border-color: #d4af37;
+        box-shadow: inset 0 2px 8px rgba(0,0,0,0.6), 0 0 10px rgba(212, 175, 55, 0.35);
+      }
+      .preview-hint {
+        font-size: 0.72rem;
+        color: #9c9180;
+        margin-top: 6px;
+        line-height: 1.4;
+      }
+
+      /* Desktop inline buttons inside summary */
+      .summary-actions-inline {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 18px;
+      }
+      .btn-wa-direct {
+        width: 100%;
+        padding: 13px 16px;
+        border-radius: 8px;
+        border: 1px solid rgba(37, 211, 102, 0.6);
+        background: var(--wa-gradient);
+        color: #ffffff;
         font-family: 'Cinzel', serif;
-        font-size: 0.9rem;
+        font-size: 0.88rem;
         font-weight: 800;
         letter-spacing: 1px;
         cursor: pointer;
-        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        box-shadow: 0 4px 15px rgba(31, 168, 85, 0.3);
+        transition: all 0.2s ease;
       }
-      .btn-clear {
-        background: rgba(255,255,255,0.1);
-        color: #f6e6b8;
-        border: 1px solid rgba(212,175,55,0.4);
-        flex: 0.45;
+      .btn-wa-direct:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 20px rgba(31, 168, 85, 0.45);
+        filter: brightness(1.08);
       }
-      .btn-order {
+      .btn-copy-direct {
+        width: 100%;
+        padding: 12px 16px;
+        border-radius: 8px;
+        border: 1px solid #d4af37;
         background: var(--gold-gradient);
         color: #111;
-        box-shadow: 0 3px 10px rgba(212,175,55,0.4);
+        font-family: 'Cinzel', serif;
+        font-size: 0.88rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        box-shadow: 0 4px 15px rgba(212, 175, 55, 0.25);
+        transition: all 0.2s ease;
+      }
+      .btn-copy-direct:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
       }
 
+      /* ================= BOTTOM FIXED BAR ================= */
+      .cart-actions {
+        position: fixed;
+        bottom: 0; left: 0; width: 100%;
+        background: rgba(13, 13, 15, 0.95);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border-top: 1.5px solid #d4af37;
+        padding: 12px 15px calc(12px + env(safe-area-inset-bottom, 0px));
+        display: flex;
+        gap: 10px;
+        box-shadow: 0 -4px 20px rgba(0,0,0,0.5);
+        z-index: 1000;
+      }
+      .action-btn {
+        padding: 12px 10px;
+        border: 0;
+        border-radius: 8px;
+        font-family: 'Cinzel', serif;
+        font-size: 0.85rem;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        transition: all 0.2s ease;
+      }
+      .btn-clear {
+        background: rgba(255,255,255,0.06);
+        color: #f6e6b8;
+        border: 1px solid rgba(212,175,55,0.35);
+        flex: 0.35;
+      }
+      .btn-clear:hover {
+        background: rgba(231, 76, 60, 0.18);
+        border-color: rgba(231, 76, 60, 0.55);
+        color: #ff9999;
+      }
+      .btn-order {
+        background: rgba(212, 175, 55, 0.18);
+        border: 1px solid #d4af37;
+        color: #f7e7b4;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        flex: 0.9;
+      }
+      .btn-order:hover {
+        background: rgba(212, 175, 55, 0.3);
+        color: #ffffff;
+      }
+      .btn-whatsapp {
+        background: var(--wa-gradient);
+        color: #ffffff;
+        box-shadow: 0 4px 14px rgba(37, 211, 102, 0.35);
+        border: 1px solid rgba(37, 211, 102, 0.6);
+        flex: 1.15;
+      }
+      .btn-whatsapp:hover {
+        filter: brightness(1.1);
+        transform: translateY(-1px);
+      }
+
+      /* ================= EMPTY STATE ================= */
       .empty-state {
         text-align: center;
         padding: 60px 20px;
         grid-column: 1 / -1;
+        background: rgba(18, 17, 23, 0.65);
+        border-radius: 14px;
+        border: 1px solid rgba(212, 175, 55, 0.25);
       }
       .btn-continue {
         display: inline-block;
@@ -372,6 +766,37 @@
         border-radius: 25px;
         font-weight: 700;
         letter-spacing: 1px;
+        transition: all 0.2s ease;
+      }
+      .btn-continue:hover {
+        background: #d4af37;
+        color: #111113;
+      }
+
+      /* ================= TOAST NOTIFICATION ================= */
+      .cart-toast {
+        position: fixed;
+        top: 24px;
+        left: 50%;
+        transform: translateX(-50%) translateY(-25px);
+        background: rgba(18, 17, 23, 0.96);
+        border: 1px solid #d4af37;
+        color: #f7e7b4;
+        padding: 12px 24px;
+        border-radius: 30px;
+        font-size: 0.9rem;
+        font-weight: 700;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.8), 0 0 18px rgba(212,175,55,0.3);
+        z-index: 9999;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        text-align: center;
+      }
+      .cart-toast.visible {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+        pointer-events: auto;
       }
     </style>
   </head>
@@ -381,50 +806,127 @@
     <div class="bg-ambient-glow glow-2"></div>
     <canvas id="luxury-sparkles-canvas" class="bg-particles-canvas"></canvas>
 
+    <!-- FLOATING TOAST -->
+    <div id="cart-toast" class="cart-toast"></div>
+
     <header class="er-cart-header" style="position:relative; z-index:2;">
       <div class="er-header-row">
-        <a class="back-btn" href="index.html">← VOLVER AL CATÁLOGO</a>
+        <a class="back-btn" href="index.html" data-i18n="backToCatalog">← VOLVER AL CATÁLOGO</a>
         <div class="cart-title-group">
           <div class="cart-logo">
             <span>👑 ER PARFUM</span>
           </div>
-          <div class="cart-subtitle">LISTA DE SELECCIÓN</div>
+          <div class="cart-subtitle" data-i18n="cartHeaderSubtitle">LISTA DE SELECCIÓN</div>
         </div>
-        <div style="width: 80px;"></div>
+        <div style="min-width: 80px; display: flex; justify-content: flex-end;">
+          <button type="button" class="top-tool-pill" onclick="toggleLanguage()" id="cart-lang-btn" title="Cambiar Idioma / Switch Language" style="padding: 5px 12px; background: rgba(212,175,55,0.12); border: 1px solid rgba(212,175,55,0.4); border-radius: 14px; font-size: 0.74rem; font-weight: 700; color: #f7e7b4; cursor: pointer; display: flex; align-items: center; gap: 5px;">
+            <span id="cart-lang-flag">🌐</span>
+            <span id="cart-lang-text">ES</span>
+          </button>
+        </div>
       </div>
     </header>
 
     <div id="capture-area">
-      <ul id="cart-items-list" class="cart-items-list"></ul>
-
-      <div id="cart-summary" class="cart-summary" style="display: none">
-        <h2>Resumen de Selección</h2>
-        <div class="summary-row">
-          <span>Colección Louis Vuitton:</span>
-          <span id="lv-count" style="font-weight:700;">0</span>
-        </div>
-        <div class="summary-row">
-          <span>Otras Casas de Perfumería:</span>
-          <span id="other-brands-count" style="font-weight:700;">0</span>
-        </div>
-        <div class="summary-row summary-quantity-total">
-          <span>Total de Fragancias:</span>
-          <span id="total-qty-display">0 items</span>
+      <!-- 2-Column Responsive Layout -->
+      <div class="cart-main-grid">
+        <!-- Left Column: Selected Fragrance Cards -->
+        <div class="cart-items-col">
+          <div class="cart-section-header">
+            <h2 class="cart-section-title">
+              <span data-i18n="selectedFragrances">🧴 Fragancias Seleccionadas</span>
+              <span id="items-badge" class="items-count-badge">0</span>
+            </h2>
+          </div>
+          <ul id="cart-items-list" class="cart-items-list"></ul>
         </div>
 
-        <label class="preview-label" for="list-preview">Lista formateada para pedido</label>
-        <textarea id="list-preview" class="list-preview" readonly aria-label="Lista para copiar"></textarea>
+        <!-- Right Column: Summary & Order Section -->
+        <div class="cart-summary-col">
+          <div id="cart-summary" class="cart-summary" style="display: none">
+            <div class="summary-header">
+              <h2 data-i18n="orderSummary">Resumen de Selección</h2>
+              <div class="summary-subtitle" data-i18n="orderSummarySub">Detalle y formato de tu pedido</div>
+            </div>
+
+            <!-- Metric Cards (KPI badges) -->
+            <div class="summary-kpis">
+              <div class="kpi-card">
+                <div class="kpi-icon">👑</div>
+                <div class="kpi-content">
+                  <span class="kpi-label" data-i18n="lvCollection">Colección Louis Vuitton</span>
+                  <span id="lv-count" class="kpi-value">0</span>
+                </div>
+              </div>
+              <div class="kpi-card">
+                <div class="kpi-icon">💎</div>
+                <div class="kpi-content">
+                  <span class="kpi-label" data-i18n="otherHouses">Otras Casas</span>
+                  <span id="other-brands-count" class="kpi-value">0</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Total Bar -->
+            <div class="summary-row summary-quantity-total">
+              <span class="total-title" data-i18n="totalFragrances">Total de Fragancias:</span>
+              <span id="total-qty-display" class="total-val">0 artículos</span>
+            </div>
+
+            <!-- Formatted List Preview Box -->
+            <div class="preview-box-wrapper">
+              <div class="preview-box-header">
+                <label class="preview-label" for="list-preview">
+                  <span data-i18n="formattedListTitle">📋 Lista Formateada para Pedido</span>
+                </label>
+                <button type="button" id="copy-quick-btn" class="quick-copy-btn" onclick="copyCurrentList()">
+                  <span id="quick-copy-text" data-i18n="copyBtn">Copiar</span>
+                </button>
+              </div>
+
+              <!-- Format Switcher Pills -->
+              <div class="format-pill-group" role="tablist" aria-label="Selector de formato">
+                <button type="button" id="fmt-detailed-btn" class="format-pill active" onclick="switchListFormat('detailed')" data-i18n="detailedFormat">
+                  ✨ Con Nombres (Detallado)
+                </button>
+                <button type="button" id="fmt-code-btn" class="format-pill" onclick="switchListFormat('code')" data-i18n="codeFormat">
+                  🏷️ Solo Códigos (Bodega)
+                </button>
+              </div>
+
+              <textarea id="list-preview" class="list-preview" readonly aria-label="Lista para copiar"></textarea>
+              <div class="preview-hint" data-i18n="previewHint">
+                💡 Lista lista para copiar o enviar directamente por WhatsApp a nuestro asesor.
+              </div>
+            </div>
+
+            <!-- Summary Direct Actions -->
+            <div class="summary-actions-inline">
+              <button type="button" class="btn-wa-direct" onclick="sendOrderToWhatsApp()">
+                <span data-i18n="sendWhatsAppBtn">💬 Enviar Pedido por WhatsApp</span>
+              </button>
+              <button type="button" class="btn-copy-direct" onclick="copyCurrentList()">
+                <span data-i18n="copyListBtn">📋 Copiar Lista de Pedido</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
+    <!-- Bottom Sticky Actions Bar -->
     <div class="cart-actions" id="actions-bar" style="display: none">
-      <button id="clear-cart-btn" class="action-btn btn-clear">Limpiar</button>
-      <button id="send-order-btn" class="action-btn btn-order">📋 Copiar Lista</button>
+      <button id="clear-cart-btn" class="action-btn btn-clear" data-i18n="clearBtn" title="Vaciar lista">Limpiar</button>
+      <button id="send-order-btn" class="action-btn btn-order" data-i18n="btnOrderSticky" title="Copiar lista al portapapeles">📋 Copiar Lista</button>
+      <button id="wa-order-btn" class="action-btn btn-whatsapp" onclick="sendOrderToWhatsApp()" data-i18n="btnWaSticky" title="Enviar pedido directo a WhatsApp">💬 Pedir WhatsApp</button>
     </div>
 
     <script src="products-data.js"></script>
     <script src="db.js?v=4"></script>
     <script>
+      const WHATSAPP_PHONE = "13143746958";
+      let currentFormat = "detailed"; // 'detailed' | 'code'
+
       const cartItemsList = document.getElementById("cart-items-list");
       const clearCartBtn = document.getElementById("clear-cart-btn");
       const sendOrderBtn = document.getElementById("send-order-btn");
@@ -435,6 +937,8 @@
       const otherCountEl = document.getElementById("other-brands-count");
       const totalQtyEl = document.getElementById("total-qty-display");
       const listPreview = document.getElementById("list-preview");
+      const itemsBadgeEl = document.getElementById("items-badge");
+      const toastEl = document.getElementById("cart-toast");
 
       function loadCart() {
         return readFastCart();
@@ -446,36 +950,121 @@
       function escapeHtml(value) {
         return String(value ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
       }
+
       function formatCartSize(value) {
         const size = String(value ?? "").trim();
         if (!size) return "70 ml";
         return /^\d+(?:\.\d+)?$/.test(size) ? size + " ml" : size;
       }
 
-      function buildCopyList(cart) {
+      function showToast(message, duration = 2500) {
+        if (!toastEl) return;
+        toastEl.textContent = message;
+        toastEl.classList.add("visible");
+        clearTimeout(toastEl._timer);
+        toastEl._timer = setTimeout(() => {
+          toastEl.classList.remove("visible");
+        }, duration);
+      }
+
+      function getPerfumeDetails(item) {
+        const sku = String(item.name || "").trim().toUpperCase();
+        const product = (window.perfumeDB || []).find((c) => c.id === sku);
+
+        let name = product?.name || "";
+        if (!name && item.caption) {
+          name = String(item.caption).replace(/^(IL|TX)-[A-Z0-9-]+\s*[-–—:]\s*/i, "").trim();
+        }
+        if (!name) name = item.caption || item.name || "Fragancia Exclusiva";
+
+        const brand = product?.brand || item.brand || "";
+        const ml = formatCartSize(item.ml || product?.ml);
+        const warehouse = String(item.warehouse || sku.match(/^(IL|TX)-/)?.[1] || "IL").toUpperCase();
+        const img = item.img || product?.img || "icon/180.png";
+        const remoteImg = item.remoteImg || product?.remoteImg || "";
+
+        return { sku, name, brand, ml, warehouse, img, remoteImg };
+      }
+
+      function buildCopyList(cart, format = currentFormat) {
         const groups = new Map();
         let total = 0;
+        
         (Array.isArray(cart) ? cart : []).forEach((item) => {
           const sku = String(item.name || "").trim().toUpperCase();
           const match = sku.match(/^(IL|TX)-[A-Z0-9-]+$/);
           const quantity = Math.floor(Number(item.quantity));
           if (!match || !Number.isFinite(quantity) || quantity <= 0) return;
           const warehouse = match[1];
+
+          const details = getPerfumeDetails(item);
+
           if (!groups.has(warehouse)) groups.set(warehouse, []);
-          groups.get(warehouse).push(`${sku}*${quantity}`);
+          groups.get(warehouse).push({
+            sku,
+            quantity,
+            name: details.name,
+            brand: details.brand,
+            size: details.ml
+          });
           total += quantity;
         });
+
         if (!total) return "";
-        const lines = ["ER PARFUM - Pedido de Selección", "------------------------------"];
+
+        // MODE 1: Compact Codes format (Bodega / Parser)
+        if (format === "code") {
+          const lines = [`ER PARFUM - ${t('orderSummary')}`, "------------------------------"];
+          ["IL", "TX"].forEach((warehouse) => {
+            const products = groups.get(warehouse);
+            if (!products?.length) return;
+            const warehouseTotal = products.reduce((sum, p) => sum + p.quantity, 0);
+            lines.push(`${t('orderWarehouse')} ${warehouse} | ${warehouseTotal} ${warehouseTotal === 1 ? t('articleSingular') : t('articlePlural')}`);
+            lines.push(products.map(p => `${p.sku}*${p.quantity}`).join("+"));
+          });
+          lines.push("------------------------------", `${t('totalItemsLabel')} ${total}`);
+          return lines.join("\n");
+        }
+
+        // MODE 2: Detailed format with perfume names and presentation
+        const lines = [
+          t('orderHeader'),
+          "──────────────────────────────"
+        ];
+
         ["IL", "TX"].forEach((warehouse) => {
           const products = groups.get(warehouse);
           if (!products?.length) return;
-          const warehouseTotal = products.reduce((sum, line) => sum + Number(line.split("*")[1]), 0);
-          lines.push(`Almacén ${warehouse} | ${warehouseTotal} ${warehouseTotal === 1 ? "artículo" : "artículos"}`);
-          lines.push(products.join("+"));
+          const warehouseTotal = products.reduce((sum, p) => sum + p.quantity, 0);
+          lines.push(`${t('orderWarehouse')} ${warehouse} | ${warehouseTotal} ${warehouseTotal === 1 ? t('articleSingular') : t('articlePlural')}:`);
+          products.forEach((p) => {
+            lines.push(`• ${p.name} (${p.sku}) | ${p.size} × ${p.quantity} ${t('unitSuffix')}`);
+          });
+          lines.push("");
         });
-        lines.push("------------------------------", `Total Artículos: ${total}`);
+
+        if (lines[lines.length - 1] === "") lines.pop();
+
+        lines.push("──────────────────────────────");
+        lines.push(`${t('totalFragrances')} ${total} ${total === 1 ? t('articleSingular') : t('articlePlural')}`);
         return lines.join("\n");
+      }
+
+      function switchListFormat(fmt) {
+        currentFormat = fmt;
+        const detailedBtn = document.getElementById("fmt-detailed-btn");
+        const codeBtn = document.getElementById("fmt-code-btn");
+        if (detailedBtn && codeBtn) {
+          if (fmt === "detailed") {
+            detailedBtn.classList.add("active");
+            codeBtn.classList.remove("active");
+          } else {
+            detailedBtn.classList.remove("active");
+            codeBtn.classList.add("active");
+          }
+        }
+        const cart = loadCart();
+        listPreview.value = buildCopyList(cart, currentFormat);
       }
 
       function renderCart() {
@@ -486,12 +1075,14 @@
           cartItemsList.innerHTML = `
             <div class="empty-state">
               <span style="font-size:3rem;">🧴</span>
-              <p style="font-size:1.15rem; font-family:'Playfair Display'; margin:12px 0;">Tu lista de selección está vacía.</p>
-              <a href="index.html" class="btn-continue">Explorar Colecciones</a>
+              <p style="font-size:1.15rem; font-family:'Playfair Display'; margin:12px 0;">${t('emptyCartTitle')}</p>
+              <p style="font-size:0.85rem; color:#d4af37; margin-bottom:15px;">${t('emptyCartSub')}</p>
+              <a href="index.html" class="btn-continue">${t('exploreCollectionsBtn')}</a>
             </div>
           `;
           cartSummary.style.display = "none";
           actionsBar.style.display = "none";
+          if (itemsBadgeEl) itemsBadgeEl.textContent = "0";
           return;
         }
 
@@ -504,39 +1095,41 @@
 
         cart.forEach((item, index) => {
           const quantity = Number(item.quantity) || 0;
-          const product = (window.perfumeDB || []).find((c) => c.id === item.name);
-          const brand = String(item.brand || product?.brand || "").toLowerCase();
+          const details = getPerfumeDetails(item);
+          const brandLower = details.brand.toLowerCase();
+
           totalQty += quantity;
-          if (brand.includes("louis vuitton")) lvCount += quantity;
+          if (brandLower.includes("louis vuitton")) lvCount += quantity;
           else otherCount += quantity;
 
-          const displayTitle = item.caption || item.name || "Perfume";
-          const warehouse = String(item.warehouse || String(item.name).match(/^(IL|TX)-/)?.[1] || "").toUpperCase();
-          const sizeLabel = formatCartSize(item.ml || product?.ml);
-
+          const displayTitle = details.name;
           const li = document.createElement("li");
           li.className = "cart-item";
-          const fbAttr = item.remoteImg ? `data-fallback="${escapeHtml(item.remoteImg)}"` : "";
+          const fbAttr = details.remoteImg ? `data-fallback="${escapeHtml(details.remoteImg)}"` : "";
+
           li.innerHTML = `
-            <img src="${escapeHtml(item.img)}" ${fbAttr} class="cart-item-img" alt="${escapeHtml(displayTitle)}" onerror="if(this.dataset.fallback && !this.dataset.tried){this.dataset.tried=1; this.src=this.dataset.fallback;}">
+            <div class="item-img-container">
+              <img src="${escapeHtml(details.img)}" ${fbAttr} class="cart-item-img" alt="${escapeHtml(displayTitle)}" onerror="if(this.dataset.fallback && !this.dataset.tried){this.dataset.tried=1; this.src=this.dataset.fallback;}">
+              <span class="warehouse-badge-floating">${escapeHtml(details.warehouse)}</span>
+            </div>
             <div class="item-content">
               <div class="item-header">
-                <div>
+                <div class="item-meta">
+                  ${details.brand ? `<span class="item-brand-tag">${escapeHtml(details.brand)}</span>` : ""}
                   <h3 class="item-title">${escapeHtml(displayTitle)}</h3>
-                  ${warehouse ? `<span class="warehouse-pill">Almacén ${escapeHtml(warehouse)}</span>` : ""}
+                  <span class="item-sku-code">${escapeHtml(details.sku)}</span>
                 </div>
-                <button class="remove-btn-icon" aria-label="Eliminar" onclick="removeItem(${index})">&times;</button>
+                <button class="remove-btn-icon" aria-label="${t('removeItemTitle')}" onclick="removeItem(${index})" title="${t('removeItemTitle')}">&times;</button>
               </div>
-              <div class="info-row">
-                <span>Presentación:</span>
-                <span style="font-weight:600;">${escapeHtml(sizeLabel)}</span>
-              </div>
-              <div class="info-row">
-                <span>Cantidad:</span>
+              <div class="item-details-row">
+                <div class="item-pill-group">
+                  <span class="warehouse-pill">${t('warehouseLabel')} ${escapeHtml(details.warehouse)}</span>
+                  <span class="size-pill">${escapeHtml(details.ml)}</span>
+                </div>
                 <div class="qty-wrapper">
-                  <button class="qty-btn" onclick="updateQty(${index}, -1)">-</button>
+                  <button class="qty-btn" onclick="updateQty(${index}, -1)" aria-label="${t('decreaseAria')}">-</button>
                   <div class="qty-display">${quantity}</div>
-                  <button class="qty-btn" onclick="updateQty(${index}, 1)">+</button>
+                  <button class="qty-btn" onclick="updateQty(${index}, 1)" aria-label="${t('increaseAria')}">+</button>
                 </div>
               </div>
             </div>
@@ -544,10 +1137,11 @@
           cartItemsList.appendChild(li);
         });
 
+        if (itemsBadgeEl) itemsBadgeEl.textContent = totalQty;
         lvCountEl.textContent = lvCount;
         otherCountEl.textContent = otherCount;
-        totalQtyEl.textContent = `${totalQty} ${totalQty === 1 ? 'artículo' : 'artículos'}`;
-        listPreview.value = buildCopyList(cart);
+        totalQtyEl.textContent = `${totalQty} ${totalQty === 1 ? t('articleSingular') : t('articlePlural')}`;
+        listPreview.value = buildCopyList(cart, currentFormat);
       }
 
       window.updateQty = (index, delta) => {
@@ -565,25 +1159,84 @@
         cart.splice(index, 1);
         saveCart(cart);
         renderCart();
+        showToast(t('itemRemovedToast'));
       };
 
       clearCartBtn.onclick = () => {
-        if (confirm("¿Deseas vaciar tu lista de selección?")) {
+        if (confirm(t('confirmClear'))) {
           clearFastCart();
           renderCart();
+          showToast(t('cartClearedToast'));
         }
       };
 
-      sendOrderBtn.onclick = () => {
+      function triggerCopyFeedback() {
+        const quickText = document.getElementById("quick-copy-text");
+        if (quickText) {
+          const original = quickText.textContent;
+          quickText.textContent = t('copiedBtn');
+          setTimeout(() => { quickText.textContent = original; }, 2000);
+        }
+        if (sendOrderBtn) {
+          const original = sendOrderBtn.textContent;
+          sendOrderBtn.textContent = t('cartCopiedBtnFeedback');
+          setTimeout(() => { sendOrderBtn.textContent = original; }, 2000);
+        }
+      }
+
+      function copyCurrentList() {
         const cart = loadCart();
-        const text = buildCopyList(cart);
+        const text = buildCopyList(cart, currentFormat);
+        if (!text) {
+          showToast(t('emptyListToast'));
+          return;
+        }
+
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(() => {
+            showToast(t('listCopiedToast'));
+            triggerCopyFeedback();
+          }).catch(() => {
+            prompt(t('cartPromptManualCopy'), text);
+          });
+        } else {
+          listPreview.focus();
+          listPreview.select();
+          try {
+            document.execCommand('copy');
+            showToast(t('listCopiedToast'));
+            triggerCopyFeedback();
+          } catch {
+            prompt(t('cartPromptManualCopy'), text);
+          }
+        }
+      }
+
+      function sendOrderToWhatsApp() {
+        const cart = loadCart();
+        if (!cart || cart.length === 0) {
+          showToast(t('emptyListToast'));
+          return;
+        }
+        const text = buildCopyList(cart, currentFormat);
         if (!text) return;
-        navigator.clipboard.writeText(text).then(() => {
-          alert("¡Lista de pedido copiada al portapapeles exitosamente! 📋");
-        }).catch(() => {
-          prompt("Copia tu lista manualmente:", text);
-        });
+
+        const greeting = t('waGreeting');
+        const message = greeting + text;
+        const waUrl = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(message)}`;
+
+        showToast(t('openingWhatsAppToast'));
+        window.open(waUrl, "_blank");
+      }
+
+      sendOrderBtn.onclick = () => {
+        copyCurrentList();
       };
+
+      // Listen to language changes (auto or toggle button)
+      document.addEventListener("erLanguageChanged", () => {
+        renderCart();
+      });
 
       document.addEventListener("DOMContentLoaded", () => {
         initLuxurySparkles();
@@ -687,7 +1340,7 @@
           }
           requestAnimationFrame(animate);
         }
-        requestAnimationFrame(animate);
+        animate();
       }
     </script>
   </body>

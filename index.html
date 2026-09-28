@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
-    <title>ER PARFUM — Fragancias Que Dejan Huella</title>
+    <title data-i18n="pageTitle">ER PARFUM — Fragancias Que Dejan Huella</title>
+    <script src="i18n.js"></script>
     <link rel="icon" type="image/png" href="icon/32.png" />
     <link rel="apple-touch-icon" href="icon/180.png" />
 
@@ -689,17 +690,53 @@
         margin-bottom: 5px;
       }
 
-      /* Card Size Row: Bottle Icon + Size (Exact Photo Style) */
+      /* Card Size Row: Bottle Icon + Size + Gender Badge */
       .card-size-bottom {
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 4px;
+        justify-content: space-between;
+        gap: 6px;
         font-size: clamp(0.6rem, 1.9vw, 0.72rem);
         color: #e5c058;
         font-weight: 600;
-        padding-top: 4px;
+        padding-top: 5px;
         border-top: 1px dashed rgba(212, 175, 55, 0.32);
+      }
+      .card-gender-badge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2px 7px;
+        border-radius: 4px;
+        font-size: clamp(0.55rem, 1.6vw, 0.65rem);
+        font-weight: 800;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1;
+      }
+      .gender-women {
+        background: rgba(233, 30, 99, 0.18);
+        border: 1px solid rgba(233, 30, 99, 0.45);
+        color: #ff80ab;
+      }
+      .gender-men {
+        background: rgba(33, 150, 243, 0.18);
+        border: 1px solid rgba(33, 150, 243, 0.45);
+        color: #90caf9;
+      }
+      .gender-unisex {
+        background: rgba(212, 175, 55, 0.18);
+        border: 1px solid rgba(212, 175, 55, 0.45);
+        color: #f6e6b8;
+      }
+      .card-ml-box {
+        display: inline-flex;
+        align-items: center;
+        gap: 3px;
+        color: #e5c058;
+        font-weight: 700;
+        font-size: clamp(0.62rem, 1.8vw, 0.72rem);
       }
       .bottle-ico {
         font-size: 0.8rem;
@@ -1357,15 +1394,19 @@
               <span class="line"></span>
               <span class="line"></span>
             </button>
-            <span class="er-menu-label-tag">COLECCIONES ▾</span>
+            <span class="er-menu-label-tag" data-i18n="collections">COLECCIONES ▾</span>
           </div>
 
           <div class="er-top-right-tools">
+            <button type="button" class="top-tool-pill" onclick="toggleLanguage()" id="top-lang-btn" title="Cambiar Idioma / Switch Language">
+              <span id="top-lang-flag">🌐</span>
+              <span id="top-lang-text">ES</span>
+            </button>
             <button type="button" class="top-tool-pill" onclick="toggleCurrentWarehouse()">
               <span id="top-wh-flag">🇺🇸</span>
               <span id="top-wh-name">Almacén IL</span>
             </button>
-            <a href="cart.html" class="top-tool-pill" title="Ver Lista de Pedido">
+            <a href="cart.html" class="top-tool-pill" data-i18n-title="cartTitleTooltip" title="Ver Lista de Pedido">
               <span>🛒</span>
               <span class="top-cart-badge-dot" id="top-cart-count">0</span>
             </a>
@@ -1384,15 +1425,14 @@
             </div>
             <div class="er-brand-titles-col">
               <h1 class="er-title-parfum">PARFUM</h1>
-              <div class="er-subtitle-collection" id="collection-headline">COLECCIÓN MAISON FRANCIS KURKDJIAN</div>
             </div>
           </div>
 
           <!-- Right side quote in stacked cursive script -->
           <div class="er-side-quote">
-            <span>Elegancia</span>
-            <span>en cada</span>
-            <span>esencia</span>
+            <span data-i18n="sideQuote1">Elegancia</span>
+            <span data-i18n="sideQuote2">en cada</span>
+            <span data-i18n="sideQuote3">esencia</span>
             <span class="heart-symbol">♡</span>
           </div>
         </div>
@@ -1400,7 +1440,7 @@
         <!-- Slogan with flanking lines -->
         <div class="er-slogan-strip">
           <div class="er-slogan-line"></div>
-          <div class="er-slogan-text">FRAGANCIAS QUE DEJAN HUELLA</div>
+          <div class="er-slogan-text" data-i18n="slogan">FRAGANCIAS QUE DEJAN HUELLA</div>
           <div class="er-slogan-line"></div>
         </div>
       </div>
@@ -1412,7 +1452,7 @@
     <!-- SECONDARY CONTROLS: SEARCH & WAREHOUSE BADGES -->
     <div class="er-sub-bar">
       <div class="er-search-box">
-        <input type="text" id="catalog-search-input" class="er-search-input" placeholder="Buscar perfume, notas o casa..." />
+        <input type="text" id="catalog-search-input" class="er-search-input" data-i18n-placeholder="searchPlaceholder" placeholder="Buscar perfume, notas o casa..." />
         <span class="er-search-icon">🔍</span>
       </div>
       <button type="button" class="wh-pill-toggle active" id="btn-sub-il" onclick="changeWarehouse('IL')">
@@ -1433,19 +1473,19 @@
       <div class="drawer-top-banner">
         <div class="drawer-close-btn" onclick="toggleDrawer()">&times;</div>
         <h2 class="drawer-brand-title">👑 ER PARFUM</h2>
-        <div class="drawer-brand-sub">DIRECTORIO DE COLECCIONES</div>
+        <div class="drawer-brand-sub" data-i18n="drawerSubtitle">DIRECTORIO DE COLECCIONES</div>
       </div>
 
       <!-- Drawer Controls: Warehouse + Fast Search -->
       <div class="drawer-controls-box">
-        <input type="text" id="drawer-search-input" class="drawer-search-field" placeholder="🔍 Filtrar en el menú..." oninput="filterDrawerList(this.value)" />
+        <input type="text" id="drawer-search-input" class="drawer-search-field" data-i18n-placeholder="drawerSearchPlaceholder" placeholder="🔍 Filtrar en el menú..." oninput="filterDrawerList(this.value)" />
         <div class="drawer-wh-toggle-row">
           <button type="button" class="drawer-wh-btn active" id="d-wh-il" onclick="changeWarehouse('IL')">
-            <span>🇺🇸 Bodega IL</span>
+            <span id="d-wh-label-il" data-i18n="wh_bodega_IL">🇺🇸 Bodega IL</span>
             <span id="d-badge-il" style="font-size:0.65rem;">(228)</span>
           </button>
           <button type="button" class="drawer-wh-btn" id="d-wh-tx" onclick="changeWarehouse('TX')">
-            <span>🇺🇸 Bodega TX</span>
+            <span id="d-wh-label-tx" data-i18n="wh_bodega_TX">🇺🇸 Bodega TX</span>
             <span id="d-badge-tx" style="font-size:0.65rem;">(160)</span>
           </button>
         </div>
@@ -1459,10 +1499,10 @@
       <!-- Drawer Bottom Actions -->
       <div class="drawer-footer-actions">
         <button class="drawer-act-btn drawer-act-cart" onclick="window.location.href='cart.html'">
-          <span>🛒 VER LISTA DE PEDIDO (<span id="drawer-cart-num">0</span>)</span>
+          <span id="drawer-cart-btn-text">🛒 VER LISTA DE PEDIDO (<span id="drawer-cart-num">0</span>)</span>
         </button>
         <button class="drawer-act-btn drawer-act-wa" onclick="window.open('https://wa.me/13143746958', '_blank')">
-          <span>💬 PEDIR POR WHATSAPP</span>
+          <span data-i18n="orderViaWhatsApp">💬 PEDIR POR WHATSAPP</span>
         </button>
       </div>
     </aside>
@@ -1477,10 +1517,10 @@
           </svg>
           <div class="floating-cart-badge" id="floating-cart-count" style="display:none;">0</div>
         </div>
-        <span style="font-size:0.8rem; font-weight:700; color:#f6e6b8;">Lista</span>
+        <span style="font-size:0.8rem; font-weight:700; color:#f6e6b8;" data-i18n="cartLabel">Lista</span>
       </div>
       <div class="floating-right">
-        <button class="floating-btn" onclick="window.location.href='cart.html'">
+        <button class="floating-btn" onclick="window.location.href='cart.html'" data-i18n="viewCopyList">
           VER / COPIAR LISTA
         </button>
       </div>
@@ -1503,7 +1543,7 @@
               <span id="m-qty-val">1</span>
               <button onclick="changeModalQty(1)">+</button>
             </div>
-            <button class="modal-add-btn" id="m-add-btn" onclick="addModalItemToCart()">+ AÑADIR A LA LISTA</button>
+            <button class="modal-add-btn" id="m-add-btn" onclick="addModalItemToCart()" data-i18n="addToList">+ AÑADIR A LA LISTA</button>
           </div>
         </div>
       </div>
@@ -1522,8 +1562,8 @@
         <div class="footer-cell">
           <span style="font-size:1.25rem;">🚚</span>
           <div>
-            <div>ENVÍOS A TODO EL PAÍS</div>
-            <span class="footer-cell-sub">SEGUROS Y RÁPIDOS</span>
+            <div data-i18n="deliveriesSL">ENTREGAS EN TODO SAN LUIS</div>
+            <span class="footer-cell-sub" data-i18n="deliveriesSL_sub">SEGUROS Y RÁPIDOS</span>
           </div>
         </div>
 
@@ -1534,7 +1574,7 @@
           <span style="font-size:1.25rem;">📞</span>
           <div>
             <a href="https://wa.me/13143746958" target="_blank" rel="noopener">+1 (314) 374-6958</a>
-            <span class="footer-cell-sub">CONTÁCTANOS</span>
+            <span class="footer-cell-sub" data-i18n="contactUs">CONTÁCTANOS</span>
           </div>
         </div>
 
@@ -1545,12 +1585,12 @@
           <span style="font-size:1.25rem;">📸</span>
           <div>
             <a href="https://www.instagram.com/erparfumstl?stkn=M3Ntb3p3YXJnODAw&utm_source=qr" target="_blank" rel="noopener">@erparfumstl</a>
-            <span class="footer-cell-sub">SÍGUENOS</span>
+            <span class="footer-cell-sub" data-i18n="followUs">SÍGUENOS</span>
           </div>
         </div>
       </div>
 
-      <p class="footer-bottom-tagline">
+      <p class="footer-bottom-tagline" data-i18n="tagline">
         ER PARFUM | MÁS QUE UN PERFUME, ES UNA EXPERIENCIA
       </p>
     </footer>
@@ -1583,6 +1623,17 @@
         try { setupSearchInput(); } catch (e) {}
       });
 
+      // Listen to language changes (automatic or manual toggle)
+      document.addEventListener("erLanguageChanged", () => {
+        const topWhName = document.getElementById("top-wh-name");
+        if (topWhName) {
+          topWhName.textContent = currentLang === 'es' ? `Almacén ${currentWarehouse}` : `${currentWarehouse} Warehouse`;
+        }
+        renderBrandChips();
+        renderDrawerList();
+        renderMainCatalog();
+      });
+
       function toggleDrawer() {
         const drawer = document.getElementById("sidebar-drawer");
         const mask = document.getElementById("sidebar-mask");
@@ -1598,8 +1649,12 @@
         currentWarehouse = wh;
         
         // Update header flag & label
-        document.getElementById("top-wh-name").textContent = `Almacén ${wh}`;
-        document.getElementById("top-wh-flag").textContent = "🇺🇸";
+        const topWhName = document.getElementById("top-wh-name");
+        if (topWhName) {
+          topWhName.textContent = currentLang === 'es' ? `Almacén ${wh}` : `${wh} Warehouse`;
+        }
+        const topWhFlag = document.getElementById("top-wh-flag");
+        if (topWhFlag) topWhFlag.textContent = "🇺🇸";
 
         // Update sub pills
         document.getElementById("btn-sub-il").classList.toggle("active", wh === "IL");
@@ -1634,9 +1689,9 @@
           <button class="brand-chip ${activeCollection === 'Dior' ? 'active' : ''}" onclick="selectCollection('Dior')">🌟 Dior</button>
           <button class="brand-chip ${activeCollection === 'Chanel' ? 'active' : ''}" onclick="selectCollection('Chanel')">🖤 Chanel</button>
           <button class="brand-chip ${activeCollection === 'Tom Ford' ? 'active' : ''}" onclick="selectCollection('Tom Ford')">🍸 Tom Ford</button>
-          <button class="brand-chip ${activeCollection === 'BestSellers' ? 'active' : ''}" onclick="selectCollection('BestSellers')">🔥 Hot Selling</button>
-          <button class="brand-chip ${activeCollection === 'New' ? 'active' : ''}" onclick="selectCollection('New')">✨ Novedades</button>
-          <button class="brand-chip ${activeCollection === 'All' ? 'active' : ''}" onclick="selectCollection('All')">✦ Ver Todo A-Z</button>
+          <button class="brand-chip ${activeCollection === 'BestSellers' ? 'active' : ''}" onclick="selectCollection('BestSellers')">${t('chipHotSelling')}</button>
+          <button class="brand-chip ${activeCollection === 'New' ? 'active' : ''}" onclick="selectCollection('New')">${t('chipNew')}</button>
+          <button class="brand-chip ${activeCollection === 'All' ? 'active' : ''}" onclick="selectCollection('All')">${t('chipAll')}</button>
         `;
 
         BRAND_ORDER.forEach(b => {
@@ -1657,7 +1712,7 @@
 
         const brandsInWh = {};
         whProducts.forEach(p => {
-          const b = p.brand || 'Otras';
+          const b = p.brand || (currentLang === 'es' ? 'Otras' : 'Other');
           if (!brandsInWh[b]) brandsInWh[b] = [];
           brandsInWh[b].push(p);
         });
@@ -1681,12 +1736,12 @@
         }
 
         let html = `
-          <div class="drawer-group-label">SELECCIONES DESTACADAS</div>
+          <div class="drawer-group-label">${t('drawerFeatured')}</div>
           <div class="brand-drawer-group">
             <div class="brand-drawer-header ${activeCollection === 'BestSellers' ? 'active-brand' : ''}" onclick="selectCollection('BestSellers'); toggleDrawer();">
               <div class="brand-left-info">
                 <span>🔥</span>
-                <span class="brand-name-text">MÁS VENDIDOS (HOT SELLING)</span>
+                <span class="brand-name-text">${t('drawerHotSelling')}</span>
               </div>
               <span class="brand-count-chip">${whProducts.filter(p => Number(p.top) > 0).length}</span>
             </div>
@@ -1695,7 +1750,7 @@
             <div class="brand-drawer-header ${activeCollection === 'New' ? 'active-brand' : ''}" onclick="selectCollection('New'); toggleDrawer();">
               <div class="brand-left-info">
                 <span>✨</span>
-                <span class="brand-name-text">NOVEDADES RECIENTES</span>
+                <span class="brand-name-text">${t('drawerNew')}</span>
               </div>
               <span class="brand-count-chip">${whProducts.filter(p => Number(p.new) > 0).length}</span>
             </div>
@@ -1704,13 +1759,13 @@
             <div class="brand-drawer-header ${activeCollection === 'All' ? 'active-brand' : ''}" onclick="selectCollection('All'); toggleDrawer();">
               <div class="brand-left-info">
                 <span>✦</span>
-                <span class="brand-name-text">DIRECTORIO COMPLETO A-Z</span>
+                <span class="brand-name-text">${t('drawerAll')}</span>
               </div>
               <span class="brand-count-chip">${whProducts.length}</span>
             </div>
           </div>
 
-          <div class="drawer-group-label">COLECCIONES POR MARCA (TOCA PARA EXPANDIR)</div>
+          <div class="drawer-group-label">${t('drawerByBrand')}</div>
         `;
 
         brandList.forEach((brand, idx) => {
@@ -1730,7 +1785,7 @@
                   <div class="sublist-title">${clean}</div>
                   <div class="sublist-sub">🧴 ${size} · ${p.warehouse}</div>
                 </div>
-                <button type="button" class="sublist-add-btn" onclick="event.stopPropagation(); quickAddFromDrawer('${p.id}')">+ Añadir</button>
+                <button type="button" class="sublist-add-btn" onclick="event.stopPropagation(); quickAddFromDrawer('${p.id}')">${t('drawerAddBtn')}</button>
               </div>
             `;
           });
@@ -1742,7 +1797,7 @@
                   <span class="brand-name-text">👑 ${brand}</span>
                   <span class="brand-count-chip">${prods.length}</span>
                 </div>
-                <div class="brand-expand-arrow" id="${arrowDomId}" onclick="toggleBrandSublist('${groupDomId}', '${arrowDomId}')" title="Ver perfumes de ${brand}">
+                <div class="brand-expand-arrow" id="${arrowDomId}" onclick="toggleBrandSublist('${groupDomId}', '${arrowDomId}')" title="${brand}">
                   ▼
                 </div>
               </div>
@@ -1770,11 +1825,12 @@
       function selectCollection(col) {
         activeCollection = col;
         const headline = document.getElementById("collection-headline");
-
-        if (col === 'All') headline.textContent = 'DIRECTORIO COMPLETO A-Z';
-        else if (col === 'BestSellers') headline.textContent = 'COLECCIÓN HOT SELLING 🔥';
-        else if (col === 'New') headline.textContent = 'COLECCIÓN NOVEDADES ✨';
-        else headline.textContent = `COLECCIÓN ${col.toUpperCase()}`;
+        if (headline) {
+          if (col === 'All') headline.textContent = t('allDirectory');
+          else if (col === 'BestSellers') headline.textContent = t('hotSelling');
+          else if (col === 'New') headline.textContent = t('newArrivals');
+          else headline.textContent = `${t('collectionPrefix')}${col.toUpperCase()}`;
+        }
 
         renderBrandChips();
         renderDrawerList();
@@ -1792,7 +1848,7 @@
           // Grouped cleanly by brand to prevent messy dump
           const brandsInWh = {};
           whProducts.forEach(p => {
-            const b = p.brand || 'Otras';
+            const b = p.brand || (currentLang === 'es' ? 'Otras' : 'Other');
             if (!brandsInWh[b]) brandsInWh[b] = [];
             brandsInWh[b].push(p);
           });
@@ -1800,30 +1856,31 @@
           let html = '';
           const sortedBrands = Object.keys(brandsInWh).sort((a,b) => (b in brandsInWh) - (a in brandsInWh));
           sortedBrands.forEach(b => {
-            html += buildSectionHtml(`COLECCIÓN ${b.toUpperCase()}`, brandsInWh[b], b);
+            html += buildSectionHtml(`${t('collectionPrefix')}${b.toUpperCase()}`, brandsInWh[b], b);
           });
           area.innerHTML = html;
           return;
         }
 
         let filtered = [];
-        let sectionTitle = `COLECCIÓN ${activeCollection.toUpperCase()}`;
+        let sectionTitle = `${t('collectionPrefix')}${activeCollection.toUpperCase()}`;
 
         if (activeCollection === 'BestSellers') {
           filtered = whProducts.filter(p => Number(p.top) > 0);
-          sectionTitle = '🔥 FRAGANCIAS DESTACADAS (HOT SELLING)';
+          sectionTitle = t('hotSelling');
         } else if (activeCollection === 'New') {
           filtered = whProducts.filter(p => Number(p.new) > 0);
-          sectionTitle = '✨ NOVEDADES RECIENTES';
+          sectionTitle = t('newArrivals');
         } else if (activeCollection.startsWith('Search:')) {
           const q = activeCollection.replace('Search:', '').toLowerCase();
           filtered = whProducts.filter(p =>
             p.name.toLowerCase().includes(q) ||
             p.brand.toLowerCase().includes(q) ||
             p.id.toLowerCase().includes(q) ||
-            (p.notes && p.notes.toLowerCase().includes(q))
+            (p.notes && p.notes.toLowerCase().includes(q)) ||
+            (p.notes_en && p.notes_en.toLowerCase().includes(q))
           );
-          sectionTitle = `RESULTADOS PARA: "${q.toUpperCase()}"`;
+          sectionTitle = `${t('resultsFor')}${q.toUpperCase()}"`;
         } else {
           filtered = whProducts.filter(p => p.brand.toLowerCase() === activeCollection.toLowerCase());
         }
@@ -1850,11 +1907,11 @@
         sectionHtml += `
           <div class="collection-footer-nav">
             <button class="nav-collection-btn primary-nav" onclick="selectCollection('${nextBrand}')">
-              <span>Siguiente Casa: <strong>${nextBrand.toUpperCase()}</strong></span>
+              <span>${t('nextHouse')}<strong>${nextBrand.toUpperCase()}</strong></span>
               <span>→</span>
             </button>
             <button class="nav-collection-btn" onclick="toggleDrawer()">
-              <span>☰ Explorar Todas las Marcas en el Menú</span>
+              <span>${t('exploreAllMenu')}</span>
               <span>▾</span>
             </button>
           </div>
@@ -1865,11 +1922,12 @@
 
       function buildSectionHtml(title, items, filterTarget) {
         if (!items || !items.length) {
+          const altWh = currentWarehouse === 'IL' ? 'TX' : 'IL';
           return `
             <div style="text-align:center; padding:50px 20px; color:#888;">
-              <p style="font-size:1.1rem; font-family:'Playfair Display', serif;">No se encontraron perfumes en esta selección.</p>
-              <button class="nav-collection-btn primary-nav" style="margin:15px auto; max-width:280px;" onclick="changeWarehouse(currentWarehouse === 'IL' ? 'TX' : 'IL')">
-                Explorar en Bodega ${currentWarehouse === 'IL' ? 'TX' : 'IL'}
+              <p style="font-size:1.1rem; font-family:'Playfair Display', serif;">${t('noPerfumesFound')}</p>
+              <button class="nav-collection-btn primary-nav" style="margin:15px auto; max-width:280px;" onclick="changeWarehouse('${altWh}')">
+                ${t('exploreInWarehouse')}${altWh}
               </button>
             </div>
           `;
@@ -1880,7 +1938,8 @@
           cardsHtml += buildCardHtml(p);
         });
 
-        const seeAll = filterTarget ? `<div style="font-size:0.75rem; font-weight:700; color:#aa771c; cursor:pointer;" onclick="selectCollection('${filterTarget}')">Ver Colección ></div>` : `<span class="collection-count-badge">${items.length} fragancias</span>`;
+        const countText = items.length === 1 ? t('fragranceCountSingular') : t('fragrancesCount');
+        const seeAll = filterTarget ? `<div style="font-size:0.75rem; font-weight:700; color:#aa771c; cursor:pointer;" onclick="selectCollection('${filterTarget}')">${t('seeCollection')}</div>` : `<span class="collection-count-badge">${items.length} ${countText}</span>`;
 
         return `
           <section style="margin-bottom: 22px;">
@@ -1897,7 +1956,20 @@
 
       function buildCardHtml(p) {
         const inCartQty = getCartQty(p.id);
-        const sizeFormatted = p.ml ? (isNaN(p.ml) ? p.ml : `${p.ml} ml`) : '70 ml';
+        const rawMl = String(p.ml || '').trim();
+        const sizeFormatted = rawMl ? (rawMl.toLowerCase().includes('ml') || rawMl.includes('*') || rawMl.includes('x') ? rawMl : `${rawMl} ml`) : '100 ml';
+
+        // Gender determination for card badge
+        const rawGender = String(p.gender || '').trim().toLowerCase();
+        let genderLabel = 'UNISEX';
+        let genderClass = 'unisex';
+        if (rawGender.includes('women') || rawGender.includes('mujer') || rawGender.includes('femme')) {
+          genderLabel = 'WOMEN';
+          genderClass = 'women';
+        } else if (rawGender.includes('men') || rawGender.includes('hombre') || rawGender.includes('homme')) {
+          genderLabel = 'MEN';
+          genderClass = 'men';
+        }
 
         // Clean display title matching photo style
         let cleanName = p.name;
@@ -1919,7 +1991,7 @@
           cartIndicator = `<span class="card-in-cart-indicator">✓ ${inCartQty}</span>`;
         }
 
-        const notes = p.notes || 'Un viaje sensorial entre el lujo y la seducción. Notas nobles de maderas y ámbar.';
+        const notes = (currentLang === 'en' ? (p.notes_en || p.notes) : (p.notes || p.notes_en)) || t('defaultNotes');
 
         return `
           <div class="er-product-card" onclick="openPerfumeModal('${p.id}')">
@@ -1933,8 +2005,11 @@
               <div class="card-olfactory-notes">${notes}</div>
             </div>
             <div class="card-size-bottom">
-              <span class="bottle-ico">🧴</span>
-              <span>${sizeFormatted}</span>
+              <span class="card-gender-badge gender-${genderClass}">${genderLabel}</span>
+              <div class="card-ml-box">
+                <span class="bottle-ico">🧴</span>
+                <span>${sizeFormatted}</span>
+              </div>
             </div>
           </div>
         `;
@@ -1994,10 +2069,10 @@
       }
 
       function showNoticeToast(msg) {
-        const t = document.getElementById("toast");
-        t.textContent = msg;
-        t.classList.add("show");
-        setTimeout(() => t.classList.remove("show"), 2200);
+        const tEl = document.getElementById("toast");
+        tEl.textContent = msg;
+        tEl.classList.add("show");
+        setTimeout(() => tEl.classList.remove("show"), 2200);
       }
 
       /* Quick add directly from drawer list */
@@ -2023,7 +2098,7 @@
 
         saveUserCart();
         renderMainCatalog();
-        showNoticeToast(`¡+1 ${p.name} agregado a tu lista! 🛒`);
+        showNoticeToast(t('addedToast', { qty: 1, name: p.name }));
       }
 
       /* Modal Methods */
@@ -2034,15 +2109,22 @@
         currentModalSku = sku;
         modalQuantity = 1;
 
+        const rawMl = String(p.ml || '').trim();
+        const sizeFormatted = rawMl ? (rawMl.toLowerCase().includes('ml') || rawMl.includes('*') || rawMl.includes('x') ? rawMl : `${rawMl} ml`) : '100 ml';
+        const genderUpper = String(p.gender || 'UNISEX').toUpperCase();
+
+        const notes = (currentLang === 'en' ? (p.notes_en || p.notes) : (p.notes || p.notes_en)) || t('defaultNotes');
+        const whLabel = currentLang === 'es' ? 'ALMACÉN' : 'WAREHOUSE';
+
         document.getElementById("m-img").src = p.img;
         document.getElementById("m-title").textContent = p.name;
-        document.getElementById("m-brand").textContent = `${p.brand} · ${p.warehouse} WAREHOUSE · ${p.gender || 'UNISEX'} · ${p.ml ? p.ml + ' ml' : '70 ml'}`;
-        document.getElementById("m-notes").textContent = p.notes || 'Notas de flores blancas, maderas aromáticas, cedro y ámbar refinado.';
+        document.getElementById("m-brand").textContent = `${p.brand} · ${p.warehouse} ${whLabel} · ${genderUpper} · ${sizeFormatted.toUpperCase()}`;
+        document.getElementById("m-notes").textContent = notes;
         document.getElementById("m-qty-val").textContent = modalQuantity;
 
         const stockEl = document.getElementById("m-stock");
         if (p.inventory && p.inventory < 50) {
-          stockEl.textContent = `🔥 Alta Demanda: ¡Solo quedan ${p.inventory} disponibles!`;
+          stockEl.textContent = t('highDemand', { n: p.inventory });
           stockEl.style.display = "block";
         } else {
           stockEl.style.display = "none";
@@ -2085,7 +2167,7 @@
         saveUserCart();
         closePerfumeModal();
         renderMainCatalog();
-        showNoticeToast(`¡${modalQuantity}x ${p.name} agregado a tu lista! 🛒`);
+        showNoticeToast(t('addedToast', { qty: modalQuantity, name: p.name }));
       }
 
       /* ================= LUXURY SPARKLES & FLOATING GOLD PARTICLES CANVAS ================= */

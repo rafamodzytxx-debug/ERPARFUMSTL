@@ -3,116 +3,134 @@ window.perfumeDB = [
     "id": "IL-MFK-01",
     "name": "Oud Silk Mood",
     "brand": "Maison Francis Kurkdjian",
-    "notes": "Un viaje sensorial entre el lujo y la seducción. Notas de rosa, oud, ámbar y madera.",
+    "notes": "Seda etérea y sensualidad oriental. Notas de rosa búlgara, madera de oud de Laos, camomila azul y papiro.",
     "ml": "70 ml",
     "warehouse": "IL",
     "top": 1,
     "new": 0,
     "img": "images/mfk_oud_silk_mood.jpg",
-    "remoteImg": "images/mfk_oud_silk_mood.jpg"
+    "remoteImg": "images/mfk_oud_silk_mood.jpg",
+    "gender": "Unisex",
+    "notes_en": "Ethereal silk and oriental sensuality. Notes of Bulgarian rose, Laos oud wood, blue chamomile and papyrus."
   },
   {
     "id": "IL-MFK-02",
     "name": "Grand Soir",
     "brand": "Maison Francis Kurkdjian",
-    "notes": "Una fragancia intensa y sofisticada. Notas de ámbar, vainilla, benjuí y haba tonka.",
+    "notes": "Una noche dorada en París. Notas de benjuí de Siam, haba tonka de Brasil, vainilla bourbon y resina de ámbar profundo.",
     "ml": "70 ml",
     "warehouse": "IL",
     "top": 1,
     "new": 0,
     "img": "images/mfk_grand_soir.jpg",
-    "remoteImg": "images/mfk_grand_soir.jpg"
+    "remoteImg": "images/mfk_grand_soir.jpg",
+    "gender": "Unisex",
+    "notes_en": "A golden night in Paris. Notes of Siam benzoin, Brazilian tonka bean, bourbon vanilla and deep amber resin."
   },
   {
     "id": "IL-MFK-03",
     "name": "Baccarat Rouge 540",
     "brand": "Maison Francis Kurkdjian",
-    "notes": "Una estela inolvidable. Notas de jazmín, azafrán, ámbar gris y madera de cedro.",
+    "notes": "Alquimia poética y firma inolvidable. Notas de jazmín Grandiflorum, azafrán resinoso, cedro de Virginia y ámbar gris.",
     "ml": "70 ml",
     "warehouse": "IL",
     "top": 1,
     "new": 0,
     "img": "images/mfk_baccarat_rouge.jpg",
-    "remoteImg": "images/mfk_baccarat_rouge.jpg"
+    "remoteImg": "images/mfk_baccarat_rouge.jpg",
+    "gender": "Unisex",
+    "notes_en": "Poetic alchemy and unforgettable signature. Notes of Grandiflorum jasmine, resinous saffrum, Virginia cedarwood and ambergris."
   },
   {
     "id": "IL-MFK-04",
     "name": "Baccarat",
     "brand": "Maison Francis Kurkdjian",
-    "notes": "Elegancia y modernidad en perfecta armonía. Notas de jazmín, azafrán, ámbar y cedro.",
+    "notes": "Alquimia poética y firma inolvidable. Notas de jazmín Grandiflorum, azafrán resinoso, cedro de Virginia y ámbar gris.",
     "ml": "70 ml",
     "warehouse": "IL",
     "top": 0,
     "new": 0,
     "img": "images/mfk_baccarat_extrait.jpg",
-    "remoteImg": "images/mfk_baccarat_extrait.jpg"
+    "remoteImg": "images/mfk_baccarat_extrait.jpg",
+    "gender": "Unisex",
+    "notes_en": "Poetic alchemy and unforgettable signature. Notes of Grandiflorum jasmine, resinous saffrum, Virginia cedarwood and ambergris."
   },
   {
     "id": "IL-MFK-05",
     "name": "Amyris Femme",
     "brand": "Maison Francis Kurkdjian",
-    "notes": "Fresca, luminosa y femenina. Notas de naranja, iris, sándalo y vainilla.",
+    "notes": "Fresca, luminosa y elegante. Notas de flor de limón, naranja de California, iris florentino, resina de amyris y ámbar.",
     "ml": "70 ml",
     "warehouse": "IL",
     "top": 0,
     "new": 1,
     "img": "images/mfk_amyris_femme.jpg",
-    "remoteImg": "images/mfk_amyris_femme.jpg"
+    "remoteImg": "images/mfk_amyris_femme.jpg",
+    "gender": "Women",
+    "notes_en": "Fresh, luminous, and elegant. Notes of lemon blossom, California orange, Florentine iris, amyris resin and amber."
   },
   {
     "id": "IL-MFK-06",
     "name": "Aqua Universalis",
     "brand": "Maison Francis Kurkdjian",
-    "notes": "Pura frescura. Notas de bergamota, flor de naranjo, almizcle y madera blanca.",
+    "notes": "Pura luz y frescor absoluto. Notas de bergamota de Calabria, limón siciliano, flor de azahar blanca y almizcle suave.",
     "ml": "70 ml",
     "warehouse": "IL",
     "top": 0,
     "new": 0,
     "img": "images/mfk_aqua_universalis.jpg",
-    "remoteImg": "images/mfk_aqua_universalis.jpg"
+    "remoteImg": "images/mfk_aqua_universalis.jpg",
+    "gender": "Unisex",
+    "notes_en": "Pure light and absolute freshness. Notes of Calabrian bergamot, Sicilian lemon, white orange blossom and soft musk."
   },
   {
     "id": "IL-MFK-07",
     "name": "Oud Satin Mood",
     "brand": "Maison Francis Kurkdjian",
-    "notes": "Rosa, oud y vainilla en una mezcla hipnotizante. Elegancia en su máxima expresión.",
+    "notes": "Rosa de Damasco y oud de Laos en una caricia hipnótica. Notas de violeta, rosa turca, vainilla y ámbar.",
     "ml": "70 ml",
     "warehouse": "IL",
     "top": 1,
     "new": 0,
     "img": "images/mfk_oud_satin_mood.jpg",
-    "remoteImg": "images/mfk_oud_satin_mood.jpg"
+    "remoteImg": "images/mfk_oud_satin_mood.jpg",
+    "gender": "Unisex",
+    "notes_en": "Damask rose and Laos oud in a hypnotic embrace. Notes of violet, Turkish rose, vanilla and amber."
   },
   {
     "id": "IL-MFK-08",
     "name": "724",
     "brand": "Maison Francis Kurkdjian",
-    "notes": "Moderna y envolvente. Notas de jazmín, almizcle y cedro.",
+    "notes": "Luz urbana y frescura celestial. Notas de aldehídos blancos, bergamota de Calabria, jazmín de Egipto y almizcle limpio.",
     "ml": "70 ml",
     "warehouse": "IL",
     "top": 0,
     "new": 1,
     "img": "images/perfume504.webp",
-    "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/main/perfume504.webp"
+    "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/main/perfume504.webp",
+    "gender": "Unisex",
+    "notes_en": "Urban light and celestial freshness. Notes of white aldehydes, Calabrian bergamot, jasmine de Egipto and clean musk."
   },
   {
     "id": "IL-MFK-09",
     "name": "À la rose",
     "brand": "Maison Francis Kurkdjian",
-    "notes": "Femenina y delicada. Notas de rosa, peonía, almizcle y cítricos.",
+    "notes": "Un tributo radiante a la feminidad. Notas de rosa centifolia de Grasse, rosa de Damasco, bergamota, magnolia y cedro.",
     "ml": "70 ml",
     "warehouse": "IL",
     "top": 0,
     "new": 0,
     "img": "images/mfk_a_la_rose.jpg",
-    "remoteImg": "images/mfk_a_la_rose.jpg"
+    "remoteImg": "images/mfk_a_la_rose.jpg",
+    "gender": "Women",
+    "notes_en": "A radiant tribute to femininity. Notes of Grasse centifolia rose, Damask rose, bergamot, magnolia and cedar."
   },
   {
     "id": "IL-B001",
     "name": "Louis Vuitton Afternoon Swim",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume46.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume46.webp",
     "stock": 182.0,
@@ -120,14 +138,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Un chapuzón en el océano. Notas de mandarina fresca, naranja siciliana, bergamota y jengibre."
+    "notes": "Un chapuzón enérgico en el océano. Notas de naranja jugosa, mandarina de Sicilia, bergamota, jengibre y ámbar gris.",
+    "notes_en": "An energetic plunge into the ocean. Notes of naranja jugosa, Sicilian mandarin, bergamot, ginger and ambergris."
   },
   {
     "id": "IL-B002",
     "name": "Parfums de Marly Althaïr",
     "brand": "Parfums de Marly",
     "gender": "Men",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume68.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume68.webp",
     "stock": 188.0,
@@ -135,14 +154,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "La grandeza de la realeza francesa. Notas de manzana, lavanda, especias y vainilla Bourbon."
+    "notes": "Calidez aristocrática y vainilla bourbon. Notas de flor de azahar, canela cálida, cardamomo, vainilla de Madagascar y praliné.",
+    "notes_en": "Aristocratic warmth and bourbon vanilla. Notes of orange blossom, warm cinnamon, cardamom, Madagascar vanilla and praline."
   },
   {
     "id": "IL-B003",
     "name": "Xerjoff Naxos",
     "brand": "Xerjoff",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume101.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume101.webp",
     "stock": 138.0,
@@ -150,14 +170,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Homenaje a la nobleza italiana. Notas de bergamota, lavanda, miel, tabaco y canela."
+    "notes": "Homenaje a la nobleza mediterránea. Notas de bergamota, limón de Amalfi, lavanda noble, miel dorada pura, canela especiada, tabaco y vainilla.",
+    "notes_en": "Tribute to Mediterranean nobility. Notes of bergamot, Amalfi lemon, noble lavender, pure golden honey, spicy cinnamon, tobacco and vanilla."
   },
   {
     "id": "IL-B004",
     "name": "Paco Rabanne",
-    "brand": "Paco Rabanne Invictus",
+    "brand": "Paco Rabanne",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume107.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume107.webp",
     "stock": 222.0,
@@ -165,14 +186,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Carácter varonil y distinguido. Notas de bergamota fresca, maderas aromáticas, especias finas y ámbar.",
+    "notes_en": "Distinguished and masculine character. Notes of fresh bergamot, aromatic woods, especias finas and amber."
   },
   {
     "id": "IL-B005",
     "name": "Bond No. 9 Madison Avenue",
     "brand": "Bond No. 9",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume197.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume197.webp",
     "stock": 320.0,
@@ -180,14 +202,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El vibrante espíritu de Nueva York. Notas florales exquisitas, frutas dulces y cedro."
+    "notes": "El chic de la alta costura neoyorquina. Notas de manzana crujiente, bergamota, mora silvestre, rosa, jazmín, pachulí y praliné.",
+    "notes_en": "The chic of New York haute couture. Notes of crisp apple, bergamot, wild blackberry, rose, jasmine, patchouli and praline."
   },
   {
     "id": "IL-B006",
     "name": "Tom Ford Ombré Leather",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume82.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume82.webp",
     "stock": 233.0,
@@ -195,14 +218,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Provocador, opulento y memorable. Notas de maderas ahumadas, especias orientales y vainilla."
+    "notes": "Vastedad del desierto y cuero seductor. Notas de cardamomo especiado, cuero negro floral, jazmín sambac, musgo blanco y ámbar cálido.",
+    "notes_en": "Desert vastness and seductive leather. Notes of spicy cardamom, leather negro floral, jasmine sambac, white moss and warm amber."
   },
   {
     "id": "IL-B007",
     "name": "Giorgio ArMani Acqua di Giò Profondo",
-    "brand": "Giorgio ArMani",
+    "brand": "Giorgio Armani",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume21.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume21.webp",
     "stock": 376.0,
@@ -210,14 +234,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Inmersión en las profundidades azules. Notas de notas marinas minerales, mandarina verde, bergamota, romero, lavanda, ciprés y pachulí.",
+    "notes_en": "Immersion into deep blue waters. Notes of mineral marine notes, green mandarin, bergamot, rosemary, lavender, cypress and patchouli."
   },
   {
     "id": "IL-B008",
     "name": "Valentino Uomo Born in Roma",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume3.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume3.webp",
     "stock": 538.0,
@@ -225,14 +250,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 9.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Aristocracia rebelde y moderna. Notas de hojas de violeta, jengibre fresco, salvia aromática, sales minerales y vetiver ahumado.",
+    "notes_en": "Rebellious and modern aristocracy. Notes of hojas de violet, fresh ginger, aromatic sage, sales minerales and vetiver ahumado."
   },
   {
     "id": "IL-B009",
     "name": "Valentino Uomo Born in Roma Coral Fantasy",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume35.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume35.webp",
     "stock": 557.0,
@@ -240,14 +266,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Puesta de sol romana audaz. Notas de manzana roja jugosa, cardamomo ardiente, salvia aromática, geranio bourbon y hojas de tabaco.",
+    "notes_en": "Puesta de sol romana audaz. Notes of juicy red apple, fiery cardamom, aromatic sage, bourbon geranium and tobacco leaves."
   },
   {
     "id": "IL-B010",
     "name": "Xerjoff Renaissance",
     "brand": "Xerjoff",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume110.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume110.webp",
     "stock": 110.0,
@@ -255,14 +282,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Lujo italiano artesanal. Notas cítricas mediterráneas, miel dorada, maderas y tabaco noble."
+    "notes": "El renacer luminoso de Italia. Notas de limón de Amalfi, bergamota de Calabria, mandarina, petit grain, menta verde, rosa búlgara y ámbar.",
+    "notes_en": "The luminous rebirth of Italy. Notes of Amalfi lemon, Calabrian bergamot, mandarin, petit grain, mint verde, Bulgarian rose and amber."
   },
   {
     "id": "IL-B011",
     "name": "Chanel Chance Eau de Toilette",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume89.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume89.webp",
     "stock": 228.0,
@@ -270,14 +298,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Un torbellino de optimismo. Notas de pimienta rosa, jazmín, pachulí ámbar y almizcle blanco."
+    "notes": "Un torbellino de optimismo. Notas de pimienta rosa, jazmín, jacinto, pachulí noble, ámbar y almizcle blanco.",
+    "notes_en": "A whirlwind of optimism. Notes of pepper rose, jasmine, hyacinth, noble patchouli, amber and white musk."
   },
   {
     "id": "IL-B012",
     "name": "Louis Vuitton L'Immensité",
     "brand": "Louis Vuitton",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume86.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume86.webp",
     "stock": 478.0,
@@ -285,14 +314,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 7.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Inmensidad, frescura y poder. Notas de jengibre fresco, pomelo amargo, bergamota, romero, salvia, ládano y ambroxan.",
+    "notes_en": "Immensity, freshness, and power. Notes of fresh ginger, grapefruit amargo, bergamot, rosemary, sage, labdanum and ambroxan."
   },
   {
     "id": "IL-B013",
     "name": "Carolina Herrera Good Girl Dazzling Garden",
     "brand": "Carolina Herrera",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume77.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume77.webp",
     "stock": 262.0,
@@ -300,14 +330,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, dulce y enigmática. Notas de almendra, café, nardo, jazmín sambac y cacao."
+    "notes": "Audaz, dulce y enigmática. Notas de almendra, café aromático, nardo blanco, jazmín sambac, cacao puro y haba tonka.",
+    "notes_en": "Bold, sweet, and enigmatic. Notes of almond, aromatic coffee, white tuberose, jasmine sambac, pure coconuta and tonka bean."
   },
   {
     "id": "IL-B015",
     "name": "Valentino Uomo Born in Roma Intense",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume34.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume34.webp",
     "stock": 152.0,
@@ -315,14 +346,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Magnetismo nocturno desbordante. Notas de vainilla bourbon intensa, nuez moscada, lavanda aromática y vetiver terroso.",
+    "notes_en": "Magnetismo nocturno desbordante. Notes of bourbon vanilla intensa, nutmeg, aromatic lavender and earthand vetiver."
   },
   {
     "id": "IL-B016",
     "name": "Valentino Donna Born in Roma",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume2.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume2.webp",
     "stock": 240.0,
@@ -330,14 +362,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 8.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Alta costura y actitud romana. Notas de grosella negra, pimienta rosa, jazmín grandiflorum, té de jazmín y vainilla bourbon.",
+    "notes_en": "Haute couture and Roman attitude. Notes of blackcurrant, pepper rose, jasmine grandiflorum, tea de jasmine and bourbon vanilla."
   },
   {
     "id": "IL-B017",
     "name": "Viktor and Rolf Spicebomb Infrared",
     "brand": "Viktor & Rolf",
     "gender": "Men",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume201.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume201.webp",
     "stock": 135.0,
@@ -345,14 +378,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Explosión incandescente de calor rojo. Notas de bayas rojas, chile habanero picante, canela dulce, azafrán, cuero y tabaco ardiente.",
+    "notes_en": "Incandescent explosion of red heat. Notes of bayas rojas, spicy habanero chili, cinnamon dulce, saffrum, leather and tobacco ardiente."
   },
   {
     "id": "IL-B018",
     "name": "Louis Vuitton Imagination",
     "brand": "Louis Vuitton",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume39.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume39.webp",
     "stock": 1602.0,
@@ -360,14 +394,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 3.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Frescura etérea y viaje infinito. Notas de cidro italiano, bergamota de Calabria, té negro de Ceilán, jengibre, canela y ambroxan.",
+    "notes_en": "Ethereal freshness and an endless journey. Notes of cidro italiano, Calabrian bergamot, Ceylon black tea, ginger, cinnamon and ambroxan."
   },
   {
     "id": "IL-B021",
     "name": "Initio Oud for Greatness",
     "brand": "Initio",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "90 ml",
     "img": "images/perfume85.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume85.webp",
     "stock": 48.0,
@@ -375,14 +410,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Poder sagrado y grandeza cósmica. Notas de madera de oud natural selecta, azafrán ardiente, nuez moscada, lavanda aromática, pachulí y almizcle.",
+    "notes_en": "Sacred power and cosmic grandeur. Notes of oud wood natural selecta, fiery saffrum, nutmeg, aromatic lavender, patchouli and musk."
   },
   {
     "id": "IL-B022",
     "name": "Chanel Coco Noir",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume58.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume58.webp",
     "stock": 133.0,
@@ -390,14 +426,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Intenso, misterioso y cautivador. Notas de mandarina, rosa, pachulí, haba tonka y vainilla."
+    "notes": "Intenso, misterioso y cautivador. Notas de pomelo, bergamota, rosa, narciso, pachulí, haba tonka, sándalo y vainilla.",
+    "notes_en": "Intense, mysterious, and captivating. Notes of grapefruit, bergamot, rose, narcissus, patchouli, tonka bean, sandalwood and vanilla."
   },
   {
     "id": "IL-B025",
     "name": "Valentino Donna Born in Roma Intense",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume1.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume1.webp",
     "stock": 493.0,
@@ -405,14 +442,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Sensualidad nocturna cautivadora. Notas de vainilla bourbon pura, bergamota, jazmín sambac nocturno y resina de benjuí cálido.",
+    "notes_en": "Sensualidad nocturna cautivadora. Notes of bourbon vanilla pura, bergamot, jasmine sambac nocturno and resin of benzoin cálido."
   },
   {
     "id": "IL-B026",
     "name": "ArMani Code",
-    "brand": "Giorgio ArMani",
+    "brand": "Giorgio Armani",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume118.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume118.webp",
     "stock": 30.0,
@@ -420,14 +458,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Magnetismo y sofisticación en esmoquin. Notas de bergamota verde italiana, iris toscano noble, salvia esclarea, haba tonka y madera de cedro.",
+    "notes_en": "Magnetism and tuxedo sophistication. Notes of green bergamot italiana, Tuscan iris noble, clary sage, tonka bean and cedarwood."
   },
   {
     "id": "IL-B027",
     "name": "Gucci Bamboo",
     "brand": "Gucci",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume116.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume116.webp",
     "stock": 138.0,
@@ -435,14 +474,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Riqueza floral y romanticismo contemporáneo. Notas de nardo natural, jazmín y madreselva."
+    "notes": "Fuerza grácil y elegancia femenina. Notas de bergamota italiana, flor de azahar, lirio de Casablanca, ylang-ylang, vainilla de Tahití y sándalo.",
+    "notes_en": "Fuerza grácil and elegancia femenina. Notes of Italian bergamot, orange blossom, lily de Casablanca, ylang-ylang, vanilla de Tahití and sandalwood."
   },
   {
     "id": "IL-B028",
     "name": "Chanel Bleu de Chanel Eau de Toilette",
     "brand": "Chanel",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume13.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume13.webp",
     "stock": 332.0,
@@ -450,14 +490,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El elogio de la libertad masculina. Notas de pomelo, cedro, incienso y sándalo."
+    "notes": "Elegancia atemporal y libertad masculina. Notas de pomelo, limón, menta fresca, jengibre, cedro, sándalo e incienso.",
+    "notes_en": "Timeless elegance and masculine freedom. Notes of grapefruit, lemon, fresh mint, ginger, cedar, sandalwood and incense."
   },
   {
     "id": "IL-B029",
     "name": "Jean Paul Gaultier Le Male Lover",
     "brand": "Jean Paul Gaultier",
     "gender": "Men",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume138.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume138.webp",
     "stock": 313.0,
@@ -465,14 +506,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El clásico insuperable. Notas de menta fresca, lavanda, canela, flor de azahar y vainilla."
+    "notes": "Piel caliente tatuada por el mar. Notas de pimienta blanca luminosa, caviar de cítricos, lavanda marina, almizcle salado y cedro.",
+    "notes_en": "Piel caliente tatuada por el mar. Notes of pepper blanca luminosa, caviar de cítricos, lavender marina, musk salado and cedar."
   },
   {
     "id": "IL-B030",
     "name": "Paco Rabanne 1 Million",
     "brand": "Paco Rabanne",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume8.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume8.webp",
     "stock": 290.0,
@@ -480,14 +522,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audacia, energía y magnetismo deslumbrante. Notas metálicas frescas, lavanda y ámbar."
+    "notes": "El lingote de oro de la seducción. Notas de mandarina roja, pomelo chispeante, menta picante, rosa de Damasco, canela especiada, cuero rubio y ámbar.",
+    "notes_en": "The gold bullion of seduction. Notes of mandarin roja, grapefruit chispeante, mint picante, Damask rose, spicy cinnamon, leather rubio and amber."
   },
   {
     "id": "IL-B031",
     "name": "Gucci Flora Gorgeous Jasmine",
     "brand": "Gucci",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume124.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume124.webp",
     "stock": 20.0,
@@ -495,14 +538,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Riqueza floral y romanticismo contemporáneo. Notas de nardo natural, jazmín y madreselva."
+    "notes": "Energía pura y serenidad radiante. Notas de mandarina italiana, bergamota, pimienta negra, jazmín grandiflorum noble, magnolia, rosa y sándalo.",
+    "notes_en": "Pure energy and radiant serenity. Notes of Italian mandarin, bergamot, black pepper, jasmine grandiflorum noble, magnolia, rose and sandalwood."
   },
   {
     "id": "IL-B034",
     "name": "Le Labo Santal 33",
     "brand": "Le Labo",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume90.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume90.webp",
     "stock": 296.0,
@@ -510,14 +554,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "El fuego crepitante de las llanuras americanas. Notas de madera de sándalo australiano, cedro de Virginia, cardamomo, violeta, papiro y cuero curtido.",
+    "notes_en": "Crackling fire across American plains. Notes of madera de sandalwood australiano, Virginia cedarwood, cardamom, violet, papyrus and tanned leather."
   },
   {
     "id": "IL-B035",
     "name": "Lattafa Yara",
     "brand": "Lattafa",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume168.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume168.webp",
     "stock": 104.0,
@@ -525,14 +570,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Suavidad golosa, femenina y encantadora. Notas de heliotropo empolvado, orquídea tropical, mandarina jugosa, acorde gourmand dulce, vainilla y sándalo.",
+    "notes_en": "Suavidad golosa, femenina and encantadora. Notes of heliotropo empolvado, orquídea tropical, juicy mandarin, acorde gourmand dulce, vanilla and sandalwood."
   },
   {
     "id": "IL-B036",
     "name": "Carolina Herrera Good Girl",
     "brand": "Carolina Herrera",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume38.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume38.webp",
     "stock": 40.0,
@@ -540,14 +586,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, dulce y enigmática. Notas de almendra, café, nardo, jazmín sambac y cacao."
+    "notes": "Audaz, dulce y enigmática. Notas de almendra, café aromático, nardo blanco, jazmín sambac, cacao puro y haba tonka.",
+    "notes_en": "Bold, sweet, and enigmatic. Notes of almond, aromatic coffee, white tuberose, jasmine sambac, pure coconuta and tonka bean."
   },
   {
     "id": "IL-B037",
     "name": "Carolina Herrera Good Girl Sparkling Ice",
     "brand": "Carolina Herrera",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume199.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume199.webp",
     "stock": 141.0,
@@ -555,14 +602,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, dulce y enigmática. Notas de almendra, café, nardo, jazmín sambac y cacao."
+    "notes": "Audaz, dulce y enigmática. Notas de almendra, café aromático, nardo blanco, jazmín sambac, cacao puro y haba tonka.",
+    "notes_en": "Bold, sweet, and enigmatic. Notes of almond, aromatic coffee, white tuberose, jasmine sambac, pure coconuta and tonka bean."
   },
   {
     "id": "IL-B038",
     "name": "Carolina Herrera Good Girl Blush",
     "brand": "Carolina Herrera",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume93.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume93.webp",
     "stock": 495.0,
@@ -570,14 +618,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, dulce y enigmática. Notas de almendra, café, nardo, jazmín sambac y cacao."
+    "notes": "Romántica, fresca y sensual. Notas de bergamota italiana, mandarina, peonía fresca, agua de rosas y vainilla bourbon.",
+    "notes_en": "Romantic, fresh, and sensual. Notes of Italian bergamot, mandarin, fresh peony, rosewater and bourbon vanilla."
   },
   {
     "id": "IL-B039",
     "name": "Burberry Hero",
     "brand": "Burberry",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume203.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume203.webp",
     "stock": 20.0,
@@ -585,14 +634,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El encanto y sofisticación británica. Notas de frutas rojas, jazmín delicado y ámbar cálido."
+    "notes": "Fuerza interior y superación personal. Notas de bergamota de Calabria, bayas de enebro fresco, pimienta negra y trío de maderas de cedro nobles.",
+    "notes_en": "Inner strength and personal triumph. Notes of Calabrian bergamot, juniper berries fresco, black pepper and trío de woods de cedar nobles."
   },
   {
     "id": "IL-B040",
     "name": "Dior Sauvage Eau de TOILETTE",
     "brand": "Dior",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume294.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume294.webp",
     "stock": 349.0,
@@ -600,14 +650,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Fresco, noble y potente. Notas de bergamota de Calabria, pimienta y ambroxan."
+    "notes": "Salvaje, fresca e intensa. Notas de bergamota de Calabria, pimienta de Sichuan, lavanda aromática, anís, vetiver y ambroxan.",
+    "notes_en": "Wild, fresh, and intense. Notes of Calabrian bergamot, Sichuan pepper, aromatic lavender, anise, vetiver and ambroxan."
   },
   {
     "id": "IL-B041",
     "name": "Dior Sauvage Elixir",
     "brand": "Dior",
     "gender": "Men",
-    "ml": "100",
+    "ml": "60 ml",
     "img": "images/perfume25.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume25.webp",
     "stock": 618.0,
@@ -615,14 +666,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Fresco, noble y potente. Notas de bergamota de Calabria, pimienta y ambroxan."
+    "notes": "Poderosa, nocturna y opulenta. Notas de canela, nuez moscada, cardamomo, pomelo, lavanda de Nyons, regaliz, sándalo y pachulí.",
+    "notes_en": "Powerful, nocturnal, and opulent. Notes of cinnamon, nutmeg, cardamom, grapefruit, Nyons lavender, licorice, sandalwood and patchouli."
   },
   {
     "id": "IL-B042",
     "name": "Creed Virgin Island Water",
     "brand": "Creed",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume79.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume79.webp",
     "stock": 146.0,
@@ -630,14 +682,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Un velero caribeño hacia el paraíso. Notas de coco blanco, lima ácida, ron blanco, bergamota, mandarina, hibisco y azúcar de caña.",
+    "notes_en": "A Caribbean sailboat toward paradise. Notes of white coconutnut, lima ácida, white rum, bergamot, mandarin, hibisco and azúcar de caña."
   },
   {
     "id": "IL-B044",
     "name": "Louis Vuitton Ombre Nomade",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume120.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume120.webp",
     "stock": 479.0,
@@ -645,14 +698,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Mística, profunda y majestuosa. Notas de madera de oud de Asís, benjuí de Siam, frambuesa silvestre, incienso y rosa centifolia.",
+    "notes_en": "Mystic, profound, and majestic. Notes of Assam oud wood, Siam benzoin, wild raspberry, incense and centifolia rose."
   },
   {
     "id": "IL-B045",
     "name": "Louis Vuitton California Dream",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume71.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume71.webp",
     "stock": 240.0,
@@ -660,14 +714,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Un atardecer dorado en la costa oeste. Notas de mandarina jugosa, pera dulce, almizcle blanco, benjuí y ambreta.",
+    "notes_en": "A golden sunset on the West Coast. Notes of juicy mandarin, sweet pear, white musk, benzoin and ambrette."
   },
   {
     "id": "IL-B046",
     "name": "Parfums de Marly Delina",
     "brand": "Parfums de Marly",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume42.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume42.webp",
     "stock": 213.0,
@@ -675,14 +730,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "La grandeza de la realeza francesa. Notas de manzana, lavanda, especias y vainilla Bourbon."
+    "notes": "Realeza floral y sensualidad encantadora. Notas de lichi, ruibarbo crujiente, bergamota, rosa turca, peonía, vainilla y cachemira.",
+    "notes_en": "Floral royalty and enchanting sensuality. Notes of lychee, crisp rhubarb, bergamot, Turkish rose, peony, vanilla and cachemira."
   },
   {
     "id": "IL-B047",
     "name": "Versace Dylan Blue",
     "brand": "Versace",
-    "gender": "Unisex",
-    "ml": "100",
+    "gender": "Men",
+    "ml": "100 ml",
     "img": "images/perfume117.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume117.webp",
     "stock": 415.0,
@@ -690,14 +746,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Poder, sensualidad y glamour mediterráneo. Notas cítricas chispeantes, cedro y almizcle."
+    "notes": "Carisma masculino bajo el sol mediterráneo. Notas de bergamota de Calabria, pomelo, notas acuáticas, violeta, pimienta negra, ambroxan e incienso.",
+    "notes_en": "Carisma masculino bajo el sol mediterráneo. Notes of Calabrian bergamot, grapefruit, aquatic notes, violet, black pepper, ambroxan and incense."
   },
   {
     "id": "IL-B048",
     "name": "Dior Bonne Étoile",
     "brand": "Dior",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume119.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume119.webp",
     "stock": 36.0,
@@ -705,14 +762,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Ternura poética y suavidad celestial. Notas de pera verde, rosa suave, almizcle blanco aterciopelado y algodón de azúcar.",
+    "notes_en": "Ternura poética and suavidad celestial. Notes of green pear, rose suave, white musk aterciopelado and algodón de azúcar."
   },
   {
     "id": "IL-B049",
     "name": "Valentino Donna Born in Roma Coral Fantasy",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume99.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume99.webp",
     "stock": 322.0,
@@ -720,14 +778,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Hora dorada en la Ciudad Eterna. Notas de kiwi dorado jugoso, naranja brasileña, jazmín indio, rosa de Damasco y almizcle blanco.",
+    "notes_en": "Hora dorada en la Ciudad Eterna. Notes of juicy golden kiwi, naranja brasileña, jasmine indio, Damask rose and white musk."
   },
   {
     "id": "IL-B051",
     "name": "Tom Ford Neroli Portofino",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume84.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume84.webp",
     "stock": 297.0,
@@ -735,14 +794,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Provocador, opulento y memorable. Notas de maderas ahumadas, especias orientales y vainilla."
+    "notes": "Brisa mediterránea en la Riviera italiana. Notas de bergamota italiana, mandarina siciliana, flor de azahar de Túnez, romero y lavanda.",
+    "notes_en": "Mediterranean breeze on the Italian Riviera. Notes of Italian bergamot, mandarin siciliana, Tunisian orange blossom, rosemary and lavender."
   },
   {
     "id": "IL-B052",
     "name": "Bvlgari Omnia Amethyste",
     "brand": "BVLGARI",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume100.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume100.webp",
     "stock": 127.0,
@@ -750,14 +810,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Gracia serena inspirada en la amatista. Notas de savia verde fresca, pomelo rosado, iris de Florencia, rosa de Bulgaria, heliotropo y maderas claras.",
+    "notes_en": "Gracia serena inspirada en la amatista. Notes of savia verde fresca, grapefruit rosedo, iris de Florencia, rose de Bulgaria, heliotropo and woods claras."
   },
   {
     "id": "IL-B053",
     "name": "Yves Saint Laurent Y Eau de Parfum",
     "brand": "Yves Saint Laurent",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume12.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume12.webp",
     "stock": 615.0,
@@ -765,14 +826,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Para el hombre que se atreve a soñar. Notas de manzana crujiente, jengibre fresco, bergamota, salvia aromática, bayas de enebro y cedro.",
+    "notes_en": "For the man who dares to dream. Notes of crisp apple, fresh ginger, bergamot, aromatic sage, juniper berries and cedar."
   },
   {
     "id": "IL-B054",
     "name": "Azzaro The Most Wanted",
     "brand": "Azzaro",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume126.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume126.webp",
     "stock": 699.0,
@@ -780,14 +842,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Juega más fuerte y atrévete a ganar. Notas de cardamomo rojo ardiente, caramelo dulce fundido, toffee gourmand, madera de jengibre y vetiver bourbon.",
+    "notes_en": "Play harder and dare to win. Notes of cardamom rojo ardiente, caramel dulce fundido, gourmand toffee, madera de ginger and vetiver bourbon."
   },
   {
     "id": "IL-B055",
     "name": "Jean Paul Gaultier La Belle Le Parfum",
     "brand": "Jean Paul Gaultier",
     "gender": "Women",
-    "ml": "125",
+    "ml": "100 ml",
     "img": "images/perfume137.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume137.webp",
     "stock": 68.0,
@@ -795,14 +858,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Intenso, sensual y transgresor. Notas de lavanda fresca, vainilla dulce y especias."
+    "notes": "El jardín de la tentación más dulce. Notas de pera verde caramelizada, bergamota fresca, jazmín solar, haba tonka y vainilla oriental.",
+    "notes_en": "The garden of sweetest temptation. Notes of green pear caramelizada, fresh bergamot, jasmine solar, tonka bean and vanilla oriental."
   },
   {
     "id": "IL-B056",
     "name": "Tom Ford Vanilla Sex",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "50 ml",
     "img": "images/perfume81.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume81.webp",
     "stock": 292.0,
@@ -810,14 +874,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Provocador, opulento y memorable. Notas de maderas ahumadas, especias orientales y vainilla."
+    "notes": "Placer adictivo e inocencia sensual. Notas de extracto de vainilla de la India, almendra amarga dulce, sándalo cremoso y absoluto de vainilla.",
+    "notes_en": "Addictive pleasure and sensual innocence. Notes of extracto de vanilla de la India, sweet bitter almond, creamy sandalwood and absoluto de vanilla."
   },
   {
     "id": "IL-B057",
     "name": "Yves Saint Laurent Black Opium Over Red",
     "brand": "Yves Saint Laurent",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume80.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume80.webp",
     "stock": 66.0,
@@ -825,14 +890,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Seducción embriagadora en rojo cereza. Notas de cereza licorosa, café negro tostado, mandarina verde, flor de azahar y vainilla bourbon.",
+    "notes_en": "Intoxicating seduction in cherry red. Notes of cherry licorose, coffee negro tostado, green mandarin, orange blossom and bourbon vanilla."
   },
   {
     "id": "IL-B060",
     "name": "Yves Saint Laurent MYSLF",
     "brand": "Yves Saint Laurent",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume45.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume45.webp",
     "stock": 714.0,
@@ -840,14 +906,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Auténtico y magnético. Notas de bergamota espumosa, flor de azahar pura y pachulí sensual."
+    "notes": "Auténtico, libre y magnético. Notas de bergamota de Calabria fresca, flor de azahar de Túnez pura, maderas ambarinas y pachulí.",
+    "notes_en": "Authentic, free, and magnetic. Notes of Calabrian bergamot fresca, Tunisian orange blossom pura, amber woods and patchouli."
   },
   {
     "id": "IL-B061",
     "name": "Yves Saint Laurent Libre Le Parfum",
     "brand": "Yves Saint Laurent",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume16.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume16.webp",
     "stock": 1152.0,
@@ -855,14 +922,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Fuego y libertad ardiente. Notas de azafrán cálido, jengibre fresco, mandarina, lavanda de Diva, flor de azahar, miel pura y vainilla.",
+    "notes_en": "Fire and burning freedom. Notes of saffrum cálido, fresh ginger, mandarin, Diva lavender, orange blossom, pure honey and vanilla."
   },
   {
     "id": "IL-B062",
     "name": "Parfums de Marly Pegasus",
     "brand": "Parfums de Marly",
     "gender": "Men",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume73.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume73.webp",
     "stock": 134.0,
@@ -870,14 +938,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "La grandeza de la realeza francesa. Notas de manzana, lavanda, especias y vainilla Bourbon."
+    "notes": "Fuerza mítica y elegancia ecuestre. Notas de almendra amarga, bergamota, heliotropo, jazmín, lavanda, vainilla cremosa y sándalo.",
+    "notes_en": "Mythical strength and equestrian elegance. Notes of bitter almond, bergamot, heliotropo, jasmine, lavender, creamy vanilla and sandalwood."
   },
   {
     "id": "IL-B063",
     "name": "Gucci Guilty Parfum Pour Homme",
     "brand": "Gucci",
     "gender": "Men",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume67.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume67.webp",
     "stock": 331.0,
@@ -885,14 +954,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Riqueza floral y romanticismo contemporáneo. Notas de nardo natural, jazmín y madreselva."
+    "notes": "Para espíritus libres y transgresores. Notas de limón de Amalfi fresco, lavanda francesa aromática, flor de azahar pura, cedro de Virginia y pachulí.",
+    "notes_en": "Para espíritus libres and transgresores. Notes of Amalfi lemon fresco, aromatic French lavender, orange blossom pura, Virginia cedarwood and patchouli."
   },
   {
     "id": "IL-B064",
     "name": "Tom Ford Electric Cherry",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "50 ml",
     "img": "images/perfume108.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume108.webp",
     "stock": 252.0,
@@ -900,14 +970,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Provocador, opulento y memorable. Notas de maderas ahumadas, especias orientales y vainilla."
+    "notes": "Cereza ácida y burbujeante de alta costura. Notas de cereza ácida morello, jengibre fresco, jazmín sambac solar, pimienta rosa y almizcle.",
+    "notes_en": "Cereza ácida and burbujeante de alta costura. Notes of tart morello cherry, fresh ginger, jasmine sambac solar, pepper rose and musk."
   },
   {
     "id": "IL-B065",
     "name": "Emporio ArMani Stronger With You Absolutely",
-    "brand": "Giorgio ArMani",
+    "brand": "Giorgio Armani",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume20.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume20.webp",
     "stock": 81.0,
@@ -915,14 +986,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Amor inquebrantable y conexión profunda. Notas de pimienta rosa, cardamomo, salvia aromática, castaña glaseada dulce, vainilla bourbon y cedro.",
+    "notes_en": "Unshakable love and profound connection. Notes of pepper rose, cardamom, aromatic sage, sweet candied chestnut, bourbon vanilla and cedar."
   },
   {
     "id": "IL-B066",
     "name": "Louis Vuitton City of Stars",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume36.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume36.webp",
     "stock": 221.0,
@@ -930,14 +1002,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Noche mágica en Los Ángeles. Notas de lima, naranja sanguina, mandarina roja, limón, flor de tiaré y sándalo cremoso.",
+    "notes_en": "A magical night in Los Angeles. Notes of lima, blood orange, mandarin roja, lemon, tiare flower and creamy sandalwood."
   },
   {
     "id": "IL-B067",
     "name": "Louis Vuitton On The Beach",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume104.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume104.webp",
     "stock": 293.0,
@@ -945,14 +1018,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "La calidez de la arena y el mar. Notas de yuzu japonés, neroli, romero, tomillo silvestre, pimienta rosa y ciprés.",
+    "notes_en": "The warmth of sand and sea. Notes of Japanese yuzu, neroli, rosemary, wild thyme, pepper rose and cypress."
   },
   {
     "id": "IL-B068",
     "name": "Chanel Gabrielle Essence",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume95.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume95.webp",
     "stock": 287.0,
@@ -960,14 +1034,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Elegancia atemporal y distinción absoluta. Notas florales refinadas, aldehídos y maderas."
+    "notes": "Un aura floral solar deslumbrante. Notas de pomelo, grosella negra, flor de azahar, jazmín, ylang-ylang, nardo y sándalo.",
+    "notes_en": "A dazzling solar floral aura. Notes of grapefruit, blackcurrant, orange blossom, jasmine, ylang-ylang, tuberose and sandalwood."
   },
   {
     "id": "IL-B069",
     "name": "Giorgio ArMani Sì Passione",
-    "brand": "Giorgio ArMani",
+    "brand": "Giorgio Armani",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume32.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume32.webp",
     "stock": 48.0,
@@ -975,14 +1050,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Di sí a la pasión y a la libertad. Notas de néctar de grosella negra pura, pera jugosa, rosa de mayo, fresia blanca, pachulí y vainilla dorada.",
+    "notes_en": "Say yes to passion and freedom. Notes of néctar de blackcurrant pura, juicy pear, May rose, white freesia, patchouli and vanilla dorada."
   },
   {
     "id": "IL-B070",
     "name": "Parfums de Marly Kalan",
     "brand": "Parfums de Marly",
     "gender": "Unisex",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume139.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume139.webp",
     "stock": 173.0,
@@ -990,14 +1066,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "La grandeza de la realeza francesa. Notas de manzana, lavanda, especias y vainilla Bourbon."
+    "notes": "Fuerza volcánica y nobleza ecuestre. Notas de naranja sanguina ardiente, pimienta negra, especias nobles, lavanda y maderas.",
+    "notes_en": "Fuerza volcánica and nobleza ecuestre. Notes of blood orange ardiente, black pepper, especias nobles, lavender and woods."
   },
   {
     "id": "IL-B071",
     "name": "Chanel Bleu de Chanel Parfum",
     "brand": "Chanel",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume43.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume43.webp",
     "stock": 457.0,
@@ -1005,14 +1082,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El elogio de la libertad masculina. Notas de pomelo, cedro, incienso y sándalo."
+    "notes": "Elegancia atemporal y libertad masculina. Notas de pomelo, limón, menta fresca, jengibre, cedro, sándalo e incienso.",
+    "notes_en": "Timeless elegance and masculine freedom. Notes of grapefruit, lemon, fresh mint, ginger, cedar, sandalwood and incense."
   },
   {
     "id": "IL-B072",
     "name": "Bond No. 9 BeekMen Place",
     "brand": "Bond No. 9",
-    "gender": "Unisex",
-    "ml": "100",
+    "gender": "Men",
+    "ml": "100 ml",
     "img": "images/perfume196.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume196.webp",
     "stock": 188.0,
@@ -1020,14 +1098,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El vibrante espíritu de Nueva York. Notas florales exquisitas, frutas dulces y cedro."
+    "notes": "Exclusividad residencial y aire noble. Notas de grosella negra, bergamota, albahaca, notas marinas, cuero suave, sándalo y almizcle.",
+    "notes_en": "Exclusividad residencial and aire noble. Notes of blackcurrant, bergamot, basil, marine notes, soft leather, sandalwood and musk."
   },
   {
     "id": "IL-B073",
     "name": "Creed Aventus",
     "brand": "Creed",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume9.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume9.webp",
     "stock": 336.0,
@@ -1035,14 +1114,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 3.0,
     "new": 0.0,
-    "notes": "Audaz, magnético y legendario. Notas de piña, abedul, grosella negra y ámbar gris."
+    "notes": "Triunfo, fuerza y éxito indiscutible. Notas de piña ahumada, bergamota jugosa, grosella negra, abedul seco, pachulí, musgo y almizcle.",
+    "notes_en": "Triumph, strength, and undeniable success. Notes of smoky pineapple, bergamot jugosa, blackcurrant, abedul seco, patchouli, moss and musk."
   },
   {
     "id": "IL-B074",
     "name": "Louis Vuitton Pacific Chill",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume33.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume33.webp",
     "stock": 94.0,
@@ -1050,14 +1130,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Regeneradora, frutal y deslumbrante. Notas de grosella negra, zanahoria, menta fresca, albahaca, cilantro y cítricos californianos.",
+    "notes_en": "Regenerating, fruity, and dazzling. Notes of blackcurrant, carrot, fresh mint, basil, coriander and cítricos californianos."
   },
   {
     "id": "IL-B077",
     "name": "Miss Dior Blooming Bouquet",
     "brand": "Dior",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume4.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume4.webp",
     "stock": 405.0,
@@ -1065,14 +1146,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Un bouquet floral primaveral sublime. Notas de lirio de los valles, peonía fresca, rosa centifolia, iris, melocotón y vainilla suave.",
+    "notes_en": "A sublime spring floral bouquet. Notes of lily-of-the-valley, fresh peony, centifolia rose, iris, peach and vanilla suave."
   },
   {
     "id": "IL-B078",
     "name": "Tom Ford Fucking Fabulous",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "50 ml",
     "img": "images/perfume24.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume24.webp",
     "stock": 186.0,
@@ -1080,14 +1162,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Provocador, opulento y memorable. Notas de maderas ahumadas, especias orientales y vainilla."
+    "notes": "Explícita, lujosa y legendaria. Notas de salvia esclarea fresca, lavanda aromática, almendra amarga dulce, cuero fino, haba tonka y raíz de lirio.",
+    "notes_en": "Explícita, lujosa and legendaria. Notes of clary sage fresca, aromatic lavender, sweet bitter almond, fine leather, tonka bean and raíz de lily."
   },
   {
     "id": "IL-B079",
     "name": "Givenchy GentleMen",
     "brand": "Givenchy",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume106.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume106.webp",
     "stock": 98.0,
@@ -1095,14 +1178,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Elegancia aristocrática y seducción moderna. Notas de pimienta negra viva, lavanda aromática, lirio toscano refinado, bálsamo de Tolú, pachulí y vainilla negra.",
+    "notes_en": "Elegancia aristocrática and seducción moderna. Notes of vivid black pepper, aromatic lavender, lily toscano refinado, Tolu balsam, patchouli and vanilla negra."
   },
   {
     "id": "IL-B080",
     "name": "Jean Paul Gaultier Le Male Elixir",
     "brand": "Jean Paul Gaultier",
     "gender": "Men",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume10.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume10.webp",
     "stock": 912.0,
@@ -1110,14 +1194,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 6.0,
     "new": 0.0,
-    "notes": "El clásico insuperable. Notas de menta fresca, lavanda, canela, flor de azahar y vainilla."
+    "notes": "Ardiente, sensual y embriagadora. Notas de lavanda dorada, menta fresca, benjuí resinoso, miel pura, haba tonka y tabaco dulce.",
+    "notes_en": "Fiery, sensual, and intoxicating. Notes of lavender dorada, fresh mint, benzoin resinoso, pure honey, tonka bean and sweet tobacco."
   },
   {
     "id": "IL-B081",
     "name": "Versace Eros Eau de Parfum",
     "brand": "Versace",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume28.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume28.webp",
     "stock": 242.0,
@@ -1125,14 +1210,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Poder, sensualidad y glamour mediterráneo. Notas cítricas chispeantes, cedro y almizcle."
+    "notes": "Fuerza y deseo en la gloria griega. Notas de menta fresca crujiente, manzana verde confitada, limón italiano, haba tonka, ambroxan y vainilla.",
+    "notes_en": "Strength and desire in Greek glory. Notes of crisp fresh mint, apple verde confitada, Italian lemon, tonka bean, ambroxan and vanilla."
   },
   {
     "id": "IL-B082",
     "name": "Yves Saint Laurent Mon Paris Eau de Parfum",
     "brand": "Yves Saint Laurent",
-    "gender": "Women",
-    "ml": "90",
+    "gender": "Men",
+    "ml": "100 ml",
     "img": "images/perfume7.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume7.webp",
     "stock": 143.0,
@@ -1140,14 +1226,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Audacia y frescura vibrante. Notas de bergamota, jengibre, manzana verde, salvia aromática, geranio y maderas nobles.",
+    "notes_en": "Audacia and frescura vibrante. Notes of bergamot, ginger, apple verde, aromatic sage, geranium and noble woods."
   },
   {
     "id": "IL-B083",
     "name": "Tom Ford Bitter Peach",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "50 ml",
     "img": "images/perfume83.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume83.webp",
     "stock": 135.0,
@@ -1155,14 +1242,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Provocador, opulento y memorable. Notas de maderas ahumadas, especias orientales y vainilla."
+    "notes": "Carne jugosa y voluptuosa de melocotón maduro. Notas de melocotón de viña, naranja sanguina, cardamomo, ron dorado, coñac y pachulí.",
+    "notes_en": "Juicy, voluptuous ripe peach nectar. Notes of vineyard peach, blood orange, cardamom, golden rum, coñac and patchouli."
   },
   {
     "id": "IL-B086",
     "name": "Creed Eladaria",
     "brand": "Creed",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume193.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume193.webp",
     "stock": 484.0,
@@ -1170,14 +1258,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Luz floral femenina y misterio sutil. Notas de bergamota espumosa, jazmín sambac, violeta empolvada, iris noble, sándalo y almizcle.",
+    "notes_en": "Luz floral femenina and misterio sutil. Notes of bergamot espumosa, jasmine sambac, violet empolvada, iris noble, sandalwood and musk."
   },
   {
     "id": "IL-B087",
     "name": "Mencera Xplicit Vanilla",
-    "brand": "Mencera",
+    "brand": "Mancera",
     "gender": "Unisex",
-    "ml": "120",
+    "ml": "120 ml",
     "img": "images/perfume204.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume204.webp",
     "stock": 136.0,
@@ -1185,14 +1274,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Vainilla embriagadora y opulencia moderna. Notas de vainilla de Madagascar pura, azúcar moreno fundido, almendra tostada, flor blanca, ámbar y sándalo.",
+    "notes_en": "Vainilla embriagadora and opulencia moderna. Notes of Madagascar vanilla pura, melted brown sugar, toasted almond, flor blanca, amber and sandalwood."
   },
   {
     "id": "IL-B088",
     "name": "Creed Royal Princess Oud",
     "brand": "Creed",
     "gender": "Women",
-    "ml": "100",
+    "ml": "75 ml",
     "img": "images/perfume180.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume180.webp",
     "stock": 31.0,
@@ -1200,14 +1290,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Elegancia imperial femenina. Notas de bergamota, rosa centifolia, violeta dulce, jazmín sambac, pachulí, oud refinado y sándalo.",
+    "notes_en": "Elegancia imperial femenina. Notes of bergamot, centifolia rose, violet dulce, jasmine sambac, patchouli, oud refinado and sandalwood."
   },
   {
     "id": "IL-B089",
     "name": "Maison Crivelli Hibiscus Mahajád",
     "brand": "Maison Crivelli",
     "gender": "Unisex",
-    "ml": "50",
+    "ml": "50 ml",
     "img": "images/perfume205.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume205.webp",
     "stock": 41.0,
@@ -1215,14 +1306,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Té de hibisco bajo el sol ardiente de un mercado de gemas. Notas de flor de hibisco rubí, rosa de Damasco, vainilla cremosa, cuero suave, menta y cassis.",
+    "notes_en": "Té de hibisco bajo el sol ardiente de un mercado de gemas. Notes of flor de hibisco rubí, Damask rose, creamy vanilla, soft leather, mint and cassis."
   },
   {
     "id": "IL-B090",
     "name": "Chanel Paris - Paris",
     "brand": "Chanel",
     "gender": "Unisex",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume189.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume189.webp",
     "stock": 127.0,
@@ -1230,14 +1322,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Elegancia atemporal y distinción absoluta. Notas florales refinadas, aldehídos y maderas."
+    "notes": "El espíritu desenfadado de una terraza parisina. Notas de mandarina espumosa, pimienta rosa, rosa damascena y pachulí claro.",
+    "notes_en": "El espíritu desenfadado de una terraza parisina. Notes of mandarin espumosa, pepper rose, rose damascena and patchouli claro."
   },
   {
     "id": "IL-B091",
     "name": "Creed Fragaria",
     "brand": "Creed",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume192.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume192.webp",
     "stock": 22.0,
@@ -1245,14 +1338,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Dulzura silvestre y sofisticación inglesa. Notas de fresa silvestre madura, peonía fresca, bergamota, lirio de los valles y ámbar.",
+    "notes_en": "Dulzura silvestre and sofisticación inglesa. Notes of wild strawberry madura, fresh peony, bergamot, lily-of-the-valley and amber."
   },
   {
     "id": "IL-B092",
     "name": "Mencera Instant Crush",
-    "brand": "Mencera",
+    "brand": "Mancera",
     "gender": "Unisex",
-    "ml": "120",
+    "ml": "120 ml",
     "img": "images/perfume206.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume206.webp",
     "stock": 83.0,
@@ -1260,14 +1354,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Atracción fulminante y estela adictiva. Notas de azafrán ardiente, jengibre picante, mandarina siciliana, bergamota, rosa, jazmín, ámbar gris y vainilla.",
+    "notes_en": "Lightning attraction and addictive sillage. Notes of fiery saffrum, ginger picante, mandarin siciliana, bergamot, rose, jasmine, ambergris and vanilla."
   },
   {
     "id": "IL-B094",
     "name": "Miss Dior Eau de Parfum",
     "brand": "Dior",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume190.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume190.webp",
     "stock": 436.0,
@@ -1275,14 +1370,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Un bouquet floral primaveral sublime. Notas de lirio de los valles, peonía fresca, rosa centifolia, iris, melocotón y vainilla suave.",
+    "notes_en": "A sublime spring floral bouquet. Notes of lily-of-the-valley, fresh peony, centifolia rose, iris, peach and vanilla suave."
   },
   {
     "id": "IL-B095",
     "name": "Maison Crivell Tubéreuse Astrale",
     "brand": "Maison Crivelli",
     "gender": "Unisex",
-    "ml": "50",
+    "ml": "50 ml",
     "img": "images/perfume224.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume224.webp",
     "stock": 61.0,
@@ -1290,14 +1386,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Un cielo estrellado iluminado por nardo cósmico. Notas de canela especiada, comino, nardo celestial, osmanthus afrutado, cuero negro y almizcle.",
+    "notes_en": "Un cielo estrellado iluminado por tuberose cósmico. Notes of spicy cinnamon, cumin, celestial tuberose, fruity osmanthus, leather negro and musk."
   },
   {
     "id": "IL-B096",
     "name": "Initio Side Effect",
     "brand": "Initio",
     "gender": "Unisex",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume114.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume114.webp",
     "stock": 43.0,
@@ -1305,14 +1402,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Atracción magnética sin filtros. Notas de ron añejo, tabaco cubano curado, vainilla cremosa, canela especiada, cuero cálido y sándalo.",
+    "notes_en": "Unfiltered magnetic attraction. Notes of aged rum, tobacco cubano curado, creamy vanilla, spicy cinnamon, leather cálido and sandalwood."
   },
   {
     "id": "IL-B097",
     "name": "Kilian Love don't be shy",
     "brand": "Kilian",
     "gender": "Women",
-    "ml": "50",
+    "ml": "50 ml",
     "img": "images/perfume215.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume215.webp",
     "stock": 327.0,
@@ -1320,14 +1418,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Dulce manjar de amor inocente y voluptuoso. Notas de neroli blanco, flor de azahar fresca, malvavisco esponjoso, madreselva, azúcar caramelizado y vainilla.",
+    "notes_en": "Sweet confection of innocent, voluptuous love. Notes of neroli blanco, orange blossom fresca, fluffy marshmallow, honeysuckle, azúcar caramelizado and vanilla."
   },
   {
     "id": "IL-B098",
     "name": "Valentino Uomo Born in Roma Extradose",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume179.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume179.webp",
     "stock": 83.0,
@@ -1335,14 +1434,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Aristocracia rebelde y moderna. Notas de hojas de violeta, jengibre fresco, salvia aromática, sales minerales y vetiver ahumado.",
+    "notes_en": "Rebellious and modern aristocracy. Notes of hojas de violet, fresh ginger, aromatic sage, sales minerales and vetiver ahumado."
   },
   {
     "id": "IL-B101",
     "name": "Jean Paul Gaultier Ultra Male",
     "brand": "Jean Paul Gaultier",
     "gender": "Men",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume136.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume136.webp",
     "stock": 805.0,
@@ -1350,14 +1450,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Intenso, sensual y transgresor. Notas de lavanda fresca, vainilla dulce y especias."
+    "notes": "Poderoso, pícaro y seductor. Notas de pera negra jugosa, lavanda, menta fresca, canela especiada, salvia, vainilla negra y ámbar.",
+    "notes_en": "Poderoso, pícaro and seductor. Notes of pear negra jugosa, lavender, fresh mint, spicy cinnamon, sage, vanilla negra and amber."
   },
   {
     "id": "IL-B102",
     "name": "Yves Saint Laurent Blouse",
     "brand": "Yves Saint Laurent",
-    "gender": "Unisex",
-    "ml": "75",
+    "gender": "Men",
+    "ml": "100 ml",
     "img": "images/perfume217.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume217.webp",
     "stock": 80.0,
@@ -1365,14 +1466,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Audacia y frescura vibrante. Notas de bergamota, jengibre, manzana verde, salvia aromática, geranio y maderas nobles.",
+    "notes_en": "Audacia and frescura vibrante. Notes of bergamot, ginger, apple verde, aromatic sage, geranium and noble woods."
   },
   {
     "id": "IL-B103",
     "name": "Chanel Chance Eau Tendre",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume159.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume159.webp",
     "stock": 342.0,
@@ -1380,14 +1482,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Un torbellino de optimismo. Notas de pimienta rosa, jazmín, pachulí ámbar y almizcle blanco."
+    "notes": "Floral, tierna y radiante. Notas de pomelo jugoso, membrillo dulce, jazmín, jacinto, almizcle blanco, iris y cedro.",
+    "notes_en": "Floral, tender, and radiant. Notes of juicy grapefruit, sweet quince, jasmine, hyacinth, white musk, iris and cedar."
   },
   {
     "id": "IL-B104",
     "name": "Giardini di Toscana Colonia Nobile",
     "brand": "Giardini di Toscana",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume227.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume227.webp",
     "stock": 96.0,
@@ -1395,14 +1498,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Frescura aristocrática italiana con alma contemporánea. Notas de bergamota de Calabria, petit grain, neroli luminoso, benjuí, ambroxan y musgo de roble.",
+    "notes_en": "Frescura aristocrática italiana con alma contemporánea. Notes of Calabrian bergamot, petit grain, luminous neroli, benzoin, ambroxan and oakmoss."
   },
   {
     "id": "IL-B105",
     "name": "Versace Eros Flame",
     "brand": "Versace",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume59.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume59.webp",
     "stock": 357.0,
@@ -1410,14 +1514,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Poder, sensualidad y glamour mediterráneo. Notas cítricas chispeantes, cedro y almizcle."
+    "notes": "Pasión ardiente que atraviesa el corazón. Notas de chinotto italiano chispeante, limón siciliano, pimienta negra, romero, rosa, cedro y vainilla.",
+    "notes_en": "Fiery passion striking the heart. Notes of chinotto italiano chispeante, Sicilian lemon, black pepper, rosemary, rose, cedar and vanilla."
   },
   {
     "id": "IL-B106",
     "name": "Dior Hypnotic Poison",
     "brand": "Dior",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume69.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume69.webp",
     "stock": 124.0,
@@ -1425,14 +1530,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Misterio hipnótico y tentación prohibida. Notas de almendra amarga, jazmín sambac, albaricoque, vainilla dulce y sándalo.",
+    "notes_en": "Misterio hipnótico and tentación prohibida. Notes of bitter almond, jasmine sambac, apricot, sweet vanilla and sandalwood."
   },
   {
     "id": "IL-B107",
     "name": "Amouage Honour",
     "brand": "Amouage",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume121.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume121.webp",
     "stock": 69.0,
@@ -1440,14 +1546,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Poema trágico de flores blancas sagradas. Notas de pimienta negra, cilantro fresco, ruibarbo, nardo divino, jazmín puro, gardenia blanca, incienso y opopónaco.",
+    "notes_en": "Poema trágico de flores blancas sagradas. Notes of black pepper, coriander fresco, rhubarb, tuberose divino, jasmine puro, white gardenia, incense and opoponax."
   },
   {
     "id": "IL-B108",
     "name": "Byredo Mojave Ghost",
     "brand": "Byredo",
     "gender": "Unisex",
-    "ml": "50",
+    "ml": "100 ml",
     "img": "images/perfume209.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume209.webp",
     "stock": 58.0,
@@ -1455,14 +1562,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "La flor fantasma que florece en la aridez del desierto. Notas de ambreta almizclada, zapote dulce, violeta delicada, magnolia pura, sándalo y cedro.",
+    "notes_en": "La flor fantasma que florece en la aridez del desierto. Notes of ambrette almizclada, zapote dulce, violet delicada, pure magnolia, sandalwood and cedar."
   },
   {
     "id": "IL-B109",
     "name": "Bond No. 9 The Scent of Peace for Him",
     "brand": "Bond No. 9",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume219.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume219.webp",
     "stock": 122.0,
@@ -1470,14 +1578,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El vibrante espíritu de Nueva York. Notas florales exquisitas, frutas dulces y cedro."
+    "notes": "Frescura moderna y espíritu de paz. Notas de piña jugosa, bayas de enebro, bergamota, grosella negra, cedro y vetiver.",
+    "notes_en": "Modern freshness and spirit of peace. Notes of juicy pineapple, juniper berries, bergamot, blackcurrant, cedar and vetiver."
   },
   {
     "id": "IL-B110",
     "name": "Ralph Lauren Polo Red",
     "brand": "Ralph Lauren",
     "gender": "Men",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume87.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume87.webp",
     "stock": 26.0,
@@ -1485,14 +1594,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Velocidad, adrenalina y pasión ardiente. Notas de pomelo rojo sanguina, arándano ácido, limón italiano, azafrán rojo picante, lavanda, maderas rojas y café.",
+    "notes_en": "Velocidad, adrenalina and pasión ardiente. Notes of grapefruit rojo sanguina, tart cranberry, Italian lemon, saffrum rojo picante, lavender, woods rojas and coffee."
   },
   {
     "id": "IL-B111",
     "name": "Valentino Uomo Born in Roma Yellow Dream",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume162.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume162.webp",
     "stock": 113.0,
@@ -1500,14 +1610,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Luz dorada de la mañana romana. Notas de mandarina italiana, piña fresca, pan de jengibre especiado, canela y cedro.",
+    "notes_en": "Luz dorada de la mañana romana. Notes of Italian mandarin, fresh pineapple, pan de ginger especiado, cinnamon and cedar."
   },
   {
     "id": "IL-B113",
     "name": "Yves Saint Laurent Black Opium",
     "brand": "Yves Saint Laurent",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume57.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume57.webp",
     "stock": 160.0,
@@ -1515,14 +1626,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Adictiva, rebelde y nocturna. Notas de café negro intenso, pera jugosa, pimienta rosa, flor de azahar, jazmín, vainilla y pachulí.",
+    "notes_en": "Addictive, rebellious, and nocturnal. Notes of intense black coffee, juicy pear, pepper rose, orange blossom, jasmine, vanilla and patchouli."
   },
   {
     "id": "IL-B114",
     "name": "Burberry Her Elixir de Parfum",
     "brand": "Burberry",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume91.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume91.webp",
     "stock": 150.0,
@@ -1530,14 +1642,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El encanto y sofisticación británica. Notas de frutas rojas, jazmín delicado y ámbar cálido."
+    "notes": "El espíritu vibrante y audaz de Londres. Notas de fresa silvestre, frambuesa jugosa, mora, grosella negra, jazmín, violeta dulce y ámbar blanco.",
+    "notes_en": "The vibrant, daring spirit of London. Notes of wild strawberry, juicy raspberry, blackberry, blackcurrant, jasmine, violet dulce and white amber."
   },
   {
     "id": "IL-B116",
     "name": "Ex nihilo Spiky Muse",
     "brand": "Ex nihilo",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume200.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume200.webp",
     "stock": 57.0,
@@ -1545,14 +1658,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Vanguardia parisina y energía magnética. Notas de pimienta rosa chispeante, lichi exótico, rosa damascena moderna, madera de akigalawood y almizcle.",
+    "notes_en": "Vanguardia parisina and energía magnética. Notes of pepper rose chispeante, exotic lychee, rose damascena moderna, madera de akigalawood and musk."
   },
   {
     "id": "IL-B118",
     "name": "Giorgio ArMani Acqua di Giò Eau de Parfum",
-    "brand": "Giorgio ArMani",
+    "brand": "Giorgio Armani",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume61.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume61.webp",
     "stock": 329.0,
@@ -1560,14 +1674,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "El mito del mar y el sol mediterráneo. Notas de bergamota de Calabria, neroli, mandarina verde, notas marinas cristalinas, romero y cedro.",
+    "notes_en": "The myth of sea and Mediterranean sun. Notes of Calabrian bergamot, neroli, green mandarin, crystalline marine notes, rosemary and cedar."
   },
   {
     "id": "IL-B119",
     "name": "Maison Margiela Replica Jazz Club",
     "brand": "Maison Margiela",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume226.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume226.webp",
     "stock": 101.0,
@@ -1575,14 +1690,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Sillones de cuero, cócteles y tabaco en Brooklyn. Notas de pimienta rosa, neroli, limón Primofiore, ron oscuro añejo, salvia esclarea, tabaco y vainilla.",
+    "notes_en": "Sillones de leather, cócteles and tobacco en Brooklyn. Notes of pepper rose, neroli, lemon Primofiore, rum oscuro añejo, clary sage, tobacco and vanilla."
   },
   {
     "id": "IL-B121",
     "name": "Chanel Coco Mademoiselle L'eau Privee",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume6.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume6.webp",
     "stock": 246.0,
@@ -1590,14 +1706,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Intenso, misterioso y cautivador. Notas de mandarina, rosa, pachulí, haba tonka y vainilla."
+    "notes": "Chic, audaz y seductora. Notas de naranja vibrante, mandarina, flor de azahar, rosa turca, jazmín, pachulí y vetiver.",
+    "notes_en": "Chic, bold, and seductive. Notes of naranja vibrante, mandarin, orange blossom, Turkish rose, jasmine, patchouli and vetiver."
   },
   {
     "id": "IL-B123",
     "name": "Kayali Fleur Majesty Rose Royale | 31",
     "brand": "Kayali",
-    "gender": "women",
-    "ml": "100",
+    "gender": "Women",
+    "ml": "100 ml",
     "img": "images/perfume109.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume109.webp",
     "stock": 150.0,
@@ -1605,14 +1722,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Realeza floral majestuosa. Notas de rosa de Damasco imperial, peonía fresca, grosella roja brillante, ámbar blanco y vainilla.",
+    "notes_en": "Realeza floral majestuosa. Notes of Damask rose imperial, fresh peony, redcurrant brillante, white amber and vanilla."
   },
   {
     "id": "IL-B124",
     "name": "Kayali Yum Pistachio Gelato | 33",
     "brand": "Kayali",
-    "gender": "Men",
-    "ml": "100",
+    "gender": "Unisex",
+    "ml": "100 ml",
     "img": "images/perfume111.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume111.webp",
     "stock": 140.0,
@@ -1620,14 +1738,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Postre italiano irresistiblemente cremoso. Notas de pistacho tostado gourmet, helado dulce, avellana crocante, ron blanco, malvavisco y crema batida.",
+    "notes_en": "Irresistibly creamy Italian dessert. Notes of gourmet roasted pistachio, helado dulce, crunchy hazelnut, white rum, marshmallow and whipped cream."
   },
   {
     "id": "IL-B125",
     "name": "Kayali Vanilla Candy Rock Sugar | 42",
     "brand": "Kayali",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume102.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume102.webp",
     "stock": 60.0,
@@ -1635,14 +1754,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Alegría golosa y adictiva de algodón de azúcar. Notas de pera caramelizada, azúcar de roca confitada, violeta dulce, chicle, vainilla y sándalo.",
+    "notes_en": "Alegría golosa and adictiva de algodón de azúcar. Notes of pear caramelizada, candied rock sugar, violet dulce, chicle, vanilla and sandalwood."
   },
   {
     "id": "IL-B126",
     "name": "Dior Addict Eau de Parfum",
     "brand": "Dior",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume220.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume220.webp",
     "stock": 159.0,
@@ -1650,14 +1770,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Fascinación nocturna y sensualidad libre. Notas de flor de mandarino, flor de azahar de Túnez, jazmín sambac, vainilla bourbon y sándalo.",
+    "notes_en": "Fascinación nocturna and sensualidad libre. Notes of flor de mandarino, Tunisian orange blossom, jasmine sambac, bourbon vanilla and sandalwood."
   },
   {
     "id": "IL-B127",
     "name": "Valentino Uomo Born in Roma Ivory",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume214.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume214.webp",
     "stock": 52.0,
@@ -1665,14 +1786,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Aristocracia rebelde y moderna. Notas de hojas de violeta, jengibre fresco, salvia aromática, sales minerales y vetiver ahumado.",
+    "notes_en": "Rebellious and modern aristocracy. Notes of hojas de violet, fresh ginger, aromatic sage, sales minerales and vetiver ahumado."
   },
   {
     "id": "IL-B128",
     "name": "Valentino Donna Born in Roma Ivory",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume213.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume213.webp",
     "stock": 119.0,
@@ -1680,14 +1802,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Alta costura y actitud romana. Notas de grosella negra, pimienta rosa, jazmín grandiflorum, té de jazmín y vainilla bourbon.",
+    "notes_en": "Haute couture and Roman attitude. Notes of blackcurrant, pepper rose, jasmine grandiflorum, tea de jasmine and bourbon vanilla."
   },
   {
     "id": "IL-B130",
     "name": "Dior Gris Dior",
     "brand": "Dior",
     "gender": "Unisex",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume208.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume208.webp",
     "stock": 305.0,
@@ -1695,14 +1818,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "El color gris hecho perfume. Notas de bergamota de Calabria, rosa de Damasco, pachulí noble, musgo de roble y cedro.",
+    "notes_en": "El color gris hecho perfume. Notes of Calabrian bergamot, Damask rose, noble patchouli, oakmoss and cedar."
   },
   {
     "id": "IL-B132",
     "name": "Chanel N19",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume78.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume78.webp",
     "stock": 348.0,
@@ -1710,14 +1834,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Elegancia atemporal y distinción absoluta. Notas florales refinadas, aldehídos y maderas."
+    "notes": "Carácter decidido, audaz y sofisticado. Notas de gálbano verde, bergamota, neroli, iris de Florencia, rosa de mayo y vetiver.",
+    "notes_en": "Determined, bold, and sophisticated character. Notes of galbanum verde, bergamot, neroli, iris de Florencia, May rose and vetiver."
   },
   {
     "id": "IL-B133",
     "name": "Creed Absolu Aventus",
     "brand": "Creed",
     "gender": "Men",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume64.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume64.webp",
     "stock": 406.0,
@@ -1725,14 +1850,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 2.0,
     "new": 0.0,
-    "notes": "Audaz, magnético y legendario. Notas de piña, abedul, grosella negra y ámbar gris."
+    "notes": "La obra maestra más exclusiva de Aventus. Notas de pomelo vibrante, grosella negra, bergamota, cardamomo, jengibre, canela y pachulí.",
+    "notes_en": "La obra maestra más exclusiva de Aventus. Notes of grapefruit vibrante, blackcurrant, bergamot, cardamom, ginger, cinnamon and patchouli."
   },
   {
     "id": "IL-B134",
     "name": "Creed Aventus for Her",
     "brand": "Creed",
     "gender": "Women",
-    "ml": "100",
+    "ml": "75 ml",
     "img": "images/perfume210.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume210.webp",
     "stock": 536.0,
@@ -1740,14 +1866,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, magnético y legendario. Notas de piña, abedul, grosella negra y ámbar gris."
+    "notes": "El poder de la mujer triunfadora. Notas de manzana verde crujiente, bergamota, limón, pimienta rosa, rosa turca, sándalo y grosella negra.",
+    "notes_en": "The power of the triumphant woman. Notes of crisp green apple, bergamot, lemon, pepper rose, Turkish rose, sandalwood and blackcurrant."
   },
   {
     "id": "IL-B135",
     "name": "Xerjoff Alexandria II",
     "brand": "Xerjoff",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume221.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume221.webp",
     "stock": 186.0,
@@ -1755,14 +1882,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Lujo italiano artesanal. Notas cítricas mediterráneas, miel dorada, maderas y tabaco noble."
+    "notes": "Majestuosidad del imperio oriental. Notas de palisandro de Brasil, lavanda, canela, manzana verde, lirio, rosa, oud maduro de Laos y sándalo.",
+    "notes_en": "Majestuosidad del imperio oriental. Notes of Brazilian rosewood, lavender, cinnamon, apple verde, lily, rose, oud maduro de Laos and sandalwood."
   },
   {
     "id": "IL-B136",
     "name": "Dolce and Gabbana Light Blue for Women",
     "brand": "Dolce & Gabbana",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume228.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume228.webp",
     "stock": 94.0,
@@ -1770,14 +1898,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Alegría pura de vivir en el Mediterráneo. Notas de limón siciliano vibrante, manzana Granny Smith crujiente, bambú fresco, jazmín blanco y cedro.",
+    "notes_en": "Pure joy of Mediterranean living. Notes of Sicilian lemon vibrante, crisp Granny Smith apple, fresh bamboo, jasmine blanco and cedar."
   },
   {
     "id": "IL-B137",
     "name": "Creed Millésime Impérial",
     "brand": "Creed",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume44.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume44.webp",
     "stock": 79.0,
@@ -1785,14 +1914,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "La brisa marina de un palacio real. Notas de frutas cítricas doradas, sal marina brillante, mandarina siciliana, iris florentino y almizcle.",
+    "notes_en": "The ocean breeze of a royal palace. Notes of frutas cítricas doradas, sparkling sea salt, mandarin siciliana, Florentine iris and musk."
   },
   {
     "id": "IL-B138",
     "name": "Bond No. 9 Sutton Place",
     "brand": "Bond No. 9",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume207.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume207.webp",
     "stock": 213.0,
@@ -1800,14 +1930,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El vibrante espíritu de Nueva York. Notas florales exquisitas, frutas dulces y cedro."
+    "notes": "Poder diplomático y sofisticación clásica. Notas de bergamota, mandarina, pimienta rosa, casis, piña, jazmín, lirio, pachulí, cuero y ámbar.",
+    "notes_en": "Poder diplomático and sofisticación clásica. Notes of bergamot, mandarin, pepper rose, casis, pineapple, jasmine, lily, patchouli, leather and amber."
   },
   {
     "id": "IL-B139",
     "name": "Tom Ford Lost Cherry",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "50 ml",
     "img": "images/perfume19.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume19.webp",
     "stock": 451.0,
@@ -1815,14 +1946,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Seductora y golosa. Notas de cereza negra, licor, almendra amarga y haba tonka."
+    "notes": "Tentación dulce, prohibida e insaciable. Notas de cereza negra licorosa, almendra amarga, rosa turca, jazmín sambac, haba tonka y vainilla.",
+    "notes_en": "Sweet, forbidden, and insatiable temptation. Notes of cherry negra licorose, bitter almond, Turkish rose, jasmine sambac, tonka bean and vanilla."
   },
   {
     "id": "IL-B140",
     "name": "Valentino Donna",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume40.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume40.webp",
     "stock": 218.0,
@@ -1830,14 +1962,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Alta costura romana. Notas de bergamota brillante, jazmín noble y vainilla Bourbon."
+    "notes": "Belleza atemporal y romanticismo italiano. Notas de bergamota de Calabria, iris noble toscano, rosa de Bulgaria, pachulí y vainilla.",
+    "notes_en": "Belleza atemporal and romanticismo italiano. Notes of Calabrian bergamot, iris noble toscano, rose de Bulgaria, patchouli and vanilla."
   },
   {
     "id": "IL-B141",
     "name": "Mugler Angel Eau Croisière",
     "brand": "Mugler",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume229.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume229.webp",
     "stock": 162.0,
@@ -1845,14 +1978,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Sensualidad cósmica y tentación gourmand legendaria. Notas de bergamota, frutas exóticas, jazmín, praliné, caramelo fundido, pachulí indonesio y vainilla.",
+    "notes_en": "Cosmic sensuality and legendary gourmand allure. Notes of bergamot, frutas exóticas, jasmine, praline, melted caramel, Indonesian patchouli and vanilla."
   },
   {
     "id": "IL-B142",
     "name": "Mugler Angel Star Eau de Toilette",
     "brand": "Mugler",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume230.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume230.webp",
     "stock": 89.0,
@@ -1860,14 +1994,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Sensualidad cósmica y tentación gourmand legendaria. Notas de bergamota, frutas exóticas, jazmín, praliné, caramelo fundido, pachulí indonesio y vainilla.",
+    "notes_en": "Cosmic sensuality and legendary gourmand allure. Notes of bergamot, frutas exóticas, jasmine, praline, melted caramel, Indonesian patchouli and vanilla."
   },
   {
     "id": "IL-B143",
     "name": "Giorgio ArMani My Way",
-    "brand": "Giorgio ArMani",
+    "brand": "Giorgio Armani",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume66.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume66.webp",
     "stock": 263.0,
@@ -1875,14 +2010,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Descubre el mundo con tus propios ojos. Notas de flor de azahar de Egipto, bergamota, nardo indio aterciopelado, jazmín sambac y vainilla de Madagascar.",
+    "notes_en": "Discover the world through your own eyes. Notes of Egyptian orange blossom, bergamot, velvety Indian tuberose, jasmine sambac and Madagascar vanilla."
   },
   {
     "id": "IL-B144",
     "name": "Tom Ford Oud Wood",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume76.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume76.webp",
     "stock": 654.0,
@@ -1890,14 +2026,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Provocador, opulento y memorable. Notas de maderas ahumadas, especias orientales y vainilla."
+    "notes": "Templos místicos y maderas exóticas. Notas de madera de oud rara, palisandro de Brasil, cardamomo especiado, sándalo, vetiver y ámbar.",
+    "notes_en": "Mystical temples and exotic woods. Notes of oud wood rara, Brazilian rosewood, spicy cardamom, sandalwood, vetiver and amber."
   },
   {
     "id": "IL-B145",
     "name": "Maison Margiela Replica By the Fireplace",
     "brand": "Maison Margiela",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume231.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume231.webp",
     "stock": 47.0,
@@ -1905,14 +2042,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "El calor reconfortante de una chimenea en invierno. Notas de clavo de olor aromático, pimienta rosa, flor de azahar, castañas asadas, guayaco y vainilla.",
+    "notes_en": "El calor reconfortante de una chimenea en invierno. Notes of aromatic clove, pepper rose, orange blossom, chestnuts asadas, guaiac wood and vanilla."
   },
   {
     "id": "IL-B146",
     "name": "Xerjoff Casamorati Dolce Amalfi",
     "brand": "Xerjoff",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume232.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume232.webp",
     "stock": 91.0,
@@ -1920,14 +2058,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Lujo italiano artesanal. Notas cítricas mediterráneas, miel dorada, maderas y tabaco noble."
+    "notes": "La magia romántica de la costa amalfitana. Notas de manzana dulce, azafrán, membrillo maduro, cardamomo, clavo, vainilla, ámbar y cedro.",
+    "notes_en": "La magia romántica de la costa amalfitana. Notes of apple dulce, saffrum, quince maduro, cardamom, clove, vanilla, amber and cedar."
   },
   {
     "id": "IL-B147",
     "name": "Byredo Rose of No Men's Land",
     "brand": "Byredo",
     "gender": "Unisex",
-    "ml": "50",
+    "ml": "100 ml",
     "img": "images/perfume211.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume211.webp",
     "stock": 117.0,
@@ -1935,14 +2074,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Homenaje de compasión y belleza eterna. Notas de pimienta rosa especiada, pétalos de rosa turca, flor de frambuesa jugosa, papiro y ámbar blanco.",
+    "notes_en": "Homenaje de compasión and belleza eterna. Notes of pepper rose especiada, pétalos de Turkish rose, flor de juicy raspberry, papyrus and white amber."
   },
   {
     "id": "IL-B148",
     "name": "Amouage Blossom Love",
     "brand": "Amouage",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume103.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume103.webp",
     "stock": 19.0,
@@ -1950,14 +2090,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Jardín romántico en floración primaveral. Notas de néctar de flor de cerezo, licor de amaretto, rosa noble, ylang-ylang, vainilla, haba tonka y gamuza.",
+    "notes_en": "Jardín romántico en floración primaveral. Notes of néctar de flor de cerezo, licor de amaretto, rose noble, ylang-ylang, vanilla, tonka bean and gamuza."
   },
   {
     "id": "IL-B149",
     "name": "Parfums de Marly Perseus",
     "brand": "Parfums de Marly",
     "gender": "Men",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume26.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume26.webp",
     "stock": 139.0,
@@ -1965,14 +2106,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "La grandeza de la realeza francesa. Notas de manzana, lavanda, especias y vainilla Bourbon."
+    "notes": "El sol naciente en los jardines de Marly. Notas de pomelo chispeante, bergamota de Calabria, grosella negra, mandarina y vetiver.",
+    "notes_en": "El sol naciente en los jardines de Marly. Notes of grapefruit chispeante, Calabrian bergamot, blackcurrant, mandarin and vetiver."
   },
   {
     "id": "IL-B150",
     "name": "Tom Ford Tobacco Vanille",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume22.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume22.webp",
     "stock": 358.0,
@@ -1980,14 +2122,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Cálida, opulenta e icónica. Notas de hojas de tabaco, especias, vainilla y cacao."
+    "notes": "Club inglés clásico y opulento. Notas de hojas de tabaco puro, especias aromáticas, vainilla cremosa, cacao oscuro, haba tonka y maderas.",
+    "notes_en": "Classic and opulent English private club. Notes of pure tobacco leaves, especias aromáticas, creamy vanilla, coconuta oscuro, tonka bean and woods."
   },
   {
     "id": "IL-B151",
     "name": "Parfums de Marly Valaya Exclusif",
     "brand": "Parfums de Marly",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume212.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume212.webp",
     "stock": 242.0,
@@ -1995,14 +2138,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "La grandeza de la realeza francesa. Notas de manzana, lavanda, especias y vainilla Bourbon."
+    "notes": "La caricia del algodón y la luz blanca. Notas de aldehídos limpios, mandarina blanca, flor de azahar, lirio de los valles y ambroxan.",
+    "notes_en": "The caress of cotton and white light. Notes of aldehydes limpios, mandarin blanca, orange blossom, lily-of-the-valley and ambroxan."
   },
   {
     "id": "IL-B152",
     "name": "Creed Silver Mountain Water",
     "brand": "Creed",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume23.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume23.webp",
     "stock": 232.0,
@@ -2010,14 +2154,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Pureza alpina y frescor cristalino. Notas de bergamota espumosa, mandarina dulce, té verde aromático, grosella negra, gálbano y sándalo.",
+    "notes_en": "Alpine purity and crystalline freshness. Notes of bergamot espumosa, mandarin dulce, green tea aromático, blackcurrant, galbanum and sandalwood."
   },
   {
     "id": "IL-B153",
     "name": "Hugo Boss Boss Bottled Night",
     "brand": "Hugo Boss",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume216.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume216.webp",
     "stock": 242.0,
@@ -2025,14 +2170,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Magnetismo y seducción bajo las luces nocturnas. Notas de hojas de abedul verde, lavanda aromática, cardamomo, violeta africana, louro amarillo y almizcle.",
+    "notes_en": "Magnetismo and seducción bajo las luces nocturnas. Notes of hojas de abedul verde, aromatic lavender, cardamom, violet africana, louro amarillo and musk."
   },
   {
     "id": "IL-B154",
     "name": "Valentino Uomo Born in Roma Green Stravaganza",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume167.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume167.webp",
     "stock": 297.0,
@@ -2040,14 +2186,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Audacia y frescura extravagante. Notas de bergamota de Calabria, café aromático tostado y madera de vetiver elegante.",
+    "notes_en": "Audacia and frescura extravagante. Notes of Calabrian bergamot, roasted aromatic coffee and madera de vetiver elegante."
   },
   {
     "id": "IL-B155",
     "name": "Dior J'adore",
     "brand": "Dior",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume31.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume31.webp",
     "stock": 317.0,
@@ -2055,14 +2202,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Feminidad absoluta y oro floral. Notas de pera dulce, melón, magnolia, jazmín sambac, nardo de Grasse, rosa de Damasco y almizcle.",
+    "notes_en": "Absolute femininity and floral gold. Notes of sweet pear, melón, magnolia, jasmine sambac, tuberose de Grasse, Damask rose and musk."
   },
   {
     "id": "IL-B156",
     "name": "Chanel Chance Eau Splendide",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "50",
+    "ml": "100 ml",
     "img": "images/perfume29.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume29.webp",
     "stock": 201.0,
@@ -2070,14 +2218,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Un torbellino de optimismo. Notas de pimienta rosa, jazmín, pachulí ámbar y almizcle blanco."
+    "notes": "Chic, jovial y cautivadora. Notas de frutos rojos chispeantes, jazmín radiante, rosa fresca y almizcles blancos.",
+    "notes_en": "Chic, jovial, and captivating. Notes of frutos rojos chispeantes, jasmine radiante, rose fresca and musks blancos."
   },
   {
     "id": "IL-B158",
     "name": "Chanel N°5",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume74.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume74.webp",
     "stock": 122.0,
@@ -2085,14 +2234,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Elegancia atemporal y distinción absoluta. Notas florales refinadas, aldehídos y maderas."
+    "notes": "El icono supremo de la alta perfumería. Notas de aldehídos dorados, ylang-ylang, neroli, jazmín de Grasse, rosa de mayo y sándalo.",
+    "notes_en": "The supreme icon of haute perfumery. Notes of aldehydes dorados, ylang-ylang, neroli, jasmine de Grasse, May rose and sandalwood."
   },
   {
     "id": "IL-B159",
     "name": "Creed Himalaya",
     "brand": "Creed",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume75.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume75.webp",
     "stock": 448.0,
@@ -2100,14 +2250,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "La grandeza glacial de las cumbres tibetanas. Notas de bergamota de Calabria, pomelo, limón siciliano, sándalo noble, cedro y vetiver.",
+    "notes_en": "Glacial grandeur of Tibetan peaks. Notes of Calabrian bergamot, grapefruit, Sicilian lemon, noble sandalwood, cedar and vetiver."
   },
   {
     "id": "IL-B160",
     "name": "Chanel Coco Mademoiselle",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume234.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume234.webp",
     "stock": 243.0,
@@ -2115,14 +2266,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Intenso, misterioso y cautivador. Notas de mandarina, rosa, pachulí, haba tonka y vainilla."
+    "notes": "Chic, audaz y seductora. Notas de naranja vibrante, mandarina, flor de azahar, rosa turca, jazmín, pachulí y vetiver.",
+    "notes_en": "Chic, bold, and seductive. Notes of naranja vibrante, mandarin, orange blossom, Turkish rose, jasmine, patchouli and vetiver."
   },
   {
     "id": "IL-B161",
     "name": "Tom Ford Black Orchid",
     "brand": "Tom Ford",
-    "gender": "Women",
-    "ml": "100",
+    "gender": "Unisex",
+    "ml": "100 ml",
     "img": "images/perfume235.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume235.webp",
     "stock": 105.0,
@@ -2130,14 +2282,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Provocador, opulento y memorable. Notas de maderas ahumadas, especias orientales y vainilla."
+    "notes": "Oscura, glamorosa y misteriosa. Notas de trufa negra, ylang-ylang, grosella negra, orquídea negra mística, especias, pachulí y chocolate amargo.",
+    "notes_en": "Dark, glamorous, and mysterious. Notes of black truffle, ylang-ylang, blackcurrant, orquídea negra mística, especias, patchouli and dark chocolate."
   },
   {
     "id": "IL-B162",
     "name": "Tom Ford Soleil Blanc",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "50 ml",
     "img": "images/perfume236.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume236.webp",
     "stock": 262.0,
@@ -2145,14 +2298,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Provocador, opulento y memorable. Notas de maderas ahumadas, especias orientales y vainilla."
+    "notes": "Verano eterno en islas privadas. Notas de pistacho tostado, bergamota, cardamomo, ylang-ylang, nardo solar, coco cremoso y ámbar.",
+    "notes_en": "Eternal summer on private islands. Notes of pistachio tostado, bergamot, cardamom, ylang-ylang, tuberose solar, creamy coconutnut and amber."
   },
   {
     "id": "IL-B163",
     "name": "Creed Green Irish Tweed",
     "brand": "Creed",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume237.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume237.webp",
     "stock": 27.0,
@@ -2160,14 +2314,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Caballerosidad en la campiña irlandesa. Notas de verbena de limón, iris florentino, hojas de violeta silvestre, sándalo y ámbar gris.",
+    "notes_en": "Gentlemanly charm in the Irish countryside. Notes of verbena de lemon, Florentine iris, hojas de wild violet, sandalwood and ambergris."
   },
   {
     "id": "IL-B164",
     "name": "Dior Homme Intense",
     "brand": "Dior",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume129.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume129.webp",
     "stock": 95.0,
@@ -2175,14 +2330,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Distinción masculina contemporánea. Notas de iris toscano noble, lavanda, cacao amargo, ámbar, cedro de Virginia y vetiver.",
+    "notes_en": "Contemporary masculine distinction. Notes of Tuscan iris noble, lavender, bitter coconuta, amber, Virginia cedarwood and vetiver."
   },
   {
     "id": "IL-B166",
     "name": "Yves Saint Laurent MYSLF Le Parfum",
     "brand": "Yves Saint Laurent",
     "gender": "Men",
-    "ml": "90",
+    "ml": "100 ml",
     "img": "images/perfume240.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume240.webp",
     "stock": 206.0,
@@ -2190,14 +2346,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Auténtico y magnético. Notas de bergamota espumosa, flor de azahar pura y pachulí sensual."
+    "notes": "Intensidad seductora y contrastada. Notas de pimienta negra viva, flor de azahar aterciopelada, maderas nobles cálidas y vainilla.",
+    "notes_en": "Intensidad seductora and contrastada. Notes of vivid black pepper, orange blossom aterciopelada, noble woods cálidas and vanilla."
   },
   {
     "id": "IL-B167",
     "name": "Gucci Bloom",
     "brand": "Gucci",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume27.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume27.webp",
     "stock": 157.0,
@@ -2205,14 +2362,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Riqueza floral y romanticismo contemporáneo. Notas de nardo natural, jazmín y madreselva."
+    "notes": "Jardín abundante de flores blancas silvestres. Notas de extracto de yema de jazmín, nardo natural de la India, madreselva piscuala y lirio de Florencia.",
+    "notes_en": "Abundant garden of wild white blossoms. Notes of extracto de yema de jasmine, tuberose natural de la India, Rangoon creeper and lily de Florencia."
   },
   {
     "id": "IL-B170",
     "name": "Valentino Donna Born in Roma Green Stravaganza",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume166.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume166.webp",
     "stock": 87.0,
@@ -2220,14 +2378,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Fascinante y vibrante. Notas de té Lapsang Souchong ahumado, absoluto de jazmín solar y extracto de vainilla suave.",
+    "notes_en": "Fascinante and vibrante. Notes of tea Lapsang Souchong ahumado, absoluto de jasmine solar and extracto de vanilla suave."
   },
   {
     "id": "IL-B171",
     "name": "Paco Rabanne 1 Million Royal",
     "brand": "Paco Rabanne",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume243.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume243.webp",
     "stock": 303.0,
@@ -2235,14 +2394,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audacia, energía y magnetismo deslumbrante. Notas metálicas frescas, lavanda y ámbar."
+    "notes": "El lingote de oro de la seducción. Notas de mandarina roja, pomelo chispeante, menta picante, rosa de Damasco, canela especiada, cuero rubio y ámbar.",
+    "notes_en": "The gold bullion of seduction. Notes of mandarin roja, grapefruit chispeante, mint picante, Damask rose, spicy cinnamon, leather rubio and amber."
   },
   {
     "id": "IL-B172",
     "name": "Paco Rabanne Invictus Victory Elixir",
     "brand": "Paco Rabanne",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume244.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume244.webp",
     "stock": 292.0,
@@ -2250,14 +2410,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El aroma de la victoria. Notas de laurel heroico, pomelo fresco, ámbar gris y maderas."
+    "notes": "Triunfo absoluto y sensualidad extrema. Notas de limón fresco chispeante, pimienta rosa, incienso aromático, lavanda, haba tonka y ámbar.",
+    "notes_en": "Triunfo absoluto and sensualidad extrema. Notes of lemon fresco chispeante, pepper rose, aromatic incense, lavender, tonka bean and amber."
   },
   {
     "id": "IL-B173",
     "name": "Paco Rabanne 1 Million Parfum",
     "brand": "Paco Rabanne",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume245.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume245.webp",
     "stock": 130.0,
@@ -2265,14 +2426,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audacia, energía y magnetismo deslumbrante. Notas metálicas frescas, lavanda y ámbar."
+    "notes": "El lingote de oro de la seducción. Notas de mandarina roja, pomelo chispeante, menta picante, rosa de Damasco, canela especiada, cuero rubio y ámbar.",
+    "notes_en": "The gold bullion of seduction. Notes of mandarin roja, grapefruit chispeante, mint picante, Damask rose, spicy cinnamon, leather rubio and amber."
   },
   {
     "id": "IL-B174",
     "name": "Paco Rabanne Invictus Victory",
     "brand": "Paco Rabanne",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume246.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume246.webp",
     "stock": 199.0,
@@ -2280,14 +2442,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El aroma de la victoria. Notas de laurel heroico, pomelo fresco, ámbar gris y maderas."
+    "notes": "Triunfo absoluto y sensualidad extrema. Notas de limón fresco chispeante, pimienta rosa, incienso aromático, lavanda, haba tonka y ámbar.",
+    "notes_en": "Triunfo absoluto and sensualidad extrema. Notes of lemon fresco chispeante, pepper rose, aromatic incense, lavender, tonka bean and amber."
   },
   {
     "id": "IL-B176",
     "name": "Paco Rabanne Pure XS For Her",
     "brand": "Paco Rabanne",
-    "gender": "women",
-    "ml": "80",
+    "gender": "Women",
+    "ml": "80 ml",
     "img": "images/perfume248.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume248.webp",
     "stock": 40.0,
@@ -2295,14 +2458,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audacia, energía y magnetismo deslumbrante. Notas metálicas frescas, lavanda y ámbar."
+    "notes": "Provocación carnal y fuego desinhibido. Notas de flor de ylang-ylang ardiente, palomitas de maíz calientes y saladas, vainilla embriagadora y sándalo.",
+    "notes_en": "Provocación carnal and fuego desinhibido. Notes of flor de ylang-ylang ardiente, warm salted popcorn, vanilla embriagadora and sandalwood."
   },
   {
     "id": "IL-B178",
     "name": "Rabanne Million Gold For Men",
     "brand": "Paco Rabanne",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume250.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume250.webp",
     "stock": 366.0,
@@ -2310,14 +2474,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audacia, energía y magnetismo deslumbrante. Notas metálicas frescas, lavanda y ámbar."
+    "notes": "La nueva era del éxito dorado. Notas de mandarina fresca ardiente, cardamomo especiado noble, madera de cedro majestuosa y sándalo puro.",
+    "notes_en": "The new era of golden success. Notes of mandarin fresca ardiente, spicy cardamom noble, cedarwood majestuosa and sandalwood puro."
   },
   {
     "id": "IL-B179",
     "name": "Burberry Goddess Eau de Parfum Intense",
     "brand": "Burberry",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume251.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume251.webp",
     "stock": 40.0,
@@ -2325,14 +2490,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El encanto y sofisticación británica. Notas de frutas rojas, jazmín delicado y ámbar cálido."
+    "notes": "El poder supremo de una diosa moderna. Notas de trío de vainillas exquisitas, infusión de lavanda luminosa, caviar de vainilla y cacao puro.",
+    "notes_en": "The supreme power of a modern goddess. Notes of trío de vanillas exquisitas, infusión de lavender luminosa, caviar de vanilla and pure coconuta."
   },
   {
     "id": "IL-B182",
     "name": "Lancôme La Vie Est Belle Rose Extraordinaire",
     "brand": "Lancôme",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume254.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume254.webp",
     "stock": 143.0,
@@ -2340,14 +2506,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Un himno a la felicidad. Notas de iris, jazmín, flor de azahar, pachulí y praliné."
+    "notes": "La rosa más bella y radiante del jardín. Notas de bergamota, agua de rosas pura, rosa damascena, rosa centifolia, iris empolvado y almizcle blanco.",
+    "notes_en": "La rose más bella and radiante del jardín. Notes of bergamot, rosewater pura, rose damascena, centifolia rose, iris empolvado and white musk."
   },
   {
     "id": "IL-B183",
     "name": "Initio Psychedelic Love",
     "brand": "Initio",
     "gender": "Unisex",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume53.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume53.webp",
     "stock": 323.0,
@@ -2355,14 +2522,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Éxtasis narcótico para los sentidos. Notas de ylang-ylang afrodisíaco, bergamota, heliotropo narcótico, hediona brillante, mirra y sándalo.",
+    "notes_en": "Éxtasis narcótico para los sentidos. Notes of aphrodisiac ylang-ylang, bergamot, heliotropo narcótico, hediona brillante, myrrh and sandalwood."
   },
   {
     "id": "IL-B184",
     "name": "Initio Absolute Aphrodisiac",
     "brand": "Initio",
     "gender": "Unisex",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume255.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume255.webp",
     "stock": 363.0,
@@ -2370,14 +2538,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Poder carnal y atracción animal inolvidable. Notas de vainilla oscura licorosa, ámbar cálido ardiente, castóreo misterioso, cuero fino y almizcle blanco.",
+    "notes_en": "Poder carnal and atracción animal inolvidable. Notes of vanilla oscura licorose, warm amber ardiente, castóreo misterioso, fine leather and white musk."
   },
   {
     "id": "IL-B187",
     "name": "Ariana Grande Cloud",
     "brand": "Ariana Grande",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume259.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume259.webp",
     "stock": 143.0,
@@ -2385,14 +2554,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Un abrazo dulce y esponjoso entre las nubes. Notas de flor de lavanda suave, pera jugosa, bergamota, crema de coco batida, praliné, orquídea de vainilla y almizcle.",
+    "notes_en": "A sweet, fluffy embrace in the clouds. Notes of flor de lavender suave, juicy pear, bergamot, crema de coconut batida, praline, orquídea de vanilla and musk."
   },
   {
     "id": "IL-B188",
     "name": "Un Jardin sur le Nil",
     "brand": "Hermès",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume260.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume260.webp",
     "stock": 130.0,
@@ -2400,14 +2570,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Paseo olfativo por las islas verdes del Nilo. Notas de mango verde crujiente, pomelo, loto acuático, cálamo aromático, junco del río, sicomoro e incienso.",
+    "notes_en": "Olfactory stroll along the green Nile islands. Notes of mango verde crujiente, grapefruit, loto acuático, cálamo aromático, junco del río, sicomoro and incense."
   },
   {
     "id": "IL-B189",
     "name": "Hermès Terre d'Hermès",
     "brand": "Hermès",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume94.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume94.webp",
     "stock": 46.0,
@@ -2415,14 +2586,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "La alquimia perfecta entre la tierra y el cielo. Notas de naranja amarga vibrante, pomelo, sílex mineral, pimienta rosa, geranio, cedro y vetiver.",
+    "notes_en": "Perfect alchemy between earth and sky. Notes of bitter orange vibrante, grapefruit, mineral flint, pepper rose, geranium, cedar and vetiver."
   },
   {
     "id": "IL-B190",
     "name": "Boss Bottled Bold Citrus",
     "brand": "Hugo Boss",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume275.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume275.webp",
     "stock": 84.0,
@@ -2430,14 +2602,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Explosión cítrica enérgica y vivificante. Notas de bergamota italiana, limón vibrante, manzana verde crujiente, canela y sándalo.",
+    "notes_en": "Explosión cítrica enérgica and vivificante. Notes of Italian bergamot, lemon vibrante, crisp green apple, cinnamon and sandalwood."
   },
   {
     "id": "IL-B191",
     "name": "Boss Bottled Elixir",
     "brand": "Hugo Boss",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume261.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume261.webp",
     "stock": 277.0,
@@ -2445,14 +2618,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Intensidad rica y oscura para el hombre moderno. Notas de incienso ardiente, cardamomo, pachulí noble, vetiver terroso, cedro y ládano.",
+    "notes_en": "Intensidad rica and oscura para el hombre moderno. Notes of incense ardiente, cardamom, noble patchouli, earthand vetiver, cedar and labdanum."
   },
   {
     "id": "IL-B192",
     "name": "Alien Extraintense",
     "brand": "Mugler",
     "gender": "Women",
-    "ml": "100",
+    "ml": "90 ml",
     "img": "images/perfume262.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume262.webp",
     "stock": 146.0,
@@ -2460,14 +2634,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Diosa solar y magnetismo sobrenatural. Notas de jazmín sambac ardiente, madera de cachemira mística, ámbar blanco brillante y vainilla dorada.",
+    "notes_en": "Solar goddess and supernatural magnetism. Notes of jasmine sambac ardiente, madera de cachemira mística, white amber brillante and vanilla dorada."
   },
   {
     "id": "IL-B193",
     "name": "Eilish by Billie Eilish No. 1",
     "brand": "Billie Eilish",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume263.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume263.webp",
     "stock": 58.0,
@@ -2475,14 +2650,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Calidez envolvente y dulce sensualidad íntima. Notas de pétalos azucarados, mandarina jugosa, bayas rojas, cacao amargo suave, vainilla bourbon y maderas.",
+    "notes_en": "Calidez envolvente and dulce sensualidad íntima. Notes of pétalos azucarados, juicy mandarin, bayas rojas, bitter coconuta suave, bourbon vanilla and woods."
   },
   {
     "id": "IL-B194",
     "name": "Tease Candy Noir",
     "brand": "Victoria's Secret",
-    "gender": "women",
-    "ml": "100",
+    "gender": "Women",
+    "ml": "100 ml",
     "img": "images/perfume264.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume264.webp",
     "stock": 131.0,
@@ -2490,14 +2666,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Dulzura oscura, traviesa y fascinante. Notas de frambuesa confitada brillante, iris nocturno aterciopelado, haba tonka tostada dulce y almizcle oscuro.",
+    "notes_en": "Dark, mischievous, and fascinating sweetness. Notes of raspberry confitada brillante, iris nocturno aterciopelado, roasted tonka bean dulce and musk oscuro."
   },
   {
     "id": "IL-B195",
     "name": "Y Eau de Parfum Intense",
     "brand": "Yves Saint Laurent",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume265.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume265.webp",
     "stock": 41.0,
@@ -2505,13 +2682,14 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Para el hombre que se atreve a soñar. Notas de manzana crujiente, jengibre fresco, bergamota, salvia aromática, bayas de enebro y cedro.",
+    "notes_en": "For the man who dares to dream. Notes of crisp apple, fresh ginger, bergamot, aromatic sage, juniper berries and cedar."
   },
   {
     "id": "IL-B196",
     "name": "Dior Miniature Perfume Gift Set",
     "brand": "Dior",
-    "gender": "women",
+    "gender": "Women",
     "ml": "30ml x 4",
     "img": "images/perfume266.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume266.webp",
@@ -2520,14 +2698,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Cofre de ensueño de la Maison Dior con sus creaciones florales y femeninas más célebres de la alta perfumería.",
+    "notes_en": "Cofre de ensueño de la Maison Dior con sus creaciones florales and femeninas más célebres de la alta perfumería."
   },
   {
     "id": "IL-B197",
     "name": "Yves Saint Laurent Miniature Gift Set",
     "brand": "Yves Saint Laurent",
-    "gender": "Women",
-    "ml": "30ml x 4",
+    "gender": "Men",
+    "ml": "100 ml",
     "img": "images/perfume268.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume268.webp",
     "stock": 108.0,
@@ -2535,14 +2714,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Audacia y frescura vibrante. Notas de bergamota, jengibre, manzana verde, salvia aromática, geranio y maderas nobles.",
+    "notes_en": "Audacia and frescura vibrante. Notes of bergamot, ginger, apple verde, aromatic sage, geranium and noble woods."
   },
   {
     "id": "IL-B198",
     "name": "Jean Paul Gaultier Le Male Le Parfum",
     "brand": "Jean Paul Gaultier",
     "gender": "Men",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume186.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume186.webp",
     "stock": 788.0,
@@ -2550,14 +2730,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El clásico insuperable. Notas de menta fresca, lavanda, canela, flor de azahar y vainilla."
+    "notes": "El capitán toma el mando con paso firme. Notas de cardamomo especiado, lavanda noble, iris refinado, vainilla oriental y maderas.",
+    "notes_en": "The captain takes command with a steady hand. Notes of spicy cardamom, noble lavender, iris refinado, vanilla oriental and woods."
   },
   {
     "id": "IL-B199",
     "name": "Carolina Herrera Very Good Girl",
     "brand": "Carolina Herrera",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume269.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume269.webp",
     "stock": 287.0,
@@ -2565,14 +2746,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, dulce y enigmática. Notas de almendra, café, nardo, jazmín sambac y cacao."
+    "notes": "Atrevida, divertida y fabulosa. Notas de grosella roja jugosa, lichi exótico, rosa seductora, vainilla y vetiver.",
+    "notes_en": "Daring, fun, and fabulous. Notes of redcurrant jugosa, exotic lychee, rose seductora, vanilla and vetiver."
   },
   {
     "id": "IL-B200",
     "name": "Louis Vuitton Météore",
     "brand": "Louis Vuitton",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume270.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume270.webp",
     "stock": 293.0,
@@ -2580,14 +2762,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Magnetismo picante y cristalino. Notas de mandarina de Calabria, naranja amarga, cardamomo de Guatemala, nuez moscada y vetiver.",
+    "notes_en": "Spicy and crystal-clear magnetism. Notes of Calabrian mandarin, bitter orange, Guatemalan cardamom, nutmeg and vetiver."
   },
   {
     "id": "IL-B203",
     "name": "Jean Paul Gaultier So Scandal!",
     "brand": "Jean Paul Gaultier",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume272.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume272.webp",
     "stock": 302.0,
@@ -2595,14 +2778,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Provocador y delicioso. Notas de miel dorada, gardenia, naranja sanguina y pachulí intenso."
+    "notes": "Provocación dulce y piernas al aire. Notas de naranja sanguina, mandarina, miel pura dorada, gardenia blanca, jazmín, pachulí y caramelo.",
+    "notes_en": "Sweet provocation and playful allure. Notes of blood orange, mandarin, pure golden honey, white gardenia, jasmine, patchouli and caramel."
   },
   {
     "id": "IL-B204",
     "name": "Louis Vuitton Les Sables Roses",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume273.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume273.webp",
     "stock": 42.0,
@@ -2610,14 +2794,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Contrastes ardientes en las dunas. Notas de rosa centifolia, madera de oud, ámbar gris, pimienta negra y azafrán.",
+    "notes_en": "Contrastes ardientes en las dunas. Notes of centifolia rose, oud wood, ambergris, black pepper and saffrum."
   },
   {
     "id": "IL-B205",
     "name": "Louis Vuitton Fleur du Désert",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume274.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume274.webp",
     "stock": 50.0,
@@ -2625,14 +2810,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Tributo a los oasis de Oriente. Notas de jazmín del desierto, flor de azahar, rosa de Damasco, oud y canela.",
+    "notes_en": "Tribute to desert oasis. Notes of jasmine del desierto, orange blossom, Damask rose, oud and cinnamon."
   },
   {
     "id": "IL-B206",
     "name": "Creed Love in White",
     "brand": "Creed",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume98.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume98.webp",
     "stock": 41.0,
@@ -2640,14 +2826,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Un bouquet celestial de flores puras. Notas de cáscara de naranja italiana, flor de arroz, iris florentino, magnolia blanca, rosa y sándalo.",
+    "notes_en": "A celestial bouquet of pure flowers. Notes of cáscara de naranja italiana, rice blossom, Florentine iris, white magnolia, rose and sandalwood."
   },
   {
     "id": "IL-B207",
     "name": "Emporio ArMani Stronger With You Intensely",
-    "brand": "Giorgio ArMani",
+    "brand": "Giorgio Armani",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume17.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume17.webp",
     "stock": 285.0,
@@ -2655,14 +2842,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Amor inquebrantable y conexión profunda. Notas de pimienta rosa, cardamomo, salvia aromática, castaña glaseada dulce, vainilla bourbon y cedro.",
+    "notes_en": "Unshakable love and profound connection. Notes of pepper rose, cardamom, aromatic sage, sweet candied chestnut, bourbon vanilla and cedar."
   },
   {
     "id": "IL-B208",
     "name": "Versace Pour Homme",
     "brand": "Versace",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume278.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume278.webp",
     "stock": 322.0,
@@ -2670,14 +2858,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Poder, sensualidad y glamour mediterráneo. Notas cítricas chispeantes, cedro y almizcle."
+    "notes": "Elegancia mediterránea fresca y clásica. Notas de limón de Calabria, neroli, hojas de naranja amarga, jacinto azul, cedro, salvia y almizcle.",
+    "notes_en": "Elegancia mediterránea fresca and clásica. Notes of lemon de Calabria, neroli, hojas de bitter orange, hyacinth azul, cedar, sage and musk."
   },
   {
     "id": "IL-B209",
     "name": "Prada Paradigme",
     "brand": "Prada",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume279.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume279.webp",
     "stock": 234.0,
@@ -2685,14 +2874,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Arquitectura olfativa futurista y limpia. Notas de bergamota italiana, cardamomo, iris noble, madera de cedro y almizcles minerales.",
+    "notes_en": "Arquitectura olfativa futurista and limpia. Notes of Italian bergamot, cardamom, iris noble, cedarwood and musks minerales."
   },
   {
     "id": "IL-B210",
     "name": "Fame Eau de Parfum",
     "brand": "Paco Rabanne",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume297.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume297.webp",
     "stock": 512.0,
@@ -2700,13 +2890,14 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Pura feminidad y estilo parisino. Notas de mango suculento, jazmín delicado e incienso cremoso."
+    "notes": "Glamour parisino y aura de estrella. Notas de mango tropical jugoso, bergamota, jazmín puro luminoso, incienso cremoso, sándalo y vainilla.",
+    "notes_en": "Parisian glamour and star aura. Notes of juicy tropical mango, bergamot, jasmine puro luminoso, incense cremoso, sandalwood and vanilla."
   },
   {
     "id": "IL-B213",
     "name": "Louis Vuitton Fragrance Gift Box",
     "brand": "Louis Vuitton",
-    "gender": "Women",
+    "gender": "Unisex",
     "ml": "30ml x 4",
     "img": "images/perfume282.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume282.webp",
@@ -2715,14 +2906,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Cofre de viaje de alta perfumería Louis Vuitton. Selección curada con las fragancias más icónicas de la Maison.",
+    "notes_en": "Cofre de viaje de alta perfumería Louis Vuitton. Selección curada con las fragancias más icónicas de la Maison."
   },
   {
     "id": "IL-B214",
     "name": "Valentino Uomo Born In Roma Purple Melancholia",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume283.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume283.webp",
     "stock": 261.0,
@@ -2730,14 +2922,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Aristocracia rebelde y moderna. Notas de hojas de violeta, jengibre fresco, salvia aromática, sales minerales y vetiver ahumado.",
+    "notes_en": "Rebellious and modern aristocracy. Notes of hojas de violet, fresh ginger, aromatic sage, sales minerales and vetiver ahumado."
   },
   {
     "id": "IL-B215",
     "name": "Valentino Donna Born In Roma Purple Melancholia",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume287.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume287.webp",
     "stock": 271.0,
@@ -2745,14 +2938,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Alta costura y actitud romana. Notas de grosella negra, pimienta rosa, jazmín grandiflorum, té de jazmín y vainilla bourbon.",
+    "notes_en": "Haute couture and Roman attitude. Notes of blackcurrant, pepper rose, jasmine grandiflorum, tea de jasmine and bourbon vanilla."
   },
   {
     "id": "IL-B216",
     "name": "Louis Vuitton Symphony",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume284.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume284.webp",
     "stock": 222.0,
@@ -2760,14 +2954,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 5.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Resplandor radiante de luz pura. Notas de pomelo chispeante, bergamota de Calabria y jengibre fresco picante.",
+    "notes_en": "Radiant glow of pure light. Notes of grapefruit chispeante, Calabrian bergamot and spicy fresh ginger."
   },
   {
     "id": "IL-B217",
     "name": "Bond No. 9 New York Musk",
     "brand": "Bond No. 9",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume285.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume285.webp",
     "stock": 278.0,
@@ -2775,14 +2970,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El vibrante espíritu de Nueva York. Notas florales exquisitas, frutas dulces y cedro."
+    "notes": "Aura almizclada urbana y magnética. Notas de flor de azahar, pomelo, osmanto, nuez moscada, pachulí, sándalo y almizcle blanco seductor.",
+    "notes_en": "Aura almizclada urbana and magnética. Notes of orange blossom, grapefruit, osmanthus, nutmeg, patchouli, sandalwood and white musk seductor."
   },
   {
     "id": "IL-B218",
     "name": "Bond No. 9 New York Nights",
     "brand": "Bond No. 9",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume277.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume277.webp",
     "stock": 214.0,
@@ -2790,14 +2986,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 4.0,
     "new": 0.0,
-    "notes": "El vibrante espíritu de Nueva York. Notas florales exquisitas, frutas dulces y cedro."
+    "notes": "El horizonte iluminado de Manhattan. Notas de jazmín, gardenia, clavel, pachulí, sándalo, café aromático y caramelo fundido.",
+    "notes_en": "The illuminated skyline of Manhattan. Notes of jasmine, gardenia, clavel, patchouli, sandalwood, aromatic coffee and melted caramel."
   },
   {
     "id": "IL-B219",
     "name": "Bond No. 9 Bleecker Street",
     "brand": "Bond No. 9",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume286.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume286.webp",
     "stock": 130.0,
@@ -2805,14 +3002,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El vibrante espíritu de Nueva York. Notas florales exquisitas, frutas dulces y cedro."
+    "notes": "Arte urbano y energía vibrante. Notas de hojas de violeta silvestre, arándano, tomillo, madera de cedro, canela, roble y ante suave.",
+    "notes_en": "Arte urbano and energía vibrante. Notes of hojas de wild violet, cranberry, thyme, cedarwood, cinnamon, roble and ante suave."
   },
   {
     "id": "IL-B220",
     "name": "Carolina Herrera Bad Boy",
     "brand": "Carolina Herrera",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume288.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume288.webp",
     "stock": 216.0,
@@ -2820,14 +3018,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Glamour, seducción y elegancia neoyorquina. Notas de jazmín, nardo, almendra y cacao."
+    "notes": "Rebelde, sofisticado y seductor. Notas de pimienta negra, bergamota verde, cedro, salvia, haba tonka y cacao tostado.",
+    "notes_en": "Rebellious, sophisticated, and seductive. Notes of black pepper, green bergamot, cedar, sage, tonka bean and roasted coconuta."
   },
   {
     "id": "IL-B221",
     "name": "Bad Boy Cobalt Elixir",
     "brand": "Carolina Herrera",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume298.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume298.webp",
     "stock": 175.0,
@@ -2835,14 +3034,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Glamour, seducción y elegancia neoyorquina. Notas de jazmín, nardo, almendra y cacao."
+    "notes": "Eléctrico, fresco y atrevido. Notas de pimienta rosa, lavanda aromática, ciruela negra, trufa mineral, vetiver y cedro.",
+    "notes_en": "Electric, fresh, and daring. Notes of pepper rose, aromatic lavender, black plum, mineral truffle, vetiver and cedar."
   },
   {
     "id": "IL-B222",
     "name": "212 Men NYC EDT Intense",
     "brand": "Carolina Herrera",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume290.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume290.webp",
     "stock": 73.0,
@@ -2850,14 +3050,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Glamour, seducción y elegancia neoyorquina. Notas de jazmín, nardo, almendra y cacao."
+    "notes": "Fresca, urbana y magnética. Notas de hojas verdes, bergamota, jengibre, pimienta verde, gardenia, sándalo e incienso.",
+    "notes_en": "Fresh, urban, and magnetic. Notes of green leaves, bergamot, ginger, green pepper, gardenia, sandalwood and incense."
   },
   {
     "id": "IL-B223",
     "name": "The Most Wanted Eau de Toilette Intense",
     "brand": "Azzaro",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume289.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume289.webp",
     "stock": 283.0,
@@ -2865,14 +3066,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Juega más fuerte y atrévete a ganar. Notas de cardamomo rojo ardiente, caramelo dulce fundido, toffee gourmand, madera de jengibre y vetiver bourbon.",
+    "notes_en": "Play harder and dare to win. Notes of cardamom rojo ardiente, caramel dulce fundido, gourmand toffee, madera de ginger and vetiver bourbon."
   },
   {
     "id": "IL-B224",
     "name": "Lancôme La vie est belle",
     "brand": "Lancôme",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume5.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume5.webp",
     "stock": 240.0,
@@ -2880,14 +3082,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 12.0,
-    "notes": "Un himno a la felicidad. Notas de iris, jazmín, flor de azahar, pachulí y praliné."
+    "notes": "La vida es bella cuando eliges tu propio camino. Notas de iris pálido noble, jazmín sambac, flor de azahar, grosella negra, pera, pachulí y praliné.",
+    "notes_en": "Life is beautiful when you choose your path. Notes of iris pálido noble, jasmine sambac, orange blossom, blackcurrant, pear, patchouli and praline."
   },
   {
     "id": "IL-B225",
     "name": "Gucci Guilty Pour Homme Parfum",
     "brand": "Gucci",
     "gender": "Men",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume293.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume293.webp",
     "stock": 128.0,
@@ -2895,14 +3098,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Riqueza floral y romanticismo contemporáneo. Notas de nardo natural, jazmín y madreselva."
+    "notes": "Para espíritus libres y transgresores. Notas de limón de Amalfi fresco, lavanda francesa aromática, flor de azahar pura, cedro de Virginia y pachulí.",
+    "notes_en": "Para espíritus libres and transgresores. Notes of Amalfi lemon fresco, aromatic French lavender, orange blossom pura, Virginia cedarwood and patchouli."
   },
   {
     "id": "IL-B226",
     "name": "Dior Sauvage Eau DeParfum",
     "brand": "Dior",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume188.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume188.webp",
     "stock": 690.0,
@@ -2910,14 +3114,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Fresco, noble y potente. Notas de bergamota de Calabria, pimienta y ambroxan."
+    "notes": "Salvaje, fresca e intensa. Notas de bergamota de Calabria, pimienta de Sichuan, lavanda aromática, anís, vetiver y ambroxan.",
+    "notes_en": "Wild, fresh, and intense. Notes of Calabrian bergamot, Sichuan pepper, aromatic lavender, anise, vetiver and ambroxan."
   },
   {
     "id": "IL-B228",
     "name": "Libre Berry Crush Eau de Parfum Fruitée",
     "brand": "Yves Saint Laurent",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume296.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume296.webp",
     "stock": 46.0,
@@ -2925,14 +3130,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Frutos rojos chispeantes y libertad pura. Notas de frambuesa jugosa, grosella roja, lavanda de Diva, flor de azahar y vainilla.",
+    "notes_en": "Frutos rojos chispeantes and libertad pura. Notes of juicy raspberry, redcurrant, Diva lavender, orange blossom and vanilla."
   },
   {
     "id": "IL-B229",
     "name": "Chanel Chance Gabrielle Gift Set",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "30ml x 6",
+    "ml": "100 ml",
     "img": "images/perfume291.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume291.webp",
     "stock": 54.0,
@@ -2940,14 +3146,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Un torbellino de optimismo. Notas de pimienta rosa, jazmín, pachulí ámbar y almizcle blanco."
+    "notes": "Un torbellino de optimismo. Notas de pimienta rosa, jazmín, jacinto, pachulí noble, ámbar y almizcle blanco.",
+    "notes_en": "A whirlwind of optimism. Notes of pepper rose, jasmine, hyacinth, noble patchouli, amber and white musk."
   },
   {
     "id": "IL-B231",
     "name": "CHANEL CHANCE Eau de Parfum",
-    "brand": "CHANEL",
+    "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume600.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume600.webp",
     "stock": 227.0,
@@ -2955,14 +3162,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Un torbellino de optimismo. Notas de pimienta rosa, jazmín, pachulí ámbar y almizcle blanco."
+    "notes": "Un torbellino de optimismo. Notas de pimienta rosa, jazmín, jacinto, pachulí noble, ámbar y almizcle blanco.",
+    "notes_en": "A whirlwind of optimism. Notes of pepper rose, jasmine, hyacinth, noble patchouli, amber and white musk."
   },
   {
     "id": "IL-B232",
     "name": "Chanel N°19 Eau de Parfum",
-    "brand": "CHANEL",
+    "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume601.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume601.webp",
     "stock": 202.0,
@@ -2970,14 +3178,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Carácter decidido, audaz y sofisticado. Notas de gálbano verde, bergamota, neroli, iris de Florencia, rosa de mayo y vetiver.",
+    "notes_en": "Determined, bold, and sophisticated character. Notes of galbanum verde, bergamot, neroli, iris de Florencia, May rose and vetiver."
   },
   {
     "id": "IL-B234",
     "name": "Ralph Lauren Polo Red Parfum",
     "brand": "Ralph Lauren",
     "gender": "Men",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume603.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume603.webp",
     "stock": 452.0,
@@ -2985,14 +3194,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Velocidad, adrenalina y pasión ardiente. Notas de pomelo rojo sanguina, arándano ácido, limón italiano, azafrán rojo picante, lavanda, maderas rojas y café.",
+    "notes_en": "Velocidad, adrenalina and pasión ardiente. Notes of grapefruit rojo sanguina, tart cranberry, Italian lemon, saffrum rojo picante, lavender, woods rojas and coffee."
   },
   {
     "id": "IL-B235",
     "name": "Chanel N°5 L'Eau",
-    "brand": "CHANEL",
+    "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume604.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume604.webp",
     "stock": 111.0,
@@ -3000,14 +3210,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "El icono supremo de la alta perfumería. Notas de aldehídos dorados, ylang-ylang, neroli, jazmín de Grasse, rosa de mayo y sándalo.",
+    "notes_en": "The supreme icon of haute perfumery. Notes of aldehydes dorados, ylang-ylang, neroli, jasmine de Grasse, May rose and sandalwood."
   },
   {
     "id": "IL-B236",
     "name": "Carolina Herrera Sparkling Ice",
     "brand": "Carolina Herrera",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume605.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume605.webp",
     "stock": 165.0,
@@ -3015,14 +3226,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Glamour, seducción y elegancia neoyorquina. Notas de jazmín, nardo, almendra y cacao."
+    "notes": "Frescura helada y magnetismo urbano. Notas de cítricos gélidos, menta escarchada, pimienta rosa, jengibre y maderas nobles.",
+    "notes_en": "Icy freshness and urban magnetism. Notes of cítricos gélidos, mint escarchada, pepper rose, ginger and noble woods."
   },
   {
     "id": "IL-B237",
     "name": "Jean Paul Gaultier La Belle Rosea Eau de Parfum",
     "brand": "Jean Paul Gaultier",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume606.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume606.webp",
     "stock": 216.0,
@@ -3030,14 +3242,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Intenso, sensual y transgresor. Notas de lavanda fresca, vainilla dulce y especias."
+    "notes": "El jardín de la tentación más dulce. Notas de pera verde caramelizada, bergamota fresca, jazmín solar, haba tonka y vainilla oriental.",
+    "notes_en": "The garden of sweetest temptation. Notes of green pear caramelizada, fresh bergamot, jasmine solar, tonka bean and vanilla oriental."
   },
   {
     "id": "IL-B238",
     "name": "Jean Paul Gaultier Le Beau Narcisse Eau de Parfum",
     "brand": "Jean Paul Gaultier",
     "gender": "Men",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume607.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume607.webp",
     "stock": 196.0,
@@ -3045,14 +3258,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Intenso, sensual y transgresor. Notas de lavanda fresca, vainilla dulce y especias."
+    "notes": "Tentación exótica en el edén. Notas de bergamota ácida fresca, madera de coco tropical, haba tonka tostada y ámbar salado.",
+    "notes_en": "Exotic temptation in paradise. Notes of bergamot ácida fresca, tropical coconutnut wood, roasted tonka bean and amber salado."
   },
   {
     "id": "IL-B239",
     "name": "Jean Paul Gaultier Scandal Pour Homme Intense Eau de Parfum",
     "brand": "Jean Paul Gaultier",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume608.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume608.webp",
     "stock": 240.0,
@@ -3060,14 +3274,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 11.0,
-    "notes": "Provocador y delicioso. Notas de miel dorada, gardenia, naranja sanguina y pachulí intenso."
+    "notes": "Golpe maestro de energía y carisma. Notas de mandarina jugosa, salvia esclarea, caramelo salado crujiente, haba tonka y vetiver.",
+    "notes_en": "Masterstroke of energy and charisma. Notes of juicy mandarin, clary sage, crispy salted caramel, tonka bean and vetiver."
   },
   {
     "id": "IL-B240",
     "name": "Rabanne Phantom In Red Parfum Elixir",
-    "brand": "Rabanne",
+    "brand": "Paco Rabanne",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume609.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume609.webp",
     "stock": 240.0,
@@ -3075,14 +3290,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 10.0,
-    "notes": "Vanguardista y adictivo. Notas de lavanda cremosa, limón energizante y vainilla sensual."
+    "notes": "Innovación cósmica y energía futurista. Notas de lavanda energizante, limón italiano, humo de pachulí, vainilla cremosa y vetiver.",
+    "notes_en": "Cosmic innovation and futuristic energy. Notes of lavender energizante, Italian lemon, humo de patchouli, creamy vanilla and vetiver."
   },
   {
     "id": "IL-B241",
     "name": "Rabanne Invictus Elixir",
-    "brand": "Rabanne",
+    "brand": "Paco Rabanne",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume610.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume610.webp",
     "stock": 240.0,
@@ -3090,14 +3306,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 9.0,
-    "notes": "El aroma de la victoria. Notas de laurel heroico, pomelo fresco, ámbar gris y maderas."
+    "notes": "El aroma de la victoria heroica. Notas de pomelo marino, acorde acuático oceánico, hojas de laurel aromáticas, jazmín, madera de guayaco y musgo.",
+    "notes_en": "The scent of heroic victory. Notes of grapefruit marino, acorde acuático oceánico, hojas de laurel aromáticas, jasmine, guaiac wood and moss."
   },
   {
     "id": "IL-B242",
     "name": "Rabanne Fame In Love Parfum Elixir",
-    "brand": "Rabanne",
+    "brand": "Paco Rabanne",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume611.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume611.webp",
     "stock": 240.0,
@@ -3105,14 +3322,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 8.0,
-    "notes": "Pura feminidad y estilo parisino. Notas de mango suculento, jazmín delicado e incienso cremoso."
+    "notes": "Glamour parisino y aura de estrella. Notas de mango tropical jugoso, bergamota, jazmín puro luminoso, incienso cremoso, sándalo y vainilla.",
+    "notes_en": "Parisian glamour and star aura. Notes of juicy tropical mango, bergamot, jasmine puro luminoso, incense cremoso, sandalwood and vanilla."
   },
   {
     "id": "IL-B243",
     "name": "Chanel Bleu de Chanel Parfum",
-    "brand": "CHANEL",
+    "brand": "Chanel",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume612.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume612.webp",
     "stock": 240.0,
@@ -3120,14 +3338,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 7.0,
-    "notes": "El elogio de la libertad masculina. Notas de pomelo, cedro, incienso y sándalo."
+    "notes": "Elegancia atemporal y libertad masculina. Notas de pomelo, limón, menta fresca, jengibre, cedro, sándalo e incienso.",
+    "notes_en": "Timeless elegance and masculine freedom. Notes of grapefruit, lemon, fresh mint, ginger, cedar, sandalwood and incense."
   },
   {
     "id": "IL-B244",
     "name": "Yves Saint Laurent Libre Eau de Parfum Intense",
     "brand": "Yves Saint Laurent",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume613.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume613.webp",
     "stock": 431.0,
@@ -3135,14 +3354,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Rugido floral sensual y salvaje. Notas de lavanda francesa, mandarina, orquídea brillante, flor de azahar, jazmín y vainilla de Madagascar.",
+    "notes_en": "Sensual and wild floral roar. Notes of lavender francesa, mandarin, orquídea brillante, orange blossom, jasmine and Madagascar vanilla."
   },
   {
     "id": "IL-B246",
     "name": "Dior Fahrenheit Eau de Toilette",
     "brand": "Dior",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume615.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume615.webp",
     "stock": 254.0,
@@ -3150,14 +3370,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Pionera, magnética y ardiente. Notas de flor de moscada, lavanda, hojas de violeta silvestre, cuero curtido, cedro y sándalo.",
+    "notes_en": "Pioneering, magnetic, and fiery. Notes of flor de moscada, lavender, hojas de wild violet, tanned leather, cedar and sandalwood."
   },
   {
     "id": "IL-B247",
     "name": "Carolina Herrera Good Girl Jasmine Absolute Eau de Parfum",
     "brand": "Carolina Herrera",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume616.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume616.webp",
     "stock": 222.0,
@@ -3165,14 +3386,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, dulce y enigmática. Notas de almendra, café, nardo, jazmín sambac y cacao."
+    "notes": "Luminosidad floral radiante. Notas de jazmín grandiflorum, flor de azahar, almendra dulce, nardo y vainilla cremosa.",
+    "notes_en": "Radiant floral luminosity. Notes of jasmine grandiflorum, orange blossom, sweet almond, tuberose and creamy vanilla."
   },
   {
     "id": "IL-B248",
     "name": "Valentino Donna Born in Roma Extradose Parfum",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume617.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume617.webp",
     "stock": 165.0,
@@ -3180,14 +3402,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Alta costura y actitud romana. Notas de grosella negra, pimienta rosa, jazmín grandiflorum, té de jazmín y vainilla bourbon.",
+    "notes_en": "Haute couture and Roman attitude. Notes of blackcurrant, pepper rose, jasmine grandiflorum, tea de jasmine and bourbon vanilla."
   },
   {
     "id": "IL-B249",
     "name": "Viktor&Rolf Spicebomb Extreme Eau de Parfum",
-    "brand": "Viktor&Rolf",
+    "brand": "Viktor & Rolf",
     "gender": "Men",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume618.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume618.webp",
     "stock": 233.0,
@@ -3195,14 +3418,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Poder detonante ardiente y seductor. Notas de pimienta negra, canela intensa, lavanda aromática, comino, tabaco bourbon y vainilla negra.",
+    "notes_en": "Fiery, seductive detonating power. Notes of black pepper, cinnamon intensa, aromatic lavender, cumin, tobacco bourbon and vanilla negra."
   },
   {
     "id": "IL-B250",
     "name": "Dolce&Gabbana Devotion Eau de Parfum",
-    "brand": "Dolce&Gabbana",
+    "brand": "Dolce & Gabbana",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume619.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume619.webp",
     "stock": 238.0,
@@ -3210,14 +3434,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Devoción absoluta a los dulces placeres de Italia. Notas de cítricos confitados dorados, flor de azahar luminosa, panacota suave y vainilla de Madagascar.",
+    "notes_en": "Absolute devotion to sweet Italian pleasures. Notes of cítricos confitados dorados, orange blossom luminosa, panacota suave and Madagascar vanilla."
   },
   {
     "id": "IL-B251",
     "name": "Dolce&Gabbana The One For Men Eau de Parfum",
-    "brand": "Dolce&Gabbana",
+    "brand": "Dolce & Gabbana",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume620.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume620.webp",
     "stock": 240.0,
@@ -3225,14 +3450,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 6.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Carisma irresistible y magnetismo clásico. Notas de pomelo, cilantro, albahaca fresca, jengibre cálido, cardamomo, tabaco curado y cedro.",
+    "notes_en": "Irresistible charisma and classic magnetism. Notes of grapefruit, coriander, fresh basil, ginger cálido, cardamom, cured tobacco and cedar."
   },
   {
     "id": "IL-B252",
     "name": "Yves Saint Laurent MYSLF L'Absolu Parfum",
     "brand": "Yves Saint Laurent",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume621.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume621.webp",
     "stock": 240.0,
@@ -3240,14 +3466,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 5.0,
-    "notes": "Auténtico y magnético. Notas de bergamota espumosa, flor de azahar pura y pachulí sensual."
+    "notes": "Auténtico, libre y magnético. Notas de bergamota de Calabria fresca, flor de azahar de Túnez pura, maderas ambarinas y pachulí.",
+    "notes_en": "Authentic, free, and magnetic. Notes of Calabrian bergamot fresca, Tunisian orange blossom pura, amber woods and patchouli."
   },
   {
     "id": "IL-B253",
     "name": "Rabanne Million Gold For Her Eau de Parfum",
-    "brand": "Rabanne",
+    "brand": "Paco Rabanne",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume622.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume622.webp",
     "stock": 241.0,
@@ -3255,14 +3482,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Feminidad deslumbrante de alta costura. Notas de flores blancas solares puras, lavanda mineral chispeante y almizcles dorados sensuales.",
+    "notes_en": "Feminidad deslumbrante de alta costura. Notes of flores blancas solares puras, lavender mineral chispeante and musks dorados sensuales."
   },
   {
     "id": "IL-B254",
     "name": "Chanel Bleu de Chanel L'Exclusif",
-    "brand": "CHANEL",
+    "brand": "Chanel",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume623.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume623.webp",
     "stock": 240.0,
@@ -3270,14 +3498,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El elogio de la libertad masculina. Notas de pomelo, cedro, incienso y sándalo."
+    "notes": "Elegancia atemporal y libertad masculina. Notas de pomelo, limón, menta fresca, jengibre, cedro, sándalo e incienso.",
+    "notes_en": "Timeless elegance and masculine freedom. Notes of grapefruit, lemon, fresh mint, ginger, cedar, sandalwood and incense."
   },
   {
     "id": "IL-B255",
     "name": "Jean Paul Gaultier La Belle Fleur Terrible Eau de Parfum",
     "brand": "Jean Paul Gaultier",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume624.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume624.webp",
     "stock": 206.0,
@@ -3285,14 +3514,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 5.0,
-    "notes": "Intenso, sensual y transgresor. Notas de lavanda fresca, vainilla dulce y especias."
+    "notes": "El jardín de la tentación más dulce. Notas de pera verde caramelizada, bergamota fresca, jazmín solar, haba tonka y vainilla oriental.",
+    "notes_en": "The garden of sweetest temptation. Notes of green pear caramelizada, fresh bergamot, jasmine solar, tonka bean and vanilla oriental."
   },
   {
     "id": "IL-B257",
     "name": "Louis Vuitton Rain Tea Eau de Parfum",
-    "brand": "LOUIS VUITTON",
+    "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume626.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume626.webp",
     "stock": 144.0,
@@ -3300,14 +3530,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 4.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Gotas de lluvia sobre hojas de té sagradas. Notas de té verde matcha, bergamota fresca, jengibre acuático, jazmín puro y bambú.",
+    "notes_en": "Gotas de lluvia sobre hojas de tea sagradas. Notes of matcha green tea, fresh bergamot, ginger acuático, jasmine puro and bamboo."
   },
   {
     "id": "IL-B258",
     "name": "Louis Vuitton Moon Tale Eau de Parfum",
-    "brand": "LOUIS VUITTON",
+    "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume627.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume627.webp",
     "stock": 144.0,
@@ -3315,14 +3546,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 3.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Cuento nocturno bajo la luz de la luna. Notas de flor de luna nocturna, lichi jugoso, rosa silvestre, incienso blanco y sándalo.",
+    "notes_en": "Cuento nocturno bajo la luz de la luna. Notes of flor de luna nocturna, juicy lychee, rose silvestre, white incense and sandalwood."
   },
   {
     "id": "IL-B260",
     "name": "Yves Saint Laurent Tuxedo",
     "brand": "Yves Saint Laurent",
-    "gender": "Unisex",
-    "ml": "125",
+    "gender": "Men",
+    "ml": "100 ml",
     "img": "images/perfume629.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume629.webp",
     "stock": 128.0,
@@ -3330,14 +3562,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 1.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Audacia y frescura vibrante. Notas de bergamota, jengibre, manzana verde, salvia aromática, geranio y maderas nobles.",
+    "notes_en": "Audacia and frescura vibrante. Notes of bergamot, ginger, apple verde, aromatic sage, geranium and noble woods."
   },
   {
     "id": "IL-B261",
     "name": "81 Eau de Parfum Intense",
     "brand": "Kayali",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume630.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume630.webp",
     "stock": 116.0,
@@ -3345,14 +3578,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Nube voluptuosa y esponjosa de malvavisco rosa. Notas de malvavisco esponjoso, azúcar glas, fresa silvestre, vainilla batida y almizcle suave.",
+    "notes_en": "Nube voluptuosa and esponjosa de marshmallow rose. Notes of fluffy marshmallow, azúcar glas, wild strawberry, vanilla batida and soft musk."
   },
   {
     "id": "IL-B262",
     "name": "Burberry Her Elixir de Parfum",
     "brand": "Burberry",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume631.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume631.webp",
     "stock": 73.0,
@@ -3360,14 +3594,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El encanto y sofisticación británica. Notas de frutas rojas, jazmín delicado y ámbar cálido."
+    "notes": "El espíritu vibrante y audaz de Londres. Notas de fresa silvestre, frambuesa jugosa, mora, grosella negra, jazmín, violeta dulce y ámbar blanco.",
+    "notes_en": "The vibrant, daring spirit of London. Notes of wild strawberry, juicy raspberry, blackberry, blackcurrant, jasmine, violet dulce and white amber."
   },
   {
     "id": "IL-B263",
     "name": "Jimmy Choo I Want Choo Forever Eau de Parfum",
     "brand": "Jimmy Choo",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume632.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume632.webp",
     "stock": 69.0,
@@ -3375,14 +3610,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Glamour chispeante y energía festiva irresistible. Notas de mandarina jugosa, melocotón aterciopelado, lirio rojo solar, jazmín sambac, vainilla y benjuí.",
+    "notes_en": "Glamour chispeante and energía festiva irresistible. Notes of juicy mandarin, peach aterciopelado, lily rojo solar, jasmine sambac, vanilla and benzoin."
   },
   {
     "id": "IL-B264",
     "name": "Jimmy Choo I Want Choo Eau de Parfum",
     "brand": "Jimmy Choo",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume633.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-list/refs/heads/main/images/perfume633.webp",
     "stock": 99.0,
@@ -3390,14 +3626,15 @@ window.perfumeDB = [
     "warehouse": "IL",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Glamour chispeante y energía festiva irresistible. Notas de mandarina jugosa, melocotón aterciopelado, lirio rojo solar, jazmín sambac, vainilla y benjuí.",
+    "notes_en": "Glamour chispeante and energía festiva irresistible. Notes of juicy mandarin, peach aterciopelado, lily rojo solar, jasmine sambac, vanilla and benzoin."
   },
   {
     "id": "TX-A003",
     "name": "Uomo Born in Roma Eau de Toilette",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume302.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume302.webp",
     "stock": 99.0,
@@ -3405,14 +3642,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Aristocracia rebelde y moderna. Notas de hojas de violeta, jengibre fresco, salvia aromática, sales minerales y vetiver ahumado.",
+    "notes_en": "Rebellious and modern aristocracy. Notes of hojas de violet, fresh ginger, aromatic sage, sales minerales and vetiver ahumado."
   },
   {
     "id": "TX-A004",
     "name": "Miss Dior Blooming Bouquet",
     "brand": "Dior",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume303.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume303.webp",
     "stock": 105.0,
@@ -3420,14 +3658,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Un bouquet floral primaveral sublime. Notas de lirio de los valles, peonía fresca, rosa centifolia, iris, melocotón y vainilla suave.",
+    "notes_en": "A sublime spring floral bouquet. Notes of lily-of-the-valley, fresh peony, centifolia rose, iris, peach and vanilla suave."
   },
   {
     "id": "TX-A005",
     "name": "La vie est belle L'Eau de Parfum",
     "brand": "Lancôme",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume304.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume304.webp",
     "stock": 64.0,
@@ -3435,14 +3674,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Un himno a la felicidad. Notas de iris, jazmín, flor de azahar, pachulí y praliné."
+    "notes": "La vida es bella cuando eliges tu propio camino. Notas de iris pálido noble, jazmín sambac, flor de azahar, grosella negra, pera, pachulí y praliné.",
+    "notes_en": "Life is beautiful when you choose your path. Notes of iris pálido noble, jasmine sambac, orange blossom, blackcurrant, pear, patchouli and praline."
   },
   {
     "id": "TX-A007",
     "name": "Mon Paris Eau de Parfum",
     "brand": "Yves Saint Laurent",
     "gender": "Women",
-    "ml": "100",
+    "ml": "90 ml",
     "img": "images/perfume306.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume306.webp",
     "stock": 90.0,
@@ -3450,14 +3690,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Amor vertiginoso en París. Notas de fresa silvestre, frambuesa, pera jugosa, flor de datura hipnótica, peonía y pachulí indonesio.",
+    "notes_en": "Breathtaking love in Paris. Notes of wild strawberry, raspberry, juicy pear, flor de datura hipnótica, peony and Indonesian patchouli."
   },
   {
     "id": "TX-A009",
     "name": "Aventus",
     "brand": "Creed",
-    "gender": "Unisex",
-    "ml": "100",
+    "gender": "Men",
+    "ml": "100 ml",
     "img": "images/perfume308.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume308.webp",
     "stock": 160.0,
@@ -3465,14 +3706,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 4.0,
     "new": 0.0,
-    "notes": "Audaz, magnético y legendario. Notas de piña, abedul, grosella negra y ámbar gris."
+    "notes": "Triunfo, fuerza y éxito indiscutible. Notas de piña ahumada, bergamota jugosa, grosella negra, abedul seco, pachulí, musgo y almizcle.",
+    "notes_en": "Triumph, strength, and undeniable success. Notes of smoky pineapple, bergamot jugosa, blackcurrant, abedul seco, patchouli, moss and musk."
   },
   {
     "id": "TX-A011",
     "name": "Baccarat Rouge 540 Extrait de Parfum",
     "brand": "Maison Francis Kurkdjian",
     "gender": "Unisex",
-    "ml": "70",
+    "ml": "70 ml",
     "img": "images/mfk_baccarat_extrait.jpg",
     "remoteImg": "images/mfk_baccarat_extrait.jpg",
     "stock": 163.0,
@@ -3480,14 +3722,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 1.0,
     "new": 0.0,
-    "notes": "Una estela inolvidable. Notas de jazmín, azafrán, ámbar gris y madera de cedro."
+    "notes": "Alquimia poética y firma inolvidable. Notas de jazmín Grandiflorum, azafrán resinoso, cedro de Virginia y ámbar gris.",
+    "notes_en": "Poetic alchemy and unforgettable signature. Notes of Grandiflorum jasmine, resinous saffrum, Virginia cedarwood and ambergris."
   },
   {
     "id": "TX-A012",
     "name": "Y Eau de Parfum",
     "brand": "Yves Saint Laurent",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume311.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume311.webp",
     "stock": 72.0,
@@ -3495,14 +3738,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Para el hombre que se atreve a soñar. Notas de manzana crujiente, jengibre fresco, bergamota, salvia aromática, bayas de enebro y cedro.",
+    "notes_en": "For the man who dares to dream. Notes of crisp apple, fresh ginger, bergamot, aromatic sage, juniper berries and cedar."
   },
   {
     "id": "TX-A013",
     "name": "Bleu de Chanel Eau de Parfum",
     "brand": "Chanel",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume312.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume312.webp",
     "stock": 132.0,
@@ -3510,14 +3754,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El elogio de la libertad masculina. Notas de pomelo, cedro, incienso y sándalo."
+    "notes": "Elegancia atemporal y libertad masculina. Notas de pomelo, limón, menta fresca, jengibre, cedro, sándalo e incienso.",
+    "notes_en": "Timeless elegance and masculine freedom. Notes of grapefruit, lemon, fresh mint, ginger, cedar, sandalwood and incense."
   },
   {
     "id": "TX-A016",
     "name": "TriBeCa",
     "brand": "Bond No. 9",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume315.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume315.webp",
     "stock": 92.0,
@@ -3525,14 +3770,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El vibrante espíritu de Nueva York. Notas florales exquisitas, frutas dulces y cedro."
+    "notes": "El encanto bohemio del centro de Manhattan. Notas de cacao amargo, avellana tostada verde, jazmín sambac, cedro, caramelo y musgo.",
+    "notes_en": "Bohemian downtown Manhattan charm. Notes of bitter coconuta, hazelnut tostada verde, jasmine sambac, cedar, caramel and moss."
   },
   {
     "id": "TX-A017",
     "name": "Paradoxe Eau de Parfum",
     "brand": "Prada",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume316.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume316.webp",
     "stock": 65.0,
@@ -3540,14 +3786,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "La reinvención constante de la mujer. Notas de pera jugosa fresca, mandarina, flor de azahar neroli, jazmín sambac, vainilla bourbon y ámbar serenolide.",
+    "notes_en": "The constant reinvention of womanhood. Notes of juicy pear fresca, mandarin, orange blossom neroli, jasmine sambac, bourbon vanilla and amber serenolide."
   },
   {
     "id": "TX-A018",
     "name": "Lost Cherry",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "50 ml",
     "img": "images/perfume317.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume317.webp",
     "stock": 51.0,
@@ -3555,14 +3802,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Seductora y golosa. Notas de cereza negra, licor, almendra amarga y haba tonka."
+    "notes": "Tentación dulce, prohibida e insaciable. Notas de cereza negra licorosa, almendra amarga, rosa turca, jazmín sambac, haba tonka y vainilla.",
+    "notes_en": "Sweet, forbidden, and insatiable temptation. Notes of cherry negra licorose, bitter almond, Turkish rose, jasmine sambac, tonka bean and vanilla."
   },
   {
     "id": "TX-A019",
     "name": "Stronger With You Absolutely",
-    "brand": "Giorgio ArMani",
+    "brand": "Giorgio Armani",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume318.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume318.webp",
     "stock": 101.0,
@@ -3570,14 +3818,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Amor inquebrantable y conexión profunda. Notas de pimienta rosa, cardamomo, salvia aromática, castaña glaseada dulce, vainilla bourbon y cedro.",
+    "notes_en": "Unshakable love and profound connection. Notes of pepper rose, cardamom, aromatic sage, sweet candied chestnut, bourbon vanilla and cedar."
   },
   {
     "id": "TX-A021",
     "name": "Tobacco Vanille",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume320.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume320.webp",
     "stock": 81.0,
@@ -3585,14 +3834,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Cálida, opulenta e icónica. Notas de hojas de tabaco, especias, vainilla y cacao."
+    "notes": "Club inglés clásico y opulento. Notas de hojas de tabaco puro, especias aromáticas, vainilla cremosa, cacao oscuro, haba tonka y maderas.",
+    "notes_en": "Classic and opulent English private club. Notes of pure tobacco leaves, especias aromáticas, creamy vanilla, coconuta oscuro, tonka bean and woods."
   },
   {
     "id": "TX-A022",
     "name": "Silver Mountain Water",
     "brand": "Creed",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume321.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume321.webp",
     "stock": 76.0,
@@ -3600,14 +3850,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Pureza alpina y frescor cristalino. Notas de bergamota espumosa, mandarina dulce, té verde aromático, grosella negra, gálbano y sándalo.",
+    "notes_en": "Alpine purity and crystalline freshness. Notes of bergamot espumosa, mandarin dulce, green tea aromático, blackcurrant, galbanum and sandalwood."
   },
   {
     "id": "TX-A023",
     "name": "Fucking Fabulous",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "50 ml",
     "img": "images/perfume322.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume322.webp",
     "stock": 76.0,
@@ -3615,14 +3866,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Provocador, opulento y memorable. Notas de maderas ahumadas, especias orientales y vainilla."
+    "notes": "Explícita, lujosa y legendaria. Notas de salvia esclarea fresca, lavanda aromática, almendra amarga dulce, cuero fino, haba tonka y raíz de lirio.",
+    "notes_en": "Explícita, lujosa and legendaria. Notes of clary sage fresca, aromatic lavender, sweet bitter almond, fine leather, tonka bean and raíz de lily."
   },
   {
     "id": "TX-A025",
     "name": "Perseus",
     "brand": "Parfums de Marly",
-    "gender": "Unisex",
-    "ml": "125",
+    "gender": "Men",
+    "ml": "125 ml",
     "img": "images/perfume324.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume324.webp",
     "stock": 174.0,
@@ -3630,14 +3882,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "La grandeza de la realeza francesa. Notas de manzana, lavanda, especias y vainilla Bourbon."
+    "notes": "El sol naciente en los jardines de Marly. Notas de pomelo chispeante, bergamota de Calabria, grosella negra, mandarina y vetiver.",
+    "notes_en": "El sol naciente en los jardines de Marly. Notes of grapefruit chispeante, Calabrian bergamot, blackcurrant, mandarin and vetiver."
   },
   {
     "id": "TX-A026",
     "name": "Bloom Eau de Parfum",
     "brand": "Gucci",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume325.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume325.webp",
     "stock": 55.0,
@@ -3645,14 +3898,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Riqueza floral y romanticismo contemporáneo. Notas de nardo natural, jazmín y madreselva."
+    "notes": "Jardín abundante de flores blancas silvestres. Notas de extracto de yema de jazmín, nardo natural de la India, madreselva piscuala y lirio de Florencia.",
+    "notes_en": "Abundant garden of wild white blossoms. Notes of extracto de yema de jasmine, tuberose natural de la India, Rangoon creeper and lily de Florencia."
   },
   {
     "id": "TX-A027",
     "name": "Bad Boy Cobalt Eau de Parfum Électrique",
     "brand": "Carolina Herrera",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume326.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume326.webp",
     "stock": 47.0,
@@ -3660,14 +3914,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Glamour, seducción y elegancia neoyorquina. Notas de jazmín, nardo, almendra y cacao."
+    "notes": "Eléctrico, fresco y atrevido. Notas de pimienta rosa, lavanda aromática, ciruela negra, trufa mineral, vetiver y cedro.",
+    "notes_en": "Electric, fresh, and daring. Notes of pepper rose, aromatic lavender, black plum, mineral truffle, vetiver and cedar."
   },
   {
     "id": "TX-A028",
     "name": "Eros Eau de Parfum",
     "brand": "Versace",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume327.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume327.webp",
     "stock": 63.0,
@@ -3675,14 +3930,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Poder, sensualidad y glamour mediterráneo. Notas cítricas chispeantes, cedro y almizcle."
+    "notes": "Fuerza y deseo en la gloria griega. Notas de menta fresca crujiente, manzana verde confitada, limón italiano, haba tonka, ambroxan y vainilla.",
+    "notes_en": "Strength and desire in Greek glory. Notes of crisp fresh mint, apple verde confitada, Italian lemon, tonka bean, ambroxan and vanilla."
   },
   {
     "id": "TX-A029",
     "name": "Chance Eau Splendide",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume328.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume328.webp",
     "stock": 46.0,
@@ -3690,14 +3946,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Un torbellino de optimismo. Notas de pimienta rosa, jazmín, pachulí ámbar y almizcle blanco."
+    "notes": "Chic, jovial y cautivadora. Notas de frutos rojos chispeantes, jazmín radiante, rosa fresca y almizcles blancos.",
+    "notes_en": "Chic, jovial, and captivating. Notes of frutos rojos chispeantes, jasmine radiante, rose fresca and musks blancos."
   },
   {
     "id": "TX-A030",
     "name": "Libre Eau de Parfum",
     "brand": "Yves Saint Laurent",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume329.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume329.webp",
     "stock": 92.0,
@@ -3705,14 +3962,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "La libertad en su máxima expresión. Notas de lavanda francesa, mandarina jugosa, flor de azahar de Marruecos, jazmín sambac y vainilla.",
+    "notes_en": "Freedom in its purest expression. Notes of lavender francesa, juicy mandarin, Moroccan orange blossom, jasmine sambac and vanilla."
   },
   {
     "id": "TX-A031",
     "name": "J'adore Eau de Parfum Infinissime",
     "brand": "Dior",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume330.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume330.webp",
     "stock": 123.0,
@@ -3720,14 +3978,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Feminidad absoluta y oro floral. Notas de pera dulce, melón, magnolia, jazmín sambac, nardo de Grasse, rosa de Damasco y almizcle.",
+    "notes_en": "Absolute femininity and floral gold. Notes of sweet pear, melón, magnolia, jasmine sambac, tuberose de Grasse, Damask rose and musk."
   },
   {
     "id": "TX-A032",
     "name": "Sì Passione",
-    "brand": "Giorgio ArMani",
+    "brand": "Giorgio Armani",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume331.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume331.webp",
     "stock": 37.0,
@@ -3735,14 +3994,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Di sí a la pasión y a la libertad. Notas de néctar de grosella negra pura, pera jugosa, rosa de mayo, fresia blanca, pachulí y vainilla dorada.",
+    "notes_en": "Say yes to passion and freedom. Notes of néctar de blackcurrant pura, juicy pear, May rose, white freesia, patchouli and vanilla dorada."
   },
   {
     "id": "TX-A033",
     "name": "Louis Vuitton Pacific Chill",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume332.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume332.webp",
     "stock": 215.0,
@@ -3750,14 +4010,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Regeneradora, frutal y deslumbrante. Notas de grosella negra, zanahoria, menta fresca, albahaca, cilantro y cítricos californianos.",
+    "notes_en": "Regenerating, fruity, and dazzling. Notes of blackcurrant, carrot, fresh mint, basil, coriander and cítricos californianos."
   },
   {
     "id": "TX-A034",
     "name": "Valentino Uomo Born In Roma Intense",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume333.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume333.webp",
     "stock": 46.0,
@@ -3765,14 +4026,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Magnetismo nocturno desbordante. Notas de vainilla bourbon intensa, nuez moscada, lavanda aromática y vetiver terroso.",
+    "notes_en": "Magnetismo nocturno desbordante. Notes of bourbon vanilla intensa, nutmeg, aromatic lavender and earthand vetiver."
   },
   {
     "id": "TX-A035",
     "name": "Valentino Uomo Born In Roma Coral Fantasy",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume334.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume334.webp",
     "stock": 79.0,
@@ -3780,14 +4042,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Puesta de sol romana audaz. Notas de manzana roja jugosa, cardamomo ardiente, salvia aromática, geranio bourbon y hojas de tabaco.",
+    "notes_en": "Puesta de sol romana audaz. Notes of juicy red apple, fiery cardamom, aromatic sage, bourbon geranium and tobacco leaves."
   },
   {
     "id": "TX-A036",
     "name": "Louis Vuitton City of Stars",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume335.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume335.webp",
     "stock": 47.0,
@@ -3795,14 +4058,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Noche mágica en Los Ángeles. Notas de lima, naranja sanguina, mandarina roja, limón, flor de tiaré y sándalo cremoso.",
+    "notes_en": "A magical night in Los Angeles. Notes of lima, blood orange, mandarin roja, lemon, tiare flower and creamy sandalwood."
   },
   {
     "id": "TX-A041",
     "name": "Erba Pura",
     "brand": "Xerjoff",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume340.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume340.webp",
     "stock": 71.0,
@@ -3810,14 +4074,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Exquisito estallido frutal. Notas de naranja dulce, bergamota, frutas mediterráneas y almizcle."
+    "notes": "Cesto delicioso de frutas sicilianas. Notas de naranja siciliana, limón de Calabria, bergamota, frutas dulces, vainilla de Madagascar y almizcle blanco.",
+    "notes_en": "Delicious basket of Sicilian fruits. Notes of Sicilian orange, lemon de Calabria, bergamot, frutas dulces, Madagascar vanilla and white musk."
   },
   {
     "id": "TX-A042",
     "name": "Delina",
     "brand": "Parfums de Marly",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume341.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume341.webp",
     "stock": 57.0,
@@ -3825,14 +4090,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "La grandeza de la realeza francesa. Notas de manzana, lavanda, especias y vainilla Bourbon."
+    "notes": "Realeza floral y sensualidad encantadora. Notas de lichi, ruibarbo crujiente, bergamota, rosa turca, peonía, vainilla y cachemira.",
+    "notes_en": "Floral royalty and enchanting sensuality. Notes of lychee, crisp rhubarb, bergamot, Turkish rose, peony, vanilla and cachemira."
   },
   {
     "id": "TX-A044",
     "name": "Millesime Imperial",
     "brand": "Creed",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume343.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume343.webp",
     "stock": 119.0,
@@ -3840,14 +4106,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "La brisa marina de un palacio real. Notas de frutas cítricas doradas, sal marina brillante, mandarina siciliana, iris florentino y almizcle.",
+    "notes_en": "The ocean breeze of a royal palace. Notes of frutas cítricas doradas, sparkling sea salt, mandarin siciliana, Florentine iris and musk."
   },
   {
     "id": "TX-A045",
     "name": "MYSLF Eau de Parfum",
     "brand": "Yves Saint Laurent",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume344.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume344.webp",
     "stock": 58.0,
@@ -3855,14 +4122,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 8.0,
     "new": 0.0,
-    "notes": "Auténtico y magnético. Notas de bergamota espumosa, flor de azahar pura y pachulí sensual."
+    "notes": "Auténtico, libre y magnético. Notas de bergamota de Calabria fresca, flor de azahar de Túnez pura, maderas ambarinas y pachulí.",
+    "notes_en": "Authentic, free, and magnetic. Notes of Calabrian bergamot fresca, Tunisian orange blossom pura, amber woods and patchouli."
   },
   {
     "id": "TX-A046",
     "name": "Louis Vuitton Afternoon Swim",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume345.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume345.webp",
     "stock": 169.0,
@@ -3870,14 +4138,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Un chapuzón en el océano. Notas de mandarina fresca, naranja siciliana, bergamota y jengibre."
+    "notes": "Un chapuzón enérgico en el océano. Notas de naranja jugosa, mandarina de Sicilia, bergamota, jengibre y ámbar gris.",
+    "notes_en": "An energetic plunge into the ocean. Notes of naranja jugosa, Sicilian mandarin, bergamot, ginger and ambergris."
   },
   {
     "id": "TX-A049",
     "name": "Born in Roma Yellow Dream",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume348.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume348.webp",
     "stock": 78.0,
@@ -3885,14 +4154,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Alegría y vitalidad radiante. Notas de limón italiano Primofiore, rosa de Damasco floreciente, almizcle blanco y cedro.",
+    "notes_en": "Alegría and vitalidad radiante. Notes of Italian lemon Primofiore, Damask rose floreciente, white musk and cedar."
   },
   {
     "id": "TX-A050",
     "name": "Bloom Acqua di Fiori",
     "brand": "Gucci",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume349.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume349.webp",
     "stock": 71.0,
@@ -3900,14 +4170,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Riqueza floral y romanticismo contemporáneo. Notas de nardo natural, jazmín y madreselva."
+    "notes": "Jardín abundante de flores blancas silvestres. Notas de extracto de yema de jazmín, nardo natural de la India, madreselva piscuala y lirio de Florencia.",
+    "notes_en": "Abundant garden of wild white blossoms. Notes of extracto de yema de jasmine, tuberose natural de la India, Rangoon creeper and lily de Florencia."
   },
   {
     "id": "TX-A052",
     "name": "Flora Gorgeous Gardenia Eau de Parfum",
     "brand": "Gucci",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume351.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume351.webp",
     "stock": 27.0,
@@ -3915,14 +4186,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Riqueza floral y romanticismo contemporáneo. Notas de nardo natural, jazmín y madreselva."
+    "notes": "Alegría floral de un jardín de ensueño. Notas de flor de pera chispeante, bayas rojas dulces, gardenia blanca luminosa, jazmín solar y azúcar moreno.",
+    "notes_en": "Floral joy from a dream garden. Notes of flor de pear chispeante, bayas rojas dulces, luminous white gardenia, jasmine solar and brown sugar."
   },
   {
     "id": "TX-A053",
     "name": "Psychedelic Love",
     "brand": "Initio",
     "gender": "Unisex",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume352.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume352.webp",
     "stock": 117.0,
@@ -3930,14 +4202,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Éxtasis narcótico para los sentidos. Notas de ylang-ylang afrodisíaco, bergamota, heliotropo narcótico, hediona brillante, mirra y sándalo.",
+    "notes_en": "Éxtasis narcótico para los sentidos. Notes of aphrodisiac ylang-ylang, bergamot, heliotropo narcótico, hediona brillante, myrrh and sandalwood."
   },
   {
     "id": "TX-A054",
     "name": "Sutton Place",
     "brand": "Bond No. 9",
-    "gender": "Unisex",
-    "ml": "100",
+    "gender": "Men",
+    "ml": "100 ml",
     "img": "images/perfume353.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume353.webp",
     "stock": 185.0,
@@ -3945,14 +4218,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El vibrante espíritu de Nueva York. Notas florales exquisitas, frutas dulces y cedro."
+    "notes": "Poder diplomático y sofisticación clásica. Notas de bergamota, mandarina, pimienta rosa, casis, piña, jazmín, lirio, pachulí, cuero y ámbar.",
+    "notes_en": "Poder diplomático and sofisticación clásica. Notes of bergamot, mandarin, pepper rose, casis, pineapple, jasmine, lily, patchouli, leather and amber."
   },
   {
     "id": "TX-A055",
     "name": "New York Nights",
     "brand": "Bond No. 9",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume354.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume354.webp",
     "stock": 43.0,
@@ -3960,14 +4234,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 7.0,
     "new": 0.0,
-    "notes": "El vibrante espíritu de Nueva York. Notas florales exquisitas, frutas dulces y cedro."
+    "notes": "El horizonte iluminado de Manhattan. Notas de jazmín, gardenia, clavel, pachulí, sándalo, café aromático y caramelo fundido.",
+    "notes_en": "The illuminated skyline of Manhattan. Notes of jasmine, gardenia, clavel, patchouli, sandalwood, aromatic coffee and melted caramel."
   },
   {
     "id": "TX-A059",
     "name": "Eros Flame Eau de Parfum",
     "brand": "Versace",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume358.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume358.webp",
     "stock": 64.0,
@@ -3975,14 +4250,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Poder, sensualidad y glamour mediterráneo. Notas cítricas chispeantes, cedro y almizcle."
+    "notes": "Pasión ardiente que atraviesa el corazón. Notas de chinotto italiano chispeante, limón siciliano, pimienta negra, romero, rosa, cedro y vainilla.",
+    "notes_en": "Fiery passion striking the heart. Notes of chinotto italiano chispeante, Sicilian lemon, black pepper, rosemary, rose, cedar and vanilla."
   },
   {
     "id": "TX-A061",
     "name": "Acqua di Giò Pour Homme",
-    "brand": "Giorgio ArMani",
+    "brand": "Giorgio Armani",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume360.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume360.webp",
     "stock": 29.0,
@@ -3990,14 +4266,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "El mito del mar y el sol mediterráneo. Notas de bergamota de Calabria, neroli, mandarina verde, notas marinas cristalinas, romero y cedro.",
+    "notes_en": "The myth of sea and Mediterranean sun. Notes of Calabrian bergamot, neroli, green mandarin, crystalline marine notes, rosemary and cedar."
   },
   {
     "id": "TX-A064",
     "name": "Creed Absolu Aventus",
     "brand": "Creed",
     "gender": "Men",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume363.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume363.webp",
     "stock": 74.0,
@@ -4005,14 +4282,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 6.0,
     "new": 0.0,
-    "notes": "Audaz, magnético y legendario. Notas de piña, abedul, grosella negra y ámbar gris."
+    "notes": "La obra maestra más exclusiva de Aventus. Notas de pomelo vibrante, grosella negra, bergamota, cardamomo, jengibre, canela y pachulí.",
+    "notes_en": "La obra maestra más exclusiva de Aventus. Notes of grapefruit vibrante, blackcurrant, bergamot, cardamom, ginger, cinnamon and patchouli."
   },
   {
     "id": "TX-A065",
     "name": "Oud Satin Mood",
     "brand": "Maison Francis Kurkdjian",
     "gender": "Unisex",
-    "ml": "70",
+    "ml": "70 ml",
     "img": "images/mfk_oud_satin_mood.jpg",
     "remoteImg": "images/mfk_oud_satin_mood.jpg",
     "stock": 62.0,
@@ -4020,14 +4298,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Rosa, oud y vainilla en una mezcla hipnotizante. Elegancia en su máxima expresión."
+    "notes": "Rosa de Damasco y oud de Laos en una caricia hipnótica. Notas de violeta, rosa turca, vainilla y ámbar.",
+    "notes_en": "Damask rose and Laos oud in a hypnotic embrace. Notes of violet, Turkish rose, vanilla and amber."
   },
   {
     "id": "TX-A067",
     "name": "Guilty Pour Homme Parfum",
     "brand": "Gucci",
     "gender": "Men",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume366.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume366.webp",
     "stock": 85.0,
@@ -4035,14 +4314,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Riqueza floral y romanticismo contemporáneo. Notas de nardo natural, jazmín y madreselva."
+    "notes": "Para espíritus libres y transgresores. Notas de limón de Amalfi fresco, lavanda francesa aromática, flor de azahar pura, cedro de Virginia y pachulí.",
+    "notes_en": "Para espíritus libres and transgresores. Notes of Amalfi lemon fresco, aromatic French lavender, orange blossom pura, Virginia cedarwood and patchouli."
   },
   {
     "id": "TX-A068",
     "name": "Althaïr",
     "brand": "Parfums de Marly",
-    "gender": "Unisex",
-    "ml": "125",
+    "gender": "Men",
+    "ml": "125 ml",
     "img": "images/perfume367.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume367.webp",
     "stock": 61.0,
@@ -4050,14 +4330,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "La grandeza de la realeza francesa. Notas de manzana, lavanda, especias y vainilla Bourbon."
+    "notes": "Calidez aristocrática y vainilla bourbon. Notas de flor de azahar, canela cálida, cardamomo, vainilla de Madagascar y praliné.",
+    "notes_en": "Aristocratic warmth and bourbon vanilla. Notes of orange blossom, warm cinnamon, cardamom, Madagascar vanilla and praline."
   },
   {
     "id": "TX-A069",
     "name": "Hypnotic Poison",
     "brand": "Dior",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume368.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume368.webp",
     "stock": 35.0,
@@ -4065,14 +4346,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Misterio hipnótico y tentación prohibida. Notas de almendra amarga, jazmín sambac, albaricoque, vainilla dulce y sándalo.",
+    "notes_en": "Misterio hipnótico and tentación prohibida. Notes of bitter almond, jasmine sambac, apricot, sweet vanilla and sandalwood."
   },
   {
     "id": "TX-A070",
     "name": "Le Beau Le Parfum Eau de Parfum Intense",
     "brand": "Jean Paul Gaultier",
     "gender": "Men",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume369.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume369.webp",
     "stock": 52.0,
@@ -4080,14 +4362,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Intenso, sensual y transgresor. Notas de lavanda fresca, vainilla dulce y especias."
+    "notes": "Tentación exótica en el edén. Notas de bergamota ácida fresca, madera de coco tropical, haba tonka tostada y ámbar salado.",
+    "notes_en": "Exotic temptation in paradise. Notes of bergamot ácida fresca, tropical coconutnut wood, roasted tonka bean and amber salado."
   },
   {
     "id": "TX-A071",
     "name": "Carolina Herrera Good Girl Blush",
     "brand": "Carolina Herrera",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume370.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume370.webp",
     "stock": 42.0,
@@ -4095,14 +4378,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, dulce y enigmática. Notas de almendra, café, nardo, jazmín sambac y cacao."
+    "notes": "Romántica, fresca y sensual. Notas de bergamota italiana, mandarina, peonía fresca, agua de rosas y vainilla bourbon.",
+    "notes_en": "Romantic, fresh, and sensual. Notes of Italian bergamot, mandarin, fresh peony, rosewater and bourbon vanilla."
   },
   {
     "id": "TX-A073",
     "name": "Oud Wood",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume372.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume372.webp",
     "stock": 39.0,
@@ -4110,14 +4394,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Provocador, opulento y memorable. Notas de maderas ahumadas, especias orientales y vainilla."
+    "notes": "Templos místicos y maderas exóticas. Notas de madera de oud rara, palisandro de Brasil, cardamomo especiado, sándalo, vetiver y ámbar.",
+    "notes_en": "Mystical temples and exotic woods. Notes of oud wood rara, Brazilian rosewood, spicy cardamom, sandalwood, vetiver and amber."
   },
   {
     "id": "TX-A074",
     "name": "Santal 33",
     "brand": "Le Labo",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume373.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume373.webp",
     "stock": 58.0,
@@ -4125,14 +4410,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "El fuego crepitante de las llanuras americanas. Notas de madera de sándalo australiano, cedro de Virginia, cardamomo, violeta, papiro y cuero curtido.",
+    "notes_en": "Crackling fire across American plains. Notes of madera de sandalwood australiano, Virginia cedarwood, cardamom, violet, papyrus and tanned leather."
   },
   {
     "id": "TX-A075",
     "name": "Terre d'Hermès Eau de Toilette",
     "brand": "Hermès",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume374.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume374.webp",
     "stock": 57.0,
@@ -4140,14 +4426,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "La alquimia perfecta entre la tierra y el cielo. Notas de naranja amarga vibrante, pomelo, sílex mineral, pimienta rosa, geranio, cedro y vetiver.",
+    "notes_en": "Perfect alchemy between earth and sky. Notes of bitter orange vibrante, grapefruit, mineral flint, pepper rose, geranium, cedar and vetiver."
   },
   {
     "id": "TX-A076",
     "name": "Boss Bottled Eau de Toilette",
     "brand": "Hugo Boss",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume375.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume375.webp",
     "stock": 57.0,
@@ -4155,14 +4442,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "El aroma del éxito masculino contemporáneo. Notas de manzana crujiente, ciruela madura, limón, canela cálida, clavo, caoba, cedro y vainilla.",
+    "notes_en": "The scent of contemporary masculine success. Notes of crisp apple, ripe plum, lemon, warm cinnamon, clove, caoba, cedar and vanilla."
   },
   {
     "id": "TX-A078",
     "name": "Her Elixir de Parfum",
     "brand": "Burberry",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume377.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume377.webp",
     "stock": 23.0,
@@ -4170,14 +4458,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El encanto y sofisticación británica. Notas de frutas rojas, jazmín delicado y ámbar cálido."
+    "notes": "El espíritu vibrante y audaz de Londres. Notas de fresa silvestre, frambuesa jugosa, mora, grosella negra, jazmín, violeta dulce y ámbar blanco.",
+    "notes_en": "The vibrant, daring spirit of London. Notes of wild strawberry, juicy raspberry, blackberry, blackcurrant, jasmine, violet dulce and white amber."
   },
   {
     "id": "TX-A079",
     "name": "Maison Francis Kurkdjian Baccarat Rouge 540",
     "brand": "Maison Francis Kurkdjian",
     "gender": "Unisex",
-    "ml": "70",
+    "ml": "70 ml",
     "img": "images/mfk_baccarat_rouge.jpg",
     "remoteImg": "images/mfk_baccarat_rouge.jpg",
     "stock": 23.0,
@@ -4185,14 +4474,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Una estela inolvidable. Notas de jazmín, azafrán, ámbar gris y madera de cedro."
+    "notes": "Alquimia poética y firma inolvidable. Notas de jazmín Grandiflorum, azafrán resinoso, cedro de Virginia y ámbar gris.",
+    "notes_en": "Poetic alchemy and unforgettable signature. Notes of Grandiflorum jasmine, resinous saffrum, Virginia cedarwood and ambergris."
   },
   {
     "id": "TX-A080",
     "name": "Bleu de Chanel L'Exclusif",
     "brand": "Chanel",
-    "gender": "Unisex",
-    "ml": "100",
+    "gender": "Men",
+    "ml": "100 ml",
     "img": "images/perfume379.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume379.webp",
     "stock": 56.0,
@@ -4200,14 +4490,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El elogio de la libertad masculina. Notas de pomelo, cedro, incienso y sándalo."
+    "notes": "Elegancia atemporal y libertad masculina. Notas de pomelo, limón, menta fresca, jengibre, cedro, sándalo e incienso.",
+    "notes_en": "Timeless elegance and masculine freedom. Notes of grapefruit, lemon, fresh mint, ginger, cedar, sandalwood and incense."
   },
   {
     "id": "TX-A081",
     "name": "English Pear & Freesia Cologne",
     "brand": "Jo Malone",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume380.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume380.webp",
     "stock": 47.0,
@@ -4215,14 +4506,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "La esencia dorada del otoño inglés. Notas de pera Williams madura y jugosa, melón fresco, fresia blanca pura, rosa de Damasco, pachulí y ámbar.",
+    "notes_en": "La esencia dorada del otoño inglés. Notes of pear Williams madura and jugosa, melón fresco, pure white freesia, Damask rose, patchouli and amber."
   },
   {
     "id": "TX-A082",
     "name": "Uomo Intense",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume381.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume381.webp",
     "stock": 71.0,
@@ -4230,14 +4522,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Alta costura romana. Notas de bergamota brillante, jazmín noble y vainilla Bourbon."
+    "notes": "Magnetismo nocturno desbordante. Notas de vainilla bourbon intensa, nuez moscada, lavanda aromática y vetiver terroso.",
+    "notes_en": "Magnetismo nocturno desbordante. Notes of bourbon vanilla intensa, nutmeg, aromatic lavender and earthand vetiver."
   },
   {
     "id": "TX-A084",
     "name": "Bad Boy Elixir",
     "brand": "Carolina Herrera",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume383.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume383.webp",
     "stock": 70.0,
@@ -4245,14 +4538,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Glamour, seducción y elegancia neoyorquina. Notas de jazmín, nardo, almendra y cacao."
+    "notes": "Intensidad ardiente y oscura. Notas de salvia esclarea, pimienta negra, trufa aromática, incienso, cuero y haba tonka.",
+    "notes_en": "Fiery and dark intensity. Notes of clary sage, black pepper, aromatic truffle, incense, leather and tonka bean."
   },
   {
     "id": "TX-A087",
     "name": "Homme Intense",
     "brand": "Dior",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume386.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume386.webp",
     "stock": 37.0,
@@ -4260,14 +4554,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Distinción masculina contemporánea. Notas de iris toscano noble, lavanda, cacao amargo, ámbar, cedro de Virginia y vetiver.",
+    "notes_en": "Contemporary masculine distinction. Notes of Tuscan iris noble, lavender, bitter coconuta, amber, Virginia cedarwood and vetiver."
   },
   {
     "id": "TX-A091",
     "name": "Louis Vuitton On The Beach",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume390.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume390.webp",
     "stock": 36.0,
@@ -4275,14 +4570,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "La calidez de la arena y el mar. Notas de yuzu japonés, neroli, romero, tomillo silvestre, pimienta rosa y ciprés.",
+    "notes_en": "The warmth of sand and sea. Notes of Japanese yuzu, neroli, rosemary, wild thyme, pepper rose and cypress."
   },
   {
     "id": "TX-A093",
     "name": "Louis Vuitton Orage",
     "brand": "Louis Vuitton",
-    "gender": "Unisex",
-    "ml": "100",
+    "gender": "Men",
+    "ml": "100 ml",
     "img": "images/perfume392.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume392.webp",
     "stock": 147.0,
@@ -4290,14 +4586,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "La fuerza elemental de una tormenta. Notas de bergamota de Calabria, pachulí noble, iris toscano, vetiver de Java y pimienta blanca.",
+    "notes_en": "The elemintl force of a summer storm. Notes of Calabrian bergamot, noble patchouli, Tuscan iris, Java vetiver and pepper blanca."
   },
   {
     "id": "TX-A094",
     "name": "Good Girl Blush Elixir",
     "brand": "Carolina Herrera",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume393.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume393.webp",
     "stock": 32.0,
@@ -4305,14 +4602,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, dulce y enigmática. Notas de almendra, café, nardo, jazmín sambac y cacao."
+    "notes": "Romántica, fresca y sensual. Notas de bergamota italiana, mandarina, peonía fresca, agua de rosas y vainilla bourbon.",
+    "notes_en": "Romantic, fresh, and sensual. Notes of Italian bergamot, mandarin, fresh peony, rosewater and bourbon vanilla."
   },
   {
     "id": "TX-A095",
     "name": "Love in White",
     "brand": "Creed",
-    "gender": "Unisex",
-    "ml": "75",
+    "gender": "Women",
+    "ml": "75 ml",
     "img": "images/perfume394.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume394.webp",
     "stock": 35.0,
@@ -4320,14 +4618,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Un bouquet celestial de flores puras. Notas de cáscara de naranja italiana, flor de arroz, iris florentino, magnolia blanca, rosa y sándalo.",
+    "notes_en": "A celestial bouquet of pure flowers. Notes of cáscara de naranja italiana, rice blossom, Florentine iris, white magnolia, rose and sandalwood."
   },
   {
     "id": "TX-A097",
     "name": "Y L'elixir",
     "brand": "Yves Saint Laurent",
     "gender": "Men",
-    "ml": "100",
+    "ml": "60 ml",
     "img": "images/perfume396.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume396.webp",
     "stock": 78.0,
@@ -4335,14 +4634,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "La quintaesencia de la masculinidad Y. Notas de lavanda de Diva exclusiva, geranio noble, oud precioso e incienso misterioso.",
+    "notes_en": "La quintaesencia de la masculinidad Y. Notes of Diva lavender exclusiva, noble geranium, oud precioso and incense misterioso."
   },
   {
     "id": "TX-A098",
     "name": "Her Eau de Toilette",
     "brand": "Burberry",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume397.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume397.webp",
     "stock": 95.0,
@@ -4350,14 +4650,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El encanto y sofisticación británica. Notas de frutas rojas, jazmín delicado y ámbar cálido."
+    "notes": "El espíritu vibrante y audaz de Londres. Notas de fresa silvestre, frambuesa jugosa, mora, grosella negra, jazmín, violeta dulce y ámbar blanco.",
+    "notes_en": "The vibrant, daring spirit of London. Notes of wild strawberry, juicy raspberry, blackberry, blackcurrant, jasmine, violet dulce and white amber."
   },
   {
     "id": "TX-A099",
     "name": "Light Blue Summer Vibes Pour Homme",
     "brand": "Dolce & Gabbana",
     "gender": "Men",
-    "ml": "125",
+    "ml": "100 ml",
     "img": "images/perfume398.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume398.webp",
     "stock": 40.0,
@@ -4365,14 +4666,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Escape refrescante por los acantilados de Capri. Notas de pomelo amargo siciliano, bergamota, mandarina, enebro, romero, pimienta de Sichuan e incienso.",
+    "notes_en": "Refreshing escape along Capri cliffs. Notes of grapefruit amargo siciliano, bergamot, mandarin, enebro, rosemary, Sichuan pepper and incense."
   },
   {
     "id": "TX-A100",
     "name": "Stronger With You Intensely",
-    "brand": "Giorgio ArMani",
+    "brand": "Giorgio Armani",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume399.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume399.webp",
     "stock": 37.0,
@@ -4380,14 +4682,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Amor inquebrantable y conexión profunda. Notas de pimienta rosa, cardamomo, salvia aromática, castaña glaseada dulce, vainilla bourbon y cedro.",
+    "notes_en": "Unshakable love and profound connection. Notes of pepper rose, cardamom, aromatic sage, sweet candied chestnut, bourbon vanilla and cedar."
   },
   {
     "id": "TX-A101",
     "name": "Bombshell",
     "brand": "Victoria's Secret",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume400.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume400.webp",
     "stock": 36.0,
@@ -4395,14 +4698,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Confianza deslumbrante y frescor frutal icónico. Notas de maracuyá púrpura jugosa, piña, fresa, pomelo, peonía de Shangri-La y orquídea de vainilla.",
+    "notes_en": "Dazzling confidence and iconic fruity freshness. Notes of juicy purple passionfruit, pineapple, strawberry, grapefruit, peony de Shangri-La and orquídea de vanilla."
   },
   {
     "id": "TX-A102",
     "name": "Miss Dior Eau de Parfum",
     "brand": "Dior",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume401.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume401.webp",
     "stock": 81.0,
@@ -4410,14 +4714,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Un bouquet floral primaveral sublime. Notas de lirio de los valles, peonía fresca, rosa centifolia, iris, melocotón y vainilla suave.",
+    "notes_en": "A sublime spring floral bouquet. Notes of lily-of-the-valley, fresh peony, centifolia rose, iris, peach and vanilla suave."
   },
   {
     "id": "TX-A103",
     "name": "Paradoxe Intense",
     "brand": "Prada",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume402.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume402.webp",
     "stock": 92.0,
@@ -4425,14 +4730,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "La reinvención constante de la mujer. Notas de pera jugosa fresca, mandarina, flor de azahar neroli, jazmín sambac, vainilla bourbon y ámbar serenolide.",
+    "notes_en": "The constant reinvention of womanhood. Notes of juicy pear fresca, mandarin, orange blossom neroli, jasmine sambac, bourbon vanilla and amber serenolide."
   },
   {
     "id": "TX-A104",
     "name": "MYSLF Le Parfum",
     "brand": "Yves Saint Laurent",
     "gender": "Men",
-    "ml": "90",
+    "ml": "100 ml",
     "img": "images/perfume403.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume403.webp",
     "stock": 76.0,
@@ -4440,14 +4746,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Auténtico y magnético. Notas de bergamota espumosa, flor de azahar pura y pachulí sensual."
+    "notes": "Intensidad seductora y contrastada. Notas de pimienta negra viva, flor de azahar aterciopelada, maderas nobles cálidas y vainilla.",
+    "notes_en": "Intensidad seductora and contrastada. Notes of vivid black pepper, orange blossom aterciopelada, noble woods cálidas and vanilla."
   },
   {
     "id": "TX-A107",
     "name": "Safanad",
     "brand": "Parfums de Marly",
-    "gender": "Unisex",
-    "ml": "75",
+    "gender": "Women",
+    "ml": "75 ml",
     "img": "images/perfume406.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume406.webp",
     "stock": 82.0,
@@ -4455,14 +4762,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "La grandeza de la realeza francesa. Notas de manzana, lavanda, especias y vainilla Bourbon."
+    "notes": "Gracia dorada y dulzura de la realeza árabe. Notas de naranja jugosa, pera dulce, flor de azahar de Túnez, ylang-ylang, iris y ámbar.",
+    "notes_en": "Gracia dorada and dulzura de la realeza árabe. Notes of naranja jugosa, sweet pear, Tunisian orange blossom, ylang-ylang, iris and amber."
   },
   {
     "id": "TX-A109",
     "name": "Libre Le Parfum",
     "brand": "Yves Saint Laurent",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume408.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume408.webp",
     "stock": 112.0,
@@ -4470,14 +4778,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Fuego y libertad ardiente. Notas de azafrán cálido, jengibre fresco, mandarina, lavanda de Diva, flor de azahar, miel pura y vainilla.",
+    "notes_en": "Fire and burning freedom. Notes of saffrum cálido, fresh ginger, mandarin, Diva lavender, orange blossom, pure honey and vanilla."
   },
   {
     "id": "TX-A110",
     "name": "N°5 Eau de Parfum (Red Edition)",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume409.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume409.webp",
     "stock": 194.0,
@@ -4485,14 +4794,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Elegancia atemporal y distinción absoluta. Notas florales refinadas, aldehídos y maderas."
+    "notes": "El icono supremo de la alta perfumería. Notas de aldehídos dorados, ylang-ylang, neroli, jazmín de Grasse, rosa de mayo y sándalo.",
+    "notes_en": "The supreme icon of haute perfumery. Notes of aldehydes dorados, ylang-ylang, neroli, jasmine de Grasse, May rose and sandalwood."
   },
   {
     "id": "TX-A111",
     "name": "Fame",
     "brand": "Paco Rabanne",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume410.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume410.webp",
     "stock": 154.0,
@@ -4500,14 +4810,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Pura feminidad y estilo parisino. Notas de mango suculento, jazmín delicado e incienso cremoso."
+    "notes": "Glamour parisino y aura de estrella. Notas de mango tropical jugoso, bergamota, jazmín puro luminoso, incienso cremoso, sándalo y vainilla.",
+    "notes_en": "Parisian glamour and star aura. Notes of juicy tropical mango, bergamot, jasmine puro luminoso, incense cremoso, sandalwood and vanilla."
   },
   {
     "id": "TX-A113",
     "name": "Good Girl Dazzling Garden",
     "brand": "Carolina Herrera",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume412.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume412.webp",
     "stock": 30.0,
@@ -4515,14 +4826,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, dulce y enigmática. Notas de almendra, café, nardo, jazmín sambac y cacao."
+    "notes": "Audaz, dulce y enigmática. Notas de almendra, café aromático, nardo blanco, jazmín sambac, cacao puro y haba tonka.",
+    "notes_en": "Bold, sweet, and enigmatic. Notes of almond, aromatic coffee, white tuberose, jasmine sambac, pure coconuta and tonka bean."
   },
   {
     "id": "TX-A114",
     "name": "Spicebomb Night Vision",
-    "brand": "Viktor&Rolf",
+    "brand": "Viktor & Rolf",
     "gender": "Men",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume413.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume413.webp",
     "stock": 44.0,
@@ -4530,14 +4842,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Sensualidad oscura bajo las luces verdes. Notas de manzana verde, cardamomo, mandarina, pimienta negra, nuez moscada, clavo y resina.",
+    "notes_en": "Sensualidad oscura bajo las luces verdes. Notes of apple verde, cardamom, mandarin, black pepper, nutmeg, clove and resina."
   },
   {
     "id": "TX-A115",
     "name": "The Most Wanted Eau de Parfum Intense",
     "brand": "Azzaro",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume414.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume414.webp",
     "stock": 137.0,
@@ -4545,14 +4858,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Juega más fuerte y atrévete a ganar. Notas de cardamomo rojo ardiente, caramelo dulce fundido, toffee gourmand, madera de jengibre y vetiver bourbon.",
+    "notes_en": "Play harder and dare to win. Notes of cardamom rojo ardiente, caramel dulce fundido, gourmand toffee, madera de ginger and vetiver bourbon."
   },
   {
     "id": "TX-A116",
     "name": "Gentleman Eau de Parfum",
     "brand": "Givenchy",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume415.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume415.webp",
     "stock": 56.0,
@@ -4560,14 +4874,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Elegancia aristocrática y seducción moderna. Notas de pimienta negra viva, lavanda aromática, lirio toscano refinado, bálsamo de Tolú, pachulí y vainilla negra.",
+    "notes_en": "Elegancia aristocrática and seducción moderna. Notes of vivid black pepper, aromatic lavender, lily toscano refinado, Tolu balsam, patchouli and vanilla negra."
   },
   {
     "id": "TX-A117",
     "name": "Donna Born in Roma Green Stravaganza",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume416.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume416.webp",
     "stock": 35.0,
@@ -4575,14 +4890,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Fascinante y vibrante. Notas de té Lapsang Souchong ahumado, absoluto de jazmín solar y extracto de vainilla suave.",
+    "notes_en": "Fascinante and vibrante. Notes of tea Lapsang Souchong ahumado, absoluto de jasmine solar and extracto de vanilla suave."
   },
   {
     "id": "TX-A118",
     "name": "Flora Gorgeous Gardenia",
     "brand": "Gucci",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume417.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume417.webp",
     "stock": 65.0,
@@ -4590,14 +4906,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Riqueza floral y romanticismo contemporáneo. Notas de nardo natural, jazmín y madreselva."
+    "notes": "Alegría floral de un jardín de ensueño. Notas de flor de pera chispeante, bayas rojas dulces, gardenia blanca luminosa, jazmín solar y azúcar moreno.",
+    "notes_en": "Floral joy from a dream garden. Notes of flor de pear chispeante, bayas rojas dulces, luminous white gardenia, jasmine solar and brown sugar."
   },
   {
     "id": "TX-A119",
     "name": "Ultra Male",
     "brand": "Jean Paul Gaultier",
     "gender": "Men",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume418.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume418.webp",
     "stock": 31.0,
@@ -4605,14 +4922,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Intenso, sensual y transgresor. Notas de lavanda fresca, vainilla dulce y especias."
+    "notes": "Poderoso, pícaro y seductor. Notas de pera negra jugosa, lavanda, menta fresca, canela especiada, salvia, vainilla negra y ámbar.",
+    "notes_en": "Poderoso, pícaro and seductor. Notes of pear negra jugosa, lavender, fresh mint, spicy cinnamon, sage, vanilla negra and amber."
   },
   {
     "id": "TX-A120",
     "name": "Paradigme",
     "brand": "Prada",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume419.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume419.webp",
     "stock": 46.0,
@@ -4620,14 +4938,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Arquitectura olfativa futurista y limpia. Notas de bergamota italiana, cardamomo, iris noble, madera de cedro y almizcles minerales.",
+    "notes_en": "Arquitectura olfativa futurista and limpia. Notes of Italian bergamot, cardamom, iris noble, cedarwood and musks minerales."
   },
   {
     "id": "TX-A121",
     "name": "Spring Flower",
     "brand": "Creed",
     "gender": "Women",
-    "ml": "100",
+    "ml": "75 ml",
     "img": "images/perfume420.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume420.webp",
     "stock": 98.0,
@@ -4635,14 +4954,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Alegría primaveral en floración radiante. Notas de melocotón blanco, manzana verde, albaricoque jugoso, jazmín delicado y rosa de mayo.",
+    "notes_en": "Alegría primaveral en floración radiante. Notes of peach blanco, apple verde, juicy apricot, jasmine delicado and May rose."
   },
   {
     "id": "TX-A122",
     "name": "Donna Born in Roma Ivory",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume421.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume421.webp",
     "stock": 57.0,
@@ -4650,14 +4970,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Alta costura y actitud romana. Notas de grosella negra, pimienta rosa, jazmín grandiflorum, té de jazmín y vainilla bourbon.",
+    "notes_en": "Haute couture and Roman attitude. Notes of blackcurrant, pepper rose, jasmine grandiflorum, tea de jasmine and bourbon vanilla."
   },
   {
     "id": "TX-A123",
     "name": "The Tragedy of Lord George",
     "brand": "Penhaligon's",
     "gender": "Men",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume422.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume422.webp",
     "stock": 58.0,
@@ -4665,14 +4986,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "La aristocracia británica personificada en un ciervo noble. Notas de ron añejo especiado, jabón de afeitar aromático fino, haba tonka y maderas nobles.",
+    "notes_en": "La aristocracia británica personificada en un ciervo noble. Notes of spiced aged rum, jabón de afeitar aromático fino, tonka bean and noble woods."
   },
   {
     "id": "TX-A124",
     "name": "The Coveted Duchess Rose",
     "brand": "Penhaligon's",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume423.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume423.webp",
     "stock": 68.0,
@@ -4680,14 +5002,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Frescura inocente con una rosa tentadora. Notas de mandarina chispeante fresca, rosa centifolia de mayo luminosa, almizcles sensuales y madera ambarina.",
+    "notes_en": "Frescura inocente con una rose tentadora. Notes of mandarin chispeante fresca, centifolia rose de mayo luminosa, musks sensuales and madera ambarina."
   },
   {
     "id": "TX-DP001",
     "name": "Louis Vuitton California Dream",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume424.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume424.webp",
     "stock": 68.0,
@@ -4695,14 +5018,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Un atardecer dorado en la costa oeste. Notas de mandarina jugosa, pera dulce, almizcle blanco, benjuí y ambreta.",
+    "notes_en": "A golden sunset on the West Coast. Notes of juicy mandarin, sweet pear, white musk, benzoin and ambrette."
   },
   {
     "id": "TX-DP002",
     "name": "Louis Vuitton L'Immensité",
     "brand": "Louis Vuitton",
-    "gender": "Unisex",
-    "ml": "100",
+    "gender": "Men",
+    "ml": "100 ml",
     "img": "images/perfume425.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume425.webp",
     "stock": 36.0,
@@ -4710,14 +5034,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Inmensidad, frescura y poder. Notas de jengibre fresco, pomelo amargo, bergamota, romero, salvia, ládano y ambroxan.",
+    "notes_en": "Immensity, freshness, and power. Notes of fresh ginger, grapefruit amargo, bergamot, rosemary, sage, labdanum and ambroxan."
   },
   {
     "id": "TX-DP006",
     "name": "Aventus for Her",
     "brand": "Creed",
     "gender": "Women",
-    "ml": "100",
+    "ml": "75 ml",
     "img": "images/perfume428.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume428.webp",
     "stock": 92.0,
@@ -4725,14 +5050,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, magnético y legendario. Notas de piña, abedul, grosella negra y ámbar gris."
+    "notes": "El poder de la mujer triunfadora. Notas de manzana verde crujiente, bergamota, limón, pimienta rosa, rosa turca, sándalo y grosella negra.",
+    "notes_en": "The power of the triumphant woman. Notes of crisp green apple, bergamot, lemon, pepper rose, Turkish rose, sandalwood and blackcurrant."
   },
   {
     "id": "TX-DP007",
     "name": "Eladaria",
     "brand": "Creed",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume429.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume429.webp",
     "stock": 105.0,
@@ -4740,14 +5066,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Luz floral femenina y misterio sutil. Notas de bergamota espumosa, jazmín sambac, violeta empolvada, iris noble, sándalo y almizcle.",
+    "notes_en": "Luz floral femenina and misterio sutil. Notes of bergamot espumosa, jasmine sambac, violet empolvada, iris noble, sandalwood and musk."
   },
   {
     "id": "TX-DP008",
     "name": "Aqua Universalis",
     "brand": "Maison Francis Kurkdjian",
     "gender": "Unisex",
-    "ml": "70",
+    "ml": "70 ml",
     "img": "images/mfk_aqua_universalis.jpg",
     "remoteImg": "images/mfk_aqua_universalis.jpg",
     "stock": 54.0,
@@ -4755,14 +5082,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Pura frescura. Notas de bergamota, flor de naranja, almizcle y madera blanca."
+    "notes": "Pura luz y frescor absoluto. Notas de bergamota de Calabria, limón siciliano, flor de azahar blanca y almizcle suave.",
+    "notes_en": "Pure light and absolute freshness. Notes of Calabrian bergamot, Sicilian lemon, white orange blossom and soft musk."
   },
   {
     "id": "TX-DP009",
     "name": "Valaya Exclusif",
     "brand": "Parfums de Marly",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume431.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume431.webp",
     "stock": 51.0,
@@ -4770,14 +5098,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "La grandeza de la realeza francesa. Notas de manzana, lavanda, especias y vainilla Bourbon."
+    "notes": "La caricia del algodón y la luz blanca. Notas de aldehídos limpios, mandarina blanca, flor de azahar, lirio de los valles y ambroxan.",
+    "notes_en": "The caress of cotton and white light. Notes of aldehydes limpios, mandarin blanca, orange blossom, lily-of-the-valley and ambroxan."
   },
   {
     "id": "TX-DP010",
     "name": "Haltane",
     "brand": "Parfums de Marly",
-    "gender": "Unisex",
-    "ml": "125",
+    "gender": "Men",
+    "ml": "125 ml",
     "img": "images/perfume432.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume432.webp",
     "stock": 39.0,
@@ -4785,14 +5114,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "La grandeza de la realeza francesa. Notas de manzana, lavanda, especias y vainilla Bourbon."
+    "notes": "Nobleza clásica y madera de oud selecta. Notas de salvia esclarea, lavanda, bergamota, praliné de azafrán, cedro, oud y cuero.",
+    "notes_en": "Classical nobility and select oud wood. Notes of clary sage, lavender, bergamot, praline de saffrum, cedar, oud and leather."
   },
   {
     "id": "TX-DP011",
     "name": "Delina Exclusif",
     "brand": "Parfums de Marly",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume433.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume433.webp",
     "stock": 58.0,
@@ -4800,14 +5130,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "La grandeza de la realeza francesa. Notas de manzana, lavanda, especias y vainilla Bourbon."
+    "notes": "Opulencia floral y misterio oriental. Notas de lichi, pera, bergamota, rosa turca, incienso aromático, oud, ámbar y vainilla.",
+    "notes_en": "Floral opulence and oriental mystery. Notes of lychee, pear, bergamot, Turkish rose, aromatic incense, oud, amber and vanilla."
   },
   {
     "id": "TX-DP012",
     "name": "Layton",
     "brand": "Parfums de Marly",
-    "gender": "Unisex",
-    "ml": "125",
+    "gender": "Men",
+    "ml": "125 ml",
     "img": "images/perfume434.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume434.webp",
     "stock": 88.0,
@@ -4815,14 +5146,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Elegante y seductor. Notas de manzana crujiente, lavanda, vainilla, cardamomo y pimienta."
+    "notes": "Seducción noble y adictiva. Notas de manzana crujiente, lavanda, mandarina, geranio, violeta, vainilla cremosa, cardamomo y guayaco.",
+    "notes_en": "Noble and addictive seduction. Notes of crisp apple, lavender, mandarin, geranium, violet, creamy vanilla, cardamom and guaiac wood."
   },
   {
     "id": "TX-DP014",
     "name": "MYSLF L'Absolu",
     "brand": "Yves Saint Laurent",
     "gender": "Men",
-    "ml": "90",
+    "ml": "100 ml",
     "img": "images/perfume436.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume436.webp",
     "stock": 150.0,
@@ -4830,14 +5162,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Auténtico y magnético. Notas de bergamota espumosa, flor de azahar pura y pachulí sensual."
+    "notes": "Auténtico, libre y magnético. Notas de bergamota de Calabria fresca, flor de azahar de Túnez pura, maderas ambarinas y pachulí.",
+    "notes_en": "Authentic, free, and magnetic. Notes of Calabrian bergamot fresca, Tunisian orange blossom pura, amber woods and patchouli."
   },
   {
     "id": "TX-DP015",
     "name": "Uomo Born in Roma Extradose Parfum",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume437.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume437.webp",
     "stock": 32.0,
@@ -4845,14 +5178,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Aristocracia rebelde y moderna. Notas de hojas de violeta, jengibre fresco, salvia aromática, sales minerales y vetiver ahumado.",
+    "notes_en": "Rebellious and modern aristocracy. Notes of hojas de violet, fresh ginger, aromatic sage, sales minerales and vetiver ahumado."
   },
   {
     "id": "TX-DP016",
     "name": "Viking",
     "brand": "Creed",
-    "gender": "Unisex",
-    "ml": "100",
+    "gender": "Men",
+    "ml": "100 ml",
     "img": "images/perfume438.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume438.webp",
     "stock": 38.0,
@@ -4860,14 +5194,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Espíritu intrépido de los exploradores nórdicos. Notas de pimienta rosa, menta piperita, bergamota, limón, lavanda, rosa y sándalo.",
+    "notes_en": "Espíritu intrépido de los exploradores nórdicos. Notes of pepper rose, mint piperita, bergamot, lemon, lavender, rose and sandalwood."
   },
   {
     "id": "TX-DP017",
     "name": "The One for Men",
     "brand": "Dolce & Gabbana",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume439.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume439.webp",
     "stock": 77.0,
@@ -4875,14 +5210,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Carisma irresistible y magnetismo clásico. Notas de pomelo, cilantro, albahaca fresca, jengibre cálido, cardamomo, tabaco curado y cedro.",
+    "notes_en": "Irresistible charisma and classic magnetism. Notes of grapefruit, coriander, fresh basil, ginger cálido, cardamom, cured tobacco and cedar."
   },
   {
     "id": "TX-DP018",
     "name": "Hero Eau de Toilette",
     "brand": "Burberry",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume440.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume440.webp",
     "stock": 58.0,
@@ -4890,14 +5226,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El encanto y sofisticación británica. Notas de frutas rojas, jazmín delicado y ámbar cálido."
+    "notes": "Fuerza interior y superación personal. Notas de bergamota de Calabria, bayas de enebro fresco, pimienta negra y trío de maderas de cedro nobles.",
+    "notes_en": "Inner strength and personal triumph. Notes of Calabrian bergamot, juniper berries fresco, black pepper and trío de woods de cedar nobles."
   },
   {
     "id": "TX-DP019",
     "name": "Louis Vuitton Les Sables Roses",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume441.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume441.webp",
     "stock": 112.0,
@@ -4905,14 +5242,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Contrastes ardientes en las dunas. Notas de rosa centifolia, madera de oud, ámbar gris, pimienta negra y azafrán.",
+    "notes_en": "Contrastes ardientes en las dunas. Notes of centifolia rose, oud wood, ambergris, black pepper and saffrum."
   },
   {
     "id": "TX-DP020",
     "name": "Chance Eau Tendre",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume442.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume442.webp",
     "stock": 123.0,
@@ -4920,14 +5258,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Un torbellino de optimismo. Notas de pimienta rosa, jazmín, pachulí ámbar y almizcle blanco."
+    "notes": "Floral, tierna y radiante. Notas de pomelo jugoso, membrillo dulce, jazmín, jacinto, almizcle blanco, iris y cedro.",
+    "notes_en": "Floral, tender, and radiant. Notes of juicy grapefruit, sweet quince, jasmine, hyacinth, white musk, iris and cedar."
   },
   {
     "id": "TX-DP022",
     "name": "Donna Born in Roma Coral Fantasy",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume444.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume444.webp",
     "stock": 21.0,
@@ -4935,14 +5274,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Hora dorada en la Ciudad Eterna. Notas de kiwi dorado jugoso, naranja brasileña, jazmín indio, rosa de Damasco y almizcle blanco.",
+    "notes_en": "Hora dorada en la Ciudad Eterna. Notes of juicy golden kiwi, naranja brasileña, jasmine indio, Damask rose and white musk."
   },
   {
     "id": "TX-DP023",
     "name": "Donna Born in Roma Yellow Dream",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume445.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume445.webp",
     "stock": 75.0,
@@ -4950,14 +5290,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Alegría y vitalidad radiante. Notas de limón italiano Primofiore, rosa de Damasco floreciente, almizcle blanco y cedro.",
+    "notes_en": "Alegría and vitalidad radiante. Notes of Italian lemon Primofiore, Damask rose floreciente, white musk and cedar."
   },
   {
     "id": "TX-DP024",
     "name": "Donna Born in Roma Pink PP Eau de Parfum",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume446.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume446.webp",
     "stock": 111.0,
@@ -4965,14 +5306,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Alta costura y actitud romana. Notas de grosella negra, pimienta rosa, jazmín grandiflorum, té de jazmín y vainilla bourbon.",
+    "notes_en": "Haute couture and Roman attitude. Notes of blackcurrant, pepper rose, jasmine grandiflorum, tea de jasmine and bourbon vanilla."
   },
   {
     "id": "TX-DP025",
     "name": "Donna Born in Roma Extra Dose Parfum",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume447.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume447.webp",
     "stock": 125.0,
@@ -4980,14 +5322,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Alta costura y actitud romana. Notas de grosella negra, pimienta rosa, jazmín grandiflorum, té de jazmín y vainilla bourbon.",
+    "notes_en": "Haute couture and Roman attitude. Notes of blackcurrant, pepper rose, jasmine grandiflorum, tea de jasmine and bourbon vanilla."
   },
   {
     "id": "TX-DP026",
     "name": "Donna Born in Roma Purple Melancholia",
     "brand": "Valentino",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume448.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume448.webp",
     "stock": 88.0,
@@ -4995,14 +5338,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Alta costura y actitud romana. Notas de grosella negra, pimienta rosa, jazmín grandiflorum, té de jazmín y vainilla bourbon.",
+    "notes_en": "Haute couture and Roman attitude. Notes of blackcurrant, pepper rose, jasmine grandiflorum, tea de jasmine and bourbon vanilla."
   },
   {
     "id": "TX-DP027",
     "name": "Uomo Born in Roma Purple Melancholia",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume449.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume449.webp",
     "stock": 119.0,
@@ -5010,14 +5354,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Aristocracia rebelde y moderna. Notas de hojas de violeta, jengibre fresco, salvia aromática, sales minerales y vetiver ahumado.",
+    "notes_en": "Rebellious and modern aristocracy. Notes of hojas de violet, fresh ginger, aromatic sage, sales minerales and vetiver ahumado."
   },
   {
     "id": "TX-DP028",
     "name": "Bitter Peach",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "50 ml",
     "img": "images/perfume450.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume450.webp",
     "stock": 74.0,
@@ -5025,14 +5370,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Provocador, opulento y memorable. Notas de maderas ahumadas, especias orientales y vainilla."
+    "notes": "Carne jugosa y voluptuosa de melocotón maduro. Notas de melocotón de viña, naranja sanguina, cardamomo, ron dorado, coñac y pachulí.",
+    "notes_en": "Juicy, voluptuous ripe peach nectar. Notes of vineyard peach, blood orange, cardamom, golden rum, coñac and patchouli."
   },
   {
     "id": "TX-DP032",
     "name": "Electric Cherry",
     "brand": "Tom Ford",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "50 ml",
     "img": "images/perfume454.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume454.webp",
     "stock": 42.0,
@@ -5040,14 +5386,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Provocador, opulento y memorable. Notas de maderas ahumadas, especias orientales y vainilla."
+    "notes": "Cereza ácida y burbujeante de alta costura. Notas de cereza ácida morello, jengibre fresco, jazmín sambac solar, pimienta rosa y almizcle.",
+    "notes_en": "Cereza ácida and burbujeante de alta costura. Notes of tart morello cherry, fresh ginger, jasmine sambac solar, pepper rose and musk."
   },
   {
     "id": "TX-DP034",
     "name": "Her Eau de Parfum",
     "brand": "Burberry",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume456.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume456.webp",
     "stock": 55.0,
@@ -5055,14 +5402,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El encanto y sofisticación británica. Notas de frutas rojas, jazmín delicado y ámbar cálido."
+    "notes": "El espíritu vibrante y audaz de Londres. Notas de fresa silvestre, frambuesa jugosa, mora, grosella negra, jazmín, violeta dulce y ámbar blanco.",
+    "notes_en": "The vibrant, daring spirit of London. Notes of wild strawberry, juicy raspberry, blackberry, blackcurrant, jasmine, violet dulce and white amber."
   },
   {
     "id": "TX-DP036",
     "name": "Absolute Aphrodisiac",
     "brand": "Initio",
     "gender": "Unisex",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume458.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume458.webp",
     "stock": 49.0,
@@ -5070,14 +5418,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Poder carnal y atracción animal inolvidable. Notas de vainilla oscura licorosa, ámbar cálido ardiente, castóreo misterioso, cuero fino y almizcle blanco.",
+    "notes_en": "Poder carnal and atracción animal inolvidable. Notes of vanilla oscura licorose, warm amber ardiente, castóreo misterioso, fine leather and white musk."
   },
   {
     "id": "TX-DP037",
     "name": "Toy Boy Eau de Parfum",
     "brand": "Moschino",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume459.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume459.webp",
     "stock": 36.0,
@@ -5085,14 +5434,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Reinterpretación audaz y elegante de la masculinidad. Notas de pimienta rosa brillante, pera verde, nuez moscada, elemí, rosa de mayo, vetiver y cachemira.",
+    "notes_en": "Reinterpretación audaz and elegante de la masculinidad. Notes of pepper rose brillante, green pear, nutmeg, elemi, May rose, vetiver and cachemira."
   },
   {
     "id": "TX-DP039",
     "name": "Grand Soir",
     "brand": "Maison Francis Kurkdjian",
     "gender": "Unisex",
-    "ml": "70",
+    "ml": "70 ml",
     "img": "images/mfk_grand_soir.jpg",
     "remoteImg": "images/mfk_grand_soir.jpg",
     "stock": 110.0,
@@ -5100,14 +5450,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Una fragancia intensa y sofisticada. Notas de ámbar, vainilla, benjuí y haba tonka."
+    "notes": "Una noche dorada en París. Notas de benjuí de Siam, haba tonka de Brasil, vainilla bourbon y resina de ámbar profundo.",
+    "notes_en": "A golden night in Paris. Notes of Siam benzoin, Brazilian tonka bean, bourbon vanilla and deep amber resin."
   },
   {
     "id": "TX-DP041",
     "name": "Baccarat Rouge 540 Extrait de Parfum",
     "brand": "Maison Francis Kurkdjian",
     "gender": "Unisex",
-    "ml": "200",
+    "ml": "70 ml",
     "img": "images/mfk_baccarat_extrait.jpg",
     "remoteImg": "images/mfk_baccarat_extrait.jpg",
     "stock": 96.0,
@@ -5115,14 +5466,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Una estela inolvidable. Notas de jazmín, azafrán, ámbar gris y madera de cedro."
+    "notes": "Alquimia poética y firma inolvidable. Notas de jazmín Grandiflorum, azafrán resinoso, cedro de Virginia y ámbar gris.",
+    "notes_en": "Poetic alchemy and unforgettable signature. Notes of Grandiflorum jasmine, resinous saffrum, Virginia cedarwood and ambergris."
   },
   {
     "id": "TX-DP043",
     "name": "1 Million Royal",
     "brand": "Paco Rabanne",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume465.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume465.webp",
     "stock": 33.0,
@@ -5130,14 +5482,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audacia, energía y magnetismo deslumbrante. Notas metálicas frescas, lavanda y ámbar."
+    "notes": "El lingote de oro de la seducción. Notas de mandarina roja, pomelo chispeante, menta picante, rosa de Damasco, canela especiada, cuero rubio y ámbar.",
+    "notes_en": "The gold bullion of seduction. Notes of mandarin roja, grapefruit chispeante, mint picante, Damask rose, spicy cinnamon, leather rubio and amber."
   },
   {
     "id": "TX-DP044",
     "name": "Louis Vuitton Météore",
     "brand": "Louis Vuitton",
-    "gender": "Unisex",
-    "ml": "100",
+    "gender": "Men",
+    "ml": "100 ml",
     "img": "images/perfume466.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume466.webp",
     "stock": 28.0,
@@ -5145,14 +5498,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Magnetismo picante y cristalino. Notas de mandarina de Calabria, naranja amarga, cardamomo de Guatemala, nuez moscada y vetiver.",
+    "notes_en": "Spicy and crystal-clear magnetism. Notes of Calabrian mandarin, bitter orange, Guatemalan cardamom, nutmeg and vetiver."
   },
   {
     "id": "TX-DP045",
     "name": "Y Le Parfum",
     "brand": "Yves Saint Laurent",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume467.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume467.webp",
     "stock": 121.0,
@@ -5160,14 +5514,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Fuerza oscura y elegancia pura. Notas de manzana verde, pomelo, jengibre, lavanda intensa, salvia, geranio y cedro ahumado.",
+    "notes_en": "Fuerza oscura and elegancia pura. Notes of apple verde, grapefruit, ginger, intense lavender, sage, geranium and cedar ahumado."
   },
   {
     "id": "TX-DP046",
     "name": "Paradoxe Radical Essence",
     "brand": "Prada",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume468.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume468.webp",
     "stock": 49.0,
@@ -5175,14 +5530,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "La reinvención constante de la mujer. Notas de pera jugosa fresca, mandarina, flor de azahar neroli, jazmín sambac, vainilla bourbon y ámbar serenolide.",
+    "notes_en": "The constant reinvention of womanhood. Notes of juicy pear fresca, mandarin, orange blossom neroli, jasmine sambac, bourbon vanilla and amber serenolide."
   },
   {
     "id": "TX-DP047",
     "name": "Another 13",
     "brand": "Le Labo",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume469.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume469.webp",
     "stock": 144.0,
@@ -5190,14 +5546,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Hipnótica atracción de piel sintética y limpia. Notas de ambroxan hipnótico puro, jazmín luminoso, musgo fresco, semillas de ambreta y pera jugosa.",
+    "notes_en": "Hipnótica atracción de piel sinteatica and limpia. Notes of ambroxan hipnótico puro, jasmine luminoso, moss fresco, ambrette seeds and juicy pear."
   },
   {
     "id": "TX-DP048",
     "name": "Very Good Girl Elixir",
     "brand": "Carolina Herrera",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume470.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume470.webp",
     "stock": 64.0,
@@ -5205,14 +5562,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, dulce y enigmática. Notas de almendra, café, nardo, jazmín sambac y cacao."
+    "notes": "Atrevida, divertida y fabulosa. Notas de grosella roja jugosa, lichi exótico, rosa seductora, vainilla y vetiver.",
+    "notes_en": "Daring, fun, and fabulous. Notes of redcurrant jugosa, exotic lychee, rose seductora, vanilla and vetiver."
   },
   {
     "id": "TX-DP050",
     "name": "Rabanne 1 Million Elixir",
     "brand": "Paco Rabanne",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume472.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume472.webp",
     "stock": 48.0,
@@ -5220,14 +5578,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audacia, energía y magnetismo deslumbrante. Notas metálicas frescas, lavanda y ámbar."
+    "notes": "Intensidad dorada sin límites. Notas de manzana roja jugosa, davana silvestre, rosa de Damasco, flor de osmanto, haba tonka y vainilla.",
+    "notes_en": "Intensidad dorada sin límites. Notes of juicy red apple, davana silvestre, Damask rose, flor de osmanthus, tonka bean and vanilla."
   },
   {
     "id": "TX-DP051",
     "name": "Chance Eau Fraîche",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume473.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume473.webp",
     "stock": 103.0,
@@ -5235,14 +5594,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Un torbellino de optimismo. Notas de pimienta rosa, jazmín, pachulí ámbar y almizcle blanco."
+    "notes": "Fresca, chispeante y luminosa. Notas de limón espumoso, cedro, pimienta rosa, jacinto de agua, jazmín y madera de teca.",
+    "notes_en": "Fresh, sparkling, and luminous. Notes of lemon espumoso, cedar, pepper rose, water hyacinth, jasmine and teakwood."
   },
   {
     "id": "TX-DP052",
     "name": "Chance Eau de Parfum",
     "brand": "Chanel",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume474.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume474.webp",
     "stock": 91.0,
@@ -5250,14 +5610,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Un torbellino de optimismo. Notas de pimienta rosa, jazmín, pachulí ámbar y almizcle blanco."
+    "notes": "Un torbellino de optimismo. Notas de pimienta rosa, jazmín, jacinto, pachulí noble, ámbar y almizcle blanco.",
+    "notes_en": "A whirlwind of optimism. Notes of pepper rose, jasmine, hyacinth, noble patchouli, amber and white musk."
   },
   {
     "id": "TX-DP055",
     "name": "Libre Berry Crush",
     "brand": "Yves Saint Laurent",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume477.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume477.webp",
     "stock": 129.0,
@@ -5265,14 +5626,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "Frutos rojos chispeantes y libertad pura. Notas de frambuesa jugosa, grosella roja, lavanda de Diva, flor de azahar y vainilla.",
+    "notes_en": "Frutos rojos chispeantes and libertad pura. Notes of juicy raspberry, redcurrant, Diva lavender, orange blossom and vanilla."
   },
   {
     "id": "TX-DP056",
     "name": "Bright Crystal Parfum（pour femme）",
     "brand": "Versace",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume478.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume478.webp",
     "stock": 94.0,
@@ -5280,14 +5642,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Poder, sensualidad y glamour mediterráneo. Notas cítricas chispeantes, cedro y almizcle."
+    "notes": "Joya resplandeciente de frescura floral. Notas de yuzu japonés fresco, granada jugosa, hielo cristalino, peonía rosa, flor de loto y almizcle blanco.",
+    "notes_en": "Sparkling jewel of floral freshness. Notes of fresh Japanese yuzu, granada jugosa, hielo cristalino, peony rose, lotus flower and white musk."
   },
   {
     "id": "TX-DP057",
     "name": "Libre Vanille Couture",
     "brand": "Yves Saint Laurent",
     "gender": "Women",
-    "ml": "90",
+    "ml": "90 ml",
     "img": "images/perfume479.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume479.webp",
     "stock": 36.0,
@@ -5295,14 +5658,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Libre, apasionado y magnético. Notas florales radiantes, café negro y maderas."
+    "notes": "La libertad en su máxima expresión. Notas de lavanda francesa, mandarina jugosa, flor de azahar de Marruecos, jazmín sambac y vainilla.",
+    "notes_en": "Freedom in its purest expression. Notes of lavender francesa, juicy mandarin, Moroccan orange blossom, jasmine sambac and vanilla."
   },
   {
     "id": "TX-DP059",
     "name": "Virgin Island Water",
     "brand": "Creed",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume481.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume481.webp",
     "stock": 65.0,
@@ -5310,14 +5674,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Un velero caribeño hacia el paraíso. Notas de coco blanco, lima ácida, ron blanco, bergamota, mandarina, hibisco y azúcar de caña.",
+    "notes_en": "A Caribbean sailboat toward paradise. Notes of white coconutnut, lima ácida, white rum, bergamot, mandarin, hibisco and azúcar de caña."
   },
   {
     "id": "TX-DP061",
     "name": "Himalaya",
     "brand": "Creed",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume483.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume483.webp",
     "stock": 31.0,
@@ -5325,14 +5690,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "La grandeza glacial de las cumbres tibetanas. Notas de bergamota de Calabria, pomelo, limón siciliano, sándalo noble, cedro y vetiver.",
+    "notes_en": "Glacial grandeur of Tibetan peaks. Notes of Calabrian bergamot, grapefruit, Sicilian lemon, noble sandalwood, cedar and vetiver."
   },
   {
     "id": "TX-DP062",
     "name": "Green Irish Tweed",
     "brand": "Creed",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume484.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume484.webp",
     "stock": 39.0,
@@ -5340,14 +5706,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Caballerosidad en la campiña irlandesa. Notas de verbena de limón, iris florentino, hojas de violeta silvestre, sándalo y ámbar gris.",
+    "notes_en": "Gentlemanly charm in the Irish countryside. Notes of verbena de lemon, Florentine iris, hojas de wild violet, sandalwood and ambergris."
   },
   {
     "id": "TX-DP063",
     "name": "Royal Princess Oud",
     "brand": "Creed",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume485.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume485.webp",
     "stock": 36.0,
@@ -5355,14 +5722,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Elegancia imperial femenina. Notas de bergamota, rosa centifolia, violeta dulce, jazmín sambac, pachulí, oud refinado y sándalo.",
+    "notes_en": "Elegancia imperial femenina. Notes of bergamot, centifolia rose, violet dulce, jasmine sambac, patchouli, oud refinado and sandalwood."
   },
   {
     "id": "TX-DP064",
     "name": "Fahrenheit",
     "brand": "Dior",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume486.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume486.webp",
     "stock": 42.0,
@@ -5370,14 +5738,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Sofisticación y carácter audaz. Notas de bergamota fresca, especias nobles y ámbar."
+    "notes": "Pionera, magnética y ardiente. Notas de flor de moscada, lavanda, hojas de violeta silvestre, cuero curtido, cedro y sándalo.",
+    "notes_en": "Pioneering, magnetic, and fiery. Notes of flor de moscada, lavender, hojas de wild violet, tanned leather, cedar and sandalwood."
   },
   {
     "id": "TX-DP065",
     "name": "Le Male Lover (2025 Edition)",
     "brand": "Jean Paul Gaultier",
     "gender": "Men",
-    "ml": "125",
+    "ml": "125 ml",
     "img": "images/perfume487.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume487.webp",
     "stock": 96.0,
@@ -5385,14 +5754,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El clásico insuperable. Notas de menta fresca, lavanda, canela, flor de azahar y vainilla."
+    "notes": "Piel caliente tatuada por el mar. Notas de pimienta blanca luminosa, caviar de cítricos, lavanda marina, almizcle salado y cedro.",
+    "notes_en": "Piel caliente tatuada por el mar. Notes of pepper blanca luminosa, caviar de cítricos, lavender marina, musk salado and cedar."
   },
   {
     "id": "TX-DP067",
     "name": "Yum Boujee Marshmallow | 81",
     "brand": "Kayali",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume489.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume489.webp",
     "stock": 82.0,
@@ -5400,14 +5770,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Nube voluptuosa y esponjosa de malvavisco rosa. Notas de malvavisco esponjoso, azúcar glas, fresa silvestre, vainilla batida y almizcle suave.",
+    "notes_en": "Nube voluptuosa and esponjosa de marshmallow rose. Notes of fluffy marshmallow, azúcar glas, wild strawberry, vanilla batida and soft musk."
   },
   {
     "id": "TX-DP068",
     "name": "Eros Parfum",
     "brand": "Versace",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume490.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume490.webp",
     "stock": 33.0,
@@ -5415,14 +5786,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Poder, sensualidad y glamour mediterráneo. Notas cítricas chispeantes, cedro y almizcle."
+    "notes": "Fuerza y deseo en la gloria griega. Notas de menta fresca crujiente, manzana verde confitada, limón italiano, haba tonka, ambroxan y vainilla.",
+    "notes_en": "Strength and desire in Greek glory. Notes of crisp fresh mint, apple verde confitada, Italian lemon, tonka bean, ambroxan and vanilla."
   },
   {
     "id": "TX-DP069",
     "name": "Daisy Eau So Fresh",
     "brand": "Marc Jacobs",
     "gender": "Women",
-    "ml": "75",
+    "ml": "75 ml",
     "img": "images/perfume491.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume491.webp",
     "stock": 78.0,
@@ -5430,14 +5802,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Fantasía floral burbujeante y divertida. Notas de frambuesa jugosa, pera dulce, pomelo rosa, manzana verde, violeta suave, rosa silvestre y ciruela.",
+    "notes_en": "Fantasía floral burbujeante and divertida. Notes of juicy raspberry, sweet pear, grapefruit rose, apple verde, violet suave, rose silvestre and plum."
   },
   {
     "id": "TX-DP070",
     "name": "Light Blue (for Women)",
     "brand": "Dolce & Gabbana",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume492.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume492.webp",
     "stock": 171.0,
@@ -5445,14 +5818,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Alegría pura de vivir en el Mediterráneo. Notas de limón siciliano vibrante, manzana Granny Smith crujiente, bambú fresco, jazmín blanco y cedro.",
+    "notes_en": "Pure joy of Mediterranean living. Notes of Sicilian lemon vibrante, crisp Granny Smith apple, fresh bamboo, jasmine blanco and cedar."
   },
   {
     "id": "TX-DP072",
     "name": "Forever Wanted Elixir",
     "brand": "Azzaro",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume494.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume494.webp",
     "stock": 43.0,
@@ -5460,14 +5834,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Atracción ardiente e ilimitada. Notas de pimienta roja picante, cardamomo verde brillante, frambuesa licorosa, vetiver y vainilla bourbon.",
+    "notes_en": "Atracción ardiente and ilimitada. Notes of pepper roja picante, cardamom verde brillante, raspberry licorose, vetiver and bourbon vanilla."
   },
   {
     "id": "TX-DP075",
     "name": "Dylan Turquoise Pour Femme",
     "brand": "Versace",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume497.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume497.webp",
     "stock": 108.0,
@@ -5475,14 +5850,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Poder, sensualidad y glamour mediterráneo. Notas cítricas chispeantes, cedro y almizcle."
+    "notes": "Escape luminoso a una isla paradisíaca. Notas de mandarina italiana, limón Primofiore, pimienta rosa, guayaba exótica, jazmín y maderas claras.",
+    "notes_en": "Escape luminoso a una isla paradisíaca. Notes of Italian mandarin, lemon Primofiore, pepper rose, guayaba exótica, jasmine and woods claras."
   },
   {
     "id": "TX-DP076",
     "name": "Pour Femme Dylan Purple",
     "brand": "Versace",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume498.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume498.webp",
     "stock": 46.0,
@@ -5490,14 +5866,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Poder, sensualidad y glamour mediterráneo. Notas cítricas chispeantes, cedro y almizcle."
+    "notes": "Puesta de sol púrpura efervescente. Notas de naranja amarga de Italia, pera jugosa, bergamota, fresia violeta, mahonial y cedro de Virginia.",
+    "notes_en": "Puesta de sol púrpura efervescente. Notes of bitter orange de Italia, juicy pear, bergamot, freesia violet, mahonial and Virginia cedarwood."
   },
   {
     "id": "TX-DP077",
     "name": "Herrera Good Girl Blush Tweed Talk",
     "brand": "Carolina Herrera",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume499.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume499.webp",
     "stock": 22.0,
@@ -5505,14 +5882,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, dulce y enigmática. Notas de almendra, café, nardo, jazmín sambac y cacao."
+    "notes": "Romántica, fresca y sensual. Notas de bergamota italiana, mandarina, peonía fresca, agua de rosas y vainilla bourbon.",
+    "notes_en": "Romantic, fresh, and sensual. Notes of Italian bergamot, mandarin, fresh peony, rosewater and bourbon vanilla."
   },
   {
     "id": "TX-DP078",
     "name": "Herrera Good Girl Blush Bowtastic Edition",
     "brand": "Carolina Herrera",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume500.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume500.webp",
     "stock": 40.0,
@@ -5520,14 +5898,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, dulce y enigmática. Notas de almendra, café, nardo, jazmín sambac y cacao."
+    "notes": "Romántica, fresca y sensual. Notas de bergamota italiana, mandarina, peonía fresca, agua de rosas y vainilla bourbon.",
+    "notes_en": "Romantic, fresh, and sensual. Notes of Italian bergamot, mandarin, fresh peony, rosewater and bourbon vanilla."
   },
   {
     "id": "TX-DP079",
     "name": "Louis Vuitton LVERS（Lovers）Eau de",
     "brand": "Louis Vuitton",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume501.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume501.webp",
     "stock": 75.0,
@@ -5535,14 +5914,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "La luz solar que baña París. Notas de gálbano fresco, jengibre aromático picante, madera de cedro blanco majestuoso y sándalo.",
+    "notes_en": "Sunlight bathing the Paris horizon. Notes of fresh galbanum, ginger aromático picante, cedarwood blanco majestuoso and sandalwood."
   },
   {
     "id": "TX-DP080",
     "name": "Creed Absolu Aventus",
     "brand": "Creed",
     "gender": "Men",
-    "ml": "100",
+    "ml": "75 ml",
     "img": "images/perfume502.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume502.webp",
     "stock": 33.0,
@@ -5550,14 +5930,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, magnético y legendario. Notas de piña, abedul, grosella negra y ámbar gris."
+    "notes": "La obra maestra más exclusiva de Aventus. Notas de pomelo vibrante, grosella negra, bergamota, cardamomo, jengibre, canela y pachulí.",
+    "notes_en": "La obra maestra más exclusiva de Aventus. Notes of grapefruit vibrante, blackcurrant, bergamot, cardamom, ginger, cinnamon and patchouli."
   },
   {
     "id": "TX-DP081",
     "name": "Viktor & Rolf Flowerbomb Eau de Parfum",
-    "brand": "Viktor&Rolf",
+    "brand": "Viktor & Rolf",
     "gender": "Women",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume503.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume503.webp",
     "stock": 62.0,
@@ -5565,14 +5946,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Femenina, envolvente y luminosa. Notas de flores blancas, frutas dulces y vainilla suave."
+    "notes": "Una explosión voluptuosa de flores embriagadoras. Notas de té verde, bergamota, orquídea cattleya, jazmín sambac, fresia, rosa y pachulí.",
+    "notes_en": "A voluptuous explosion of intoxicating blooms. Notes of green tea, bergamot, orquídea cattleya, jasmine sambac, freesia, rose and patchouli."
   },
   {
     "id": "TX-DP082",
     "name": "Maison Francis Kurkdjian 724 Eau de Parfum",
     "brand": "Maison Francis Kurkdjian",
     "gender": "Unisex",
-    "ml": "70",
+    "ml": "70 ml",
     "img": "images/perfume504.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume504.webp",
     "stock": 108.0,
@@ -5580,14 +5962,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Moderna y envolvente. Notas de jazmín, flor de azahar, almizcle y cedro."
+    "notes": "Luz urbana y frescura celestial. Notas de aldehídos blancos, bergamota de Calabria, jazmín de Egipto y almizcle limpio.",
+    "notes_en": "Urban light and celestial freshness. Notes of white aldehydes, Calabrian bergamot, jasmine de Egipto and clean musk."
   },
   {
     "id": "TX-DP083",
     "name": "Louis Vuitton Fantasmagory",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume505.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume505.webp",
     "stock": 63.0,
@@ -5595,14 +5978,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Fantasía olfativa entre la ilusión y la realidad. Notas de bergamota luminosa, cardamomo, flor de azahar, rosa centifolia y benjuí.",
+    "notes_en": "Fantasía olfativa entre la ilusión and la realidad. Notes of bergamot luminosa, cardamom, orange blossom, centifolia rose and benzoin."
   },
   {
     "id": "TX-DP086",
     "name": "KAYALI YUM PISTACHIO GELATO | 33",
-    "brand": "KAYALI",
+    "brand": "Kayali",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume596.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume596.webp",
     "stock": 63.0,
@@ -5610,14 +5994,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Equilibrio perfecto y armonía sensorial. Notas de cítricos nobles, ámbar y maderas finas."
+    "notes": "Postre italiano irresistiblemente cremoso. Notas de pistacho tostado gourmet, helado dulce, avellana crocante, ron blanco, malvavisco y crema batida.",
+    "notes_en": "Irresistibly creamy Italian dessert. Notes of gourmet roasted pistachio, helado dulce, crunchy hazelnut, white rum, marshmallow and whipped cream."
   },
   {
     "id": "TX-DP088",
     "name": "Carolina Herrera Good Girl Jasmine Absolute",
     "brand": "Carolina Herrera",
     "gender": "Women",
-    "ml": "80",
+    "ml": "80 ml",
     "img": "images/perfume598.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume598.webp",
     "stock": 79.0,
@@ -5625,14 +6010,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Audaz, dulce y enigmática. Notas de almendra, café, nardo, jazmín sambac y cacao."
+    "notes": "Luminosidad floral radiante. Notas de jazmín grandiflorum, flor de azahar, almendra dulce, nardo y vainilla cremosa.",
+    "notes_en": "Radiant floral luminosity. Notes of jasmine grandiflorum, orange blossom, sweet almond, tuberose and creamy vanilla."
   },
   {
     "id": "TX-DP089",
     "name": "VERSACE pour homme",
-    "brand": "VERSACE",
+    "brand": "Versace",
     "gender": "Men",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume599.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume599.webp",
     "stock": 90.0,
@@ -5640,14 +6026,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Carácter varonil y sofisticado. Notas de bergamota fresca, maderas aromáticas y cedro."
+    "notes": "Elegancia mediterránea fresca y clásica. Notas de limón de Calabria, neroli, hojas de naranja amarga, jacinto azul, cedro, salvia y almizcle.",
+    "notes_en": "Elegancia mediterránea fresca and clásica. Notes of lemon de Calabria, neroli, hojas de bitter orange, hyacinth azul, cedar, sage and musk."
   },
   {
     "id": "TX-DP090",
     "name": "Valentino Born In Roma Vanilla Bliss Hair & Body Mist",
     "brand": "Valentino",
-    "gender": "Unisex",
-    "ml": "100",
+    "gender": "Women",
+    "ml": "100 ml",
     "img": "images/perfume600.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume600.webp",
     "stock": 74.0,
@@ -5655,14 +6042,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Caricia sedosa de vainilla dorada. Notas de vainilla bourbon cremosa, flor blanca solar y almizcle dulce.",
+    "notes_en": "Caricia sedosa de vanilla dorada. Notes of bourbon vanilla cremosa, flor blanca solar and musk dulce."
   },
   {
     "id": "TX-DP091",
     "name": "Valentino Born In Roma Salty Pistachio Hair & Body Mist",
     "brand": "Valentino",
     "gender": "Unisex",
-    "ml": "100",
+    "ml": "100 ml",
     "img": "images/perfume601.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume601.webp",
     "stock": 84.0,
@@ -5670,14 +6058,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Contraste gourmet y adictivo. Notas de pistacho tostado crujiente, flor de sal marina y maderas cremosas.",
+    "notes_en": "Contraste gourmet and adictivo. Notes of crunchy roasted pistachio, flor de sea salt and woods cremosas."
   },
   {
     "id": "TX-DP092",
     "name": "Valentino Born In Roma Caramel Crush Hair & Body Mist",
     "brand": "Valentino",
-    "gender": "Unisex",
-    "ml": "100",
+    "gender": "Women",
+    "ml": "100 ml",
     "img": "images/perfume602.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume602.webp",
     "stock": 142.0,
@@ -5685,14 +6074,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Actitud moderna y sofisticada. Notas de grosella negra, jazmín Grandiflorum y vainilla Bourbon."
+    "notes": "Tentación golosa y deslumbrante. Notas de caramelo dorado fundido, haba tonka y destellos de vainilla.",
+    "notes_en": "Tentación golosa and deslumbrante. Notes of molten golden caramel, tonka bean and destellos de vanilla."
   },
   {
     "id": "TX-DP093",
     "name": "Valentino Born In Roma Golden Coconut Hair & Body Mist",
     "brand": "Valentino",
-    "gender": "Unisex",
-    "ml": "100",
+    "gender": "Women",
+    "ml": "100 ml",
     "img": "images/perfume603.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume603.webp",
     "stock": 94.0,
@@ -5700,14 +6090,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Intenso, misterioso y cautivador. Notas de mandarina, rosa, pachulí, haba tonka y vainilla."
+    "notes": "Atardecer exótico y solar. Notas de leche de coco cremosa, flor de tiaré y ámbar cálido.",
+    "notes_en": "Atardecer exótico and solar. Notes of leche de coconut cremosa, tiare flower and warm amber."
   },
   {
     "id": "TX-LH-1",
     "name": "Napoleon four-piece gift box sample",
     "brand": "Creed",
     "gender": "Men",
-    "ml": "30ml*4",
+    "ml": "30ml x 4",
     "img": "images/perfume508.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume508.webp",
     "stock": 156.0,
@@ -5715,14 +6106,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Herencia real e incomparable presencia. Notas de bergamota, maderas nobles y almizcle."
+    "notes": "Cofre imperial con las creaciones más legendarias de Creed: Aventus, Silver Mountain Water, Millésime Impérial y Green Irish Tweed.",
+    "notes_en": "Cofre imperial con las creaciones más legendarias de Creed: Aventus, Silver Mountain Water, Millésime Impérial and Green Irish Tweed."
   },
   {
     "id": "TX-LH-2",
     "name": "Baccarat 540 Gift Box Sample",
     "brand": "Maison Francis Kurkdjian",
     "gender": "Unisex",
-    "ml": "30ml*4",
+    "ml": "70 ml",
     "img": "images/perfume509.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume509.webp",
     "stock": 63.0,
@@ -5730,14 +6122,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Una estela inolvidable. Notas de jazmín, azafrán, ámbar gris y madera de cedro."
+    "notes": "Alquimia poética y firma inolvidable. Notas de jazmín Grandiflorum, azafrán resinoso, cedro de Virginia y ámbar gris.",
+    "notes_en": "Poetic alchemy and unforgettable signature. Notes of Grandiflorum jasmine, resinous saffrum, Virginia cedarwood and ambergris."
   },
   {
     "id": "TX-LH-3",
     "name": "LV Perfume Miniature Gift Set (4 pcs)",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "30ml*4",
+    "ml": "30ml x 4",
     "img": "images/perfume510.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume510.webp",
     "stock": 77.0,
@@ -5745,14 +6138,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Cofre de viaje de alta perfumería Louis Vuitton. Selección curada con las fragancias más icónicas de la Maison.",
+    "notes_en": "Cofre de viaje de alta perfumería Louis Vuitton. Selección curada con las fragancias más icónicas de la Maison."
   },
   {
     "id": "TX-LH-4",
     "name": "Valentino Black Box Four-Piece Set",
     "brand": "Valentino",
     "gender": "Men",
-    "ml": "30ml*4",
+    "ml": "30ml x 4",
     "img": "images/perfume511.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume511.webp",
     "stock": 101.0,
@@ -5760,14 +6154,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Alta costura romana. Notas de bergamota brillante, jazmín noble y vainilla Bourbon."
+    "notes": "Colección de alta costura romana masculina. Cuatro frascos con las fragancias más aclamadas de la línea Born in Roma.",
+    "notes_en": "Colección de alta costura romana masculina. Cuatro frascos con las fragancias más aclamadas de la línea Born in Roma."
   },
   {
     "id": "TX-LH-6",
     "name": "Rainbow LV four-piece set",
     "brand": "Louis Vuitton",
     "gender": "Unisex",
-    "ml": "30ml*4",
+    "ml": "30ml x 4",
     "img": "images/perfume513.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume513.webp",
     "stock": 71.0,
@@ -5775,14 +6170,15 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "El epítome del lujo contemporáneo. Notas cítricas nobles, maderas preciosas y almizcles refinados."
+    "notes": "Cofre de viaje de alta perfumería Louis Vuitton. Selección curada con las fragancias más icónicas de la Maison.",
+    "notes_en": "Cofre de viaje de alta perfumería Louis Vuitton. Selección curada con las fragancias más icónicas de la Maison."
   },
   {
     "id": "TX-LH-7",
     "name": "ChanelChanel 12-piece perfume sample set",
     "brand": "Chanel",
-    "gender": "",
-    "ml": "7.5ml*12",
+    "gender": "Women",
+    "ml": "7.5ml x 12",
     "img": "images/perfume514.webp",
     "remoteImg": "https://raw.githubusercontent.com/bestProducts1/perfume-images/refs/heads/main/perfume514.webp",
     "stock": 76.0,
@@ -5790,7 +6186,8 @@ window.perfumeDB = [
     "warehouse": "TX",
     "top": 0.0,
     "new": 0.0,
-    "notes": "Elegancia atemporal y distinción absoluta. Notas florales refinadas, aldehídos y maderas."
+    "notes": "Colección magistral de 12 extractos icónicos de la Maison Chanel en formato exclusivo de coleccionista.",
+    "notes_en": "Colección magistral de 12 extractos icónicos de la Maison Chanel en formato exclusivo de coleccionista."
   }
 ];
 window.PERFUMES_DATA = window.perfumeDB;

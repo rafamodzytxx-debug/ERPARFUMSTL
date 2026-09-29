@@ -1,7 +1,7 @@
 {
   "name": "er-parfum-stl",
-  "version": "1.0.0",
-  "description": "ER PARFUM Luxury Fragrance Mobile Catalog",
+  "version": "1.2.0",
+  "description": "ER PARFUM Luxury Fragrance Mobile Catalog & Bilingual Store",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
